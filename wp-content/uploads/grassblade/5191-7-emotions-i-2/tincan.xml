@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5yDAvgX3r4a_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">7.1 Objectives</name>
+			<description lang="und">7.1 Objectives</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">7.2 The Matrix</name>
+			<description lang="und">7.2 The Matrix</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6CCFY26eZfQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Emotion is a response to performance and influences sport functioning in the following ways:</name>
+			<description lang="und">Emotion is a response to performance and influences sport functioning in the following ways:</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6CCFY26eZfQ/5yObkuXhTji" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Emotion is a response to performance and influences sport functioning in the following ways:</name>
+			<description lang="und">Emotion is a response to performance and influences sport functioning in the following ways:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6jczj5UCtmf</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5fiOvdPNX9E</id>
+					<description lang="und">Physiologically (i.e. crying)</description>
+				</component>
+				<component>
+					<id>choice_6L8tjRGSyFK</id>
+					<description lang="und">Psychologically (i.e. losing focus)</description>
+				</component>
+				<component>
+					<id>choice_65nKRhrD0lH</id>
+					<description lang="und">Behaviorally (i.e. pouting, ranting)</description>
+				</component>
+				<component>
+					<id>choice_6jczj5UCtmf</id>
+					<description lang="und">All of the above</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6JR8CuVu2y0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6JR8CuVu2y0/6JnY39Pe0mW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6nsSE8MZ7Zv[.]choice_6hxbcqvMfxz</correctResponsePattern>
+				<correctResponsePattern>statement_6HF1nyJOe0R[.]choice_5u1UkVJNshC</correctResponsePattern>
+				<correctResponsePattern>statement_5lYOEormS5b[.]choice_69W48o68eoY</correctResponsePattern>
+				<correctResponsePattern>statement_64gO8TWNrFO[.]choice_6AfjcCGFsuX</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6nsSE8MZ7Zv</id>
+					<description lang="und">Picture 4 - pleasant_harmful.png</description>
+				</component>
+				<component>
+					<id>statement_6HF1nyJOe0R</id>
+					<description lang="und">Picture 5 - pleasant_helpful.png</description>
+				</component>
+				<component>
+					<id>statement_5lYOEormS5b</id>
+					<description lang="und">Picture 2 - unpleasant_harmful.png</description>
+				</component>
+				<component>
+					<id>statement_64gO8TWNrFO</id>
+					<description lang="und">Picture 3 - unpleasant_helpful.png</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6hxbcqvMfxz</id>
+					<description lang="und">Picture 6 - pleasant_harmful_words.png</description>
+				</component>
+				<component>
+					<id>choice_5u1UkVJNshC</id>
+					<description lang="und">Picture 7 - pleasant_helpful_words.png</description>
+				</component>
+				<component>
+					<id>choice_69W48o68eoY</id>
+					<description lang="und">Picture 8 - unpleasant_harmful_words.png</description>
+				</component>
+				<component>
+					<id>choice_6AfjcCGFsuX</id>
+					<description lang="und">Picture 9 - unpleasant_helpful_words.png</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">7.3 Attitude &amp; Effort</name>
+			<description lang="und">7.3 Attitude &amp; Effort</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5Z0RdyguTq5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Positive emotions always lead to positive outcomes and negative emotions always lead to negative outcomes.</name>
+			<description lang="und">Positive emotions always lead to positive outcomes and negative emotions always lead to negative outcomes.</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5Z0RdyguTq5/5qGZKgP69au" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Positive emotions always lead to positive outcomes and negative emotions always lead to negative outcomes.</name>
+			<description lang="und">Positive emotions always lead to positive outcomes and negative emotions always lead to negative outcomes.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5kCP0Mbmex9</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6mB2a71Hrzj</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_5kCP0Mbmex9</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6Ramh4jZpYi" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6Ramh4jZpYi/5sVtxPAxBZX" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6CKy9FTuvV8</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6CKy9FTuvV8</id>
+					<description lang="und">Picture 3</description>
+				</component>
+				<component>
+					<id>choice_5hIyiOhZUHl</id>
+					<description lang="und">Picture 5</description>
+				</component>
+				<component>
+					<id>choice_6T3sru64JLm</id>
+					<description lang="und">Picture 4</description>
+				</component>
+				<component>
+					<id>choice_64iYjBSbxUE</id>
+					<description lang="und">Picture 6</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">7.4 Playmakers</name>
+			<description lang="und">7.4 Playmakers</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6d2PFrRgetS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">To increase the level of pleasant-helpful emotions on a team, a coach should develop strategies 
+to emphasize                    .</name>
+			<description lang="und">To increase the level of pleasant-helpful emotions on a team, a coach should develop strategies 
+to emphasize                    .</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6d2PFrRgetS/5rbHDzG4Hog" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">To increase the level of pleasant-helpful emotions on a team, a coach should develop strategies 
+to emphasize                    .</name>
+			<description lang="und">To increase the level of pleasant-helpful emotions on a team, a coach should develop strategies 
+to emphasize                    .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5pDZVBz6ISg</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5WXiYFu4QON</id>
+					<description lang="und">competition</description>
+				</component>
+				<component>
+					<id>choice_5pDZVBz6ISg</id>
+					<description lang="und">play</description>
+				</component>
+				<component>
+					<id>choice_5f9Lo7mU5sm</id>
+					<description lang="und">skill mastery</description>
+				</component>
+				<component>
+					<id>choice_6BwxiNm1TdQ</id>
+					<description lang="und">character education</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">7.5 Upside Down</name>
+			<description lang="und">7.5 Upside Down</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5sPvTjSZdp5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/6H8QkgdAdps" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5yDAvgX3r4a_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+	</activities>
+</tincan>

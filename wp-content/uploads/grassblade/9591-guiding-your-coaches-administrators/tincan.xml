@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://cWiyUm9NtddOMyw2BuIWq0SuHwh8-mtS_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">Guiding Your Coaches</name>
+      <description lang="en-US">&lt;p&gt;&amp;quot;The journey was the most valuable thing I got out of taking this course&amp;hellip; the idea that I need to transform myself first so I can transform others. I know this will help empower me to become my best. I am taking this to the community. We need to educate parents, youth coaches etc. The 3D journey was life changing.&amp;rdquo;&lt;/p&gt;&lt;p style=&#34;margin-left: 60px;&#34;&gt;&lt;strong&gt;Lucas Smith&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;margin-left: 60px;&#34;&gt;Football Coach&lt;/p&gt;&lt;p style=&#34;margin-left: 60px;&#34;&gt;Hicksville, OH&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://cWiyUm9NtddOMyw2BuIWq0SuHwh8-mtS_rise/SQXpRmY1iFFxaTolpFNFemSBs2QANE8g" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">The 3D Journey/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://cWiyUm9NtddOMyw2BuIWq0SuHwh8-mtS_rise/EN-6EZnJoF4t2VJTTo9Qkda2ofL6feq_" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Roadmap for the Journey/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://cWiyUm9NtddOMyw2BuIWq0SuHwh8-mtS_rise/PJ3h8g144hZ1zokIoRFnFgmVHwtrw-JQ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Preview the Online Training/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://cWiyUm9NtddOMyw2BuIWq0SuHwh8-mtS_rise/os3A-Xs_ZXNMHs0dSBUahJJzIzURg-La" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Accountability on the Journey/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>

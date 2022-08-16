@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://fCt9q5Xg2-8n_cgHI77bu8pQ9irOB5NY_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">Creating a Culture</name>
+      <description lang="en-US">&lt;p&gt;&amp;ldquo;3D Coaching is not simply another philosophy of coaching. It is a paradigm shift in purpose that leads to the outcomes we all desire, but often fail to achieve. This material is hands down the best I have ever seen for coaches who truly want to have an impact and to pursue excellence.&amp;rdquo;&lt;/p&gt;&lt;p style=&#34;margin-left: 60px;&#34;&gt;&lt;strong&gt;Heath Eslinger&lt;br&gt;&lt;/strong&gt;Head Wrestling Coach&lt;br&gt;University of Tennessee at Chattanooga&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://fCt9q5Xg2-8n_cgHI77bu8pQ9irOB5NY_rise/g01aUtp8QFJqlYF6QaQMk_0GqxtjQCu2" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Establishing the 3D Culture/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fCt9q5Xg2-8n_cgHI77bu8pQ9irOB5NY_rise/PwTsa-GzXbC0170D4UqjweFU_FhvLMJw" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Engaging Parents/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fCt9q5Xg2-8n_cgHI77bu8pQ9irOB5NY_rise/HMeal95X-OW9BDnpxXYHV2R9ZXhcp9J2" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Process Driven Outcomes/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://fCt9q5Xg2-8n_cgHI77bu8pQ9irOB5NY_rise/31ALilEbL1BrlxQRQ7ERHdwifdWNQLRU" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Make it Happen/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>

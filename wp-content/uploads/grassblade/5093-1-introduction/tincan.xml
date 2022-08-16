@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://62b3F0MhT3j_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">1 - Introduction</description>
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.1 Objectives</name>
+			<description lang="und">1.1 Objectives</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.2 3D Coaching Backstory</name>
+			<description lang="und">1.2 3D Coaching Backstory</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.3 The 21st Century Athlete</name>
+			<description lang="und">1.3 The 21st Century Athlete</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.4 The 3Dimensions of Coaching</name>
+			<description lang="und">1.4 The 3Dimensions of Coaching</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6laNRZQA834" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Match each of the dimensions below to the appropriate part of a person’s being:</name>
+			<description lang="und">Match each of the dimensions below to the appropriate part of a person’s being:</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6laNRZQA834/65edMm1Hhwp" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Match each of the dimensions below to the appropriate part of a person’s being:</name>
+			<description lang="und">Match each of the dimensions below to the appropriate part of a person’s being:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5a39rcalfOr[.]choice_5a39rcalfOr</correctResponsePattern>
+				<correctResponsePattern>statement_6fUoqJdqBlK[.]choice_6fUoqJdqBlK</correctResponsePattern>
+				<correctResponsePattern>statement_6AdrHbWiBqG[.]choice_6AdrHbWiBqG</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5a39rcalfOr</id>
+					<description lang="und">3rd Dimension</description>
+				</component>
+				<component>
+					<id>statement_6fUoqJdqBlK</id>
+					<description lang="und">2nd Dimension</description>
+				</component>
+				<component>
+					<id>statement_6AdrHbWiBqG</id>
+					<description lang="und">Ist Dimension</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5a39rcalfOr</id>
+					<description lang="und">Heart/Spirit</description>
+				</component>
+				<component>
+					<id>choice_6fUoqJdqBlK</id>
+					<description lang="und">Mind</description>
+				</component>
+				<component>
+					<id>choice_6AdrHbWiBqG</id>
+					<description lang="und">Body</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6XO8A9RT9Y5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which two words off of the list to the right are categorized as 1st dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 1st dimension attributes?</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6XO8A9RT9Y5/6KkxG94YkK1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which two words off of the list to the right are categorized as 1st dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 1st dimension attributes?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6GukmxN59Ta</correctResponsePattern>
+				<correctResponsePattern>choice_63xNIwsCKXJ</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6GukmxN59Ta</id>
+					<description lang="und">Strength</description>
+				</component>
+				<component>
+					<id>choice_63xNIwsCKXJ</id>
+					<description lang="und">Repetition</description>
+				</component>
+				<component>
+					<id>choice_6ck0xqbs3uQ</id>
+					<description lang="und">Identity</description>
+				</component>
+				<component>
+					<id>choice_5tNFQCsRl8q</id>
+					<description lang="und">Motivation</description>
+				</component>
+				<component>
+					<id>choice_5fUNCxSWV2R</id>
+					<description lang="und">Team Cohesion</description>
+				</component>
+				<component>
+					<id>choice_5hwhDHG2k5D</id>
+					<description lang="und">Values</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5acAeTXgFPo" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which two words off of the list to the right are categorized as 2nd dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 2nd dimension attributes?</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5acAeTXgFPo/6C8yk6OCq6A" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which two words off of the list to the right are categorized as 2nd dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 2nd dimension attributes?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6PZ5fmQL5e8</correctResponsePattern>
+				<correctResponsePattern>choice_6bFZZ0iTO6K</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6PZ5fmQL5e8</id>
+					<description lang="und">Confidence</description>
+				</component>
+				<component>
+					<id>choice_6bFZZ0iTO6K</id>
+					<description lang="und">Emotions</description>
+				</component>
+				<component>
+					<id>choice_5XLQuofl9BH</id>
+					<description lang="und">Speed</description>
+				</component>
+				<component>
+					<id>choice_6fPXKztsAHJ</id>
+					<description lang="und">Quickness</description>
+				</component>
+				<component>
+					<id>choice_5gXud9mgt1f</id>
+					<description lang="und">Self-Worth</description>
+				</component>
+				<component>
+					<id>choice_6k5s2VyY6hQ</id>
+					<description lang="und">Significance</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6N1c0DjpmbV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which two words off of the list to the right are categorized as 3rd dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 3rd dimension attributes?</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6N1c0DjpmbV/5u4MOsbrxD9" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which two words off of the list to the right are categorized as 3rd dimension attributes?</name>
+			<description lang="und">Which two words off of the list to the right are categorized as 3rd dimension attributes?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5fbSP6jp1Yq</correctResponsePattern>
+				<correctResponsePattern>choice_6WV6eI7umAs</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5fbSP6jp1Yq</id>
+					<description lang="und">Purpose</description>
+				</component>
+				<component>
+					<id>choice_6WV6eI7umAs</id>
+					<description lang="und">Significance</description>
+				</component>
+				<component>
+					<id>choice_6IUHENGRdnn</id>
+					<description lang="und">Tactics</description>
+				</component>
+				<component>
+					<id>choice_6qipsyDaaIC</id>
+					<description lang="und">Agility</description>
+				</component>
+				<component>
+					<id>choice_65veyta73rm</id>
+					<description lang="und">Motivation</description>
+				</component>
+				<component>
+					<id>choice_6VQ9mhP6Kbc</id>
+					<description lang="und">Goal Setting</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.5 Results from the 3D Process</name>
+			<description lang="und">1.5 Results from the 3D Process</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6TivKfTTPzs" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What are 3 benefits of coaching an athlete in all 3Dimensions according to the research Dr. Duke referenced in the teaching?</name>
+			<description lang="und">What are 3 benefits of coaching an athlete in all 3Dimensions according to the research Dr. Duke referenced in the teaching?</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6TivKfTTPzs/6277SXHdCpl" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What are 3 benefits of coaching an athlete in all 3Dimensions according to the research Dr. Duke referenced in the teaching?</name>
+			<description lang="und">What are 3 benefits of coaching an athlete in all 3Dimensions according to the research Dr. Duke referenced in the teaching?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_69obGxxglsK</correctResponsePattern>
+				<correctResponsePattern>choice_5XvFGVQMp9J</correctResponsePattern>
+				<correctResponsePattern>choice_6fvXGAyPgxw</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_69obGxxglsK</id>
+					<description lang="und">Athletes tend to recover from injury faster</description>
+				</component>
+				<component>
+					<id>choice_5XvFGVQMp9J</id>
+					<description lang="und">Athletes achieve higher fitness compliance</description>
+				</component>
+				<component>
+					<id>choice_6fvXGAyPgxw</id>
+					<description lang="und">Athletes tend to learn skills quicker</description>
+				</component>
+				<component>
+					<id>choice_68aZXFmG4mF</id>
+					<description lang="und">Athletes become more efficient at setting outcome goals</description>
+				</component>
+				<component>
+					<id>choice_6a96uRjZEPN</id>
+					<description lang="und">Athletes increase the likelihood of earning an athletic scholarship</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6gTkKlw6QMG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.6 First Things First</name>
+			<description lang="und">1.6 First Things First</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://62b3F0MhT3j_course_id/6R4BVPyk2Pf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

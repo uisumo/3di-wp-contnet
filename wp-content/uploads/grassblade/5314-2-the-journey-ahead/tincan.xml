@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5vlZr9Dd1Lj_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">2.1 Objectives</name>
+			<description lang="und">2.1 Objectives</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">2.2 Rethinking</name>
+			<description lang="und">2.2 Rethinking</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5XvKbSGTgpj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</name>
+			<description lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5XvKbSGTgpj/5gu0z1X2q3P" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</name>
+			<description lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6IVg3O9VpFn</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6SZ0YLh8XOO</id>
+					<description lang="und">chronocentric time</description>
+				</component>
+				<component>
+					<id>choice_6IVg3O9VpFn</id>
+					<description lang="und">chronological time</description>
+				</component>
+				<component>
+					<id>choice_5pAWVkKSTRJ</id>
+					<description lang="und">consecrated time</description>
+				</component>
+				<component>
+					<id>choice_5kvxb9yWxNH</id>
+					<description lang="und">opportune time</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6NhecLyuBzy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</name>
+			<description lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6NhecLyuBzy/5xRpcfnUofO" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</name>
+			<description lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6QY81LMrt5m</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6SQzEpLqiw4</id>
+					<description lang="und">a long span of years</description>
+				</component>
+				<component>
+					<id>choice_6RKhqHuCq7F</id>
+					<description lang="und">minutes, days, months and years</description>
+				</component>
+				<component>
+					<id>choice_6mGomssCrxP</id>
+					<description lang="und">the monthly cycle of the moon</description>
+				</component>
+				<component>
+					<id>choice_6QY81LMrt5m</id>
+					<description lang="und">significant moments</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6pVB7DHQp6U" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6pVB7DHQp6U/5uHwuTRGEJ5" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_66JEyjEw4x4[.]choice_66JEyjEw4x4</correctResponsePattern>
+				<correctResponsePattern>statement_6Lx7VM51Kgf[.]choice_6Lx7VM51Kgf</correctResponsePattern>
+				<correctResponsePattern>statement_5wQ98vKw5cG[.]choice_5wQ98vKw5cG</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_66JEyjEw4x4</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6Lx7VM51Kgf</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5wQ98vKw5cG</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_66JEyjEw4x4</id>
+					<description lang="und">Observe</description>
+				</component>
+				<component>
+					<id>choice_6Lx7VM51Kgf</id>
+					<description lang="und">Reflect</description>
+				</component>
+				<component>
+					<id>choice_5wQ98vKw5cG</id>
+					<description lang="und">Discuss</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">2.3 Reforming</name>
+			<description lang="und">2.3 Reforming</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/60XvOlyHbzK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Match the appropriate word to the correct phase on the “reforming” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “reforming” half of “The Learning Circle.”</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/60XvOlyHbzK/5uTldWsLl99" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Match the appropriate word to the correct phase on the “reforming” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “reforming” half of “The Learning Circle.”</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6Mk1HfyqsoQ[.]choice_6Mk1HfyqsoQ</correctResponsePattern>
+				<correctResponsePattern>statement_6YMYk2zMCwi[.]choice_6YMYk2zMCwi</correctResponsePattern>
+				<correctResponsePattern>statement_5a6ekmKEZbg[.]choice_5a6ekmKEZbg</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6Mk1HfyqsoQ</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6YMYk2zMCwi</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5a6ekmKEZbg</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6Mk1HfyqsoQ</id>
+					<description lang="und">Act</description>
+				</component>
+				<component>
+					<id>choice_6YMYk2zMCwi</id>
+					<description lang="und">Accountability</description>
+				</component>
+				<component>
+					<id>choice_5a6ekmKEZbg</id>
+					<description lang="und">Plan</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">2.4 The Art of 3D Coaching</name>
+			<description lang="und">2.4 The Art of 3D Coaching</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6Z2EwM2GITc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The ancient Greek philosophers spoke about our need to integrate these 3 prime virtues in our pursuit of holism: the true, the good, and                        .</name>
+			<description lang="und">The ancient Greek philosophers spoke about our need to integrate these 3 prime virtues in our pursuit of holism: the true, the good, and                        .</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6Z2EwM2GITc/6JRnfwzbDDA" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The ancient Greek philosophers spoke about our need to integrate these 3 prime virtues in our pursuit of holism: the true, the good, and                        .</name>
+			<description lang="und">The ancient Greek philosophers spoke about our need to integrate these 3 prime virtues in our pursuit of holism: the true, the good, and                        .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6iOSX1JytxH</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6pmCnqsTL3t</id>
+					<description lang="und">the excellent</description>
+				</component>
+				<component>
+					<id>choice_6iOSX1JytxH</id>
+					<description lang="und">the beautiful</description>
+				</component>
+				<component>
+					<id>choice_5nPjwWUztMX</id>
+					<description lang="und">the superlative</description>
+				</component>
+				<component>
+					<id>choice_5wdjGunDhmT</id>
+					<description lang="und">the magnificent</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.5 Framework &amp; Foundation</name>
+			<description lang="und">3.5 Framework &amp; Foundation</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6Fasw7KCT3K" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The best way to understand 3D Coaching is as a                     for coaching.</name>
+			<description lang="und">The best way to understand 3D Coaching is as a                     for coaching.</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6Fasw7KCT3K/6le50s3ONJW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The best way to understand 3D Coaching is as a                     for coaching.</name>
+			<description lang="und">The best way to understand 3D Coaching is as a                     for coaching.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5fSIhhWrWRR</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_66sFq9czW2S</id>
+					<description lang="und">program</description>
+				</component>
+				<component>
+					<id>choice_5fSIhhWrWRR</id>
+					<description lang="und">framework</description>
+				</component>
+				<component>
+					<id>choice_5lmHxoUHb9b</id>
+					<description lang="und">foundation</description>
+				</component>
+				<component>
+					<id>choice_6LEzHdqEqr2</id>
+					<description lang="und">infrastructure</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6HeDcOXNsqP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The foundation under the pyramid in the picture to the right represents a coach’s                                .</name>
+			<description lang="und">The foundation under the pyramid in the picture to the right represents a coach’s                                .</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6HeDcOXNsqP/5mxsfZTcR5f" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The foundation under the pyramid in the picture to the right represents a coach’s                                .</name>
+			<description lang="und">The foundation under the pyramid in the picture to the right represents a coach’s                                .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5koGABwauoB</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5xWU5euvVSP</id>
+					<description lang="und">3rd dimension strategies</description>
+				</component>
+				<component>
+					<id>choice_5gVsOOqB4OK</id>
+					<description lang="und">highest core values</description>
+				</component>
+				<component>
+					<id>choice_5koGABwauoB</id>
+					<description lang="und">transformational purpose</description>
+				</component>
+				<component>
+					<id>choice_6GQbYdYStv9</id>
+					<description lang="und">the 3 prime virtues</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/6m22ZkmL7Qz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">2.6 A Kingdom Trajectory</name>
+			<description lang="und">2.6 A Kingdom Trajectory</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5wEWSqggsbI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5vlZr9Dd1Lj_course_id/68Nim88h0bu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

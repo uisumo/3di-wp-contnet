@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5gHODR1sf5N_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">24.0 - Community</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">24.0 - Community</name>
+			<description lang="und">24.0 - Community</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">24.1 - Objectives</name>
+			<description lang="und">24.1 - Objectives</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">24.2 - Hardwired to Connect</name>
+			<description lang="und">24.2 - Hardwired to Connect</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6N8jXFMRsIg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6N8jXFMRsIg/6d5sD1bpLLd" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5hOuNcdlE5G</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5hOuNcdlE5G</id>
+					<description lang="und">inherent</description>
+				</component>
+				<component>
+					<id>choice_6htCHtnQOC1</id>
+					<description lang="und">imposed</description>
+				</component>
+				<component>
+					<id>choice_6D7Jn9s4ZyL</id>
+					<description lang="und">extrinsic</description>
+				</component>
+				<component>
+					<id>choice_6Iwi6EOPilQ</id>
+					<description lang="und">learned</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6IhynuiJZOv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6IhynuiJZOv/68bKxjngjjW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5WvJ37jH0Cz</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5dDGzqiMTnk</id>
+					<description lang="und">scientific</description>
+				</component>
+				<component>
+					<id>choice_5tZav4ccREp</id>
+					<description lang="und">practical</description>
+				</component>
+				<component>
+					<id>choice_5WvJ37jH0Cz</id>
+					<description lang="und">belief</description>
+				</component>
+				<component>
+					<id>choice_6AOJIpqZyLB</id>
+					<description lang="und">pragmatic</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/644tnSFJWgw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/644tnSFJWgw/6box1VvLnwf" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</name>
+			<description lang="und">The Hardwired to Connect report discovered the following three basic needs that must be met if kids are to grow into flourishing healthy adults.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5vOjVQJwW06</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6c2POc85yKF</id>
+					<description lang="und">sports team</description>
+				</component>
+				<component>
+					<id>choice_5vOjVQJwW06</id>
+					<description lang="und">community</description>
+				</component>
+				<component>
+					<id>choice_5kvwpktnYI3</id>
+					<description lang="und">religion</description>
+				</component>
+				<component>
+					<id>choice_6WRpoRQrwr5</id>
+					<description lang="und">nuclear family</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6IOjfLuiAXC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“Community” is derived from the Latin word Communitas which literally means “to             one another.”</name>
+			<description lang="und">“Community” is derived from the Latin word Communitas which literally means “to             one another.”</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6IOjfLuiAXC/6FjqCfUFgpg" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">“Community” is derived from the Latin word Communitas which literally means “to             one another.”</name>
+			<description lang="und">“Community” is derived from the Latin word Communitas which literally means “to             one another.”</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5hw2qDkroVk</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5dgUFpZxxCY</id>
+					<description lang="und">love</description>
+				</component>
+				<component>
+					<id>choice_6PDJ2iAueAb</id>
+					<description lang="und">esteem</description>
+				</component>
+				<component>
+					<id>choice_6C9Ui6F1bkH</id>
+					<description lang="und">cherish</description>
+				</component>
+				<component>
+					<id>choice_5hw2qDkroVk</id>
+					<description lang="und">gift</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">24.3 - Benefits of Community</name>
+			<description lang="und">24.3 - Benefits of Community</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6k2vhGO1Dqc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The 75-year-old Harvard Study of Adult Development has come to the following basic conclusion(s):</name>
+			<description lang="und">The 75-year-old Harvard Study of Adult Development has come to the following basic conclusion(s):</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/6k2vhGO1Dqc/6I3zAWW1PtN" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The 75-year-old Harvard Study of Adult Development has come to the following basic conclusion(s):</name>
+			<description lang="und">The 75-year-old Harvard Study of Adult Development has come to the following basic conclusion(s):</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_67pWsvu0CfJ</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_67E7GGbNQaD</id>
+					<description lang="und">Those who are tied into community tend to be happier and physically healthier than those who are in isolation.</description>
+				</component>
+				<component>
+					<id>choice_6OWRDBvP1C3</id>
+					<description lang="und">Those who experience isolation find their health declining earlier in life.</description>
+				</component>
+				<component>
+					<id>choice_6CT2xIpaQ1d</id>
+					<description lang="und">Brain functioning declines sooner and life ends sooner for those in isolation.</description>
+				</component>
+				<component>
+					<id>choice_67pWsvu0CfJ</id>
+					<description lang="und">All of the above</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5gHODR1sf5N_course_id/66T5V7FLicu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

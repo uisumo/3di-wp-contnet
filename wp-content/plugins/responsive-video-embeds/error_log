@@ -1,0 +1,805 @@
+[06-Jul-2019 10:45:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[06-Jul-2019 17:32:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46
+[07-Jul-2019 10:05:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php:46
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php(121): KplResponsiveVideoEmbeds->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/responsive-video-embeds/responsive-video-embeds.php on line 46

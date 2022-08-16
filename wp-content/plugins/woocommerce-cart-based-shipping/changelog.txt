@@ -1,0 +1,52 @@
+3.1 - 2016-06-17
+	- Added: Support for WooCommerce Shipping Zones introduced in WC 2.6
+	- Added: Include Coupons option to alter subtotal to include discounts
+	- Added: Support for Envato Plugin Updater
+	- Fixed: Issue with 'Minimum to Ship' feature not working
+	- Fixed: Currency ship type not saving on new rows
+	- Removed: Bolder Elements plugin updater
+	- Documentation updated
+
+3.0 - 2015-04-15
+	- Optimized code and removed php notices
+	- Added ability to backup/restore settings
+	- Added BETA version of plugin auto-updater
+	- Added Language files
+	- Updated support for WPML translations
+	- Removed 'Exclude Discounts' option as is no longer supported by WooCommerce
+
+2.5 - 2014-05-14
+	- Added option to set a minimum requirement to the size of orders
+	- Added option to set a maximum shipping cost that can be charged
+	- Add additional option to 'Availability' to exclude specific countries
+	- Cleaned up a few more notices that appeared for WC 2.1 users
+
+2.4 - 2013-11-02
+	- Added option to set a maximum to the shipping cost table
+	- Added shipping check so that virtual items will not count towards totals
+
+2.3 - 2013-07-17
+	- Added option to include tax in subtotal
+
+2.2 - 2013-05-10
+	- Added new field for handling fees (fixed price OR percentage)
+	- Add new classes table with the ability to exclude certain classes from counting towards shipping costs
+
+2.1 - 2013-01-01
+	- New Feature: Set shipping price as a fixed rate or percentage of the subtotal.
+	- Minor grammatical fixes.
+
+2.0 - 2012-11-19
+	- Added third method: Weight Based
+	- Fixed a bug where currency always displayed as '$'
+
+1.2 - 2012-10-07
+	- Fixed bug in how shipping was calculated for larger purchases
+
+1.1 - 2012-10-06
+	- Official release to Envato Marketplace
+	- UX updates
+	- Documentations added
+
+1.0 - 2012-10-01
+	- BETA Version

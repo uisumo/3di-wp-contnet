@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6a8NZbGhgIN_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">SA Health and Wellness</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5yuk7HguCJt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 1</name>
+			<description lang="und">Slide 1</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5vxDtdrKA8X" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 2</name>
+			<description lang="und">Slide 2</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/6N9LgVQU5x5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 3</name>
+			<description lang="und">Slide 3</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5ekIdSo42fD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 4</name>
+			<description lang="und">Slide 4</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5vYiCENGHOQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 5</name>
+			<description lang="und">Slide 5</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5x6OhJeRHF0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 6</name>
+			<description lang="und">Slide 6</description>
+		</activity>
+		<activity id="http://6a8NZbGhgIN_course_id/5uIr1UawNur" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 7</name>
+			<description lang="und">Slide 7</description>
+		</activity>
+	</activities>
+</tincan>

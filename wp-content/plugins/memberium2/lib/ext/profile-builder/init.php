@@ -1,0 +1,2 @@
+<?php
+ if ( ! defined('ABSPATH') ) { die(); } if ( ! defined('PROFILE_BUILDER_VERSION') ) { return; } add_action('wppb_password_reset', 'wplx40siw', 10, 2 ); function wplx40siw( $vwpllzly5b, $vwplsjoas ) { $vwpllzly5b = abs( intval( $vwpllzly5b ) ); $vwplvtmqd = wpllbej::wplbmo_1( $vwpllzly5b ); $vwplmoe2 = wplz8bid::wplvf1d( 'settings', 'password_field' ); if ($vwplvtmqd < 1 || empty($vwplsjoas) || empty($vwplmoe2) ) { return; } memberium_app()->wplox2qcd($vwplmoe2, $vwplsjoas, $vwplvtmqd); }

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6BcduYI7lWN_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">17.1 Objectives</name>
+			<description lang="und">17.1 Objectives</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">17.2 Choosing Goodness</name>
+			<description lang="und">17.2 Choosing Goodness</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5ZELN1WU06l" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">While seeking to coach for CHARACTER, remember to coach for both greatness AND goodness.</name>
+			<description lang="und">While seeking to coach for CHARACTER, remember to coach for both greatness AND goodness.</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5ZELN1WU06l/65qz0Tw1376" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">While seeking to coach for CHARACTER, remember to coach for both greatness AND goodness.</name>
+			<description lang="und">While seeking to coach for CHARACTER, remember to coach for both greatness AND goodness.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6FtIy36CdWq[.]choice_6FtIy36CdWq</correctResponsePattern>
+				<correctResponsePattern>statement_6cJC5jy3mEV[.]choice_6cJC5jy3mEV</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6FtIy36CdWq</id>
+					<description lang="und">GREATNESS refers to an evaluation of our work’s </description>
+				</component>
+				<component>
+					<id>statement_6cJC5jy3mEV</id>
+					<description lang="und">GOODNESS refers to an evaluation of our work’s</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6FtIy36CdWq</id>
+					<description lang="und">quality.</description>
+				</component>
+				<component>
+					<id>choice_6cJC5jy3mEV</id>
+					<description lang="und">essence.</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/6YusAR5z2Yr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/6YusAR5z2Yr/5XWhM1Q4zDc" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_6Ze9KdcrzXz</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_5WTpRVJ7qrW</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_6FuZ7US8Z3J</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_6VaCef4a0Hp</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_5vgB8s9MEha</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_5mTKcg9hste</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_5fF1E0lCOSb</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_5c5eo4rUBgv</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_5oDSb8JufRa</correctResponsePattern>
+				<correctResponsePattern>statement_5d8ZK5369Zh[.]choice_5lEIBcrM3UA</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_6did47r9pf6</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_6ASHnnbM0JQ</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_6XxDkSd8LDV</correctResponsePattern>
+				<correctResponsePattern>statement_6CAmn3v1Ytm[.]choice_6U8a37PJR8c</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6CAmn3v1Ytm</id>
+					<description lang="und">Rectangle 3</description>
+				</component>
+				<component>
+					<id>statement_5d8ZK5369Zh</id>
+					<description lang="und">Rectangle 4</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6Ze9KdcrzXz</id>
+					<description lang="und">Picture 2 - aggressiveness.png</description>
+				</component>
+				<component>
+					<id>choice_5WTpRVJ7qrW</id>
+					<description lang="und">Picture 3 - discipline.png</description>
+				</component>
+				<component>
+					<id>choice_6FuZ7US8Z3J</id>
+					<description lang="und">Picture 4 - gentleness.png</description>
+				</component>
+				<component>
+					<id>choice_6VaCef4a0Hp</id>
+					<description lang="und">Picture 5 - honesty.png</description>
+				</component>
+				<component>
+					<id>choice_5vgB8s9MEha</id>
+					<description lang="und">Picture 6 - justice.png</description>
+				</component>
+				<component>
+					<id>choice_5mTKcg9hste</id>
+					<description lang="und">Picture 8 - leadership.png</description>
+				</component>
+				<component>
+					<id>choice_5fF1E0lCOSb</id>
+					<description lang="und">Picture 7 - kindness.png</description>
+				</component>
+				<component>
+					<id>choice_5c5eo4rUBgv</id>
+					<description lang="und">Picture 9 - love.png</description>
+				</component>
+				<component>
+					<id>choice_5oDSb8JufRa</id>
+					<description lang="und">Picture 10 - mental_toughness.png</description>
+				</component>
+				<component>
+					<id>choice_5lEIBcrM3UA</id>
+					<description lang="und">Picture 11 - mercy.png</description>
+				</component>
+				<component>
+					<id>choice_6did47r9pf6</id>
+					<description lang="und">Picture 12 - perseverance.png</description>
+				</component>
+				<component>
+					<id>choice_6ASHnnbM0JQ</id>
+					<description lang="und">Picture 13 - sacrifice.png</description>
+				</component>
+				<component>
+					<id>choice_6XxDkSd8LDV</id>
+					<description lang="und">Picture 14 - self-control.png</description>
+				</component>
+				<component>
+					<id>choice_6U8a37PJR8c</id>
+					<description lang="und">Picture 15 - teamwork.png</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5Xdw6eHwBKZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">17.3 Creating Beauty</name>
+			<description lang="und">17.3 Creating Beauty</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5XwOqM7ALZ0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Matching Drop-down</name>
+			<description lang="und">Matching Drop-down</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5XwOqM7ALZ0/6UxXsGsDlla" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Matching Drop-down</name>
+			<description lang="und">Matching Drop-down</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6BDKmBFfbnx[.]choice_6BDKmBFfbnx</correctResponsePattern>
+				<correctResponsePattern>statement_66cdBwUbocP[.]choice_66cdBwUbocP</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6BDKmBFfbnx</id>
+					<description lang="und">When the GREAT fuels the GOOD, it produces</description>
+				</component>
+				<component>
+					<id>statement_66cdBwUbocP</id>
+					<description lang="und">When the GREAT fuels the BAD, it produces</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6BDKmBFfbnx</id>
+					<description lang="und">beautiful sport experiences.</description>
+				</component>
+				<component>
+					<id>choice_66cdBwUbocP</id>
+					<description lang="und">ugly sport experiences.</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">17.4 Pursuing Excellence</name>
+			<description lang="und">17.4 Pursuing Excellence</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">17.5 The Lunch Room</name>
+			<description lang="und">17.5 The Lunch Room</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5aM1wwCF5gq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6BcduYI7lWN_course_id/5e9Rr8ZKvco" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

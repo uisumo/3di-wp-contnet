@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6abX0MIwRC8_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">1.1 - Objectives</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6abX0MIwRC8_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1.1 Objectives</name>
+			<description lang="und">1.1 Objectives</description>
+		</activity>
+		<activity id="http://6abX0MIwRC8_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6abX0MIwRC8_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6abX0MIwRC8_course_id/6R4BVPyk2Pf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

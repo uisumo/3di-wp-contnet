@@ -1,0 +1,763 @@
+# Copyright (C) 2019 GravityView
+# This file is distributed under the same license as the GravityView - Maps package.
+# Translators:
+# Süha Karalar <suhakaralar@gmail.com>, 2015-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: GravityView Maps\n"
+"Report-Msgid-Bugs-To: https://gravityview.co/support/\n"
+"POT-Creation-Date: 2015-04-17 03:26:59+00:00\n"
+"PO-Revision-Date: 2019-08-31 19:11+0000\n"
+"Last-Translator: Zachary Katz <zack@katz.co>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/katzwebservices/gravityview-maps/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+
+#: gravityview-maps.php:33
+msgid ""
+"%s requires PHP Version 5.3 or higher. Please contact your web host and ask "
+"them to upgrade your server."
+msgstr "%s PHP Sürümü 5.3 veya üstü gerektirir. Lütfen web barındırma sağlayıcınıza başvurun ve sunucuyu yükseltmesini isteyin."
+
+#: includes/class-gravityview-maps-admin.php:43
+#: includes/class-gravityview-maps-settings.php:198
+msgid "Maps"
+msgstr "Haritalar"
+
+#: includes/class-gravityview-maps-admin.php:128
+#: includes/class-gravityview-maps-admin.php:177
+#: includes/class-gravityview-maps-admin.php:206
+msgid "None"
+msgstr "Hiçbiri"
+
+#: includes/class-gravityview-maps-admin.php:173
+msgid "Address Fields"
+msgstr "Adres Alanları"
+
+#: includes/class-gravityview-maps-admin.php:185
+msgid "Map Type"
+msgstr "Harita Türü"
+
+#: includes/class-gravityview-maps-admin.php:189
+msgid "Street"
+msgstr "Sokak"
+
+#: includes/class-gravityview-maps-admin.php:190
+msgid "Satellite"
+msgstr "Uydu"
+
+#: includes/class-gravityview-maps-admin.php:191
+msgid "Hybrid"
+msgstr "Hibrit"
+
+#: includes/class-gravityview-maps-admin.php:192
+msgid "Terrain"
+msgstr "Arazi"
+
+#: includes/class-gravityview-maps-admin.php:194
+msgid ""
+"Hybrid: This map type displays a transparent layer of major streets on "
+"satellite images. Roadmap: This map type displays a normal street map. "
+"Satellite: This map type displays satellite images. Terrain: This map type "
+"displays maps with physical features such as terrain and vegetation."
+msgstr "Hibrit: Bu harita türü uydu görüntüleri üzerinde şeffaf bir katman halinde ana sokakları gösterir. Yol Haritası: Bu harita türü normal sokak haritasını gösterir. Uydu: Bu harita türü uydu görüntülerini gösterir. Arazi: Bu harita türü arazi ve bitki örtüsü gibi fiziki özellikleri gösterir."
+
+#: includes/class-gravityview-maps-admin.php:202
+msgid "Map Layers"
+msgstr "Harita Katmanları"
+
+#: includes/class-gravityview-maps-admin.php:207
+msgid "Traffic"
+msgstr "Trafik"
+
+#: includes/class-gravityview-maps-admin.php:208
+msgid "Transit"
+msgstr "Toplu Taşıma"
+
+#: includes/class-gravityview-maps-admin.php:209
+msgid "Bicycle"
+msgstr "Bisiklet"
+
+#: includes/class-gravityview-maps-admin.php:212
+msgid ""
+"The Traffic, Transit and Bicycling layers modify the base map layer to "
+"display current traffic conditions, or local Transit and Bicycling route "
+"information. These layers are available in select regions."
+msgstr "Trafik, Transit ve Bisiklet katmanları geçerli trafik koşullarını veya yerel Transit ve Bisiklet rota bilgilerini görüntülemek için baz harita katmanı değiştirin. Bu katmanlar belirli bölgelerde bulunmaktadır."
+
+#: includes/class-gravityview-maps-admin.php:220
+msgid "Default Zoom"
+msgstr "Varsayılan Yaklaştırma"
+
+#: includes/class-gravityview-maps-admin.php:221
+msgid "The default zoom for a single-marker map."
+msgstr "Tek-işaretleyici haritası için varsayılan yakınlaştırma."
+
+#: includes/class-gravityview-maps-admin.php:222
+#: includes/class-gravityview-maps-admin.php:254
+#: includes/class-gravityview-maps-admin.php:287
+#: includes/class-gravityview-maps-admin.php:505
+msgid "Higher numbers are zoomed more."
+msgstr "Yüksek sayı daha fazla yakınlaştırılmış olacak."
+
+#: includes/class-gravityview-maps-admin.php:222
+msgid "Maps with multiple markers will zoom out to fit all markers."
+msgstr "Birden fazla işaretçi barındıran Haritalar tüm işaretçileri ekrana sığdıracak şekilde gösterilir."
+
+#: includes/class-gravityview-maps-admin.php:252
+msgid "Minimum Zoom"
+msgstr "Azami Yakınlaştırma"
+
+#: includes/class-gravityview-maps-admin.php:253
+msgid "The farthest out a map can zoom."
+msgstr "Bir haritanın azami uzaklaştırılabileceği sınır."
+
+#: includes/class-gravityview-maps-admin.php:254
+#: includes/class-gravityview-maps-admin.php:258
+msgid "No Minimum"
+msgstr "Asgari Değer Yok"
+
+#: includes/class-gravityview-maps-admin.php:254
+msgid "minimum"
+msgstr "asgari"
+
+#: includes/class-gravityview-maps-admin.php:285
+msgid "Maximum Zoom"
+msgstr "Azami Yakınlaştırma"
+
+#: includes/class-gravityview-maps-admin.php:286
+msgid "The maximum zoom level which will be displayed on the map."
+msgstr "Harita üzerinde gösterilecek maksimum yakınlaştırma düzeyi."
+
+#: includes/class-gravityview-maps-admin.php:287
+msgid "If \"%s\", the %s zoom from the current map type will be used."
+msgstr "Eğer “%s” ise, mevcut harita türünden %s yakınlaştırma kullanılacaktır."
+
+#: includes/class-gravityview-maps-admin.php:287
+#: includes/class-gravityview-maps-admin.php:289
+#: includes/class-gravityview-maps-admin.php:508
+msgid "No Maximum"
+msgstr "Azami Değer Yok"
+
+#: includes/class-gravityview-maps-admin.php:287
+msgid "maximum"
+msgstr "azami"
+
+#: includes/class-gravityview-maps-admin.php:317
+msgid "Allow the map to be dragged"
+msgstr "Harita sürüklemeye izin ver"
+
+#: includes/class-gravityview-maps-admin.php:319
+msgid "Draggable Map"
+msgstr "Sürüklenebilir Harita"
+
+#: includes/class-gravityview-maps-admin.php:328
+msgid "Allow double-clicking on the map to zoom and center"
+msgstr "Haritayı yakınlaştırmak ve merkezine hizalamak için çift tıklamaya izin ver"
+
+#: includes/class-gravityview-maps-admin.php:330
+msgid "Double-click Zoom"
+msgstr "Yakınlaştırmak için çift tıkla"
+
+#: includes/class-gravityview-maps-admin.php:339
+msgid "Allow scrolling to zoom in and out on the map"
+msgstr "Yakınlaştırmak veya uzaklaştırmak için harita üzerinde kaydırmaya izin verin."
+
+#: includes/class-gravityview-maps-admin.php:341
+msgid "Scroll to Zoom"
+msgstr "Kaydırarak Yaklaşma"
+
+#: includes/class-gravityview-maps-admin.php:350
+msgid "Display the \"Pan\" control that allows moving the map by clicking arrows"
+msgstr "Oklara tıklayarak haritada hareket edebileceğiniz “Pan” seçeneğini etkinleştir"
+
+#: includes/class-gravityview-maps-admin.php:352
+msgid "Pan Control"
+msgstr "Pan Kontrol"
+
+#: includes/class-gravityview-maps-admin.php:362
+msgid "Zoom Control"
+msgstr "Yakınlaştırma Kontrol"
+
+#: includes/class-gravityview-maps-admin.php:363
+msgid "Display the zoom control that allows zooming in and out of the map"
+msgstr "Haritanın yakınlaştırılmasına ve uzaklaştırılmasına izin veren yakınlaştırma kontrolünü görüntüle"
+
+#: includes/class-gravityview-maps-admin.php:365
+msgid "None (Don't display)"
+msgstr "Hiçbiri (gösterme)"
+
+#: includes/class-gravityview-maps-admin.php:366
+msgid "Small (Small buttons)"
+msgstr "Küçük (Küçük düğmeler)"
+
+#: includes/class-gravityview-maps-admin.php:367
+msgid "Default (Let map decide)"
+msgstr "Varsayılan (harita karar versin)"
+
+#: includes/class-gravityview-maps-admin.php:369
+msgid "None: Don't display the zoom control."
+msgstr "Hiçbiri: Yakınlaştırma denetimini görüntüleme."
+
+#: includes/class-gravityview-maps-admin.php:370
+msgid "Small: A small control with buttons to zoom in and out."
+msgstr "Küçük: Yakınlaşma ve uzaklaştırma için küçük denetim düğmeleri."
+
+#: includes/class-gravityview-maps-admin.php:371
+msgid ""
+"Default: The default zoom control varies according to map size and other "
+"factors."
+msgstr "Varsayılan: Yakınlaştırma denetimi harita boyutuna ve diğer faktörlere göre değişir."
+
+#: includes/class-gravityview-maps-admin.php:380
+msgid "Display the Street View \"Pegman\" control"
+msgstr "Street View “Pegman” görüntü denetimini göster"
+
+#: includes/class-gravityview-maps-admin.php:382
+msgid "Street View"
+msgstr "Sokak Görünümü"
+
+#: includes/class-gravityview-maps-admin.php:391
+msgid "Custom Map Styles"
+msgstr "Özel Harita Stilleri"
+
+#: includes/class-gravityview-maps-admin.php:392
+msgid ""
+"Set map styles that override the default styling. See SnazzyMaps.com for "
+"styles or use your own."
+msgstr "Varsayılan stilleri geçersiz kılacak harita stillerinizi ayarlayın. SnazzyMaps.com adresinden örneklere bakabilirsiniz."
+
+#: includes/class-gravityview-maps-admin.php:399
+#: includes/parts/admin-meta-box.php:24
+msgid "Pin Icon"
+msgstr "İğne Simgesi"
+
+#: includes/class-gravityview-maps-admin.php:406
+msgid "Map Position"
+msgstr "Harita Konumu"
+
+#: includes/class-gravityview-maps-admin.php:410
+#: includes/class-gravityview-maps-admin.php:482
+msgid "Top"
+msgstr "Üst"
+
+#: includes/class-gravityview-maps-admin.php:411
+#: includes/class-gravityview-maps-admin.php:484
+msgid "Right"
+msgstr "Sağ"
+
+#: includes/class-gravityview-maps-admin.php:412
+msgid "Bottom"
+msgstr "Alt"
+
+#: includes/class-gravityview-maps-admin.php:413
+#: includes/class-gravityview-maps-admin.php:483
+msgid "Left"
+msgstr "Sol"
+
+#: includes/class-gravityview-maps-admin.php:423
+msgid "Keep the map fixed during page scroll"
+msgstr "Sayfa kaydırılırken haritayı sabitle"
+
+#: includes/class-gravityview-maps-admin.php:424
+msgid "Pinned Map"
+msgstr "İğneli Harita"
+
+#: includes/class-gravityview-maps-admin.php:439
+msgid ""
+"Show a popup box with additional entry details when clicking a map marker"
+msgstr "Bir harita işaretleyici tıklandığında, ek ayrıntıları içeren bir pop-up kutusu göster"
+
+#: includes/class-gravityview-maps-admin.php:441
+msgid "Show Info Boxes"
+msgstr "Bilgi Kutularını Göster"
+
+#: includes/class-gravityview-maps-admin.php:447
+#: includes/class-gravityview-maps-template-map-default.php:90
+msgid "Title"
+msgstr "Başlık"
+
+#: includes/class-gravityview-maps-admin.php:448
+msgid "This also serves as a link to the single entry page."
+msgstr "Ayrıca tekil kayıt sayfasına bir bağlantı olarak hizmet vermektedir."
+
+#: includes/class-gravityview-maps-admin.php:457
+msgid "Content"
+msgstr "İçerik"
+
+#: includes/class-gravityview-maps-admin.php:467
+msgid "Image URL"
+msgstr "Resim Yolu(URL)"
+
+#: includes/class-gravityview-maps-admin.php:468
+msgid ""
+"Insert a Merge Tag for a File Upload field, or a URL to an image. This will "
+"be used as the source of a HTML <img> tag."
+msgstr "Bir dosya yükleme alanı için birleştirme etiketi veya bir resime URL ekleyin. Bu bir HTML <img> etiketi olarak kullanılacaktır."
+
+#: includes/class-gravityview-maps-admin.php:476
+msgid "Image Alignment"
+msgstr "Resim Hizalama"
+
+#: includes/class-gravityview-maps-admin.php:494
+msgid ""
+"Group nearby markers together when displaying map beyond a certain zoom "
+"level"
+msgstr "Belirli bir yakınlaştırma seviyesinin ötesinde harita görüntülerken, birbirine yakın olan işaretçileri bir arada gruplandırın"
+
+#: includes/class-gravityview-maps-admin.php:495
+#: includes/class-gravityview-maps-admin.php:497
+msgid "Marker Clustering"
+msgstr "İşaretçi Kümeleme"
+
+#: includes/class-gravityview-maps-admin.php:504
+msgid "Clustering Maximum Zoom"
+msgstr "Azami Yakınlaştırma Kümeleme"
+
+#: includes/class-gravityview-maps-admin.php:505
+msgid ""
+"Do not display marker clusters beyond this zoom level; show individual "
+"markers instead."
+msgstr "İşaretçi kümelerini bu yakınlaştırma seviyesinin ötesinde gösterme; Bunun yerine işaretçileri ayrı ayrı göster."
+
+#: includes/class-gravityview-maps-admin.php:692
+msgid "GravityView Maps Custom Map Icon"
+msgstr "GravityView Haritalar Kişisel Harita Simgesi"
+
+#: includes/class-gravityview-maps-admin.php:693
+#: includes/parts/admin-meta-box.php:30
+msgid "Add Icon"
+msgstr "Simge Ekle"
+
+#: includes/class-gravityview-maps-available-icons.php:103
+msgid "Default"
+msgstr "Varsayılan"
+
+#: includes/class-gravityview-maps-available-icons.php:109
+msgid "Theme Map Icons"
+msgstr "Şablon Harita Simgeleri"
+
+#: includes/class-gravityview-maps-available-icons.php:114
+msgid "GravityView Map Icons"
+msgstr "GravityView Harita Simgeleri"
+
+#: includes/class-gravityview-maps-fields.php:60
+msgid "Entry Map"
+msgstr "Kayıt(Girdi) Haritası"
+
+#: includes/class-gravityview-maps-fields.php:62
+msgid "Display a map showing the location of the entry"
+msgstr "Kaydın konumunu gösteren bir harita ekle"
+
+#: includes/class-gravityview-maps-form-fields.php:59
+#: includes/parts/gf-field-icon-picker-form-editor.php:13
+msgid "Map Icon Picker"
+msgstr "Harita Simge Seçici"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:159
+msgid "In progress."
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:162
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:246
+msgid "Not yet geocoded."
+msgstr "Coğrafi kodlama yapılmamış."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:168
+msgid "Geocoding: %s"
+msgstr "Konumlandırılıyor: %s"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:230
+msgid "Latitude"
+msgstr "Enlem"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:231
+msgid "Longitude"
+msgstr "Boylam"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:233
+msgid "Coordinates were successfully updated."
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:234
+msgid "Coordinates were successfully saved."
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:235
+msgid "Coordinates were successfully cleared."
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:236
+msgid "Unable to update coordinates."
+msgstr "Koordinatlar güncellenemiyor."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:237
+msgid "Unable to save coordinates."
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:239
+msgid "Save Latitude/Longitude"
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:241
+msgid "Fetch the longitude and latitude for this address."
+msgstr "Bu adres için enlem ve boylamı getir."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:242
+msgid "Coordinates were fetched and saved for this address."
+msgstr "Koordinatlar bu adres için getirildi ve kaydedildi."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:243
+msgid "Unable to retrieve coordinates for this address."
+msgstr "Bu adres için koordinatlar alınamadı."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:244
+msgid "Unable to perform this action. Please try again or contact support."
+msgstr "Bu işlem gerçekleştirilemiyor. Lütfen tekrar deneyin veya destek isteyin."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:245
+msgid "This address has not yet been geocoded."
+msgstr "Bu adres henüz kodlanmamış."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:247
+msgid "See on Google Maps"
+msgstr ""
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:311
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:396
+msgid "You do not have permission to edit this entry."
+msgstr "Bu kaydı düzenleme yetkiniz yok."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:384
+msgid "The coordinates are not formatted properly."
+msgstr "Koordinatlar düzgün biçimlendirilmemiş."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:388
+msgid "The latitude is out of bounds."
+msgstr "Enlem, izin verilen değerlerin dışında."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:392
+msgid "The longitude is out of bounds."
+msgstr "Boylam, izin verilen değerlerin dışında."
+
+#: includes/class-gravityview-maps-gf-field-icon-picker.php:9
+msgid "Map Icon"
+msgstr "Harita Simgesi"
+
+#: includes/class-gravityview-maps-gf-field-icon-picker.php:51
+msgid "This field is required."
+msgstr "Bu alan zorunludur."
+
+#: includes/class-gravityview-maps-gf-field-icon-picker.php:57
+msgid "Please select a valid icon."
+msgstr "Lütfen geçerli bir ikon seçin."
+
+#: includes/class-gravityview-maps-render-map.php:271
+msgid ""
+"Google Maps API key was not found. Please make sure that it is configured in"
+" GravityView settings."
+msgstr ""
+
+#: includes/class-gravityview-maps-render-map.php:272
+msgid "Google Maps script failed to load."
+msgstr ""
+
+#: includes/class-gravityview-maps-render-map.php:273
+msgid ""
+"Google Maps API returned an error. Please check the browser console for more"
+" information."
+msgstr ""
+
+#: includes/class-gravityview-maps-render-map.php:274
+msgid ""
+"None of the address fields have latitude/longitude coordinates. Please make "
+"sure that at least one address is geocoded before a map can be displayed."
+msgstr ""
+
+#: includes/class-gravityview-maps-render-map.php:351
+msgid "View Details"
+msgstr "Görünüm Detayları"
+
+#: includes/class-gravityview-maps-settings.php:145
+#: includes/class-gravityview-maps-settings.php:147
+msgid "Google Maps API Key"
+msgstr "Google Haritalar API Anahtarı"
+
+#: includes/class-gravityview-maps-settings.php:147
+msgid "A Google Maps API key is required."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:147
+#: includes/class-gravityview-maps-settings.php:181
+#: includes/class-gravityview-maps-settings.php:192
+msgid "How to get a %s"
+msgstr "%s nasıl edinebilirim?"
+
+#: includes/class-gravityview-maps-settings.php:147
+msgid ""
+"GravityView will attempt to convert addresses into longitude and latitude "
+"values. This process is called geocoding, and is required to display entries"
+" on a map. %sLearn more about GravityView Maps geocoding.%s"
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:157
+msgid "Google Maps API for Work Client ID"
+msgstr "Google Maps API for Work Terminal NO"
+
+#: includes/class-gravityview-maps-settings.php:158
+#: includes/class-gravityview-maps-settings.php:169
+msgid ""
+"Read more about %sGoogle Maps API for Work%s  and learn how to obtain your "
+"key."
+msgstr "%sGoogle Maps API for Work%s hakkında daha fazlasını ukuyun ve anahtarınızı nasıl alacağınızı öğrenin."
+
+#: includes/class-gravityview-maps-settings.php:168
+msgid "Google Maps API for Work Key"
+msgstr "Google Maps API for Work Anahtarı"
+
+#: includes/class-gravityview-maps-settings.php:179
+#: includes/class-gravityview-maps-settings.php:181
+msgid "Bing Maps Locations API Key"
+msgstr "Bing Maps Locations API Anahtarı"
+
+#: includes/class-gravityview-maps-settings.php:191
+#: includes/class-gravityview-maps-settings.php:192
+msgid "MapQuest Geocoding API Key"
+msgstr "MapQuest Geocoding API Anahtarı"
+
+#: includes/class-gravityview-maps-settings.php:199
+msgid ""
+"GravityView will attempt to convert addresses into longitude and latitude "
+"values. This process is called geocoding, and is required to display entries"
+" on a map. To ensure entries are geocoded, sign up for one or more of the "
+"free services below. %sLearn more about GravityView Maps geocoding.%s"
+msgstr "GravityView adresleri eylem ve boylam değerlerini dönüştürmek çalışacaktır. Bu işleme coğrafi kodlama denir ve kayıtları bir harita üzerinde görüntülemek için gereklidir. Bu işlemi gerçekleştirebilmek için aşağıdaki ücretsiz servislerden faydalanın. %s GravityView haritalar coğrafi kodlama.%s hakkında daha fazla bilgi alın."
+
+#: includes/class-gravityview-maps-settings.php:263
+msgid ""
+"This Google API key is able to convert addresses into longitude and "
+"latitude."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:265
+msgid ""
+"This Google API key is unable to convert addresses into longitude and "
+"latitude. To fix this, please ensure that your key is correct and "
+"[link]enable Geocoding API[/link]."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:269
+msgid "This Google API Key supports embedding a map on your site."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:270
+msgid ""
+"This Google API Key is invalid. Please verify that you entered the correct "
+"key."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:307
+msgid "Verifying your Google Maps API key&hellip;"
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:310
+msgid "Google Maps API key verification failed due to a server error."
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:312
+msgid "Check Again"
+msgstr ""
+
+#: includes/class-gravityview-maps-template-map-default.php:20
+msgid "Map (default)"
+msgstr "Harita (varsayılan)"
+
+#: includes/class-gravityview-maps-template-map-default.php:21
+msgid "Display entries on a map."
+msgstr "Kayıtları harita üzerinde göster."
+
+#: includes/class-gravityview-maps-template-map-default.php:31
+msgid "Link to single entry"
+msgstr "Tekil kayıta bağlantı ver"
+
+#: includes/class-gravityview-maps-template-map-default.php:42
+#: includes/class-gravityview-maps-template-map-default.php:102
+msgid "Image"
+msgstr "Resim"
+
+#: includes/class-gravityview-maps-template-map-default.php:51
+msgid "Listing Title"
+msgstr "Listeleme Başlığı"
+
+#: includes/class-gravityview-maps-template-map-default.php:60
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: includes/class-gravityview-maps-template-map-default.php:69
+msgid "Middle row"
+msgstr "Orta Sütun"
+
+#: includes/class-gravityview-maps-template-map-default.php:78
+msgid "Footer"
+msgstr "Alt Bilgi"
+
+#: includes/class-gravityview-maps-template-map-default.php:95
+msgid "Subheading"
+msgstr "Alt Başlık"
+
+#: includes/class-gravityview-maps-template-map-default.php:109
+msgid "Other Fields"
+msgstr "Diğer Alanlar"
+
+#: includes/class-gravityview-maps-template-map-default.php:118
+msgid "Footer Left"
+msgstr "Sol Alt Bilgi"
+
+#: includes/class-gravityview-maps-template-map-default.php:125
+msgid "Footer Right"
+msgstr "Sağ Alt Bilgi"
+
+#: includes/class-gravityview-maps-template-preset-business-map.php:22
+msgid "Business Map Listing"
+msgstr "İş Haritaları Dizini"
+
+#: includes/class-gravityview-maps-template-preset-business-map.php:23
+msgid "Display business profiles pinned in a map."
+msgstr "İşyeri ayrıntılarını haritada işaretli olarak görüntüleyin."
+
+#: includes/class-gravityview-maps-view-widget.php:14
+msgid "Display the visible entries in a map"
+msgstr "Görünür kayıtları haritada göster"
+
+#: includes/class-gravityview-maps-view-widget.php:20
+msgid "Multiple Entries Map"
+msgstr "Çoklu Kayıt Haritası"
+
+#: includes/parts/admin-meta-box.php:29
+#: includes/parts/gf-field-icon-picker-entry-detail.php:33
+#: includes/parts/gf-field-icon-picker-form-public.php:30
+msgid "Select Icon"
+msgstr "Simge Seçin"
+
+#: includes/parts/admin-meta-box.php:30
+msgid "Upload Custom Icon"
+msgstr "Kişisel Simge Yükle"
+
+#: includes/parts/admin-meta-box.php:50
+msgid "Info Box Settings"
+msgstr "Bilgi kutusu ayarları"
+
+#: includes/parts/admin-meta-box.php:53
+msgid "Example Info Box"
+msgstr "Örnek bilgi kutusu"
+
+#: includes/parts/admin-meta-box.php:74
+msgid "Advanced Settings"
+msgstr "Gelişmiş Ayarlar"
+
+#: includes/parts/gf-field-icon-picker-form-editor.php:15
+msgid ""
+"This is a content placeholder. Preview this form to view the Map Icon Picker"
+" field."
+msgstr "Burası içerik yer tutucusudur. Harita İkon Seçme alanını görüntülemek için bu formun önizlemesine bakın."
+
+#: lib/EDD_SL_Plugin_Updater.php:179
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "%1$s için yeni sürüm mevcut. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Sürüm %3$s detaylarını görüntüle </a>."
+
+#: lib/EDD_SL_Plugin_Updater.php:186
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr "%1$s için yeni sürüm mevcut. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Sürüm %3$s detaylarını görüntüle </a> yada <a href=\"%4$s\">şimdi güncelleyin</a>."
+
+#: lib/EDD_SL_Plugin_Updater.php:334
+msgid "You do not have permission to install plugin updates"
+msgstr "Eklenti güncellemelerini yükleme yetkiniz yok"
+
+#: lib/EDD_SL_Plugin_Updater.php:334
+msgid "Error"
+msgstr "Hata"
+
+#: lib/class-gravityview-extension.php:359
+msgid "Could not activate the %s Extension; GravityView is not active."
+msgstr "%s Eklenti etkinleştirilemedi; GravityView etkin değil."
+
+#: lib/class-gravityview-extension.php:363
+msgid "The %s Extension requires GravityView Version %s or newer."
+msgstr "%s Eklenti GravityView sürüm %s yada daha üstünü gerektirir."
+
+#: lib/class-gravityview-extension.php:367
+msgid ""
+"The %s Extension requires PHP Version %s or newer. Please ask your host to "
+"upgrade your server's PHP."
+msgstr "Bu eklenti PHP %s ve üzeri sürümleri gerektirir. Lütfen hosting firmanızla iletişime geçerek güncelleme talep ediniz."
+
+#: lib/class-gravityview-extension.php:371
+msgid ""
+"The %s Extension is not compatible with this version of GravityView. Please "
+"update the Extension to the latest version."
+msgstr "%s eklentisi GravityView bu sürümü ile uyumlu değil. Lütfen eklentiyi en son sürüme güncelleyiniz."
+
+#: includes/class-gravityview-maps-admin.php:254
+msgctxt ""
+"This is to reduce translation strings. The replacement words are \"No "
+"Minimum/No Maximum\" and \"minimum/maximum\""
+msgid "If \"%s\", the %s zoom from the current map type will be used."
+msgstr "Eğer “%s” ise, mevcut harita türünden %s yakınlaştırma kullanılacaktır."
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:229
+msgctxt ""
+"Used to identify address field: %s is replaced with field label & %d is "
+"replaced with field ID"
+msgid "%s (ID #%d)"
+msgstr "%s (NO #%d)"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:232
+msgctxt "Update latitude/longitude coordinates"
+msgid "Update"
+msgstr "Güncelle"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:238
+msgctxt "Get latitude/longitude from address"
+msgid "Geocode This Address"
+msgstr "Bu Adresi Coğrafi Koda Çevir"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:240
+msgctxt "Get latitude/longitude from address"
+msgid "Refresh Geocoding"
+msgstr "Coğrafi Kodlamayı Yenile"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:270
+msgctxt "%s is replaced by the field label of an address field"
+msgid "%s Latitude"
+msgstr "%s Enlem"
+
+#: includes/class-gravityview-maps-gf-entry-geocoding.php:275
+msgctxt "%s is replaced by the field label of an address field"
+msgid "%s Longitude"
+msgstr "%s Boylam"
+
+#: includes/class-gravityview-maps-settings.php:308
+msgctxt "Google Maps API capability"
+msgid "Mapping (required)"
+msgstr ""
+
+#: includes/class-gravityview-maps-settings.php:309
+msgctxt "Google Maps API capability"
+msgid "Geocoding"
+msgstr ""

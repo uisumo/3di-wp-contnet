@@ -1,0 +1,414 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Infusionsoft Gravity Forms Add-on"
+msgstr ""
+
+#. Short description.
+msgid "Integrate the remarkable Gravity Forms plugin with Infusionsoft."
+msgstr ""
+
+#. Screenshot description.
+msgid "Gravity Forms Infusionsoft Add-on settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "It's easy to integrate Gravity Forms with Infusionsoft: set up a \"Feed\" and match up the fields you'd like sent to Infusionsoft"
+msgstr ""
+
+#. Screenshot description.
+msgid "Then you map the fields in the form to the fields for the Infusionsoft contact."
+msgstr ""
+
+#. Screenshot description.
+msgid "When a form is submitted, a contact will be created or updated in Infusionsoft. Simple!"
+msgstr ""
+
+#. Found in description header.
+msgid "The best Infusionsoft plugin for WordPress."
+msgstr ""
+
+#. Found in description header.
+msgid "Easily view contacts in Infusionsoft"
+msgstr ""
+
+#. Found in description header.
+msgid "It's the best form plugin combined with the best CRM service."
+msgstr ""
+
+#. Found in description header.
+msgid "Coming soon..."
+msgstr ""
+
+#. Found in description list item.
+msgid "Invoices &amp; Orders integrated with Gravity Forms payments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Creation of Opportunities and Companies"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom fields for Contacts - Added in 1.2!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Tags to Contacts - Added in 1.3!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Contacts to Campaigns"
+msgstr ""
+
+#. Found in description list item.
+msgid "And much more"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Easily add contacts into Infusionsoft when users submit a Gravity Forms form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Map your Gravity Forms form fields to Infusionsoft data, and have contacts automatically updated if the contact already exists."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When the Entry is created, a link to the Contact's page in Infusionsoft is shown inside WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Forget manually adding the Infusionsoft Web Forms into your WordPress site. Use Gravity Forms, and you'll be on your way with a beautiful, smart form in minutes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If this plugin garners much interest, there will be some seriously cool stuff coming, including:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're interested in having this functionality, <strong>leave us a note in the support forum &rarr;!</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload plugin files to your plugins folder, or install using WordPress' built-in Add New Plugin installer"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the plugin settings page (under Forms &gt; Settings &gt; Infusionsoft)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Enter the information requested by the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Save Settings."
+msgstr ""
+
+#. Found in installation list item.
+msgid "If the settings are correct, it will say so."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Follow on-screen instructions for integrating with Infusionsoft."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed potential XSS security issue. <strong>Please update.</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed deprecated jQuery Javascript (convert <code>live()</code> to <code>on()</code>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed link to \"Learn how to find your API key\" doc"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed not being able to remove Conditional Tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed styling of the settings screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sanitized text and URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved translation strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed potential security issue. <strong>Please update.</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Infusionsoft updated their SSL provider. The plugin has updated a file to match their security settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Translation files. If you want to translate the plugin into your language, <a href=\"https://www.transifex.com/projects/p/gravity-forms-infusionsoft/\">please do so here</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'gf_infusionsoft_radio_value' filter to allow radio field value manipulation before sending it to Infusionsoft."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Cast Number field type before sending it to Infusionsoft"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: blank screen when no email is defined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Opt In condition value not showing correctly on feed edit screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes custom fields update if Yes/No custom field is present"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include again the Quiz Add-on Fields (from version 1.5.8)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fetching tags now starts on page 1, not page 2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Path to translations file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP notice for calling non-static method statically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: SSL issue <a href=\"http://wordpress.org/support/topic/plugin-breaks-on-ssl\">as reported here</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for mapping Quiz Add-On fields for a feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified: Changed default number of tags to get from Infusionsoft from 3,000 to 4,000."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>gf_infusionsoft_max_number_of_tags</code> filter to allow developers to change how many tags to fetch from Infusionsoft (returns <code>int</code>, <code>4000</code> default)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Enable the Quiz add-on fields on the feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Enable debug logging using Gravity Forms Logging Add-on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes PHP warning related with unkonw form_id index on line 772"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes \"Refresh Fields &amp; Tags\" link after saving feed - avoid feed duplication"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>gravity_forms_infusionsoft_max_opt_in_conditions</code> filter to allow for a custom number of conditional opt-ins (default: 100)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Potential XSS security issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: More PHP warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified: Increased the tag limit from 1,000 to 3,000"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Newly added \"Conditionally Added Tags\" would not save when added until saving the form first."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed limit to the number of conditional tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Infusionsoft SDK conflicts with other plugins using the <code>xmlrpc</code> library."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Endlessly spinning on \"Select the form to tap into.\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility with Gravity Forms 1.7.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Updated to the latest <a href=\"https://github.com/joeynovak/infusionsoft-php-sdk\">Infusionsoft SDK</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Conditional Tagging for checkbox fields (previously only worked with radio and select field types)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Some of the drop-down Conditional Tagging fields were still mis-behaving."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Notes are now added to entries with a link to the Contact's Infusionsoft URL. Also, find a neat link under \"Info\" box when viewing the Entry."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Conditional Tags are now available before saving a form"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: A few issues with Conditional Tags not respecting conditions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Admin issue caused when duplicating or removing Conditional Tags conditions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Tooltip issue, which caused switching forms to break"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added max-height to tag conditions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed JavaScript alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved tooltip text and Tag descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added really cool new feature: Conditional Tagging: add tags based on form responses!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Edit Form and Preview Form to Feed list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Actually implemented debugging form submission for Admins - previously, the checkbox didn't actually do anything!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some PHP Warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with \"Invalid byte 1 of 1-byte UTF-8 sequence\" bug (<a href=\"http://wordpress.org/support/topic/copy-and-pasting-into-text-area-results-in-error?\">as reported</a>) caused by pasting text into fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed formatting for pasting from Microsoft Word"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflict with other Infusionsoft WordPress plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed date field not sending properly, <a href=\"http://wordpress.org/support/topic/custom-date-field-not-updating-for-existing-contacts?replies=1\">as reported</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed empty date fields sending Unix Epoch date (1970)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made date field compatible with Infusionsoft servers (Eastern time)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with <a href=\"http://wordpress.org/support/topic/first-argument-is-expected-to-be-a-valid-callback\"><code>check_update</code> issue</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "May also fix issue where link to settings page is not visible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with field caching introduced in 1.3.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed errors caused by tags with non-alphanumeric characters in it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved tag layout for accounts with lots of tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added caching for fields so if you're setting up multiple forms in a day, it'll load the fields much faster."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes date formatting for date fields other than Birthday"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for tagging leads on a per-form basis."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "I forgot to actually update the file! This update actually adds support for Contact custom fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Contact custom fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Liftoff!"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "This is one of the last updates before a major re-write, coming later this year."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this plugin require Infusionsoft?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What's the license for this plugin?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Well of course it does."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This plugin is released under a GPL license."
+msgstr ""

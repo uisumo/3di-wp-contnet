@@ -1,0 +1,15 @@
+/*********************************
+BLOCKS
+*********************************/
+.ewd-upcp-admin-block {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.wp-admin .ewd-upcp-catalog-div input,
+.wp-admin .ewd-upcp-catalog-div textarea,
+.wp-admin .ewd-upcp-catalog-div select {
+  pointer-events: none;
+}

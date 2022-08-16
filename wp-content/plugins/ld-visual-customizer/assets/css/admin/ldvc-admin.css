@@ -1,0 +1,32 @@
+
+.lds-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lds-flex-half {
+    flex-basis: 48%;
+}
+
+.lds-flex-half img {
+    max-width: 100%;
+}
+
+.ldvc-course-preview-btn {
+    margin-top: 10px !important;
+}
+
+.lds-activation-notice {
+    padding: 8px 15px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.lds_license_key .sfwd_option_label {
+    margin: 10px 0 !important;
+}
+
+.lds_license_key .sfwd_option_input {
+    line-height: 20px;    
+}

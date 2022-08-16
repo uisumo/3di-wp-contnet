@@ -1,0 +1,892 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Team Members PRO\n"
+"POT-Creation-Date: 2018-02-27 10:01+0000\n"
+"PO-Revision-Date: 2018-02-27 10:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: tmm_pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/darko_updater/darko_updater.php:177
+#: inc/darko_updater/darko_updater_1.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: inc/darko_updater/darko_updater.php:184
+#: inc/darko_updater/darko_updater_1.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: inc/darko_updater/darko_updater.php:324
+#: inc/darko_updater/darko_updater_1.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/darko_updater/darko_updater.php:324
+#: inc/darko_updater/darko_updater_1.php:324
+msgid "Error"
+msgstr ""
+
+#: inc/tmm-admin-scripts.php:25 inc/tmm-save-metaboxes.php:92
+msgid "Untitled"
+msgstr ""
+
+#: inc/tmm-admin-scripts.php:26
+msgid "Add at least <strong>1</strong> member to preview the team."
+msgstr ""
+
+#: inc/tmm-admin-scripts.php:27
+msgid ""
+"This is only a preview, shortcodes used in the fields will not be rendered "
+"and results may vary depending on your container's width."
+msgstr ""
+
+#: inc/tmm-license-check.php:30
+msgid "License activation"
+msgstr ""
+
+#: inc/tmm-license-check.php:39
+msgid "Activate your license"
+msgstr ""
+
+#: inc/tmm-license-check.php:40
+msgid ""
+"Activating your license allows you to receive automatic updates for a year."
+"<br/>This is <strong>NOT</strong> required for the plugin to properly work."
+msgstr ""
+
+#: inc/tmm-license-check.php:49
+msgid "License Key"
+msgstr ""
+
+#: inc/tmm-license-check.php:59 inc/tmm-license-check.php:68
+msgid "Activate license"
+msgstr ""
+
+#: inc/tmm-license-check.php:63
+msgid "Activated"
+msgstr ""
+
+#: inc/tmm-license-check.php:65
+msgid "Deactivate license"
+msgstr ""
+
+#: inc/tmm-metaboxes-help.php:8
+msgid "Shortcode"
+msgstr ""
+
+#: inc/tmm-metaboxes-help.php:27
+msgid "<strong>Publish</strong> your team before you can see your shortcode."
+msgstr ""
+
+#: inc/tmm-metaboxes-help.php:32
+msgid ""
+"To display your team on your site, copy-paste the <strong>[Shortcode]</"
+"strong> above in your post/page."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:6
+msgid "-"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:7
+msgid "Twitter"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:8
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:9
+msgid "YouTube"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:10
+msgid "Google+"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:11
+msgid "Facebook"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:12
+msgid "VK"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:13
+msgid "Instagram"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:14
+msgid "Tumblr"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:15
+msgid "Research Gate"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:16 inc/tmm-metaboxes.php:122
+#: inc/tmm-metaboxes.php:159 inc/tmm-metaboxes.php:197
+#: inc/tmm-metaboxes.php:235 inc/tmm-metaboxes.php:273
+msgid "Email"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:17 inc/tmm-metaboxes.php:123
+#: inc/tmm-metaboxes.php:160 inc/tmm-metaboxes.php:198
+#: inc/tmm-metaboxes.php:236 inc/tmm-metaboxes.php:274
+msgid "Website"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:18 inc/tmm-metaboxes.php:124
+#: inc/tmm-metaboxes.php:161 inc/tmm-metaboxes.php:199
+#: inc/tmm-metaboxes.php:237 inc/tmm-metaboxes.php:275
+msgid "Other links"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:29
+msgid "Team editor"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:71
+msgid "Close preview"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:79
+msgid "Update"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:82
+msgid "Cancel"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:89
+msgid "Expand all"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:90
+msgid "Collapse all"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:91
+msgid "Instant preview"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:122 inc/tmm-metaboxes-members.php:395
+msgid "Clone"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:130 inc/tmm-metaboxes-members.php:403
+#: inc/tmm-metaboxes.php:33
+msgid "Member details"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:135 inc/tmm-metaboxes-members.php:408
+msgid "First name"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:137 inc/tmm-metaboxes-members.php:410
+msgid "e.g. John"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:142 inc/tmm-metaboxes-members.php:415
+#: inc/tmm-metaboxes.php:48
+msgid "Lastname"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:144 inc/tmm-metaboxes-members.php:417
+msgid "e.g. Doe"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:149 inc/tmm-metaboxes-members.php:422
+#: inc/tmm-metaboxes.php:56
+msgid "Job/role"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:151 inc/tmm-metaboxes-members.php:424
+msgid "e.g. Project manager"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:156 inc/tmm-metaboxes-members.php:429
+msgid "Description/biography"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:157 inc/tmm-metaboxes-members.php:430
+msgid ""
+"Edit your member's biography by clicking the button below. Once updated, it "
+"will show up here."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:164 inc/tmm-metaboxes-members.php:437
+msgid "Edit biography"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:171 inc/tmm-metaboxes-members.php:444
+msgid "Additional information"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:177 inc/tmm-metaboxes-members.php:450
+msgid "Title"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:179 inc/tmm-metaboxes-members.php:452
+msgid "e.g. Read more"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:185 inc/tmm-metaboxes-members.php:458
+msgid "Content"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:187 inc/tmm-metaboxes-members.php:460
+msgid "e.g. John received a prestigious award at an event."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:191 inc/tmm-metaboxes-members.php:464
+msgid "The content will show when your visitors click on the title."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:197 inc/tmm-metaboxes-members.php:470
+msgid "Social links"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:198 inc/tmm-metaboxes-members.php:471
+msgid "These links will appear below your members' biography."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:203 inc/tmm-metaboxes-members.php:478
+msgid "Link type"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:214 inc/tmm-metaboxes-members.php:490
+#: inc/tmm-metaboxes.php:130
+msgid "Title attribute"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:215 inc/tmm-metaboxes-members.php:491
+msgid "Optional. This is the HTML <a> tag's title attribute."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:217
+msgid "e.g. Faceook page"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:222 inc/tmm-metaboxes-members.php:498
+msgid "Link URL"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:224 inc/tmm-metaboxes-members.php:500
+msgid "e.g. http://fb.com/member-profile"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:238 inc/tmm-metaboxes-members.php:514
+msgid "e.g. Twitter page"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:242 inc/tmm-metaboxes-members.php:518
+msgid "e.g. http://tw.com/member-profile"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:256 inc/tmm-metaboxes-members.php:274
+#: inc/tmm-metaboxes-members.php:292 inc/tmm-metaboxes-members.php:532
+#: inc/tmm-metaboxes-members.php:550 inc/tmm-metaboxes-members.php:568
+msgid "e.g. Google+ page"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:260 inc/tmm-metaboxes-members.php:278
+#: inc/tmm-metaboxes-members.php:296 inc/tmm-metaboxes-members.php:536
+#: inc/tmm-metaboxes-members.php:554 inc/tmm-metaboxes-members.php:572
+msgid "e.g. http://gp.com/member-profile"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:302 inc/tmm-metaboxes-members.php:578
+msgid ""
+"Your member's email address must be entered in the Link URL field. Title "
+"attribute can be left blank."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:308 inc/tmm-metaboxes-members.php:584
+msgid "Photos"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:314 inc/tmm-metaboxes-members.php:590
+msgid "Primary photo"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:315 inc/tmm-metaboxes-members.php:591
+msgid "We recommend square images (e.g. 250x250px)."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:323 inc/tmm-metaboxes-members.php:342
+#: inc/tmm-metaboxes-members.php:599 inc/tmm-metaboxes-members.php:618
+#: inc/tmm-metaboxes.php:303
+msgid "Upload photo"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:333 inc/tmm-metaboxes-members.php:609
+msgid "Secondary photo"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:334 inc/tmm-metaboxes-members.php:610
+msgid ""
+"This photo will replace the primary photo when your visitors hover over it."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:352 inc/tmm-metaboxes-members.php:628
+msgid "Photo link"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:353 inc/tmm-metaboxes-members.php:629
+msgid ""
+"Your visitors will be redirected to this link if they click the member's "
+"photo."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:355 inc/tmm-metaboxes-members.php:631
+msgid "e.g. http://your-site.com/full-member-page/"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:361 inc/tmm-metaboxes-members.php:637
+#: inc/tmm-metaboxes-settings.php:228
+msgid "Styling"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:367 inc/tmm-metaboxes-members.php:643
+msgid "Main color"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:493
+msgid "e.g. Facebook page"
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:659
+msgid ""
+"Create your team by <strong>adding members</strong> to it.<br/>Click the "
+"button below to get started."
+msgstr ""
+
+#: inc/tmm-metaboxes-members.php:665
+msgid "Add a member"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:6 inc/tmm-metaboxes.php:399
+msgid "None"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:7 inc/tmm-metaboxes.php:400
+msgid "Vintage filter"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:8 inc/tmm-metaboxes.php:401
+msgid "Black & White filter"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:9 inc/tmm-metaboxes.php:402
+msgid "Saturated filter"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:18
+msgid "Floating top"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:19 inc/tmm-metaboxes.php:388
+msgid "Inside the box"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:20
+msgid "Full width photo"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:29 inc/tmm-metaboxes.php:375
+msgid "Yes"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:30 inc/tmm-metaboxes.php:376
+msgid "No"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:39 inc/tmm-metaboxes.php:363
+msgid "Rounded photos"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:40
+msgid "Square photos"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:49
+msgid "Theme's font"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:50
+msgid "Default font"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:59
+msgid "New window"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:60
+msgid "Same window"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:69
+msgid "Dark"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:70
+msgid "Bright"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:79
+msgid "Center"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:80 inc/tmm-metaboxes.php:429
+msgid "Left"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:81 inc/tmm-metaboxes.php:430
+msgid "Right"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:82 inc/tmm-metaboxes.php:431
+msgid "Justify"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:91
+msgid "1 per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:92
+msgid "2 per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:93
+msgid "3 per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:94
+msgid "4 per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:95
+msgid "5 per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:104
+msgid "Disabled"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:105
+msgid "Enabled"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:116 inc/tmm-metaboxes.php:330
+msgid "Settings"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:173
+msgid "General"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:179
+msgid "Members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:191
+msgid "Desc. alignment"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:203
+msgid "Photo link behavior"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:215
+msgid "Font to use"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:234
+msgid "Layout"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:246
+msgid "Member equalizer"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:258 inc/tmm-metaboxes.php:409
+msgid "Top border size"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:259
+msgid "The thickness of the member's top border in pixels (e.g. 5)."
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:261
+msgid "e.g. 5"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:267 inc/tmm-metaboxes.php:395
+msgid "Photo filter"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:279
+msgid "Photo border"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:291 inc/tmm-metaboxes.php:359
+msgid "Photo shape"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:303
+msgid "Add. info theme"
+msgstr ""
+
+#: inc/tmm-metaboxes-settings.php:304
+msgid ""
+"This is he color scheme for the additional information box. Dark is 'white "
+"on black', Bright is 'black on light grey'."
+msgstr ""
+
+#: inc/tmm-metaboxes.php:15
+msgid "Manage Members"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:15
+msgid "PRO version"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:24
+msgid "Member {#}"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:25
+msgid "Add another member"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:26
+msgid "Remove member"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:40
+msgid "Firstname"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:64
+msgid "Description/bio"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:64
+msgid "Basic HTML allowed"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:73
+msgid "Complementary box title"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:73
+msgid "Add a title for your complementary info box"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:74
+msgid ""
+"This adds a little link below the description/bio, it will reveal the "
+"complementary info text when a visitor hovers over it."
+msgstr ""
+
+#: inc/tmm-metaboxes.php:82
+msgid "Complementary box text"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:82
+msgid "Text that will show when the title is hovered over"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:93
+msgid "Member color"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:93
+msgid "Color for this member"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:107
+msgid "Type of link"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:107
+msgid "Choose which icon is going to show in the member box"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:130
+msgid "eg. Follow us on Twitter!"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:137
+msgid "Start with http://"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:296
+msgid "Member photo"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:303
+msgid "Recommended:"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:306 inc/tmm-metaboxes.php:314
+msgid "Upload"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:311
+msgid "Upload hover photo"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:311
+msgid "Add a photo that will replace the first one on hover"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:319
+msgid "Photo link URL"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:319
+msgid ""
+"If a URL is added here, the member's photo will be clickable — Start with "
+"http://"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:337
+msgid "General settings"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:344
+msgid "Members to show per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:348
+msgid "1 members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:349
+msgid "2 members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:350
+msgid "3 members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:351
+msgid "4 members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:352
+msgid "5 members per line"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:364
+msgid "Squared photos"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:371
+msgid "Photo borders"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:371
+msgid "Add/remove borders around your photos"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:383
+msgid "Photo position"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:383
+msgid "Choose where your photos should appear"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:387
+msgid "Floating at the top"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:395
+msgid "Add a filter to your photos in a simple click"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:409
+msgid "In pixels, without the 'px'"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:417
+msgid "Others"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:424
+msgid "Description/bio alignment"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:428
+msgid "Centre"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:438
+msgid "Picture link behavior"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:442
+msgid "Open in same window"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:443
+msgid "Open in new window"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:451
+msgid "Force original fonts"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:451
+msgid "Check this to use the plugin's font instead of your theme's"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:452 inc/tmm-metaboxes.php:461
+msgid "Check to enable"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:460
+msgid "Last row centered"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:460
+msgid ""
+"Check this if your last row of members isn't full to center your last "
+"member(s)"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:472
+msgid "Help & Support"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:481
+msgid "Display your Team"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:481
+msgid ""
+"To display your Team on your site, copy-paste the Team's "
+"<strong>[Shortcode]</strong> in your post/page. You can find this shortcode "
+"by clicking <strong>All Teams</strong> in the menu on the left."
+msgstr ""
+
+#: inc/tmm-metaboxes.php:481
+msgid "Get support"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:481
+msgid "Submit a ticket"
+msgstr ""
+
+#: inc/tmm-metaboxes.php:481
+msgid "View documentation"
+msgstr ""
+
+#: inc/tmm-post-type.php:9 inc/tmm-post-type.php:11
+msgid "Teams"
+msgstr ""
+
+#: inc/tmm-post-type.php:10 inc/tmm-post-type.php:12
+msgid "Team"
+msgstr ""
+
+#: inc/tmm-post-type.php:13
+msgid "Add New"
+msgstr ""
+
+#: inc/tmm-post-type.php:14
+msgid "Add New Team"
+msgstr ""
+
+#: inc/tmm-post-type.php:15
+msgid "New Team"
+msgstr ""
+
+#: inc/tmm-post-type.php:16
+msgid "Edit Team"
+msgstr ""
+
+#: inc/tmm-post-type.php:17
+msgid "View Team"
+msgstr ""
+
+#: inc/tmm-post-type.php:18
+msgid "All Teams"
+msgstr ""
+
+#: inc/tmm-post-type.php:19
+msgid "Search Teams"
+msgstr ""
+
+#: inc/tmm-post-type.php:20
+msgid "No Teams found."
+msgstr ""
+
+#: inc/tmm-post-type.php:21
+msgid "No Teams found in Trash."
+msgstr ""
+
+#: inc/tmm-post-type.php:54 inc/tmm-post-type.php:55
+msgid "Team updated."
+msgstr ""
+
+#: inc/tmm-post-type.php:56
+msgid "Team published."
+msgstr ""
+
+#: inc/tmm-post-type.php:57
+msgid "Team saved."
+msgstr ""
+
+#: inc/tmm-post-type.php:58
+msgid "Team draft updated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Team Members PRO"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpdarko.com/items/team-members-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A responsive, simple and clean way to display your team. Create new members, "
+"add their positions, bios, social links (and much more) and copy-paste the "
+"shortcode into any post/page. Find help and information on our <a href="
+"\"http://wpdarko/ask-for-support/\">support site</a>. Make sure you check "
+"out all our useful plugins at <a href='https://wpdarko.com/'>WPDarko.com</a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Darko"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpdarko.com"
+msgstr ""

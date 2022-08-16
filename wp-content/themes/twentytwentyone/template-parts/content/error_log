@@ -1,0 +1,8 @@
+[21-Oct-2021 09:54:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/institute/public_html/wp-content/themes/twentytwentyone/template-parts/content/content.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/institute/public_html/wp-content/themes/twentytwentyone/template-parts/content/content.php on line 14
+[21-Oct-2021 10:11:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/institute/public_html/wp-content/themes/twentytwentyone/template-parts/content/content.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/institute/public_html/wp-content/themes/twentytwentyone/template-parts/content/content.php on line 14

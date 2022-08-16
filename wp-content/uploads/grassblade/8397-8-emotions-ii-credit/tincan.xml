@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6KTGalK4FVf_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">8.0 - Emotions II</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">8.0 - Emotions II</name>
+			<description lang="und">8.0 - Emotions II</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">8.1 Objectives</name>
+			<description lang="und">8.1 Objectives</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5i249mQGHRD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">8.2 Dealing With Injustice</name>
+			<description lang="und">8.2 Dealing With Injustice</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/686UDHOvoxS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which scenarios below may justifiably warrant the use of unpleasant – helpful emotions to correct behavior? </name>
+			<description lang="und">Which scenarios below may justifiably warrant the use of unpleasant – helpful emotions to correct behavior? </description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/686UDHOvoxS/69Ep9qecXWa" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which scenarios below may justifiably warrant the use of unpleasant – helpful emotions to correct behavior? </name>
+			<description lang="und">Which scenarios below may justifiably warrant the use of unpleasant – helpful emotions to correct behavior? </description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6XT7IK9BSNZ</correctResponsePattern>
+				<correctResponsePattern>choice_5aZIzawb9Hu</correctResponsePattern>
+				<correctResponsePattern>choice_6fc9boRBMmW</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6XT7IK9BSNZ</id>
+					<description lang="und">You hear of about a group of your older players hazing the younger ones</description>
+				</component>
+				<component>
+					<id>choice_5aZIzawb9Hu</id>
+					<description lang="und">You hear a player making fun of a teammate based on where he lives</description>
+				</component>
+				<component>
+					<id>choice_6fc9boRBMmW</id>
+					<description lang="und">You receive a report that one of your athletes were caught cheating 
+on a test</description>
+				</component>
+				<component>
+					<id>choice_6qt3lGzRGwz</id>
+					<description lang="und">Your athlete fails to perform a task in a crucial moment of the game</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6Y6hPtoK0lk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unpleasant – helpful emotions can be used to fuel our competitive fire, but for them to be effective they must be used                        .</name>
+			<description lang="und">Unpleasant – helpful emotions can be used to fuel our competitive fire, but for them to be effective they must be used                        .</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6Y6hPtoK0lk/6U3Qp2mmqyW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Unpleasant – helpful emotions can be used to fuel our competitive fire, but for them to be effective they must be used                        .</name>
+			<description lang="und">Unpleasant – helpful emotions can be used to fuel our competitive fire, but for them to be effective they must be used                        .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5oB6Uj4RFtC</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5oB6Uj4RFtC</id>
+					<description lang="und">on a short-term basis</description>
+				</component>
+				<component>
+					<id>choice_5dNsQS3EJyt</id>
+					<description lang="und">on a regular basis</description>
+				</component>
+				<component>
+					<id>choice_6qzJCFNsX6n</id>
+					<description lang="und">on a long-term basis</description>
+				</component>
+				<component>
+					<id>choice_6GZBbOC0sxY</id>
+					<description lang="und">on a semi-regular basis</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5rJej2sbB3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">8.3 The Toxicity of Negativity</name>
+			<description lang="und">8.3 The Toxicity of Negativity</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6pqfcmCPgwE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which of the following are effects of using unpleasant – harmful emotions with athletes?</name>
+			<description lang="und">Which of the following are effects of using unpleasant – harmful emotions with athletes?</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6pqfcmCPgwE/6Z6ULU36l0p" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which of the following are effects of using unpleasant – harmful emotions with athletes?</name>
+			<description lang="und">Which of the following are effects of using unpleasant – harmful emotions with athletes?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5r8au4Y4Bq7</correctResponsePattern>
+				<correctResponsePattern>choice_5nxe2DMzUhr</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5r8au4Y4Bq7</id>
+					<description lang="und">Raises intensity levels too high which hinders technical and/or tactical execution</description>
+				</component>
+				<component>
+					<id>choice_5nxe2DMzUhr</id>
+					<description lang="und">Can cause a physical and/or psychological shutdown in an athlete</description>
+				</component>
+				<component>
+					<id>choice_6frcXKMb36s</id>
+					<description lang="und">Helps to increase confidence and regulate intensity levels</description>
+				</component>
+				<component>
+					<id>choice_5WTdTB92zdu</id>
+					<description lang="und">Gives athletes a sense of completion</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6Nxk3X4QSyQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Mastering Emotions</name>
+			<description lang="und">Mastering Emotions</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6QAUoYCcO81" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A coach’s goal should be to gain mastery over the emotions on the team through:</name>
+			<description lang="und">A coach’s goal should be to gain mastery over the emotions on the team through:</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/6QAUoYCcO81/5Vym9bVs0kt" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">A coach’s goal should be to gain mastery over the emotions on the team through:</name>
+			<description lang="und">A coach’s goal should be to gain mastery over the emotions on the team through:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5smq8O3zZ1d[.]choice_5vcSs1lPHDm</correctResponsePattern>
+				<correctResponsePattern>statement_6F95T8hG1Hk[.]choice_66VSblwXQ1W</correctResponsePattern>
+				<correctResponsePattern>statement_6Kov1rNEzkC[.]choice_69tfmwSIBq6</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5smq8O3zZ1d</id>
+					<description lang="und">Awareness: </description>
+				</component>
+				<component>
+					<id>statement_6F95T8hG1Hk</id>
+					<description lang="und">Control: </description>
+				</component>
+				<component>
+					<id>statement_6Kov1rNEzkC</id>
+					<description lang="und">Practice: </description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5vcSs1lPHDm</id>
+					<description lang="und">Understand the emotion matrix well enough to identify emotions when they surface</description>
+				</component>
+				<component>
+					<id>choice_66VSblwXQ1W</id>
+					<description lang="und">Enhance emotions that help and eliminate emotions that hurt performance</description>
+				</component>
+				<component>
+					<id>choice_69tfmwSIBq6</id>
+					<description lang="und">Look for cues and work on mastering emotions every day</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5xeHN3IUwif" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">8.5 Fun is Fundamental</name>
+			<description lang="und">8.5 Fun is Fundamental</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5zjkwWmo3Hc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6KTGalK4FVf_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+	</activities>
+</tincan>

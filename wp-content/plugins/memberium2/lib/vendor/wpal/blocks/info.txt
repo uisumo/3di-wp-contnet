@@ -1,0 +1,5 @@
+<?php
+/*
+Plugin Name: Block Builder Support
+Author URI: 0000
+*/

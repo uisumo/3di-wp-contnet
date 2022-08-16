@@ -1,0 +1,2 @@
+<?php
+ if (!defined('ABSPATH' ) ) { die(); } $vwplsekv = 'memberium::welcomecontent::' . $current_tab; if (MEMBERIUM_BETA ) { delete_transient($vwplsekv ); } $vwplckl3 = get_transient($vwplsekv ); if (! $vwplckl3 ) { $vwplckl3 = wp_remote_get('https://licenseserver.webpowerandlight.com/welcome/index.php?tab=' . $current_tab . '&version=' . memberium_app()->wplnm1h() ); $vwplckl3 = $vwplckl3['body']; if ($vwplckl3 > '' ) { set_transient($vwplsekv, $vwplckl3, 3600 ); } } echo $vwplckl3;

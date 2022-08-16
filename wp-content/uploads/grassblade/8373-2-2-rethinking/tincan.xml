@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5eJqkvJyqqI_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">2.2 - Reforming</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">2.2 - Reforming</name>
+			<description lang="und">2.2 - Reforming</description>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/5XvKbSGTgpj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</name>
+			<description lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</description>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/5XvKbSGTgpj/5gu0z1X2q3P" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</name>
+			<description lang="und">The Greek word Chronos refers to 
+                         which is marked by minutes, days, months and years.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6IVg3O9VpFn</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6SZ0YLh8XOO</id>
+					<description lang="und">chronocentric time</description>
+				</component>
+				<component>
+					<id>choice_6IVg3O9VpFn</id>
+					<description lang="und">chronological time</description>
+				</component>
+				<component>
+					<id>choice_5pAWVkKSTRJ</id>
+					<description lang="und">consecrated time</description>
+				</component>
+				<component>
+					<id>choice_5kvxb9yWxNH</id>
+					<description lang="und">opportune time</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/6NhecLyuBzy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</name>
+			<description lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</description>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/6NhecLyuBzy/5xRpcfnUofO" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</name>
+			<description lang="und">The Greek word Kairos refers to the type of time which is marked by 
+                              .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6QY81LMrt5m</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6SQzEpLqiw4</id>
+					<description lang="und">a long span of years</description>
+				</component>
+				<component>
+					<id>choice_6RKhqHuCq7F</id>
+					<description lang="und">minutes, days, months and years</description>
+				</component>
+				<component>
+					<id>choice_6mGomssCrxP</id>
+					<description lang="und">the monthly cycle of the moon</description>
+				</component>
+				<component>
+					<id>choice_6QY81LMrt5m</id>
+					<description lang="und">significant moments</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/6pVB7DHQp6U" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</description>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/6pVB7DHQp6U/5uHwuTRGEJ5" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</name>
+			<description lang="und">Match the appropriate word to the correct phase on the “rethinking” half of “The Learning Circle.”</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_66JEyjEw4x4[.]choice_66JEyjEw4x4</correctResponsePattern>
+				<correctResponsePattern>statement_6Lx7VM51Kgf[.]choice_6Lx7VM51Kgf</correctResponsePattern>
+				<correctResponsePattern>statement_5wQ98vKw5cG[.]choice_5wQ98vKw5cG</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_66JEyjEw4x4</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6Lx7VM51Kgf</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5wQ98vKw5cG</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_66JEyjEw4x4</id>
+					<description lang="und">Observe</description>
+				</component>
+				<component>
+					<id>choice_6Lx7VM51Kgf</id>
+					<description lang="und">Reflect</description>
+				</component>
+				<component>
+					<id>choice_5wQ98vKw5cG</id>
+					<description lang="und">Discuss</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5eJqkvJyqqI_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+	</activities>
+</tincan>

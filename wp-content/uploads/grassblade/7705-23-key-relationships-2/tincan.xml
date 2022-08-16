@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6ZRznrAddRS_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5u60VfyqSso" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">23.1 - Objectives</name>
+			<description lang="und">23.1 - Objectives</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">23.2 - Mentoring</name>
+			<description lang="und">23.2 - Mentoring</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">23.3 - Accountability</name>
+			<description lang="und">23.3 - Accountability</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5nGHmpMOCgE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">To help provide accountability for the journey ahead, coaches should:</name>
+			<description lang="und">To help provide accountability for the journey ahead, coaches should:</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5nGHmpMOCgE/6Xf4kMSnst3" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">To help provide accountability for the journey ahead, coaches should:</name>
+			<description lang="und">To help provide accountability for the journey ahead, coaches should:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_658jk5l1E66</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6FcXjYJZqNB</id>
+					<description lang="und">seek mentors who can help them gain wisdom &amp; perspective</description>
+				</component>
+				<component>
+					<id>choice_619yhuJzazr</id>
+					<description lang="und">remain open and available to mentor other coaches</description>
+				</component>
+				<component>
+					<id>choice_5uENJ1CdJdD</id>
+					<description lang="und">identify accountability partners</description>
+				</component>
+				<component>
+					<id>choice_658jk5l1E66</id>
+					<description lang="und">all of the above</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6VispBCfyUr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">23.4 - Accountability Structure</name>
+			<description lang="und">23.4 - Accountability Structure</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6NBUcNhMKvA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6Ew7XPCBgeP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6ZRznrAddRS_course_id/6FQ6lU9fqfz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

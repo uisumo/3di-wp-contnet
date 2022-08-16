@@ -1,0 +1,420 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart Based Shipping for WooCommerce\n"
+"POT-Creation-Date: 2015-04-14 14:48-0500\n"
+"PO-Revision-Date: 2015-04-14 14:58-0500\n"
+"Last-Translator: Bolder Elements <info@bolderelements.net>\n"
+"Language-Team: Bolder Elements <info@bolderelements.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: woocommerce-cart-based-shipping\n"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:48
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:51
+msgid "Generate backup file to save your settings for this shipping method."
+msgstr "生成的备份文件保存设置此运输方法。"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:55
+msgid "Export"
+msgstr "出口"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:62
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:66
+msgid "Import settings for this method from your saved backup file."
+msgstr "导入设置从已保存的备份文件此方法。"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:70
+msgid "Import"
+msgstr "进口"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:112
+msgid "Please upload a file to import"
+msgstr "请上传文件导入"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:118
+msgid "Please upload a valid .json file"
+msgstr "请上传有效的.json文件"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:45
+msgid "Bolder Elements Dashboard"
+msgstr "更大胆的元素仪表板"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:46
+msgid ""
+"Manage plugins and support status by registering your purchase codes here"
+msgstr "管理插件，并在这里注册您的购买代码支持状态"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:122
+msgid "You have not registered any plugins yet"
+msgstr "您还没有注册任何插件还"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:195
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:196
+#, php-format
+msgid "%s ago"
+msgstr "%s前"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:231
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:262
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:265
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:293
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:296
+msgid "Sorry, but there was a problem connecting to the API"
+msgstr "遗憾，但有连接到API中的问题"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:258
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:289
+msgid "Username and/or API Key invalid"
+msgstr "用户名和/或API密钥无效"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:331
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:333
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:337
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:360
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:397
+msgid "Error"
+msgstr "错误"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:331
+msgid "The username provided does not match the name on the license"
+msgstr "提供的用户名不名上牌照匹配"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:333
+msgid "The purchase code provided is not for the selected plugin"
+msgstr "所提供的购买代码是不为选定插件"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:337
+msgid "An error occured when processing the information provided"
+msgstr "处理所提供的信息时发生错误"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:360
+msgid "Settings for this plugin could not be found"
+msgstr "设置这个插件找不到"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:385
+msgid "Activate Your License"
+msgstr "激活许可证"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:386
+msgid "Enter the following information to unlock additional features"
+msgstr "输入以下信息解锁额外的功能"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:387
+msgid "Envato Marketplace Username"
+msgstr "ENVATO市场用户名"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:388
+msgid "API Key"
+msgstr "API密钥"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:389
+msgid "Purchase Code"
+msgstr "申购代码"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:390
+msgid "Are you sure you want to remove the settings for this plugin"
+msgstr "您确定要删除的设置这个插件"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:391
+msgid "This action cannot be undone"
+msgstr "这个动作不能撤消"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:392
+msgid "Success"
+msgstr "成功"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:393
+msgid "Close"
+msgstr "近"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:394
+msgid "Register"
+msgstr "注册"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:395
+msgid "Remove"
+msgstr "拆除"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:396
+msgid "Cancel"
+msgstr "取消"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:397
+msgid "There are empty required fields in your form."
+msgstr "还有在窗体的空必填字段。"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:282
+msgid "Downloading package from Envato Marketplace"
+msgstr "从ENVATO市场下载包"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:288
+msgid "Could not connect to Envato API"
+msgstr "无法连接到ENVATO API"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:307
+msgid "Missing login credentials"
+msgstr "缺少登录凭据"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:307
+msgid "Register Plugin"
+msgstr "注册插件"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:45
+msgid "Cart Based"
+msgstr "基于车"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:46
+msgid "Cart Based Rates"
+msgstr "车基于价格"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:47
+msgid ""
+"Cart based rates let you define a standard rate to be assigned based on the "
+"total price of the customer's cart."
+msgstr "根据车速度让你定义一个基于客户的购物车的总价格标准税率进行分配。"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:120
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:122
+msgid "Enable this shipping method"
+msgstr "启用此送货方式"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:126
+msgid "Method Title"
+msgstr "法题目"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:128
+msgid "This controls the title which the user sees during checkout."
+msgstr "它控制在结帐时，用户可以看到该称号。"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:129
+msgid "Shipping"
+msgstr "航运"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:132
+msgid "Method availability"
+msgstr "方法可用性"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:137
+msgid "All allowed countries"
+msgstr "允许所有国家"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:138
+msgid "Specific countries"
+msgstr "特定国家"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:139
+msgid "Countries excluding"
+msgstr "国家排除"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:143
+msgid "Specific Countries"
+msgstr "特定国家"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:151
+msgid "Handling Fee"
+msgstr "手续费"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:153
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. "
+"Leave blank to disable."
+msgstr "费用不含税。输入金额，例如2.50，或百分比，例如5％。留空将禁用。"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:159
+msgid "Calculation Method"
+msgstr "计算方法"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:163
+msgid "Cart Subtotal Price "
+msgstr "车小计价格"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:164
+msgid "Number of Items "
+msgstr "项目数"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:165
+msgid "Total Weight "
+msgstr "整机重量"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:169
+msgid "Include Tax"
+msgstr "包括税"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:171
+msgid "Calculate shipping based on prices AFTER tax"
+msgstr "基于税后价格计算运费"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:175
+msgid "Minimum Shipping Price"
+msgstr "最低价格航运"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:177
+msgid "The minimum shipping price a customer pays"
+msgstr "最低出货价格客户支付"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:180
+msgid "Maximum Shipping Price"
+msgstr "最大的航运价格"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:182
+msgid "The amount the shipping price will not exceed"
+msgstr "航运价格不会超过的金额"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:185
+msgid "Minimum to Ship"
+msgstr "最小发货"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:187
+msgid ""
+"The minimum cart subtotal, item count, or weight that can be shipped (all "
+"orders below this will be denied)"
+msgstr "最小车小计，项目数，或重量可以被运（低于此的所有订单都将被拒绝）"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:190
+msgid "Maximum to Ship"
+msgstr "最大限度地发货"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:192
+msgid ""
+"The maximum cart subtotal, item count, or weight that can be shipped (all "
+"orders above this will be denied)"
+msgstr "最大车小计，项目数，重量或可运（上述这一切的订单将被拒绝）"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:198
+msgid "True Bundle Quantities"
+msgstr "真正的捆绑数量"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:201
+msgid ""
+"When checked, quantities for bundled items will equal the number of items in "
+"bundle"
+msgstr "勾选后，数量为捆绑的项目将等于捆绑的项目数"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:380
+msgid "Subtotal Based Rates"
+msgstr "小计基于价格"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:386
+msgid "Orders Equal to and Above"
+msgstr "等于或高于订单"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:387
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:430
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:473
+msgid "Shipping Cost"
+msgstr "运费"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:393
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:436
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:479
+msgid "Add Cart Rate"
+msgstr "加入购物车率"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:394
+msgid "Add subtotal based rates for shipping here"
+msgstr "添加小计基础费率这里出货"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:394
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:437
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:480
+msgid "Delete selected rates"
+msgstr "删除所选率"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:411
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:412
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:455
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:498
+msgid "0.00"
+msgstr "0.00"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:423
+msgid "Item Count Based Rates"
+msgstr "基于项目的计数率"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:429
+msgid "Number of Items Equal to and Above"
+msgstr "项目数等于或高于"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:437
+msgid "Add item count based rates for shipping here"
+msgstr "添加项目计数基于利率航运这里"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:454
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:497
+msgid "0"
+msgstr "0"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:466
+msgid "Weight Based Rates"
+msgstr "基于重价格"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:472
+msgid "Total Weight Equal to and Above"
+msgstr "总重量等于或高于"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:480
+msgid "Add weight based rates for shipping here"
+msgstr "增加重量以利率航运这里"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:513
+msgid "Shipping Class Exclusions"
+msgstr "航运类排除"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:518
+msgid "Shipping Class"
+msgstr "航运类"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:519
+msgid "Exclude"
+msgstr "排除"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:573
+msgid "Save changes"
+msgstr "保存更改"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:582
+msgid "Delete the selected rates?"
+msgstr "删除选定的汇率？"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:592
+msgid "Export / Import Settings"
+msgstr "导出/导入设置"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:807
+msgid "Settings"
+msgstr "设置"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:808
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:818
+msgid "Registration"
+msgstr "注册"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:835
+msgid "View details"
+msgstr "查看详情"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:836
+msgid "Docs"
+msgstr "文档"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:837
+msgid "Support"
+msgstr "支持"

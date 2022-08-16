@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5oRQofgvtow_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.1 Objectives</name>
+			<description lang="und">22.1 Objectives</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.2 - The Coach's Edge</name>
+			<description lang="und">22.2 - The Coach's Edge</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6Zkvahkl2ag" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6Zkvahkl2ag/6g3T5skR7Xq" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5dtio20wU05</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5dtio20wU05</id>
+					<description lang="und">Rectangle 1</description>
+				</component>
+				<component>
+					<id>choice_63zggLRdt9j</id>
+					<description lang="und">Rectangle 2</description>
+				</component>
+				<component>
+					<id>choice_6Uds3r1HeGv</id>
+					<description lang="und">Rectangle 3</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6EH67VlV6yJ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6EH67VlV6yJ/5m62ZX2iUw1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6hF2InIPg2O</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_68YReoTtO1Z</id>
+					<description lang="und">Rectangle 1</description>
+				</component>
+				<component>
+					<id>choice_6hF2InIPg2O</id>
+					<description lang="und">Rectangle 2</description>
+				</component>
+				<component>
+					<id>choice_5hXi7XwtzjX</id>
+					<description lang="und">Rectangle 3</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6BfOs3NeCBE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6BfOs3NeCBE/5w7wQIzSW4d" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5zOmjRSG7G3</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5xiOmaONMj8</id>
+					<description lang="und">Rectangle 1</description>
+				</component>
+				<component>
+					<id>choice_6fEpGkImss3</id>
+					<description lang="und">Rectangle 2</description>
+				</component>
+				<component>
+					<id>choice_5zOmjRSG7G3</id>
+					<description lang="und">Rectangle 3</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6TOuylAFDWN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.3 - To and Through</name>
+			<description lang="und">22.3 - To and Through</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5WWcjCxWmBx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">           strategies are designed to help COACHES grow in the third dimension.</name>
+			<description lang="und">           strategies are designed to help COACHES grow in the third dimension.</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5WWcjCxWmBx/6U4joLMBrig" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">           strategies are designed to help COACHES grow in the third dimension.</name>
+			<description lang="und">           strategies are designed to help COACHES grow in the third dimension.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_64tuQMH73G5</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_64tuQMH73G5</id>
+					<description lang="und">“To”</description>
+				</component>
+				<component>
+					<id>choice_6018uq7CjoQ</id>
+					<description lang="und">“Through”</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6BnVisfilOg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">           strategies can be implemented by coaches to help ATHLETES grow in the 3rd Dimension.</name>
+			<description lang="und">           strategies can be implemented by coaches to help ATHLETES grow in the 3rd Dimension.</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6BnVisfilOg/5gFLwlHN3EM" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">           strategies can be implemented by coaches to help ATHLETES grow in the 3rd Dimension.</name>
+			<description lang="und">           strategies can be implemented by coaches to help ATHLETES grow in the 3rd Dimension.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6XeyPi9QgAE</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6UknLdcGAWL</id>
+					<description lang="und">“To”</description>
+				</component>
+				<component>
+					<id>choice_6XeyPi9QgAE</id>
+					<description lang="und">“Through”</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6kdTXtgZnbM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.4 - A Level 3 Partner</name>
+			<description lang="und">22.4 - A Level 3 Partner</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6gTkKlw6QMG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.5 - Select 3D Strategies</name>
+			<description lang="und">22.5 - Select 3D Strategies</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">22.6 - Share New Ideas</name>
+			<description lang="und">22.6 - Share New Ideas</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5m9OJzRcinz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Stock the Shelves</name>
+			<description lang="und">Stock the Shelves</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5oRQofgvtow_course_id/6XXFRTo4ziT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

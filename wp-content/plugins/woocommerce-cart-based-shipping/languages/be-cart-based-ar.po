@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart Based Shipping for WooCommerce\n"
+"POT-Creation-Date: 2015-04-14 14:48-0500\n"
+"PO-Revision-Date: 2015-04-14 14:57-0500\n"
+"Last-Translator: Bolder Elements <info@bolderelements.net>\n"
+"Language-Team: Bolder Elements <info@bolderelements.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: woocommerce-cart-based-shipping\n"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:48
+msgid "Export Settings"
+msgstr "إعدادات التصدير"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:51
+msgid "Generate backup file to save your settings for this shipping method."
+msgstr "توليد ملف النسخ الاحتياطي لحفظ الإعدادات لهذا الأسلوب الشحن."
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:55
+msgid "Export"
+msgstr "تصدير"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:62
+msgid "Import Settings"
+msgstr "إعدادات الاستيراد"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:66
+msgid "Import settings for this method from your saved backup file."
+msgstr "استيراد الإعدادات لهذا الأسلوب من ملف النسخة الاحتياطية المحفوظة."
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:70
+msgid "Import"
+msgstr "استيراد"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:112
+msgid "Please upload a file to import"
+msgstr "يرجى تحميل ملف إلى استيراد"
+
+#: woocommerce-cart-based-shipping/inc/class-exporter.php:118
+msgid "Please upload a valid .json file"
+msgstr "يرجى تحميل ملف .json صحيح"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:45
+msgid "Bolder Elements Dashboard"
+msgstr "أكثر جرأة عناصر لوحة التحكم الرئيسية"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:46
+msgid "Manage plugins and support status by registering your purchase codes here"
+msgstr "إدارة الإضافات ودعم الوضع من خلال تسجيل رموز الشراء هنا"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:122
+msgid "You have not registered any plugins yet"
+msgstr "أنت لم تسجل أي الإضافات بعد"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:195
+msgid "Last Updated"
+msgstr "آخر تحديث"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:196
+#, php-format
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:231
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:262
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:265
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:293
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:296
+msgid "Sorry, but there was a problem connecting to the API"
+msgstr "آسف، ولكن كان هناك مشكلة في الاتصال إلى API"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:258
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:289
+msgid "Username and/or API Key invalid"
+msgstr "اسم المستخدم و / أو API غير صالحة مفتاح"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:331
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:333
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:337
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:360
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:397
+msgid "Error"
+msgstr "خطأ"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:331
+msgid "The username provided does not match the name on the license"
+msgstr "اسم المستخدم المقدمة لا يطابق الاسم على ترخيص"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:333
+msgid "The purchase code provided is not for the selected plugin"
+msgstr "رمز شراء المقدمة ليست لاختيار البرنامج المساعد"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:337
+msgid "An error occured when processing the information provided"
+msgstr "حدث خطأ عند معالجة المعلومات المقدمة"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:360
+msgid "Settings for this plugin could not be found"
+msgstr "إعدادات هذا البرنامج المساعد تعذر العثور"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:385
+msgid "Activate Your License"
+msgstr "تنشيط الترخيص"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:386
+msgid "Enter the following information to unlock additional features"
+msgstr "أدخل المعلومات التالية لفتح ميزات إضافية"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:387
+msgid "Envato Marketplace Username"
+msgstr "انفاتو السوق اسم المستخدم"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:388
+msgid "API Key"
+msgstr "API مفتاح"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:389
+msgid "Purchase Code"
+msgstr "كود شراء"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:390
+msgid "Are you sure you want to remove the settings for this plugin"
+msgstr "هل أنت متأكد أنك تريد إزالة إعدادات هذا البرنامج المساعد"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:391
+msgid "This action cannot be undone"
+msgstr "لا يمكن التراجع عن هذا العمل"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:392
+msgid "Success"
+msgstr "نجاح"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:393
+msgid "Close"
+msgstr "قريب"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:394
+msgid "Register"
+msgstr "تسجيل"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:395
+msgid "Remove"
+msgstr "نزع"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:396
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-config.php:397
+msgid "There are empty required fields in your form."
+msgstr "هناك حقول فارغة المطلوبة في النموذج الخاص بك."
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:282
+msgid "Downloading package from Envato Marketplace"
+msgstr "تحميل الحزمة من انفاتو السوق"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:288
+msgid "Could not connect to Envato API"
+msgstr "تعذر الاتصال انفاتو API"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:307
+msgid "Missing login credentials"
+msgstr "في عداد المفقودين اعتماد تسجيل الدخول"
+
+#: woocommerce-cart-based-shipping/upgrader/class-be-updater.php:307
+msgid "Register Plugin"
+msgstr "تسجيل البرنامج المساعد"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:45
+msgid "Cart Based"
+msgstr "عربة استنادا"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:46
+msgid "Cart Based Rates"
+msgstr "عربة استنادا أسعار"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:47
+msgid ""
+"Cart based rates let you define a standard rate to be assigned based on the total price of the customer's cart."
+msgstr "اسعار سلة مقرها ندعك تحديد معدل قياسي ليتم تعيينه على أساس السعر الاجمالي للعربة الزبون."
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:120
+msgid "Enable/Disable"
+msgstr "تمكين / تعطيل"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:122
+msgid "Enable this shipping method"
+msgstr "تمكن هذه الطريقة الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:126
+msgid "Method Title"
+msgstr "طريقة اللقب"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:128
+msgid "This controls the title which the user sees during checkout."
+msgstr "هذا يتحكم في العنوان والذي يراه المستخدم أثناء الخروج."
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:129
+msgid "Shipping"
+msgstr "الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:132
+msgid "Method availability"
+msgstr "توافر طريقة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:137
+msgid "All allowed countries"
+msgstr "كل الدول المسموح"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:138
+msgid "Specific countries"
+msgstr "بلدان محددة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:139
+msgid "Countries excluding"
+msgstr "الدول باستثناء"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:143
+msgid "Specific Countries"
+msgstr "دول معينة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:151
+msgid "Handling Fee"
+msgstr "التعامل مع الرسوم"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:153
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. Leave blank to disable."
+msgstr "رسوم باستثناء الضرائب. أدخل المبلغ، على سبيل المثال 2.50، أو نسبة، على سبيل المثال 5٪. اتركه فارغا لتعطيل."
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:159
+msgid "Calculation Method"
+msgstr "طرق الحساب"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:163
+msgid "Cart Subtotal Price "
+msgstr "عربة المجموع الفرعي الأسعار "
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:164
+msgid "Number of Items "
+msgstr "عدد من عناصر "
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:165
+msgid "Total Weight "
+msgstr "الوزن الكلي "
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:169
+msgid "Include Tax"
+msgstr "تشمل الضرائب"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:171
+msgid "Calculate shipping based on prices AFTER tax"
+msgstr "بحساب الشحن على أساس الأسعار بعد الضريبة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:175
+msgid "Minimum Shipping Price"
+msgstr "الحد الأدنى سعر الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:177
+msgid "The minimum shipping price a customer pays"
+msgstr "الحد الأدنى للسعر الشحن يدفع الزبون"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:180
+msgid "Maximum Shipping Price"
+msgstr "الحد الأقصى لسعر الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:182
+msgid "The amount the shipping price will not exceed"
+msgstr "مبلغ لن يتجاوز سعر الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:185
+msgid "Minimum to Ship"
+msgstr "الحد الأدنى لنشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:187
+msgid "The minimum cart subtotal, item count, or weight that can be shipped (all orders below this will be denied)"
+msgstr "الحد الأدنى عربة المجموع الفرعي، عدد البند، أو الوزن التي يمكن شحنها (سيتم رفض جميع الطلبات دون هذا)"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:190
+msgid "Maximum to Ship"
+msgstr "الحد الأقصى لنشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:192
+msgid "The maximum cart subtotal, item count, or weight that can be shipped (all orders above this will be denied)"
+msgstr "عربة المجموع الفرعي الأقصى، العد البند، أو الوزن التي يمكن شحنها (سيتم رفض جميع الطلبات فوق هذا)"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:198
+msgid "True Bundle Quantities"
+msgstr "كميات حزمة الحقيقية"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:201
+msgid "When checked, quantities for bundled items will equal the number of items in bundle"
+msgstr "عندما تم، سيكون لكميات لبنود المجمعة يساوي عدد العناصر في حزمة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:380
+msgid "Subtotal Based Rates"
+msgstr "المجموع الفرعي استنادا الاسعار"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:386
+msgid "Orders Equal to and Above"
+msgstr "أوامر المتساوية لفأكثر"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:387
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:430
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:473
+msgid "Shipping Cost"
+msgstr "كلف الشحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:393
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:436
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:479
+msgid "Add Cart Rate"
+msgstr "إضافة سلة أسعار"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:394
+msgid "Add subtotal based rates for shipping here"
+msgstr "إضافة أسعار مقرها المجموع الفرعي لشحن هنا"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:394
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:437
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:480
+msgid "Delete selected rates"
+msgstr "حذف معدلات مختارة"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:411
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:412
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:455
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:498
+msgid "0.00"
+msgstr "0.00"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:423
+msgid "Item Count Based Rates"
+msgstr "أسعار عدد البند استنادا"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:429
+msgid "Number of Items Equal to and Above"
+msgstr "عدد من عناصر يساوي فأكثر"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:437
+msgid "Add item count based rates for shipping here"
+msgstr "إضافة أسعار مقرها العد البند لشحن هنا"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:454
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:497
+msgid "0"
+msgstr "0"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:466
+msgid "Weight Based Rates"
+msgstr "الوزن استنادا أسعار"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:472
+msgid "Total Weight Equal to and Above"
+msgstr "الوزن الإجمالي يساوي فأكثر"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:480
+msgid "Add weight based rates for shipping here"
+msgstr "إضافة أسعار مقرها الوزن لشحن هنا"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:513
+msgid "Shipping Class Exclusions"
+msgstr "صنف شحن استثناءات"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:518
+msgid "Shipping Class"
+msgstr "صنف شحن"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:519
+msgid "Exclude"
+msgstr "استبعد"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:573
+msgid "Save changes"
+msgstr "حفظ التغيرات"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:582
+msgid "Delete the selected rates?"
+msgstr "حذف معدلات المختارة؟"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:592
+msgid "Export / Import Settings"
+msgstr "تصدير / استيراد إعدادات"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:807
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:808
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:818
+msgid "Registration"
+msgstr "تسجيل"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:835
+msgid "View details"
+msgstr "تفاصيل"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:836
+msgid "Docs"
+msgstr "مستندات"
+
+#: woocommerce-cart-based-shipping/woocommerce-cart-based-shipping.php:837
+msgid "Support"
+msgstr "دعم"

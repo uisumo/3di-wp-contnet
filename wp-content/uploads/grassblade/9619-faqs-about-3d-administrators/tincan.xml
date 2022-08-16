@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://X5FUBIZIscHwTC3C5gWOwboB-j_YX0wy_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">FAQ&#39;s About 3D</name>
+      <description lang="en-US">&lt;p&gt;Find the answers to all of your questions about our 3Dimensional Coaching courses, products, resources and workshops here.&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://X5FUBIZIscHwTC3C5gWOwboB-j_YX0wy_rise/q5vD--lsf2XhTKJTlgDVUk6LJmlRkFNQ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Course for Certification/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://X5FUBIZIscHwTC3C5gWOwboB-j_YX0wy_rise/InoJb6t61NgtKebp1VA-vWYt3IEVfiEJ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Course for College Credit/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://X5FUBIZIscHwTC3C5gWOwboB-j_YX0wy_rise/n0_RCY-doMVAyrEmnqGhNaGG1IqryhNz" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">3D Coaching Essentials Course/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://X5FUBIZIscHwTC3C5gWOwboB-j_YX0wy_rise/XE6Bd-HTzCmbRQtG7ctm0C4laTZMwGH7" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">3D Coaching Workshops/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>

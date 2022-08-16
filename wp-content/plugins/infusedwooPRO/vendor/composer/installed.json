@@ -1,0 +1,182 @@
+[
+    {
+        "name": "phpxmlrpc/phpxmlrpc",
+        "version": "4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gggeek/phpxmlrpc.git",
+            "reference": "7ee6fa00d3dbc58c0f2b15c5a261895e43c8be1f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gggeek/phpxmlrpc/zipball/7ee6fa00d3dbc58c0f2b15c5a261895e43c8be1f",
+            "reference": "7ee6fa00d3dbc58c0f2b15c5a261895e43c8be1f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-xml": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "docbook/docbook-xsl": "~1.78",
+            "ext-curl": "*",
+            "ext-mbstring": "*",
+            "indeyets/pake": "~1.99",
+            "phpunit/phpunit": ">=4.0.0, <6.0.0",
+            "phpunit/phpunit-selenium": "*",
+            "sami/sami": "~3.1"
+        },
+        "suggest": {
+            "ext-curl": "Needed for HTTPS and HTTP 1.1 support, NTLM Auth etc...",
+            "ext-mbstring": "Needed to allow reception of requests/responses in character sets other than ASCII,LATIN-1,UTF-8",
+            "ext-zlib": "Needed for sending compressed requests and receiving compressed responses, if cURL is not available"
+        },
+        "time": "2017-11-06T01:18:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpXmlRpc\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "A php library for building xmlrpc clients and servers",
+        "homepage": "http://gggeek.github.io/phpxmlrpc/",
+        "keywords": [
+            "webservices",
+            "xmlrpc"
+        ]
+    },
+    {
+        "name": "typisttech/imposter",
+        "version": "0.2.3",
+        "version_normalized": "0.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypistTech/imposter.git",
+            "reference": "ab3391b7249bf40cf4e494cb1da281f78bb56000"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypistTech/imposter/zipball/ab3391b7249bf40cf4e494cb1da281f78bb56000",
+            "reference": "ab3391b7249bf40cf4e494cb1da281f78bb56000",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "^2.0",
+            "codeception/base": "^2.3",
+            "nikic/php-parser": "^3.1",
+            "squizlabs/php_codesniffer": "^3.1"
+        },
+        "suggest": {
+            "typisttech/imposter-plugin": "Composer plugin to integrate composer and imposter"
+        },
+        "time": "2017-10-22T02:30:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypistTech\\Imposter\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tang Rufus",
+                "email": "tangrufus@gmail.com",
+                "homepage": "https://www.typist.tech",
+                "role": "Developer"
+            },
+            {
+                "name": "Typist Tech",
+                "email": "imposter@typist.tech",
+                "homepage": "https://www.typist.tech"
+            }
+        ],
+        "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+        "homepage": "https://www.typist.tech/projects/imposter",
+        "keywords": [
+            "composer",
+            "dependency",
+            "monkey-patching",
+            "namespace",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "typisttech/imposter-plugin",
+        "version": "0.2.6",
+        "version_normalized": "0.2.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypistTech/imposter-plugin.git",
+            "reference": "519d8b1a036516af81eb2b4bd7d87de6ab4a61ec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypistTech/imposter-plugin/zipball/519d8b1a036516af81eb2b4bd7d87de6ab4a61ec",
+            "reference": "519d8b1a036516af81eb2b4bd7d87de6ab4a61ec",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": "^7.0",
+            "typisttech/imposter": "^0.2.2"
+        },
+        "require-dev": {
+            "codeception/base": "^2.3",
+            "composer/composer": "^1.5",
+            "squizlabs/php_codesniffer": "^3.1",
+            "typisttech/codeception-composer-project-module": "^0.1.1"
+        },
+        "time": "2017-10-22T01:44:59+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "TypistTech\\Imposter\\Plugin\\ImposterPlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypistTech\\Imposter\\Plugin\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tang Rufus",
+                "email": "tangrufus@gmail.com",
+                "homepage": "https://www.typist.tech",
+                "role": "Developer"
+            },
+            {
+                "name": "Typist Tech",
+                "email": "imposter-plugin@typist.tech",
+                "homepage": "https://www.typist.tech"
+            }
+        ],
+        "description": "Composer plugin that wraps all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+        "homepage": "https://www.typist.tech/projects/imposter-plugin",
+        "keywords": [
+            "composer",
+            "composer-plugin",
+            "dependency",
+            "monkey-patching",
+            "namespace",
+            "wordpress"
+        ]
+    }
+]

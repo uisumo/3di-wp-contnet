@@ -1,0 +1,8 @@
+[28-Apr-2022 21:28:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/institute/public_html/wp-content/plugins/grassblade/addons/table_styles/functions.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/table_styles/functions.php on line 3
+[16-Jun-2022 01:39:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/institute/public_html/wp-content/plugins/grassblade/addons/table_styles/functions.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/table_styles/functions.php on line 3

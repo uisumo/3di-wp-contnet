@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5jM8YEUpIOw_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">15.0 - The Role of a Coach</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">15.0 - The Role of a Coach</name>
+			<description lang="und">15.0 - The Role of a Coach</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">15.1 Objectives</name>
+			<description lang="und">15.1 Objectives</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">15.2 - Definition of a Coach</name>
+			<description lang="und">15.2 - Definition of a Coach</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/60LA5sM1dwR" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What is your definition of a coach?</name>
+			<description lang="und">What is your definition of a coach?</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/60LA5sM1dwR/5gstnEzl7Ft" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What is your definition of a coach?</name>
+			<description lang="und">What is your definition of a coach?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6NYzAuehKIx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">In the 1500’s, a coach was defined as a covered carriage that takes a person of importance from where they are to where they want or need to go. </name>
+			<description lang="und">In the 1500’s, a coach was defined as a covered carriage that takes a person of importance from where they are to where they want or need to go. </description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6NYzAuehKIx/63npD5MnPVT" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">In the 1500’s, a coach was defined as a covered carriage that takes a person of importance from where they are to where they want or need to go. </name>
+			<description lang="und">In the 1500’s, a coach was defined as a covered carriage that takes a person of importance from where they are to where they want or need to go. </description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6c0XKLQENpy</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6c0XKLQENpy</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_5rJhIEHMkxL</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">15.3 Where are They?</name>
+			<description lang="und">15.3 Where are They?</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6O6k89wKnL4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“Margin” refers to the difference between our                  and our limits. </name>
+			<description lang="und">“Margin” refers to the difference between our                  and our limits. </description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6O6k89wKnL4/5jpcGu4625U" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">“Margin” refers to the difference between our                  and our limits. </name>
+			<description lang="und">“Margin” refers to the difference between our                  and our limits. </description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5epI4zXAuhH</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6E7HDdpJRRM</id>
+					<description lang="und">goals</description>
+				</component>
+				<component>
+					<id>choice_6hMZBqQ80ol</id>
+					<description lang="und">dreams</description>
+				</component>
+				<component>
+					<id>choice_6HBLj7yNGB9</id>
+					<description lang="und">hopes</description>
+				</component>
+				<component>
+					<id>choice_5epI4zXAuhH</id>
+					<description lang="und">load</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6LU5KArfiRP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Because competition eats away at the “margin” in an athlete’s life, it                                   .</name>
+			<description lang="und">Because competition eats away at the “margin” in an athlete’s life, it                                   .</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6LU5KArfiRP/66FTHsSnICL" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Because competition eats away at the “margin” in an athlete’s life, it                                   .</name>
+			<description lang="und">Because competition eats away at the “margin” in an athlete’s life, it                                   .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_679Iuz6H6WI</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_679Iuz6H6WI</id>
+					<description lang="und">requires recovery time</description>
+				</component>
+				<component>
+					<id>choice_6rAwEGUSDRo</id>
+					<description lang="und">should be avoided</description>
+				</component>
+				<component>
+					<id>choice_6Y6KVoNle3U</id>
+					<description lang="und">makes kids more resilient</description>
+				</component>
+				<component>
+					<id>choice_6QqV7PQJnvu</id>
+					<description lang="und">increases his/her capacity</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">15.4 Give and Grow</name>
+			<description lang="und">15.4 Give and Grow</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6glGVQ9Bkd1" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Review the “Mindset Graphic” linked above, then answer the following questions.</name>
+			<description lang="und">Review the “Mindset Graphic” linked above, then answer the following questions.</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6glGVQ9Bkd1/6Ghv7pFmbSe" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Review the “Mindset Graphic” linked above, then answer the following questions.</name>
+			<description lang="und">Review the “Mindset Graphic” linked above, then answer the following questions.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_68HNon99qRl[.]choice_68HNon99qRl</correctResponsePattern>
+				<correctResponsePattern>statement_6gKc6OKmQ3U[.]choice_6gKc6OKmQ3U</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_68HNon99qRl</id>
+					<description lang="und">Praising talent, intelligence and outcomes helps foster:</description>
+				</component>
+				<component>
+					<id>statement_6gKc6OKmQ3U</id>
+					<description lang="und">Praising effort, strategies and process helps foster:</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_68HNon99qRl</id>
+					<description lang="und">a fixed mindset</description>
+				</component>
+				<component>
+					<id>choice_6gKc6OKmQ3U</id>
+					<description lang="und">a growth mindset</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">15.5 - Right to Dream</name>
+			<description lang="und">15.5 - Right to Dream</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5jM8YEUpIOw_course_id/6fAJRO07G0Z" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

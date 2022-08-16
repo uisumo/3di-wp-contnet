@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5tu94QY3wd4_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">6.0 - Confidence II</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">6.0 - Confidence II</name>
+			<description lang="und">6.0 - Confidence II</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">6.1 Objectives</name>
+			<description lang="und">6.1 Objectives</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">6.2 Confident Mindset</name>
+			<description lang="und">6.2 Confident Mindset</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6npqmD8oTFV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Match each phrase with the attribution theory it best describes or demonstrates.</name>
+			<description lang="und">Match each phrase with the attribution theory it best describes or demonstrates.</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6npqmD8oTFV/6ZONA36rMH9" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Match each phrase with the attribution theory it best describes or demonstrates.</name>
+			<description lang="und">Match each phrase with the attribution theory it best describes or demonstrates.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5Wrg3iC6J2a[.]choice_5Wrg3iC6J2a</correctResponsePattern>
+				<correctResponsePattern>statement_6WIsaNjeMsl[.]choice_6WIsaNjeMsl</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5Wrg3iC6J2a</id>
+					<description lang="und">“I feel I can do the skill all the time.”</description>
+				</component>
+				<component>
+					<id>statement_6WIsaNjeMsl</id>
+					<description lang="und">“I believe I can succeed even when others around me begin to fail.”</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5Wrg3iC6J2a</id>
+					<description lang="und">Internal Attribution</description>
+				</component>
+				<component>
+					<id>choice_6WIsaNjeMsl</id>
+					<description lang="und">External Attribution</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">6.3 Success</name>
+			<description lang="und">6.3 Success</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5UsoZxSwKO6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Global attribution is demonstrated when an athlete:</name>
+			<description lang="und">Global attribution is demonstrated when an athlete:</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5UsoZxSwKO6/6PCqoZZo4GC" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Global attribution is demonstrated when an athlete:</name>
+			<description lang="und">Global attribution is demonstrated when an athlete:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6CTsFCYHAxi</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5WyzItUCBWA</id>
+					<description lang="und">doesn’t blame others when things go wrong.</description>
+				</component>
+				<component>
+					<id>choice_6CTsFCYHAxi</id>
+					<description lang="und">believes that he/she can do other things in life well too, just like on the athletic field.</description>
+				</component>
+				<component>
+					<id>choice_62F6XOkhsSd</id>
+					<description lang="und">takes responsibility for factors that are under his/her control.</description>
+				</component>
+				<component>
+					<id>choice_6dOY31dnyFV</id>
+					<description lang="und">learns to attribute success to global factors that are out of his/her control.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">6.4 Stability</name>
+			<description lang="und">6.4 Stability</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6bn5vSROQnr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When athletes begin to believe that their success in athletics will lead to success in the future, it’s called:</name>
+			<description lang="und">When athletes begin to believe that their success in athletics will lead to success in the future, it’s called:</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6bn5vSROQnr/5mQQOlLV0FO" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">When athletes begin to believe that their success in athletics will lead to success in the future, it’s called:</name>
+			<description lang="und">When athletes begin to believe that their success in athletics will lead to success in the future, it’s called:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6jcv4GhVS0C</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6jcv4GhVS0C</id>
+					<description lang="und">stable attribution</description>
+				</component>
+				<component>
+					<id>choice_5pgEa7p5P2q</id>
+					<description lang="und">global attribution</description>
+				</component>
+				<component>
+					<id>choice_5VOwFop2z6C</id>
+					<description lang="und">interpersonal attribution</description>
+				</component>
+				<component>
+					<id>choice_66DlAuffO67</id>
+					<description lang="und">dispositional attribution</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6Izz4n47Xeo" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Every training and competitive experience offers information that can either BUILD or HARM an athlete’s confidence!</name>
+			<description lang="und">Every training and competitive experience offers information that can either BUILD or HARM an athlete’s confidence!</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6Izz4n47Xeo/6LPUtUjL08r" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Every training and competitive experience offers information that can either BUILD or HARM an athlete’s confidence!</name>
+			<description lang="und">Every training and competitive experience offers information that can either BUILD or HARM an athlete’s confidence!</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_63z6CBjsbpf</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_63z6CBjsbpf</id>
+					<description lang="und">Reality Check</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">6.5 Banquet Letters</name>
+			<description lang="und">6.5 Banquet Letters</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5tu94QY3wd4_course_id/69sLC28Dsnw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

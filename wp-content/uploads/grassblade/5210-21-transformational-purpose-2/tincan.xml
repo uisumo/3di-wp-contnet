@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6KZmoH9OTKf_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">21.1 - Objectives</name>
+			<description lang="und">21.1 - Objectives</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">21.2 - Formula For Change</name>
+			<description lang="und">21.2 - Formula For Change</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6KlfdS7GHSo" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formula For Change</name>
+			<description lang="und">Formula For Change</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6KlfdS7GHSo/6kOmjY9DzqX" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6bXI6N9QHOP[.]choice_5YEqTa7Qo6C</correctResponsePattern>
+				<correctResponsePattern>statement_5dNs04HfHlI[.]choice_5ee5yHNISSo</correctResponsePattern>
+				<correctResponsePattern>statement_5Wr43L8FDx1[.]choice_608k5nTt3QJ</correctResponsePattern>
+				<correctResponsePattern>statement_6SMrHanFwEe[.]choice_5t1wRARm4JU</correctResponsePattern>
+				<correctResponsePattern>statement_5bTPl8xMoAU[.]choice_63zUubeJN6J</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6bXI6N9QHOP</id>
+					<description lang="und">Text Box 2 - C</description>
+				</component>
+				<component>
+					<id>statement_5dNs04HfHlI</id>
+					<description lang="und">Text Box 6 - D</description>
+				</component>
+				<component>
+					<id>statement_5Wr43L8FDx1</id>
+					<description lang="und">Text Box 7 - V</description>
+				</component>
+				<component>
+					<id>statement_6SMrHanFwEe</id>
+					<description lang="und">Text Box 8 - F</description>
+				</component>
+				<component>
+					<id>statement_5bTPl8xMoAU</id>
+					<description lang="und">Text Box 9 - R</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5YEqTa7Qo6C</id>
+					<description lang="und">Text Box 4 - Change</description>
+				</component>
+				<component>
+					<id>choice_5ee5yHNISSo</id>
+					<description lang="und">Text Box 10 - Discontent</description>
+				</component>
+				<component>
+					<id>choice_608k5nTt3QJ</id>
+					<description lang="und">Text Box 14 - Vision</description>
+				</component>
+				<component>
+					<id>choice_5t1wRARm4JU</id>
+					<description lang="und">Text Box 18 - First Steps</description>
+				</component>
+				<component>
+					<id>choice_63zUubeJN6J</id>
+					<description lang="und">Text Box 19 - Resistance</description>
+				</component>
+				<component>
+					<id>choice_6LBZXEPo46i</id>
+					<description lang="und">Text Box 3 - Courage</description>
+				</component>
+				<component>
+					<id>choice_6WkJ8IdtD9A</id>
+					<description lang="und">Text Box 5 - Challenges</description>
+				</component>
+				<component>
+					<id>choice_5bZRMSjU2u8</id>
+					<description lang="und">Text Box 11 - Distance</description>
+				</component>
+				<component>
+					<id>choice_6F1mrDtdf5s</id>
+					<description lang="und">Text Box 12 - Drive</description>
+				</component>
+				<component>
+					<id>choice_6P7lkBnAbmv</id>
+					<description lang="und">Text Box 13 - Values</description>
+				</component>
+				<component>
+					<id>choice_5fJStKcEdEE</id>
+					<description lang="und">Text Box 15 - Valor</description>
+				</component>
+				<component>
+					<id>choice_5dCFKEIAhbK</id>
+					<description lang="und">Text Box 16 - Fortitude</description>
+				</component>
+				<component>
+					<id>choice_5gJ5yhNIZVD</id>
+					<description lang="und">Text Box 17 - Force</description>
+				</component>
+				<component>
+					<id>choice_6H36qPuWzpQ</id>
+					<description lang="und">Text Box 20 - Resiliency</description>
+				</component>
+				<component>
+					<id>choice_5djM7chSmQw</id>
+					<description lang="und">Text Box 21 - Range</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5cqcrc80bsk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The “Resistance” column represents the people who can (check all that apply):</name>
+			<description lang="und">The “Resistance” column represents the people who can (check all that apply):</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5cqcrc80bsk/6JIwM1vINp0" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The “Resistance” column represents the people who can (check all that apply):</name>
+			<description lang="und">The “Resistance” column represents the people who can (check all that apply):</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6Oxi7rgIusY</correctResponsePattern>
+				<correctResponsePattern>choice_6QRx6KNiBco</correctResponsePattern>
+				<correctResponsePattern>choice_6lcKCE2WiF1</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Oxi7rgIusY</id>
+					<description lang="und">Stop it from happening</description>
+				</component>
+				<component>
+					<id>choice_6QRx6KNiBco</id>
+					<description lang="und">Allow it to happen</description>
+				</component>
+				<component>
+					<id>choice_6lcKCE2WiF1</id>
+					<description lang="und">Make it happen</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">21.3 - Be The Change</name>
+			<description lang="und">21.3 - Be The Change</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6Ju2sJNU4jY" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“BE” THE CHANGE…
+Check the box after you read each of the  following “be” statements.</name>
+			<description lang="und">“BE” THE CHANGE…
+Check the box after you read each of the  following “be” statements.</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6LWFF0k2uNC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Select Verb</name>
+			<description lang="und">Select Verb</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5nnXHZ9pa2e" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Noun</name>
+			<description lang="und">Noun</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5uMPU4mSfPI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Outcome</name>
+			<description lang="und">Outcome</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/69izh20Evxl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">21.4 - Purpose Statement</name>
+			<description lang="und">21.4 - Purpose Statement</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/69izh20Evxl/6LUMzBAL5vv" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Putting it all together: Write a single sentence (170 characters or less) using your verb, target, and outcome which incorporates your core values.</name>
+			<description lang="und">Putting it all together: Write a single sentence (170 characters or less) using your verb, target, and outcome which incorporates your core values.</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/6gTkKlw6QMG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">21.5 - Flesh Out the Framework</name>
+			<description lang="und">21.5 - Flesh Out the Framework</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/65bFP3Od9a5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6KZmoH9OTKf_course_id/5bwDmThhEal" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

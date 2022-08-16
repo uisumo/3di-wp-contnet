@@ -1,0 +1,14 @@
+{
+  "name": "say-what",
+  "devDependencies": {
+    "@wordpress/scripts": "^16.1.1",
+    "grunt": "^1.4.1",
+    "grunt-wp-i18n": "^1.0.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "dev": "wp-scripts start",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js"
+  }
+}

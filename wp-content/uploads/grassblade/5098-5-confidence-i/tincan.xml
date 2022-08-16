@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5wN4o7R2NNK_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">5.0 - Confidence I</description>
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6KQ5daPkfWz" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6TXHtf3Qrbv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.1 Objectives</name>
+			<description lang="und">5.1 Objectives</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6fgI3jJREIg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.2 Skill &amp; Belief</name>
+			<description lang="und">5.2 Skill &amp; Belief</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/5sS8iZ21H6X" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Confidence is defined as an individual’s
+that he/she has the necessary skills to produce a desired outcome.</name>
+			<description lang="und">Confidence is defined as an individual’s
+that he/she has the necessary skills to produce a desired outcome.</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/5sS8iZ21H6X/63W81Pej46h" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Confidence is defined as an individual’s
+that he/she has the necessary skills to produce a desired outcome.</name>
+			<description lang="und">Confidence is defined as an individual’s
+that he/she has the necessary skills to produce a desired outcome.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_63h61acfEXe</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5i4yievvsU8</id>
+					<description lang="und">knowledge</description>
+				</component>
+				<component>
+					<id>choice_63h61acfEXe</id>
+					<description lang="und">belief</description>
+				</component>
+				<component>
+					<id>choice_5axiIJ9rD4o</id>
+					<description lang="und">expectation</description>
+				</component>
+				<component>
+					<id>choice_6UfEGgM3RPg</id>
+					<description lang="und">assurance</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6orOtkvLqUx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.3 Building Confidence</name>
+			<description lang="und">5.3 Building Confidence</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/5jxVh91WpoQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">To help restore confidence when confidence is lost, a coach should remind athletes of                         .</name>
+			<description lang="und">To help restore confidence when confidence is lost, a coach should remind athletes of                         .</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/5jxVh91WpoQ/6mDuR2BZn4D" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">To help restore confidence when confidence is lost, a coach should remind athletes of                         .</name>
+			<description lang="und">To help restore confidence when confidence is lost, a coach should remind athletes of                         .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5zUHL5uMoKx</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5zUHL5uMoKx</id>
+					<description lang="und">past successes</description>
+				</component>
+				<component>
+					<id>choice_5bS22zTMOVk</id>
+					<description lang="und">past mistakes</description>
+				</component>
+				<component>
+					<id>choice_6eMqs0szQRo</id>
+					<description lang="und">performance cues</description>
+				</component>
+				<component>
+					<id>choice_5ikMV4vECI0</id>
+					<description lang="und">key indicators</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6ijxGO9EJXZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A coach can create experiences for athletes who are lacking confidence by creating opportunities for them to watch others succeed at a task/skill.</name>
+			<description lang="und">A coach can create experiences for athletes who are lacking confidence by creating opportunities for them to watch others succeed at a task/skill.</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6ijxGO9EJXZ/6GvBuP6sXMo" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">A coach can create experiences for athletes who are lacking confidence by creating opportunities for them to watch others succeed at a task/skill.</name>
+			<description lang="und">A coach can create experiences for athletes who are lacking confidence by creating opportunities for them to watch others succeed at a task/skill.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6YVgXT3hsmA</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5agKndsiDGK</id>
+					<description lang="und">persuading</description>
+				</component>
+				<component>
+					<id>choice_6oxJbUVN8tV</id>
+					<description lang="und">secondary</description>
+				</component>
+				<component>
+					<id>choice_6YVgXT3hsmA</id>
+					<description lang="und">vicarious</description>
+				</component>
+				<component>
+					<id>choice_6pBPf21rKZk</id>
+					<description lang="und">qualifying</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/60DhL2f48DA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When an athlete is lacking confidence, a coach should be very deliberate about offering verbal                       .</name>
+			<description lang="und">When an athlete is lacking confidence, a coach should be very deliberate about offering verbal                       .</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/60DhL2f48DA/6nhwhDtJiJa" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">When an athlete is lacking confidence, a coach should be very deliberate about offering verbal                       .</name>
+			<description lang="und">When an athlete is lacking confidence, a coach should be very deliberate about offering verbal                       .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5yWHwSlZoRz</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Q02fh5PGDy</id>
+					<description lang="und">criticism</description>
+				</component>
+				<component>
+					<id>choice_6rdrC0F4ufU</id>
+					<description lang="und">correction</description>
+				</component>
+				<component>
+					<id>choice_5yWHwSlZoRz</id>
+					<description lang="und">encouragement</description>
+				</component>
+				<component>
+					<id>choice_6IBrOR7x5mF</id>
+					<description lang="und">operants</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6UVGBJ1eqTe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.4 Putting Courage In</name>
+			<description lang="und">5.4 Putting Courage In</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6DBMeKmiFE5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">While offering words of verbal encouragement, it is more effective to offer general praise as opposed to specific feedback.</name>
+			<description lang="und">While offering words of verbal encouragement, it is more effective to offer general praise as opposed to specific feedback.</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6DBMeKmiFE5/5vbxBa9OHsF" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">While offering words of verbal encouragement, it is more effective to offer general praise as opposed to specific feedback.</name>
+			<description lang="und">While offering words of verbal encouragement, it is more effective to offer general praise as opposed to specific feedback.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6NDZVfENo5G</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5k7mFF9mplV</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_6NDZVfENo5G</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6hp1w4c7eO6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6PZdLawJag2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.5 Notes Home</name>
+			<description lang="und">5.5 Notes Home</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6KM5Vii4WqH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">5.6 The Power of Words</name>
+			<description lang="und">5.6 The Power of Words</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6om6vVlL10n" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6p93zl3aGUM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/6qr3sNHayTJ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5wN4o7R2NNK_course_id/5bsl9k5ePuE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

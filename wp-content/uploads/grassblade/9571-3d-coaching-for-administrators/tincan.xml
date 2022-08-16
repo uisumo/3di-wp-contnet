@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">3D Coaching for Administrators</name>
+      <description lang="en-US">&lt;p&gt;A course to help sport administrators understand how to implement the 3Dimensional Coaching training with their staff.&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/c-QTlvUh5pxRjIbtuuLBnEr9zhUrjTQt" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Introduction/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/e0SXaKsBvQgw0gOCu9lpuTY0jClALkts" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Building a Legacy/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/WY7M_qEsX2HVmoKj1wNI2LrSfE3xpLKq" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">A Foundation of Purpose/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/PtDm1Crn2mY9q-LPD26Ux2GsfSoueu6N" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">The 3D Framework/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/2U2c8fToBCxoboNroH4Sy6TFwj0t1n-I" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">The 3D Journey/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/_DRgN3D-jjr5HLSHfqCW4cnmsbLUdiqX" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Roadmap for the Journey/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/Fs3D337smr4pr1aCpDFihpeaWMMcDyAU" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Preview the Online Training/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/4SmM8gCRGT5vBAtL7xPdOQALHK99ZQAZ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Providing Accountability/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/feeSfhQq4YD6znVpYbFYwBpLW-zN-bPH" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Establishing the 3D Culture/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/RF8xviVUkEJfymv6XD2d5MpYTfuRnfdJ" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Engaging Parents/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/6-wgid9pF22MD2Axy4o4E0DOGxaGNHqL" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Process Driven Outcomes/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://H_EiFq7RuHn4L6rLwEeLlv3gZB9cA_Hy_rise/nQA0uFxpvfQUh2YFEOwv6zMMZdDn1KMy" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Make it Happen/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>

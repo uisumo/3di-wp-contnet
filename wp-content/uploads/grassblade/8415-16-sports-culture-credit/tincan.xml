@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5dH1v5DYweZ_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">16.0 - Sports Culture</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">16.0 - Sports Culture</name>
+			<description lang="und">16.0 - Sports Culture</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">16.1 Objectives</name>
+			<description lang="und">16.1 Objectives</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5i249mQGHRD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">16.2 Healthy Competition</name>
+			<description lang="und">16.2 Healthy Competition</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5n8rkc5PKtH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The word “Competition” is derived from the Latin word “Competere,” which means:</name>
+			<description lang="und">The word “Competition” is derived from the Latin word “Competere,” which means:</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5n8rkc5PKtH/5z6KfVxwAjW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The word “Competition” is derived from the Latin word “Competere,” which means:</name>
+			<description lang="und">The word “Competition” is derived from the Latin word “Competere,” which means:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6DTcNFBZU0D</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6DTcNFBZU0D</id>
+					<description lang="und">a coming together to agree; to strive together</description>
+				</component>
+				<component>
+					<id>choice_6aJzsxS18bA</id>
+					<description lang="und">rivalry for supremacy</description>
+				</component>
+				<component>
+					<id>choice_5sF5F0eBpjs</id>
+					<description lang="und">an occasion on which a winner is selected from among two or more contestants</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/68EK7Gtnnq0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Mark pointed out that an unhealthy understanding of competition can lead to a lack of                      on your own team.</name>
+			<description lang="und">Mark pointed out that an unhealthy understanding of competition can lead to a lack of                      on your own team.</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/68EK7Gtnnq0/5kEmH5pJmR0" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Mark pointed out that an unhealthy understanding of competition can lead to a lack of                      on your own team.</name>
+			<description lang="und">Mark pointed out that an unhealthy understanding of competition can lead to a lack of                      on your own team.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5fyp41Yj4tS</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Hdy1pryuVr</id>
+					<description lang="und">motivation</description>
+				</component>
+				<component>
+					<id>choice_5apKNxDlNbl</id>
+					<description lang="und">empathy</description>
+				</component>
+				<component>
+					<id>choice_6IIRVaugoSJ</id>
+					<description lang="und">leadership</description>
+				</component>
+				<component>
+					<id>choice_5fyp41Yj4tS</id>
+					<description lang="und">cohesion</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/6nHBs9Tz2KU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">If an opponent is viewed as an “enemy,” the physical nature of sport often escalates to become                    .</name>
+			<description lang="und">If an opponent is viewed as an “enemy,” the physical nature of sport often escalates to become                    .</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/6nHBs9Tz2KU/6Jipd7HU1nP" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">If an opponent is viewed as an “enemy,” the physical nature of sport often escalates to become                    .</name>
+			<description lang="und">If an opponent is viewed as an “enemy,” the physical nature of sport often escalates to become                    .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6Txx4e1Ougm</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6osq9TIWjtH</id>
+					<description lang="und">benevolent</description>
+				</component>
+				<component>
+					<id>choice_6E4LlWKefN6</id>
+					<description lang="und">apathetic</description>
+				</component>
+				<component>
+					<id>choice_6Txx4e1Ougm</id>
+					<description lang="und">violent</description>
+				</component>
+				<component>
+					<id>choice_5uBPARhuwlb</id>
+					<description lang="und">empathic</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5rJej2sbB3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">16.3 - Pressure</name>
+			<description lang="und">16.3 - Pressure</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5VRM63XohvB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The              moral reasoning study found that the longer kids are engaged in competitive athletics, the more it helped them make good moral choices.</name>
+			<description lang="und">The              moral reasoning study found that the longer kids are engaged in competitive athletics, the more it helped them make good moral choices.</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5VRM63XohvB/66fgb5P2CdF" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The              moral reasoning study found that the longer kids are engaged in competitive athletics, the more it helped them make good moral choices.</name>
+			<description lang="und">The              moral reasoning study found that the longer kids are engaged in competitive athletics, the more it helped them make good moral choices.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6X7LNu35jcp</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Hr4iIzVXuV</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_6X7LNu35jcp</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/6Nxk3X4QSyQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">16.4 - Compass &amp; Fuel</name>
+			<description lang="und">16.4 - Compass &amp; Fuel</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5xeHN3IUwif" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">16.5 Striving Together</name>
+			<description lang="und">16.5 Striving Together</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/6jtNfO1jtuK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5dH1v5DYweZ_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+	</activities>
+</tincan>

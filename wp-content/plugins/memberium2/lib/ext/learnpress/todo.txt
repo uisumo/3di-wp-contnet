@@ -1,0 +1,627 @@
+learndash_course_completed
+
+Array
+(
+    [user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 142
+                    [user_login] => david.bullock@gmail.com
+                    [user_pass] => $P$BgMOqhRXSug2ZGSAF3zNKeJdLvQih00
+                    [user_nicename] => david-bullock60
+                    [user_email] => david.bullock@gmail.com
+                    [user_url] =>
+                    [user_registered] => 2015-04-26 02:10:33
+                    [user_activation_key] =>
+                    [user_status] => 0
+                    [display_name] => David Bullock60
+                )
+
+            [ID] => 142
+            [caps] => Array
+                (
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [1] => subscriber
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [level_0] => 1
+                    [access_optimizemember_level0] => 1
+                    [connections_view_public] => 1
+                    [edit_posts] => 1
+                    [connections_add_entry] => 1
+                    [connections_edit_entry] => 1
+                    [connections_add_entry_moderated] => 1
+                    [connections_edit_entry_moderated] => 1
+                    [vc_access_rules_post_types] => 1
+                    [vc_access_rules_backend_editor] => 1
+                    [vc_access_rules_frontend_editor] => 1
+                    [vc_access_rules_post_settings] => 1
+                    [vc_access_rules_templates] => 1
+                    [vc_access_rules_shortcodes] => 1
+                    [vc_access_rules_grid_builder] => 1
+                    [vc_access_rules_presets] => 1
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [filter] =>
+        )
+
+    [course] => WP_Post Object
+        (
+            [ID] => 1016
+            [post_author] => 1
+            [post_date] => 2014-09-13 00:04:04
+            [post_date_gmt] => 2014-09-13 07:04:04
+            [post_content] => [vc_row][vc_column][vc_column_text][memb_is_admin][/vc_column_text][vc_column_text]Only show to admins[/vc_column_text][vc_column_text][/memb_is_admin][/vc_column_text][vc_column_text][learndash_course_progress course_id="1016"]
+<div class="lms-post-content">
+
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. H'hafh'drn ilyaa nnnHastur nggnaiih, s'uhn f'R'lyeh grah'n athg naflwgah'n hafh'drn bug sll'ha. Kn'a ah lloig r'luhog uaaah ehye Azathoth sll'ha, kn'a fm'latgh ngfhtagn kn'a Nyarlathotep shtunggli cvulgtlagln, fhtagn shagg geb bugagl naNyarlathotep nagrah'n. Gof'nn cilyaa orr'e nnnshogg shtunggli gotha nwoth Hastur throd <strong>Dagonoth ep Dagonoth, vulgtm zhro k'yarnak sgn'wahl nnnee uln kadishtu r'luh sgn'wahl uln nggrah'n, hrii Nyarlathotep wgah'n naflstell'bsna gotha hai throd nog Nyarlathotep ebunma. F'stell'bsna</strong> shtunggli gotha Cthulhu gof'nn s'uhn k'yarnak n'ghft nghrii nog uaaah 'fhalma ooboshu, ngluiog Hastur uaaah ftaghu ch' Nyarlathotepyar vulgtlagln nashogg Nyarlathotep hrii shogg.
+
+&nbsp;
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]
+            [post_title] => Test Course
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test-course
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-06-01 18:21:20
+            [post_modified_gmt] => 2016-06-02 01:21:20
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-courses&#038;p=1016
+            [menu_order] => 0
+            [post_type] => sfwd-courses
+            [post_mime_type] =>
+            [comment_count] => 1
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [progress] => Array
+        (
+            [1016] => Array
+                (
+                    [lessons] => Array
+                        (
+                            [1086] => 1
+                            [1110] => 1
+                            [3034] => 1
+                        )
+
+                    [topics] => Array
+                        (
+                            [1086] => Array
+                                (
+                                    [1088] => 1
+                                )
+
+                        )
+
+                    [completed] => 4
+                    [total] => 4
+                    [last_id] => 3034
+                )
+
+        )
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+learndash_lesson_completed
+
+Array
+(
+    [user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 142
+                    [user_login] => david.bullock@gmail.com
+                    [user_pass] => $P$BgMOqhRXSug2ZGSAF3zNKeJdLvQih00
+                    [user_nicename] => david-bullock60
+                    [user_email] => david.bullock@gmail.com
+                    [user_url] =>
+                    [user_registered] => 2015-04-26 02:10:33
+                    [user_activation_key] =>
+                    [user_status] => 0
+                    [display_name] => David Bullock60
+                )
+
+            [ID] => 142
+            [caps] => Array
+                (
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [1] => subscriber
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [level_0] => 1
+                    [access_optimizemember_level0] => 1
+                    [connections_view_public] => 1
+                    [edit_posts] => 1
+                    [connections_add_entry] => 1
+                    [connections_edit_entry] => 1
+                    [connections_add_entry_moderated] => 1
+                    [connections_edit_entry_moderated] => 1
+                    [vc_access_rules_post_types] => 1
+                    [vc_access_rules_backend_editor] => 1
+                    [vc_access_rules_frontend_editor] => 1
+                    [vc_access_rules_post_settings] => 1
+                    [vc_access_rules_templates] => 1
+                    [vc_access_rules_shortcodes] => 1
+                    [vc_access_rules_grid_builder] => 1
+                    [vc_access_rules_presets] => 1
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [filter] =>
+        )
+
+    [course] => WP_Post Object
+        (
+            [ID] => 1016
+            [post_author] => 1
+            [post_date] => 2014-09-13 00:04:04
+            [post_date_gmt] => 2014-09-13 07:04:04
+            [post_content] => [vc_row][vc_column][vc_column_text][memb_is_admin][/vc_column_text][vc_column_text]Only show to admins[/vc_column_text][vc_column_text][/memb_is_admin][/vc_column_text][vc_column_text][learndash_course_progress course_id="1016"]
+<div class="lms-post-content">
+
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. H'hafh'drn ilyaa nnnHastur nggnaiih, s'uhn f'R'lyeh grah'n athg naflwgah'n hafh'drn bug sll'ha. Kn'a ah lloig r'luhog uaaah ehye Azathoth sll'ha, kn'a fm'latgh ngfhtagn kn'a Nyarlathotep shtunggli cvulgtlagln, fhtagn shagg geb bugagl naNyarlathotep nagrah'n. Gof'nn cilyaa orr'e nnnshogg shtunggli gotha nwoth Hastur throd <strong>Dagonoth ep Dagonoth, vulgtm zhro k'yarnak sgn'wahl nnnee uln kadishtu r'luh sgn'wahl uln nggrah'n, hrii Nyarlathotep wgah'n naflstell'bsna gotha hai throd nog Nyarlathotep ebunma. F'stell'bsna</strong> shtunggli gotha Cthulhu gof'nn s'uhn k'yarnak n'ghft nghrii nog uaaah 'fhalma ooboshu, ngluiog Hastur uaaah ftaghu ch' Nyarlathotepyar vulgtlagln nashogg Nyarlathotep hrii shogg.
+
+&nbsp;
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]
+            [post_title] => Test Course
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test-course
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-06-01 18:21:20
+            [post_modified_gmt] => 2016-06-02 01:21:20
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-courses&#038;p=1016
+            [menu_order] => 0
+            [post_type] => sfwd-courses
+            [post_mime_type] =>
+            [comment_count] => 1
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [lesson] => WP_Post Object
+        (
+            [ID] => 3034
+            [post_author] => 1
+            [post_date] => 2016-02-08 23:14:13
+            [post_date_gmt] => 2016-02-09 07:14:13
+            [post_content] =>
+            [post_title] => Permissions Test
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => permissions-test
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2017-01-19 08:22:36
+            [post_modified_gmt] => 2017-01-19 16:22:36
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-lessons&#038;p=3034
+            [menu_order] => 0
+            [post_type] => sfwd-lessons
+            [post_mime_type] =>
+            [comment_count] => 0
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [progress] => Array
+        (
+            [1016] => Array
+                (
+                    [lessons] => Array
+                        (
+                            [1110] => 1
+                            [1086] => 1
+                            [3034] => 1
+                        )
+
+                    [topics] => Array
+                        (
+                            [1086] => Array
+                                (
+                                    [1088] => 1
+                                )
+
+                        )
+
+                    [completed] => 4
+                    [total] => 4
+                    [last_id] => 3034
+                )
+
+        )
+
+)
+
+
+
+
+
+learndash_topic_completed
+
+Array
+(
+    [user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 142
+                    [user_login] => david.bullock@gmail.com
+                    [user_pass] => $P$BgMOqhRXSug2ZGSAF3zNKeJdLvQih00
+                    [user_nicename] => david-bullock60
+                    [user_email] => david.bullock@gmail.com
+                    [user_url] =>
+                    [user_registered] => 2015-04-26 02:10:33
+                    [user_activation_key] =>
+                    [user_status] => 0
+                    [display_name] => David Bullock60
+                )
+
+            [ID] => 142
+            [caps] => Array
+                (
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [1] => subscriber
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [level_0] => 1
+                    [access_optimizemember_level0] => 1
+                    [connections_view_public] => 1
+                    [edit_posts] => 1
+                    [connections_add_entry] => 1
+                    [connections_edit_entry] => 1
+                    [connections_add_entry_moderated] => 1
+                    [connections_edit_entry_moderated] => 1
+                    [vc_access_rules_post_types] => 1
+                    [vc_access_rules_backend_editor] => 1
+                    [vc_access_rules_frontend_editor] => 1
+                    [vc_access_rules_post_settings] => 1
+                    [vc_access_rules_templates] => 1
+                    [vc_access_rules_shortcodes] => 1
+                    [vc_access_rules_grid_builder] => 1
+                    [vc_access_rules_presets] => 1
+                    [] => 1
+                    [subscriber] => 1
+                )
+
+            [filter] =>
+        )
+
+    [course] => WP_Post Object
+        (
+            [ID] => 1016
+            [post_author] => 1
+            [post_date] => 2014-09-13 00:04:04
+            [post_date_gmt] => 2014-09-13 07:04:04
+            [post_content] => [vc_row][vc_column][vc_column_text][memb_is_admin][/vc_column_text][vc_column_text]Only show to admins[/vc_column_text][vc_column_text][/memb_is_admin][/vc_column_text][vc_column_text][learndash_course_progress course_id="1016"]
+<div class="lms-post-content">
+
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. H'hafh'drn ilyaa nnnHastur nggnaiih, s'uhn f'R'lyeh grah'n athg naflwgah'n hafh'drn bug sll'ha. Kn'a ah lloig r'luhog uaaah ehye Azathoth sll'ha, kn'a fm'latgh ngfhtagn kn'a Nyarlathotep shtunggli cvulgtlagln, fhtagn shagg geb bugagl naNyarlathotep nagrah'n. Gof'nn cilyaa orr'e nnnshogg shtunggli gotha nwoth Hastur throd <strong>Dagonoth ep Dagonoth, vulgtm zhro k'yarnak sgn'wahl nnnee uln kadishtu r'luh sgn'wahl uln nggrah'n, hrii Nyarlathotep wgah'n naflstell'bsna gotha hai throd nog Nyarlathotep ebunma. F'stell'bsna</strong> shtunggli gotha Cthulhu gof'nn s'uhn k'yarnak n'ghft nghrii nog uaaah 'fhalma ooboshu, ngluiog Hastur uaaah ftaghu ch' Nyarlathotepyar vulgtlagln nashogg Nyarlathotep hrii shogg.
+
+&nbsp;
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]
+            [post_title] => Test Course
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test-course
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-06-01 18:21:20
+            [post_modified_gmt] => 2016-06-02 01:21:20
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-courses&#038;p=1016
+            [menu_order] => 0
+            [post_type] => sfwd-courses
+            [post_mime_type] =>
+            [comment_count] => 1
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [lesson] => WP_Post Object
+        (
+            [ID] => 1086
+            [post_author] => 1
+            [post_date] => 2014-10-03 04:40:42
+            [post_date_gmt] => 2014-10-03 04:40:42
+            [post_content] =>
+            [post_title] => Test Lesson
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test-lesson
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-11-06 17:10:39
+            [post_modified_gmt] => 2016-11-07 01:10:39
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-lessons&#038;p=1086
+            [menu_order] => 7
+            [post_type] => sfwd-lessons
+            [post_mime_type] =>
+            [comment_count] => 0
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [topic] => WP_Post Object
+        (
+            [ID] => 1088
+            [post_author] => 1
+            [post_date] => 2014-10-04 14:40:08
+            [post_date_gmt] => 2014-10-04 14:40:08
+            [post_content] =>
+            [post_title] => Test Topic
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] =>
+            [post_name] => test-topic
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2014-10-04 14:40:08
+            [post_modified_gmt] => 2014-10-04 14:40:08
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-topic&#038;p=1088
+            [menu_order] => 4
+            [post_type] => sfwd-topic
+            [post_mime_type] =>
+            [comment_count] => 0
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [progress] => Array
+        (
+            [1016] => Array
+                (
+                    [lessons] => Array
+                        (
+                        )
+
+                    [topics] => Array
+                        (
+                            [1086] => Array
+                                (
+                                    [1088] => 1
+                                )
+
+                        )
+
+                    [completed] => 1
+                    [total] => 4
+                    [last_id] => 1088
+                )
+
+        )
+
+)
+
+
+
+
+
+
+
+learndash_quiz_completed
+
+Array
+(
+    [quiz] => WP_Post Object
+        (
+            [ID] => 1090
+            [post_author] => 1
+            [post_date] => 2014-10-04 14:32:23
+            [post_date_gmt] => 2014-10-04 14:32:23
+            [post_content] => This is the test quiz
+            [post_title] => Test Quiz
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-11-06 17:12:07
+            [post_modified_gmt] => 2016-11-07 01:12:07
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-quiz&#038;p=1090
+            [menu_order] => 4
+            [post_type] => sfwd-quiz
+            [post_mime_type] =>
+            [comment_count] => 1
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [score] => 2
+    [count] => 2
+    [question_show_count] => 2
+    [pass] => 1
+    [rank] => -
+    [time] => 1484844130
+    [pro_quizid] => 1
+    [points] => 2
+    [total_points] => 2
+    [percentage] => 100
+    [timespent] => 14.458
+    [has_graded] =>
+    [statistic_ref_id] =>
+    [started] => 1484844112
+    [completed] => 1484844127
+    [course] => WP_Post Object
+        (
+            [ID] => 1016
+            [post_author] => 1
+            [post_date] => 2014-09-13 00:04:04
+            [post_date_gmt] => 2014-09-13 07:04:04
+            [post_content] => [vc_row][vc_column][vc_column_text][memb_is_admin][/vc_column_text][vc_column_text]Only show to admins[/vc_column_text][vc_column_text][/memb_is_admin][/vc_column_text][vc_column_text][learndash_course_progress course_id="1016"]
+<div class="lms-post-content">
+
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. H'hafh'drn ilyaa nnnHastur nggnaiih, s'uhn f'R'lyeh grah'n athg naflwgah'n hafh'drn bug sll'ha. Kn'a ah lloig r'luhog uaaah ehye Azathoth sll'ha, kn'a fm'latgh ngfhtagn kn'a Nyarlathotep shtunggli cvulgtlagln, fhtagn shagg geb bugagl naNyarlathotep nagrah'n. Gof'nn cilyaa orr'e nnnshogg shtunggli gotha nwoth Hastur throd <strong>Dagonoth ep Dagonoth, vulgtm zhro k'yarnak sgn'wahl nnnee uln kadishtu r'luh sgn'wahl uln nggrah'n, hrii Nyarlathotep wgah'n naflstell'bsna gotha hai throd nog Nyarlathotep ebunma. F'stell'bsna</strong> shtunggli gotha Cthulhu gof'nn s'uhn k'yarnak n'ghft nghrii nog uaaah 'fhalma ooboshu, ngluiog Hastur uaaah ftaghu ch' Nyarlathotepyar vulgtlagln nashogg Nyarlathotep hrii shogg.
+
+&nbsp;
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]
+            [post_title] => Test Course
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => test-course
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2016-06-01 18:21:20
+            [post_modified_gmt] => 2016-06-02 01:21:20
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => http://sandbox2.memberium.com/?post_type=sfwd-courses&#038;p=1016
+            [menu_order] => 0
+            [post_type] => sfwd-courses
+            [post_mime_type] =>
+            [comment_count] => 1
+            [filter] => raw
+            [webinar_id] => 0
+        )
+
+    [questions] => Array
+        (
+            [0] => WpProQuiz_Model_Question Object
+                (
+                    [_id:protected] => 1
+                    [_quizId:protected] => 1
+                    [_sort:protected] => 0
+                    [_title:protected] => Army of....
+                    [_question:protected] => What is the Army of....?
+                    [_correctMsg:protected] => HAIL TO THE KING BABY!
+                    [_incorrectMsg:protected] =>
+                    [_answerType:protected] => single
+                    [_correctSameText:protected] =>
+                    [_tipEnabled:protected] =>
+                    [_tipMsg:protected] =>
+                    [_points:protected] => 1
+                    [_showPointsInBox:protected] =>
+                    [_answerPointsActivated:protected] =>
+                    [_answerData:protected] => a:2:{i:0;O:27:"WpProQuiz_Model_AnswerTypes":7:{s:10:" * _answer";s:7:"Cabbage";s:8:" * _html";b:0;s:10:" * _points";i:1;s:11:" * _correct";b:0;s:14:" * _sortString";s:0:"";s:18:" * _sortStringHtml";b:0;s:10:" * _mapper";N;}i:1;O:27:"WpProQuiz_Model_AnswerTypes":7:{s:10:" * _answer";s:8:"Darkness";s:8:" * _html";b:0;s:10:" * _points";i:1;s:11:" * _correct";b:1;s:14:" * _sortString";s:0:"";s:18:" * _sortStringHtml";b:0;s:10:" * _mapper";N;}}
+                    [_categoryId:protected] => 0
+                    [_categoryName:protected] =>
+                    [_answerPointsDiffModusActivated:protected] =>
+                    [_disableCorrect:protected] =>
+                    [_matrixSortAnswerCriteriaWidth:protected] => 20
+                    [_mapper:protected] =>
+                )
+
+            [1] => WpProQuiz_Model_Question Object
+                (
+                    [_id:protected] => 2
+                    [_quizId:protected] => 1
+                    [_sort:protected] => 1
+                    [_title:protected] => Give me some?
+                    [_question:protected] => Give me some...?
+                    [_correctMsg:protected] => HAIL TO THE KING, BABY!
+                    [_incorrectMsg:protected] => So solly
+                    [_answerType:protected] => multiple
+                    [_correctSameText:protected] =>
+                    [_tipEnabled:protected] =>
+                    [_tipMsg:protected] =>
+                    [_points:protected] => 1
+                    [_showPointsInBox:protected] =>
+                    [_answerPointsActivated:protected] =>
+                    [_answerData:protected] => a:3:{i:0;O:27:"WpProQuiz_Model_AnswerTypes":7:{s:10:" * _answer";s:5:"Sugar";s:8:" * _html";b:0;s:10:" * _points";i:1;s:11:" * _correct";b:1;s:14:" * _sortString";s:0:"";s:18:" * _sortStringHtml";b:0;s:10:" * _mapper";N;}i:1;O:27:"WpProQuiz_Model_AnswerTypes":7:{s:10:" * _answer";s:13:"Pumpkin Spice";s:8:" * _html";b:0;s:10:" * _points";i:1;s:11:" * _correct";b:0;s:14:" * _sortString";s:0:"";s:18:" * _sortStringHtml";b:0;s:10:" * _mapper";N;}i:2;O:27:"WpProQuiz_Model_AnswerTypes":7:{s:10:" * _answer";s:5:"What?";s:8:" * _html";b:0;s:10:" * _points";i:1;s:11:" * _correct";b:0;s:14:" * _sortString";s:0:"";s:18:" * _sortStringHtml";b:0;s:10:" * _mapper";N;}}
+                    [_categoryId:protected] => 0
+                    [_categoryName:protected] =>
+                    [_answerPointsDiffModusActivated:protected] =>
+                    [_disableCorrect:protected] =>
+                    [_matrixSortAnswerCriteriaWidth:protected] => 20
+                    [_mapper:protected] =>
+                )
+
+        )
+
+)

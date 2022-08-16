@@ -1,0 +1,614 @@
+[INFO]-[2022/05/26 21:22:04] Cloning: 1653618123160's clone job's data is not in database, generating data
+[INFO]-[2022/05/26 21:22:04] DB Copy: Creating table wpstg0_UPCP_Catalogue_Items
+[INFO]-[2022/05/26 21:22:04] DB Copy: Table wp_UPCP_Catalogue_Items contains 31 rows 
+[INFO]-[2022/05/26 21:22:04] DB Copy: Copy data from wp_UPCP_Catalogue_Items to wpstg0_UPCP_Catalogue_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:04] DB Copy: Creating table wpstg0_UPCP_Catalogues
+[INFO]-[2022/05/26 21:22:04] DB Copy: Table wp_UPCP_Catalogues contains 3 rows 
+[INFO]-[2022/05/26 21:22:04] DB Copy: Copy data from wp_UPCP_Catalogues to wpstg0_UPCP_Catalogues - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:04] DB Copy: Creating table wpstg0_UPCP_Categories
+[INFO]-[2022/05/26 21:22:04] DB Copy: Table wp_UPCP_Categories contains 4 rows 
+[INFO]-[2022/05/26 21:22:04] DB Copy: Copy data from wp_UPCP_Categories to wpstg0_UPCP_Categories - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:04] DB Copy: Creating table wpstg0_UPCP_Custom_Fields
+[INFO]-[2022/05/26 21:22:04] DB Copy: Table wp_UPCP_Custom_Fields contains 0 rows 
+[INFO]-[2022/05/26 21:22:04] DB Copy: Creating table wpstg0_UPCP_Fields_Meta
+[INFO]-[2022/05/26 21:22:04] DB Copy: Table wp_UPCP_Fields_Meta contains 0 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Item_Images
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Item_Images contains 0 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Items
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Items contains 21 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_UPCP_Items to wpstg0_UPCP_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_SubCategories
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_SubCategories contains 2 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_UPCP_SubCategories to wpstg0_UPCP_SubCategories - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Tag_Groups
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Tag_Groups contains 3 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_UPCP_Tag_Groups to wpstg0_UPCP_Tag_Groups - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Tagged_Items
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Tagged_Items contains 23 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_UPCP_Tagged_Items to wpstg0_UPCP_Tagged_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Tags
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Tags contains 3 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_UPCP_Tags to wpstg0_UPCP_Tags - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_UPCP_Videos
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_UPCP_Videos contains 0 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Creating table wpstg0_actionscheduler_actions
+[INFO]-[2022/05/26 21:22:05] DB Copy: Table wp_actionscheduler_actions contains 1275 rows 
+[INFO]-[2022/05/26 21:22:05] DB Copy: Copy data from wp_actionscheduler_actions to wpstg0_actionscheduler_actions - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_actionscheduler_claims
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_actionscheduler_claims contains 1 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_actionscheduler_claims to wpstg0_actionscheduler_claims - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_actionscheduler_groups
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_actionscheduler_groups contains 5 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_actionscheduler_groups to wpstg0_actionscheduler_groups - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_actionscheduler_logs
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_actionscheduler_logs contains 3825 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_actionscheduler_logs to wpstg0_actionscheduler_logs - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_advanced_notification_triggers
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_advanced_notification_triggers contains 1 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_advanced_notification_triggers to wpstg0_advanced_notification_triggers - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_advanced_notifications
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_advanced_notifications contains 1 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_advanced_notifications to wpstg0_advanced_notifications - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_amz_assets
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_amz_assets contains 6 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_amz_assets to wpstg0_amz_assets - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_amz_cross_sell
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_amz_cross_sell contains 1 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_amz_cross_sell to wpstg0_amz_cross_sell - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:06] DB Copy: Creating table wpstg0_amz_products
+[INFO]-[2022/05/26 21:22:06] DB Copy: Table wp_amz_products contains 2 rows 
+[INFO]-[2022/05/26 21:22:06] DB Copy: Copy data from wp_amz_products to wpstg0_amz_products - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_amz_queue
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_amz_queue contains 0 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_amz_report_log
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_amz_report_log contains 437 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Copy data from wp_amz_report_log to wpstg0_amz_report_log - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_amz_searches
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_amz_searches contains 0 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_bwg_album
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_bwg_album contains 0 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_bwg_album_gallery
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_bwg_album_gallery contains 0 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_bwg_gallery
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_bwg_gallery contains 11 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Copy data from wp_bwg_gallery to wpstg0_bwg_gallery - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_bwg_image
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_bwg_image contains 38 rows 
+[INFO]-[2022/05/26 21:22:07] DB Copy: Copy data from wp_bwg_image to wpstg0_bwg_image - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:07] DB Copy: Creating table wpstg0_bwg_image_comment
+[INFO]-[2022/05/26 21:22:07] DB Copy: Table wp_bwg_image_comment contains 0 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_bwg_image_rate
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_bwg_image_rate contains 0 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_bwg_image_tag
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_bwg_image_tag contains 0 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_bwg_option
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_bwg_option contains 1 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_bwg_option to wpstg0_bwg_option - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_bwg_shortcode
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_bwg_shortcode contains 12 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_bwg_shortcode to wpstg0_bwg_shortcode - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_bwg_theme
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_bwg_theme contains 2 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_bwg_theme to wpstg0_bwg_theme - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_cart_notices
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_cart_notices contains 4 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_cart_notices to wpstg0_cart_notices - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:08] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2022/05/26 21:22:08] DB Copy: Table wp_commentmeta contains 40347 rows 
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:08] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 10000 to 20000 records
+[INFO]-[2022/05/26 21:22:09] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 20000 to 30000 records
+[INFO]-[2022/05/26 21:22:09] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 30000 to 40000 records
+[INFO]-[2022/05/26 21:22:09] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 40000 to 50000 records
+[INFO]-[2022/05/26 21:22:09] DB Copy: Creating table wpstg0_comments
+[INFO]-[2022/05/26 21:22:09] DB Copy: Table wp_comments contains 41551 rows 
+[INFO]-[2022/05/26 21:22:09] DB Copy: Copy data from wp_comments to wpstg0_comments - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:09] DB Copy: Copy data from wp_comments to wpstg0_comments - 10000 to 20000 records
+[INFO]-[2022/05/26 21:22:10] DB Copy: Copy data from wp_comments to wpstg0_comments - 20000 to 30000 records
+[INFO]-[2022/05/26 21:22:10] DB Copy: Copy data from wp_comments to wpstg0_comments - 30000 to 40000 records
+[INFO]-[2022/05/26 21:22:10] DB Copy: Copy data from wp_comments to wpstg0_comments - 40000 to 50000 records
+[INFO]-[2022/05/26 21:22:10] DB Copy: Creating table wpstg0_connections
+[INFO]-[2022/05/26 21:22:10] DB Copy: Table wp_connections contains 1 rows 
+[INFO]-[2022/05/26 21:22:10] DB Copy: Copy data from wp_connections to wpstg0_connections - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:10] DB Copy: Creating table wpstg0_connections_address
+[INFO]-[2022/05/26 21:22:10] DB Copy: Table wp_connections_address contains 0 rows 
+[INFO]-[2022/05/26 21:22:10] DB Copy: Creating table wpstg0_connections_date
+[INFO]-[2022/05/26 21:22:10] DB Copy: Table wp_connections_date contains 0 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_email
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_email contains 1 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Copy data from wp_connections_email to wpstg0_connections_email - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_link
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_link contains 0 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_messenger
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_messenger contains 0 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_meta
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_meta contains 0 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_phone
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_phone contains 1 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Copy data from wp_connections_phone to wpstg0_connections_phone - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_social
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_social contains 2 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Copy data from wp_connections_social to wpstg0_connections_social - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_term_meta
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_term_meta contains 0 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Creating table wpstg0_connections_term_relationships
+[INFO]-[2022/05/26 21:22:11] DB Copy: Table wp_connections_term_relationships contains 2 rows 
+[INFO]-[2022/05/26 21:22:11] DB Copy: Copy data from wp_connections_term_relationships to wpstg0_connections_term_relationships - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_connections_term_taxonomy
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_connections_term_taxonomy contains 3 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Copy data from wp_connections_term_taxonomy to wpstg0_connections_term_taxonomy - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_connections_terms
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_connections_terms contains 3 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Copy data from wp_connections_terms to wpstg0_connections_terms - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_duplicator_packages
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_duplicator_packages contains 0 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker contains 1 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Copy data from wp_formmaker to wpstg0_formmaker - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker_blocked
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker_blocked contains 0 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker_query
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker_query contains 0 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker_sessions
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker_sessions contains 0 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker_submits
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker_submits contains 0 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Creating table wpstg0_formmaker_themes
+[INFO]-[2022/05/26 21:22:12] DB Copy: Table wp_formmaker_themes contains 37 rows 
+[INFO]-[2022/05/26 21:22:12] DB Copy: Copy data from wp_formmaker_themes to wpstg0_formmaker_themes - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Creating table wpstg0_formmaker_views
+[INFO]-[2022/05/26 21:22:13] DB Copy: Table wp_formmaker_views contains 1 rows 
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_formmaker_views to wpstg0_formmaker_views - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Creating table wpstg0_gf_addon_feed
+[INFO]-[2022/05/26 21:22:13] DB Copy: Table wp_gf_addon_feed contains 22 rows 
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_gf_addon_feed to wpstg0_gf_addon_feed - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Creating table wpstg0_gf_draft_submissions
+[INFO]-[2022/05/26 21:22:13] DB Copy: Table wp_gf_draft_submissions contains 83 rows 
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_gf_draft_submissions to wpstg0_gf_draft_submissions - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Creating table wpstg0_gf_entry
+[INFO]-[2022/05/26 21:22:13] DB Copy: Table wp_gf_entry contains 81012 rows 
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 10000 to 20000 records
+[INFO]-[2022/05/26 21:22:13] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 20000 to 30000 records
+[INFO]-[2022/05/26 21:22:14] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 30000 to 40000 records
+[INFO]-[2022/05/26 21:22:14] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 40000 to 50000 records
+[INFO]-[2022/05/26 21:22:14] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 50000 to 60000 records
+[INFO]-[2022/05/26 21:22:14] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 60000 to 70000 records
+[INFO]-[2022/05/26 21:22:14] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 70000 to 80000 records
+[INFO]-[2022/05/26 21:22:15] DB Copy: Copy data from wp_gf_entry to wpstg0_gf_entry - 80000 to 90000 records
+[INFO]-[2022/05/26 21:22:15] DB Copy: Creating table wpstg0_gf_entry_meta
+[INFO]-[2022/05/26 21:22:15] DB Copy: Table wp_gf_entry_meta contains 1706055 rows 
+[INFO]-[2022/05/26 21:22:15] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 0 to 10000 records
+[INFO]-[2022/05/26 21:22:15] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 10000 to 20000 records
+[INFO]-[2022/05/26 21:22:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 20000 to 30000 records
+[INFO]-[2022/05/26 21:22:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 30000 to 40000 records
+[INFO]-[2022/05/26 21:22:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 40000 to 50000 records
+[INFO]-[2022/05/26 21:22:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 50000 to 60000 records
+[INFO]-[2022/05/26 21:22:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 60000 to 70000 records
+[INFO]-[2022/05/26 21:22:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 70000 to 80000 records
+[INFO]-[2022/05/26 21:22:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 80000 to 90000 records
+[INFO]-[2022/05/26 21:22:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 90000 to 100000 records
+[INFO]-[2022/05/26 21:22:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 100000 to 110000 records
+[INFO]-[2022/05/26 21:22:18] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 110000 to 120000 records
+[INFO]-[2022/05/26 21:22:18] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 120000 to 130000 records
+[INFO]-[2022/05/26 21:22:18] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 130000 to 140000 records
+[INFO]-[2022/05/26 21:22:19] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 140000 to 150000 records
+[INFO]-[2022/05/26 21:22:19] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 150000 to 160000 records
+[INFO]-[2022/05/26 21:22:19] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 160000 to 170000 records
+[INFO]-[2022/05/26 21:22:19] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 170000 to 180000 records
+[INFO]-[2022/05/26 21:22:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 180000 to 190000 records
+[INFO]-[2022/05/26 21:22:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 190000 to 200000 records
+[INFO]-[2022/05/26 21:22:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 200000 to 210000 records
+[INFO]-[2022/05/26 21:22:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 210000 to 220000 records
+[INFO]-[2022/05/26 21:22:21] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 220000 to 230000 records
+[INFO]-[2022/05/26 21:22:21] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 230000 to 240000 records
+[INFO]-[2022/05/26 21:22:21] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 240000 to 250000 records
+[INFO]-[2022/05/26 21:22:22] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 250000 to 260000 records
+[INFO]-[2022/05/26 21:22:22] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 260000 to 270000 records
+[INFO]-[2022/05/26 21:22:22] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 270000 to 280000 records
+[INFO]-[2022/05/26 21:22:23] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 280000 to 290000 records
+[INFO]-[2022/05/26 21:22:23] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 290000 to 300000 records
+[INFO]-[2022/05/26 21:22:23] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 300000 to 310000 records
+[INFO]-[2022/05/26 21:22:24] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 310000 to 320000 records
+[INFO]-[2022/05/26 21:22:24] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 320000 to 330000 records
+[INFO]-[2022/05/26 21:22:24] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 330000 to 340000 records
+[INFO]-[2022/05/26 21:22:25] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 340000 to 350000 records
+[INFO]-[2022/05/26 21:22:25] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 350000 to 360000 records
+[INFO]-[2022/05/26 21:22:25] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 360000 to 370000 records
+[INFO]-[2022/05/26 21:22:26] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 370000 to 380000 records
+[INFO]-[2022/05/26 21:22:26] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 380000 to 390000 records
+[INFO]-[2022/05/26 21:22:27] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 390000 to 400000 records
+[INFO]-[2022/05/26 21:22:27] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 400000 to 410000 records
+[INFO]-[2022/05/26 21:22:27] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 410000 to 420000 records
+[INFO]-[2022/05/26 21:22:28] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 420000 to 430000 records
+[INFO]-[2022/05/26 21:22:28] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 430000 to 440000 records
+[INFO]-[2022/05/26 21:22:29] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 440000 to 450000 records
+[INFO]-[2022/05/26 21:22:29] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 450000 to 460000 records
+[INFO]-[2022/05/26 21:22:29] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 460000 to 470000 records
+[INFO]-[2022/05/26 21:22:30] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 470000 to 480000 records
+[INFO]-[2022/05/26 21:22:30] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 480000 to 490000 records
+[INFO]-[2022/05/26 21:22:31] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 490000 to 500000 records
+[INFO]-[2022/05/26 21:22:31] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 500000 to 510000 records
+[INFO]-[2022/05/26 21:22:31] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 510000 to 520000 records
+[INFO]-[2022/05/26 21:22:32] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 520000 to 530000 records
+[INFO]-[2022/05/26 21:22:32] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 530000 to 540000 records
+[INFO]-[2022/05/26 21:22:33] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 540000 to 550000 records
+[INFO]-[2022/05/26 21:22:33] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 550000 to 560000 records
+[INFO]-[2022/05/26 21:22:33] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 560000 to 570000 records
+[INFO]-[2022/05/26 21:22:34] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 570000 to 580000 records
+[INFO]-[2022/05/26 21:22:34] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 580000 to 590000 records
+[INFO]-[2022/05/26 21:22:35] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 590000 to 600000 records
+[INFO]-[2022/05/26 21:22:35] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 600000 to 610000 records
+[INFO]-[2022/05/26 21:22:36] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 610000 to 620000 records
+[INFO]-[2022/05/26 21:22:36] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 620000 to 630000 records
+[INFO]-[2022/05/26 21:22:37] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 630000 to 640000 records
+[INFO]-[2022/05/26 21:22:37] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 640000 to 650000 records
+[INFO]-[2022/05/26 21:22:38] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 650000 to 660000 records
+[INFO]-[2022/05/26 21:22:38] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 660000 to 670000 records
+[INFO]-[2022/05/26 21:22:39] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 670000 to 680000 records
+[INFO]-[2022/05/26 21:22:39] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 680000 to 690000 records
+[INFO]-[2022/05/26 21:22:40] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 690000 to 700000 records
+[INFO]-[2022/05/26 21:22:40] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 700000 to 710000 records
+[INFO]-[2022/05/26 21:22:41] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 710000 to 720000 records
+[INFO]-[2022/05/26 21:22:41] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 720000 to 730000 records
+[INFO]-[2022/05/26 21:22:42] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 730000 to 740000 records
+[INFO]-[2022/05/26 21:22:42] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 740000 to 750000 records
+[INFO]-[2022/05/26 21:22:43] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 750000 to 760000 records
+[INFO]-[2022/05/26 21:22:43] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 760000 to 770000 records
+[INFO]-[2022/05/26 21:22:44] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 770000 to 780000 records
+[INFO]-[2022/05/26 21:22:44] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 780000 to 790000 records
+[INFO]-[2022/05/26 21:22:45] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 790000 to 800000 records
+[INFO]-[2022/05/26 21:22:45] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 800000 to 810000 records
+[INFO]-[2022/05/26 21:22:46] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 810000 to 820000 records
+[INFO]-[2022/05/26 21:22:46] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 820000 to 830000 records
+[INFO]-[2022/05/26 21:22:47] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 830000 to 840000 records
+[INFO]-[2022/05/26 21:22:47] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 840000 to 850000 records
+[INFO]-[2022/05/26 21:22:48] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 850000 to 860000 records
+[INFO]-[2022/05/26 21:22:49] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 860000 to 870000 records
+[INFO]-[2022/05/26 21:22:49] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 870000 to 880000 records
+[INFO]-[2022/05/26 21:22:50] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 880000 to 890000 records
+[INFO]-[2022/05/26 21:22:50] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 890000 to 900000 records
+[INFO]-[2022/05/26 21:22:51] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 900000 to 910000 records
+[INFO]-[2022/05/26 21:22:51] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 910000 to 920000 records
+[INFO]-[2022/05/26 21:22:52] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 920000 to 930000 records
+[INFO]-[2022/05/26 21:22:53] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 930000 to 940000 records
+[INFO]-[2022/05/26 21:22:53] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 940000 to 950000 records
+[INFO]-[2022/05/26 21:22:54] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 950000 to 960000 records
+[INFO]-[2022/05/26 21:22:54] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 960000 to 970000 records
+[INFO]-[2022/05/26 21:22:55] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 970000 to 980000 records
+[INFO]-[2022/05/26 21:22:56] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 980000 to 990000 records
+[INFO]-[2022/05/26 21:22:56] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 990000 to 1000000 records
+[INFO]-[2022/05/26 21:22:57] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1000000 to 1010000 records
+[INFO]-[2022/05/26 21:22:57] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1010000 to 1020000 records
+[INFO]-[2022/05/26 21:22:58] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1020000 to 1030000 records
+[INFO]-[2022/05/26 21:22:59] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1030000 to 1040000 records
+[INFO]-[2022/05/26 21:22:59] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1040000 to 1050000 records
+[INFO]-[2022/05/26 21:23:00] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1050000 to 1060000 records
+[INFO]-[2022/05/26 21:23:01] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1060000 to 1070000 records
+[INFO]-[2022/05/26 21:23:01] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1070000 to 1080000 records
+[INFO]-[2022/05/26 21:23:02] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1080000 to 1090000 records
+[INFO]-[2022/05/26 21:23:03] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1090000 to 1100000 records
+[INFO]-[2022/05/26 21:23:03] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1100000 to 1110000 records
+[INFO]-[2022/05/26 21:23:04] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1110000 to 1120000 records
+[INFO]-[2022/05/26 21:23:05] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1120000 to 1130000 records
+[INFO]-[2022/05/26 21:23:05] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1130000 to 1140000 records
+[INFO]-[2022/05/26 21:23:06] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1140000 to 1150000 records
+[INFO]-[2022/05/26 21:23:07] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1150000 to 1160000 records
+[INFO]-[2022/05/26 21:23:07] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1160000 to 1170000 records
+[INFO]-[2022/05/26 21:23:08] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1170000 to 1180000 records
+[INFO]-[2022/05/26 21:23:09] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1180000 to 1190000 records
+[INFO]-[2022/05/26 21:23:09] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1190000 to 1200000 records
+[INFO]-[2022/05/26 21:23:10] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1200000 to 1210000 records
+[INFO]-[2022/05/26 21:23:11] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1210000 to 1220000 records
+[INFO]-[2022/05/26 21:23:12] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1220000 to 1230000 records
+[INFO]-[2022/05/26 21:23:12] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1230000 to 1240000 records
+[INFO]-[2022/05/26 21:23:13] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1240000 to 1250000 records
+[INFO]-[2022/05/26 21:23:14] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1250000 to 1260000 records
+[INFO]-[2022/05/26 21:23:14] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1260000 to 1270000 records
+[INFO]-[2022/05/26 21:23:15] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1270000 to 1280000 records
+[INFO]-[2022/05/26 21:23:16] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1280000 to 1290000 records
+[INFO]-[2022/05/26 21:23:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1290000 to 1300000 records
+[INFO]-[2022/05/26 21:23:17] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1300000 to 1310000 records
+[INFO]-[2022/05/26 21:23:18] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1310000 to 1320000 records
+[INFO]-[2022/05/26 21:23:19] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1320000 to 1330000 records
+[INFO]-[2022/05/26 21:23:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1330000 to 1340000 records
+[INFO]-[2022/05/26 21:23:20] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1340000 to 1350000 records
+[INFO]-[2022/05/26 21:23:21] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1350000 to 1360000 records
+[INFO]-[2022/05/26 21:23:22] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1360000 to 1370000 records
+[INFO]-[2022/05/26 21:23:23] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1370000 to 1380000 records
+[INFO]-[2022/05/26 21:23:23] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1380000 to 1390000 records
+[INFO]-[2022/05/26 21:23:24] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1390000 to 1400000 records
+[INFO]-[2022/05/26 21:23:25] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1400000 to 1410000 records
+[INFO]-[2022/05/26 21:23:26] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1410000 to 1420000 records
+[INFO]-[2022/05/26 21:23:27] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1420000 to 1430000 records
+[INFO]-[2022/05/26 21:23:28] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1430000 to 1440000 records
+[INFO]-[2022/05/26 21:23:28] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1440000 to 1450000 records
+[INFO]-[2022/05/26 21:23:29] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1450000 to 1460000 records
+[INFO]-[2022/05/26 21:23:30] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1460000 to 1470000 records
+[INFO]-[2022/05/26 21:23:31] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1470000 to 1480000 records
+[INFO]-[2022/05/26 21:23:32] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1480000 to 1490000 records
+[INFO]-[2022/05/26 21:23:32] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1490000 to 1500000 records
+[INFO]-[2022/05/26 21:23:33] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1500000 to 1510000 records
+[INFO]-[2022/05/26 21:23:34] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1510000 to 1520000 records
+[INFO]-[2022/05/26 21:23:35] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1520000 to 1530000 records
+[INFO]-[2022/05/26 21:23:36] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1530000 to 1540000 records
+[INFO]-[2022/05/26 21:23:37] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1540000 to 1550000 records
+[INFO]-[2022/05/26 21:23:37] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1550000 to 1560000 records
+[INFO]-[2022/05/26 21:23:38] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1560000 to 1570000 records
+[INFO]-[2022/05/26 21:23:39] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1570000 to 1580000 records
+[INFO]-[2022/05/26 21:23:40] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1580000 to 1590000 records
+[INFO]-[2022/05/26 21:23:41] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1590000 to 1600000 records
+[INFO]-[2022/05/26 21:23:42] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1600000 to 1610000 records
+[INFO]-[2022/05/26 21:23:43] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1610000 to 1620000 records
+[INFO]-[2022/05/26 21:23:44] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1620000 to 1630000 records
+[INFO]-[2022/05/26 21:23:44] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1630000 to 1640000 records
+[INFO]-[2022/05/26 21:23:45] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1640000 to 1650000 records
+[INFO]-[2022/05/26 21:23:46] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1650000 to 1660000 records
+[INFO]-[2022/05/26 21:23:47] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1660000 to 1670000 records
+[INFO]-[2022/05/26 21:23:48] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1670000 to 1680000 records
+[INFO]-[2022/05/26 21:23:49] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1680000 to 1690000 records
+[INFO]-[2022/05/26 21:23:50] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1690000 to 1700000 records
+[INFO]-[2022/05/26 21:23:51] DB Copy: Copy data from wp_gf_entry_meta to wpstg0_gf_entry_meta - 1700000 to 1710000 records
+[INFO]-[2022/05/26 21:23:52] DB Copy: Creating table wpstg0_gf_entry_notes
+[INFO]-[2022/05/26 21:23:52] DB Copy: Table wp_gf_entry_notes contains 128096 rows 
+[INFO]-[2022/05/26 21:23:52] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:52] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 10000 to 20000 records
+[INFO]-[2022/05/26 21:23:52] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 20000 to 30000 records
+[INFO]-[2022/05/26 21:23:52] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 30000 to 40000 records
+[INFO]-[2022/05/26 21:23:52] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 40000 to 50000 records
+[INFO]-[2022/05/26 21:23:53] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 50000 to 60000 records
+[INFO]-[2022/05/26 21:23:53] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 60000 to 70000 records
+[INFO]-[2022/05/26 21:23:53] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 70000 to 80000 records
+[INFO]-[2022/05/26 21:23:53] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 80000 to 90000 records
+[INFO]-[2022/05/26 21:23:54] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 90000 to 100000 records
+[INFO]-[2022/05/26 21:23:54] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 100000 to 110000 records
+[INFO]-[2022/05/26 21:23:54] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 110000 to 120000 records
+[INFO]-[2022/05/26 21:23:54] DB Copy: Copy data from wp_gf_entry_notes to wpstg0_gf_entry_notes - 120000 to 130000 records
+[INFO]-[2022/05/26 21:23:55] DB Copy: Creating table wpstg0_gf_form
+[INFO]-[2022/05/26 21:23:55] DB Copy: Table wp_gf_form contains 171 rows 
+[INFO]-[2022/05/26 21:23:55] DB Copy: Copy data from wp_gf_form to wpstg0_gf_form - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:55] DB Copy: Creating table wpstg0_gf_form_meta
+[INFO]-[2022/05/26 21:23:55] DB Copy: Table wp_gf_form_meta contains 171 rows 
+[INFO]-[2022/05/26 21:23:55] DB Copy: Copy data from wp_gf_form_meta to wpstg0_gf_form_meta - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:55] DB Copy: Creating table wpstg0_gf_form_revisions
+[INFO]-[2022/05/26 21:23:55] DB Copy: Table wp_gf_form_revisions contains 0 rows 
+[INFO]-[2022/05/26 21:23:55] DB Copy: Creating table wpstg0_gf_form_view
+[INFO]-[2022/05/26 21:23:55] DB Copy: Table wp_gf_form_view contains 57418 rows 
+[INFO]-[2022/05/26 21:23:55] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:55] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 10000 to 20000 records
+[INFO]-[2022/05/26 21:23:55] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 20000 to 30000 records
+[INFO]-[2022/05/26 21:23:56] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 30000 to 40000 records
+[INFO]-[2022/05/26 21:23:56] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 40000 to 50000 records
+[INFO]-[2022/05/26 21:23:56] DB Copy: Copy data from wp_gf_form_view to wpstg0_gf_form_view - 50000 to 60000 records
+[INFO]-[2022/05/26 21:23:56] DB Copy: Creating table wpstg0_gf_rest_api_keys
+[INFO]-[2022/05/26 21:23:56] DB Copy: Table wp_gf_rest_api_keys contains 0 rows 
+[INFO]-[2022/05/26 21:23:56] DB Copy: Creating table wpstg0_gradebook_grades
+[INFO]-[2022/05/26 21:23:56] DB Copy: Table wp_gradebook_grades contains 0 rows 
+[INFO]-[2022/05/26 21:23:56] DB Copy: Creating table wpstg0_gradebook_items
+[INFO]-[2022/05/26 21:23:56] DB Copy: Table wp_gradebook_items contains 0 rows 
+[INFO]-[2022/05/26 21:23:57] DB Copy: Creating table wpstg0_gradebook_students
+[INFO]-[2022/05/26 21:23:57] DB Copy: Table wp_gradebook_students contains 0 rows 
+[INFO]-[2022/05/26 21:23:57] DB Copy: Creating table wpstg0_grassblade_completions
+[INFO]-[2022/05/26 21:23:57] DB Copy: Table wp_grassblade_completions contains 81554 rows 
+[INFO]-[2022/05/26 21:23:57] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:57] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 10000 to 20000 records
+[INFO]-[2022/05/26 21:23:57] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 20000 to 30000 records
+[INFO]-[2022/05/26 21:23:57] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 30000 to 40000 records
+[INFO]-[2022/05/26 21:23:58] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 40000 to 50000 records
+[INFO]-[2022/05/26 21:23:58] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 50000 to 60000 records
+[INFO]-[2022/05/26 21:23:58] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 60000 to 70000 records
+[INFO]-[2022/05/26 21:23:58] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 70000 to 80000 records
+[INFO]-[2022/05/26 21:23:58] DB Copy: Copy data from wp_grassblade_completions to wpstg0_grassblade_completions - 80000 to 90000 records
+[INFO]-[2022/05/26 21:23:59] DB Copy: Creating table wpstg0_grassblade_scorm_data
+[INFO]-[2022/05/26 21:23:59] DB Copy: Table wp_grassblade_scorm_data contains 0 rows 
+[INFO]-[2022/05/26 21:23:59] DB Copy: Creating table wpstg0_gv_importentry_log
+[INFO]-[2022/05/26 21:23:59] DB Copy: Table wp_gv_importentry_log contains 11426 rows 
+[INFO]-[2022/05/26 21:23:59] DB Copy: Copy data from wp_gv_importentry_log to wpstg0_gv_importentry_log - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:59] DB Copy: Copy data from wp_gv_importentry_log to wpstg0_gv_importentry_log - 10000 to 20000 records
+[INFO]-[2022/05/26 21:23:59] DB Copy: Creating table wpstg0_gv_importentry_rows
+[INFO]-[2022/05/26 21:23:59] DB Copy: Table wp_gv_importentry_rows contains 15633 rows 
+[INFO]-[2022/05/26 21:23:59] DB Copy: Copy data from wp_gv_importentry_rows to wpstg0_gv_importentry_rows - 0 to 10000 records
+[INFO]-[2022/05/26 21:23:59] DB Copy: Copy data from wp_gv_importentry_rows to wpstg0_gv_importentry_rows - 10000 to 20000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_circles
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_circles contains 1 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_hugeit_maps_circles to wpstg0_hugeit_maps_circles - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_directions
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_directions contains 0 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_maps
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_maps contains 3 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_hugeit_maps_maps to wpstg0_hugeit_maps_maps - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_markers
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_markers contains 4 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_hugeit_maps_markers to wpstg0_hugeit_maps_markers - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_polygons
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_polygons contains 1 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_hugeit_maps_polygons to wpstg0_hugeit_maps_polygons - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_hugeit_maps_polylines
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_hugeit_maps_polylines contains 1 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_hugeit_maps_polylines to wpstg0_hugeit_maps_polylines - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:00] DB Copy: Creating table wpstg0_ia_savedcarts
+[INFO]-[2022/05/26 21:24:00] DB Copy: Table wp_ia_savedcarts contains 11348 rows 
+[INFO]-[2022/05/26 21:24:00] DB Copy: Copy data from wp_ia_savedcarts to wpstg0_ia_savedcarts - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:01] DB Copy: Copy data from wp_ia_savedcarts to wpstg0_ia_savedcarts - 10000 to 20000 records
+[INFO]-[2022/05/26 21:24:01] DB Copy: Creating table wpstg0_iw_payplans
+[INFO]-[2022/05/26 21:24:01] DB Copy: Table wp_iw_payplans contains 0 rows 
+[INFO]-[2022/05/26 21:24:01] DB Copy: Creating table wpstg0_ld_notifications_delayed_emails
+[INFO]-[2022/05/26 21:24:01] DB Copy: Table wp_ld_notifications_delayed_emails contains 0 rows 
+[INFO]-[2022/05/26 21:24:01] DB Copy: Creating table wpstg0_learndash_user_activity
+[INFO]-[2022/05/26 21:24:01] DB Copy: Table wp_learndash_user_activity contains 1942755 rows 
+[INFO]-[2022/05/26 21:24:01] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 0 to 10000 records
+[INFO]-[2022/05/26 21:24:02] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 10000 to 20000 records
+[INFO]-[2022/05/26 21:24:02] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 20000 to 30000 records
+[INFO]-[2022/05/26 21:24:02] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 30000 to 40000 records
+[INFO]-[2022/05/26 21:24:02] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 40000 to 50000 records
+[INFO]-[2022/05/26 21:24:03] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 50000 to 60000 records
+[INFO]-[2022/05/26 21:24:03] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 60000 to 70000 records
+[INFO]-[2022/05/26 21:24:03] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 70000 to 80000 records
+[INFO]-[2022/05/26 21:24:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 80000 to 90000 records
+[INFO]-[2022/05/26 21:24:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 90000 to 100000 records
+[INFO]-[2022/05/26 21:24:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 100000 to 110000 records
+[INFO]-[2022/05/26 21:24:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 110000 to 120000 records
+[INFO]-[2022/05/26 21:24:05] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 120000 to 130000 records
+[INFO]-[2022/05/26 21:24:05] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 130000 to 140000 records
+[INFO]-[2022/05/26 21:24:05] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 140000 to 150000 records
+[INFO]-[2022/05/26 21:24:06] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 150000 to 160000 records
+[INFO]-[2022/05/26 21:24:06] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 160000 to 170000 records
+[INFO]-[2022/05/26 21:24:06] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 170000 to 180000 records
+[INFO]-[2022/05/26 21:24:07] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 180000 to 190000 records
+[INFO]-[2022/05/26 21:24:07] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 190000 to 200000 records
+[INFO]-[2022/05/26 21:24:07] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 200000 to 210000 records
+[INFO]-[2022/05/26 21:24:08] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 210000 to 220000 records
+[INFO]-[2022/05/26 21:24:08] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 220000 to 230000 records
+[INFO]-[2022/05/26 21:24:08] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 230000 to 240000 records
+[INFO]-[2022/05/26 21:24:09] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 240000 to 250000 records
+[INFO]-[2022/05/26 21:24:09] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 250000 to 260000 records
+[INFO]-[2022/05/26 21:24:09] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 260000 to 270000 records
+[INFO]-[2022/05/26 21:24:10] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 270000 to 280000 records
+[INFO]-[2022/05/26 21:24:10] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 280000 to 290000 records
+[INFO]-[2022/05/26 21:24:11] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 290000 to 300000 records
+[INFO]-[2022/05/26 21:24:11] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 300000 to 310000 records
+[INFO]-[2022/05/26 21:24:11] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 310000 to 320000 records
+[INFO]-[2022/05/26 21:24:12] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 320000 to 330000 records
+[INFO]-[2022/05/26 21:24:12] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 330000 to 340000 records
+[INFO]-[2022/05/26 21:24:12] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 340000 to 350000 records
+[INFO]-[2022/05/26 21:24:13] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 350000 to 360000 records
+[INFO]-[2022/05/26 21:24:13] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 360000 to 370000 records
+[INFO]-[2022/05/26 21:24:13] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 370000 to 380000 records
+[INFO]-[2022/05/26 21:24:14] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 380000 to 390000 records
+[INFO]-[2022/05/26 21:24:14] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 390000 to 400000 records
+[INFO]-[2022/05/26 21:24:15] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 400000 to 410000 records
+[INFO]-[2022/05/26 21:24:15] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 410000 to 420000 records
+[INFO]-[2022/05/26 21:24:16] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 420000 to 430000 records
+[INFO]-[2022/05/26 21:24:16] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 430000 to 440000 records
+[INFO]-[2022/05/26 21:24:16] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 440000 to 450000 records
+[INFO]-[2022/05/26 21:24:17] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 450000 to 460000 records
+[INFO]-[2022/05/26 21:24:17] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 460000 to 470000 records
+[INFO]-[2022/05/26 21:24:18] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 470000 to 480000 records
+[INFO]-[2022/05/26 21:24:18] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 480000 to 490000 records
+[INFO]-[2022/05/26 21:24:19] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 490000 to 500000 records
+[INFO]-[2022/05/26 21:24:19] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 500000 to 510000 records
+[INFO]-[2022/05/26 21:24:19] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 510000 to 520000 records
+[INFO]-[2022/05/26 21:24:20] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 520000 to 530000 records
+[INFO]-[2022/05/26 21:24:20] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 530000 to 540000 records
+[INFO]-[2022/05/26 21:24:21] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 540000 to 550000 records
+[INFO]-[2022/05/26 21:24:21] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 550000 to 560000 records
+[INFO]-[2022/05/26 21:24:22] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 560000 to 570000 records
+[INFO]-[2022/05/26 21:24:22] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 570000 to 580000 records
+[INFO]-[2022/05/26 21:24:23] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 580000 to 590000 records
+[INFO]-[2022/05/26 21:24:23] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 590000 to 600000 records
+[INFO]-[2022/05/26 21:24:24] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 600000 to 610000 records
+[INFO]-[2022/05/26 21:24:24] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 610000 to 620000 records
+[INFO]-[2022/05/26 21:24:25] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 620000 to 630000 records
+[INFO]-[2022/05/26 21:24:25] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 630000 to 640000 records
+[INFO]-[2022/05/26 21:24:26] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 640000 to 650000 records
+[INFO]-[2022/05/26 21:24:26] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 650000 to 660000 records
+[INFO]-[2022/05/26 21:24:27] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 660000 to 670000 records
+[INFO]-[2022/05/26 21:24:27] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 670000 to 680000 records
+[INFO]-[2022/05/26 21:24:28] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 680000 to 690000 records
+[INFO]-[2022/05/26 21:24:28] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 690000 to 700000 records
+[INFO]-[2022/05/26 21:24:29] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 700000 to 710000 records
+[INFO]-[2022/05/26 21:24:29] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 710000 to 720000 records
+[INFO]-[2022/05/26 21:24:30] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 720000 to 730000 records
+[INFO]-[2022/05/26 21:24:30] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 730000 to 740000 records
+[INFO]-[2022/05/26 21:24:31] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 740000 to 750000 records
+[INFO]-[2022/05/26 21:24:31] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 750000 to 760000 records
+[INFO]-[2022/05/26 21:24:32] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 760000 to 770000 records
+[INFO]-[2022/05/26 21:24:32] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 770000 to 780000 records
+[INFO]-[2022/05/26 21:24:33] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 780000 to 790000 records
+[INFO]-[2022/05/26 21:24:33] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 790000 to 800000 records
+[INFO]-[2022/05/26 21:24:34] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 800000 to 810000 records
+[INFO]-[2022/05/26 21:24:35] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 810000 to 820000 records
+[INFO]-[2022/05/26 21:24:35] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 820000 to 830000 records
+[INFO]-[2022/05/26 21:24:36] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 830000 to 840000 records
+[INFO]-[2022/05/26 21:24:36] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 840000 to 850000 records
+[INFO]-[2022/05/26 21:24:37] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 850000 to 860000 records
+[INFO]-[2022/05/26 21:24:37] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 860000 to 870000 records
+[INFO]-[2022/05/26 21:24:38] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 870000 to 880000 records
+[INFO]-[2022/05/26 21:24:38] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 880000 to 890000 records
+[INFO]-[2022/05/26 21:24:39] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 890000 to 900000 records
+[INFO]-[2022/05/26 21:24:40] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 900000 to 910000 records
+[INFO]-[2022/05/26 21:24:40] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 910000 to 920000 records
+[INFO]-[2022/05/26 21:24:41] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 920000 to 930000 records
+[INFO]-[2022/05/26 21:24:41] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 930000 to 940000 records
+[INFO]-[2022/05/26 21:24:42] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 940000 to 950000 records
+[INFO]-[2022/05/26 21:24:43] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 950000 to 960000 records
+[INFO]-[2022/05/26 21:24:43] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 960000 to 970000 records
+[INFO]-[2022/05/26 21:24:44] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 970000 to 980000 records
+[INFO]-[2022/05/26 21:24:45] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 980000 to 990000 records
+[INFO]-[2022/05/26 21:24:45] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 990000 to 1000000 records
+[INFO]-[2022/05/26 21:24:46] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1000000 to 1010000 records
+[INFO]-[2022/05/26 21:24:47] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1010000 to 1020000 records
+[INFO]-[2022/05/26 21:24:47] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1020000 to 1030000 records
+[INFO]-[2022/05/26 21:24:48] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1030000 to 1040000 records
+[INFO]-[2022/05/26 21:24:49] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1040000 to 1050000 records
+[INFO]-[2022/05/26 21:24:49] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1050000 to 1060000 records
+[INFO]-[2022/05/26 21:24:50] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1060000 to 1070000 records
+[INFO]-[2022/05/26 21:24:51] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1070000 to 1080000 records
+[INFO]-[2022/05/26 21:24:51] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1080000 to 1090000 records
+[INFO]-[2022/05/26 21:24:52] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1090000 to 1100000 records
+[INFO]-[2022/05/26 21:24:53] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1100000 to 1110000 records
+[INFO]-[2022/05/26 21:24:53] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1110000 to 1120000 records
+[INFO]-[2022/05/26 21:24:54] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1120000 to 1130000 records
+[INFO]-[2022/05/26 21:24:55] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1130000 to 1140000 records
+[INFO]-[2022/05/26 21:24:55] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1140000 to 1150000 records
+[INFO]-[2022/05/26 21:24:56] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1150000 to 1160000 records
+[INFO]-[2022/05/26 21:24:57] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1160000 to 1170000 records
+[INFO]-[2022/05/26 21:24:57] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1170000 to 1180000 records
+[INFO]-[2022/05/26 21:24:58] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1180000 to 1190000 records
+[INFO]-[2022/05/26 21:24:59] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1190000 to 1200000 records
+[INFO]-[2022/05/26 21:25:00] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1200000 to 1210000 records
+[INFO]-[2022/05/26 21:25:01] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1210000 to 1220000 records
+[INFO]-[2022/05/26 21:25:01] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1220000 to 1230000 records
+[INFO]-[2022/05/26 21:25:02] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1230000 to 1240000 records
+[INFO]-[2022/05/26 21:25:03] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1240000 to 1250000 records
+[INFO]-[2022/05/26 21:25:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1250000 to 1260000 records
+[INFO]-[2022/05/26 21:25:04] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1260000 to 1270000 records
+[INFO]-[2022/05/26 21:25:05] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1270000 to 1280000 records
+[INFO]-[2022/05/26 21:25:06] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1280000 to 1290000 records
+[INFO]-[2022/05/26 21:25:07] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1290000 to 1300000 records
+[INFO]-[2022/05/26 21:25:07] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1300000 to 1310000 records
+[INFO]-[2022/05/26 21:25:08] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1310000 to 1320000 records
+[INFO]-[2022/05/26 21:25:09] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1320000 to 1330000 records
+[INFO]-[2022/05/26 21:25:10] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1330000 to 1340000 records
+[INFO]-[2022/05/26 21:25:11] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1340000 to 1350000 records
+[INFO]-[2022/05/26 21:25:11] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1350000 to 1360000 records
+[INFO]-[2022/05/26 21:25:12] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1360000 to 1370000 records
+[INFO]-[2022/05/26 21:25:13] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1370000 to 1380000 records
+[INFO]-[2022/05/26 21:25:14] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1380000 to 1390000 records
+[INFO]-[2022/05/26 21:25:15] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1390000 to 1400000 records
+[INFO]-[2022/05/26 21:25:15] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1400000 to 1410000 records
+[INFO]-[2022/05/26 21:25:16] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1410000 to 1420000 records
+[INFO]-[2022/05/26 21:25:17] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1420000 to 1430000 records
+[INFO]-[2022/05/26 21:25:18] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1430000 to 1440000 records
+[INFO]-[2022/05/26 21:25:19] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1440000 to 1450000 records
+[INFO]-[2022/05/26 21:25:20] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1450000 to 1460000 records
+[INFO]-[2022/05/26 21:25:20] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1460000 to 1470000 records
+[INFO]-[2022/05/26 21:25:21] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1470000 to 1480000 records
+[INFO]-[2022/05/26 21:25:22] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1480000 to 1490000 records
+[INFO]-[2022/05/26 21:25:23] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1490000 to 1500000 records
+[INFO]-[2022/05/26 21:25:24] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1500000 to 1510000 records
+[INFO]-[2022/05/26 21:25:25] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1510000 to 1520000 records
+[INFO]-[2022/05/26 21:25:25] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1520000 to 1530000 records
+[INFO]-[2022/05/26 21:25:26] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1530000 to 1540000 records
+[INFO]-[2022/05/26 21:25:28] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1540000 to 1550000 records
+[INFO]-[2022/05/26 21:25:28] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1550000 to 1560000 records
+[INFO]-[2022/05/26 21:25:29] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1560000 to 1570000 records
+[INFO]-[2022/05/26 21:25:30] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1570000 to 1580000 records
+[INFO]-[2022/05/26 21:25:31] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1580000 to 1590000 records
+[INFO]-[2022/05/26 21:25:32] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1590000 to 1600000 records
+[INFO]-[2022/05/26 21:25:33] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1600000 to 1610000 records
+[INFO]-[2022/05/26 21:25:34] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1610000 to 1620000 records
+[INFO]-[2022/05/26 21:25:35] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1620000 to 1630000 records
+[INFO]-[2022/05/26 21:25:36] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1630000 to 1640000 records
+[INFO]-[2022/05/26 21:25:36] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1640000 to 1650000 records
+[INFO]-[2022/05/26 21:25:37] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1650000 to 1660000 records
+[INFO]-[2022/05/26 21:25:38] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1660000 to 1670000 records
+[INFO]-[2022/05/26 21:25:39] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1670000 to 1680000 records
+[INFO]-[2022/05/26 21:25:40] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1680000 to 1690000 records
+[INFO]-[2022/05/26 21:25:41] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1690000 to 1700000 records
+[INFO]-[2022/05/26 21:25:42] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1700000 to 1710000 records
+[INFO]-[2022/05/26 21:25:43] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1710000 to 1720000 records
+[INFO]-[2022/05/26 21:25:44] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1720000 to 1730000 records
+[INFO]-[2022/05/26 21:25:45] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1730000 to 1740000 records
+[INFO]-[2022/05/26 21:25:46] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1740000 to 1750000 records
+[INFO]-[2022/05/26 21:25:47] DB Copy: Copy data from wp_learndash_user_activity to wpstg0_learndash_user_activity - 1750000 to 1760000 records

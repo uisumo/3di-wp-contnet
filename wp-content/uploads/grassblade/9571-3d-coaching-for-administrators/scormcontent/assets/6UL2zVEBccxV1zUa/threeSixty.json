@@ -1,0 +1,33 @@
+{
+  "version": "3.9.13510.0",
+  "scenes": [
+    {
+      "title": "21.0 - Transformational Purpose"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6KlfdS7GHSo",
+      "title": "Formula For Change",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5cqcrc80bsk",
+      "title": "The “Resistance” column represents the people who can (check all that apply):",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5nnSyv28G8M",
+      "title": "Results Slide",
+      "scene_index": "1.3"
+    }
+  ],
+  "player": {
+    "width": 1020,
+    "height": 656
+  },
+  "stage": {
+    "width": 1000,
+    "height": 562
+  }
+}

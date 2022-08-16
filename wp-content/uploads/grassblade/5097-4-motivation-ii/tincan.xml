@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6ZtV4bPFIJA_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">4.0 - Motivation I</description>
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.1 Objectives</name>
+			<description lang="und">4.1 Objectives</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.2 Leader Modeling</name>
+			<description lang="und">4.2 Leader Modeling</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6Sfo2U7duiw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Leader-modeling within a team
+    setting takes place when:</name>
+			<description lang="und">Leader-modeling within a team
+    setting takes place when:</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6Sfo2U7duiw/63as02zNA2r" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Leader-modeling within a team
+    setting takes place when:</name>
+			<description lang="und">Leader-modeling within a team
+    setting takes place when:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_62BCA7CSwnB</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6S8ZvY4U81X</id>
+					<description lang="und">an athlete evaluates her skill set internally against the standards set by the coach.</description>
+				</component>
+				<component>
+					<id>choice_6WQYUBptFCF</id>
+					<description lang="und">a player who is more advanced in a particular skill set demonstrates a task to a less advanced player.</description>
+				</component>
+				<component>
+					<id>choice_62BCA7CSwnB</id>
+					<description lang="und">a coach demonstrates the skill or behavior that she wants athletes to learn.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.3 Peer-Modeling</name>
+			<description lang="und">4.3 Peer-Modeling</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5tdCcnC3QiP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which two ways can peer-modeling be effectively used to cultivate a learning environment on a team?</name>
+			<description lang="und">Which two ways can peer-modeling be effectively used to cultivate a learning environment on a team?</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5tdCcnC3QiP/5wi2VDjzoe1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which two ways can peer-modeling be effectively used to cultivate a learning environment on a team?</name>
+			<description lang="und">Which two ways can peer-modeling be effectively used to cultivate a learning environment on a team?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6ZpYPG3GtKT</correctResponsePattern>
+				<correctResponsePattern>choice_63BvaaTCJ9P</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6ZpYPG3GtKT</id>
+					<description lang="und">A coach empowers a student to KNOWINGLY act as the model and demonstrate a skill to peers.</description>
+				</component>
+				<component>
+					<id>choice_63BvaaTCJ9P</id>
+					<description lang="und">A coach points out the successful completion of a task and asks the athlete to explain to the rest of the team the process he/she used to succeed.</description>
+				</component>
+				<component>
+					<id>choice_633YH4iErtV</id>
+					<description lang="und">A coach empowers an athlete with strong moral character to model tasks for the rest of the team, regardless of skill level.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.4 Self-Modeling</name>
+			<description lang="und">4.4 Self-Modeling</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6eqvGL2329U" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Self-modeling occurs when an athlete evaluates his/her skill level                     .                     </name>
+			<description lang="und">Self-modeling occurs when an athlete evaluates his/her skill level                     .                     </description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6eqvGL2329U/5jeUebmWBap" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Self-modeling occurs when an athlete evaluates his/her skill level                     .                     </name>
+			<description lang="und">Self-modeling occurs when an athlete evaluates his/her skill level                     .                     </description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5YcyZWSlOdP</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5YcyZWSlOdP</id>
+					<description lang="und">internally</description>
+				</component>
+				<component>
+					<id>choice_6o01sMALBfU</id>
+					<description lang="und">externally</description>
+				</component>
+				<component>
+					<id>choice_6Xb7NW1Z6A6</id>
+					<description lang="und">automatically</description>
+				</component>
+				<component>
+					<id>choice_6hHoTPQnTLW</id>
+					<description lang="und">objectively</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5pvCR2Ermmd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">By clicking &amp; dragging, connect each type of modeling to it’s respective level of effectiveness.</name>
+			<description lang="und">By clicking &amp; dragging, connect each type of modeling to it’s respective level of effectiveness.</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5pvCR2Ermmd/6SmJE9QyNDH" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">By clicking &amp; dragging, connect each type of modeling to it’s respective level of effectiveness.</name>
+			<description lang="und">By clicking &amp; dragging, connect each type of modeling to it’s respective level of effectiveness.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6WcLj2Kp49r[.]choice_6KxkzBFWaP6</correctResponsePattern>
+				<correctResponsePattern>statement_5sjkyntYvXZ[.]choice_5ouILUfutEt</correctResponsePattern>
+				<correctResponsePattern>statement_6XmHTDmxkzw[.]choice_5depYsd5CxN</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6WcLj2Kp49r</id>
+					<description lang="und">Leader-Modeling</description>
+				</component>
+				<component>
+					<id>statement_5sjkyntYvXZ</id>
+					<description lang="und">Peer-Modeling</description>
+				</component>
+				<component>
+					<id>statement_6XmHTDmxkzw</id>
+					<description lang="und">Self-Modeling</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6KxkzBFWaP6</id>
+					<description lang="und">Effective</description>
+				</component>
+				<component>
+					<id>choice_5ouILUfutEt</id>
+					<description lang="und">More Effective</description>
+				</component>
+				<component>
+					<id>choice_5depYsd5CxN</id>
+					<description lang="und">Most Effective</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.5 Follow the Leader</name>
+			<description lang="und">4.5 Follow the Leader</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6FijkKCu8m5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4.6 Model the Master</name>
+			<description lang="und">4.6 Model the Master</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5xgCch82oCT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6ZtV4bPFIJA_course_id/6WPKBN9lC1x" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

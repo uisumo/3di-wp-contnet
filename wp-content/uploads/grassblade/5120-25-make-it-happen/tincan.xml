@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5obhzV4hdDD_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/6ovqmOONreM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">25.1 - Objectives</name>
+			<description lang="und">25.1 - Objectives</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">25.2 - A New Trajectory</name>
+			<description lang="und">25.2 - A New Trajectory</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">25.3 - Community Impact</name>
+			<description lang="und">25.3 - Community Impact</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/6gTkKlw6QMG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">25.4 - Course Feedback</name>
+			<description lang="und">25.4 - Course Feedback</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/5gQdJEkc8JH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">25.5 - Receive Certificate</name>
+			<description lang="und">25.5 - Receive Certificate</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/5yNlj9LcrAv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5obhzV4hdDD_course_id/63nZ3Q4wDsB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

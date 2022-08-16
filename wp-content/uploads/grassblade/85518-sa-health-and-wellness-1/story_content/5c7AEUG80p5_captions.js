@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.44.23192.0%0D%0A%0D%0A00:00:00.072%20--%3E%2000:00:04.768%0D%0ANAIA%20Coaches%20have%20a%20duty%20to%20ensure%20Student-Athlete%20Health%20\u0026amp;%20Wellness.%0D%0A%0D%0A"}')

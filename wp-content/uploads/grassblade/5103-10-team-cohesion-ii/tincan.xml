@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6L97q8wZcaT_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6iuxQyNKXOr" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/5WyPvD5YOOj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.1 Objectives</name>
+			<description lang="und">10.1 Objectives</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6QPR1VUS1HS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.2 Engaging the Group</name>
+			<description lang="und">10.2 Engaging the Group</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6JW6S6H6KLN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">In the Team Cohesion Matrix,                        is defined as “the general quality of the relationships in the group.”</name>
+			<description lang="und">In the Team Cohesion Matrix,                        is defined as “the general quality of the relationships in the group.”</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6JW6S6H6KLN/5bfAw86NfV0" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">In the Team Cohesion Matrix,                        is defined as “the general quality of the relationships in the group.”</name>
+			<description lang="und">In the Team Cohesion Matrix,                        is defined as “the general quality of the relationships in the group.”</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5iTGgWaHwa9</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6CmFm8RwdUq</id>
+					<description lang="und">Individual-Task</description>
+				</component>
+				<component>
+					<id>choice_5lWYtlp7doT</id>
+					<description lang="und">Individual-Relational</description>
+				</component>
+				<component>
+					<id>choice_6CBw1nDP5RF</id>
+					<description lang="und">Group-Task</description>
+				</component>
+				<component>
+					<id>choice_5iTGgWaHwa9</id>
+					<description lang="und">Group-Relational</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6p2mrERLv4q" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What key principle did Jeff share that can help coaches effectively establish group-relational team cohesion?</name>
+			<description lang="und">What key principle did Jeff share that can help coaches effectively establish group-relational team cohesion?</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6p2mrERLv4q/646J505icsw" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What key principle did Jeff share that can help coaches effectively establish group-relational team cohesion?</name>
+			<description lang="und">What key principle did Jeff share that can help coaches effectively establish group-relational team cohesion?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5z1PX4wyi7M</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5ic8B8xi5WI</id>
+					<description lang="und">Purposefully utilize different seating arrangements (bus rides, team meetings etc.) so kids vary their interactions with teammates.</description>
+				</component>
+				<component>
+					<id>choice_6SyHBcKznNP</id>
+					<description lang="und">Help athletes learn each other’s first names by utilizing name tags at team functions (when possible).</description>
+				</component>
+				<component>
+					<id>choice_5z1PX4wyi7M</id>
+					<description lang="und">Develop strategies to get athletes together outside of their normal athletic environment.</description>
+				</component>
+				<component>
+					<id>choice_5giYTpu4LqB</id>
+					<description lang="und">When possible, have food present at team functions.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6OH3aJxnP3W" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.3 Serve Somebody</name>
+			<description lang="und">10.3 Serve Somebody</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6TTp3VnL1tt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Seeking opportunities that allow for your athletes to serve others is one of the best ways to create team unity.</name>
+			<description lang="und">Seeking opportunities that allow for your athletes to serve others is one of the best ways to create team unity.</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6TTp3VnL1tt/66l6iH6DWck" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Seeking opportunities that allow for your athletes to serve others is one of the best ways to create team unity.</name>
+			<description lang="und">Seeking opportunities that allow for your athletes to serve others is one of the best ways to create team unity.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5vc0GR9HEiU</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5vc0GR9HEiU</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_6ZwvbgnutmQ</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/62lwOvowihJ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.4 Perspective</name>
+			<description lang="und">10.4 Perspective</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6EYYD3EoADx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6WrWr161vCh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.5 Stew and a Canoe</name>
+			<description lang="und">10.5 Stew and a Canoe</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6XkXpVRyAFi" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">10.6 True Greatness</name>
+			<description lang="und">10.6 True Greatness</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/5eEv6bzNFrF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/697ilhrrHke" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/6ZwhacZ9OeW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6L97q8wZcaT_course_id/5zVYJ4hEA5W" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

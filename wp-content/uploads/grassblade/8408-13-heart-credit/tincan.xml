@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6PRj5Ka31sF_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">13.0 - Heart</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">13.0 - Heart</name>
+			<description lang="und">13.0 - Heart</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">13.1 Objectives</name>
+			<description lang="und">13.1 Objectives</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">13.2 Holism</name>
+			<description lang="und">13.2 Holism</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5gxobTwEa9x" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Select the word that best describes each level’s range of application.</name>
+			<description lang="und">Select the word that best describes each level’s range of application.</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5gxobTwEa9x/66dMUKPUntT" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Select the word that best describes each level’s range of application.</name>
+			<description lang="und">Select the word that best describes each level’s range of application.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5fTfO30yj0D[.]choice_5fTfO30yj0D</correctResponsePattern>
+				<correctResponsePattern>statement_6m9wbUcJ1AH[.]choice_6m9wbUcJ1AH</correctResponsePattern>
+				<correctResponsePattern>statement_6kH2ouaix0s[.]choice_6kH2ouaix0s</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5fTfO30yj0D</id>
+					<description lang="und">3rd Dimension:</description>
+				</component>
+				<component>
+					<id>statement_6m9wbUcJ1AH</id>
+					<description lang="und">2nd Dimension:</description>
+				</component>
+				<component>
+					<id>statement_6kH2ouaix0s</id>
+					<description lang="und">Ist Dimension:</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5fTfO30yj0D</id>
+					<description lang="und">Universal</description>
+				</component>
+				<component>
+					<id>choice_6m9wbUcJ1AH</id>
+					<description lang="und">General</description>
+				</component>
+				<component>
+					<id>choice_6kH2ouaix0s</id>
+					<description lang="und">Sport-Specific</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">13.3 Second Nature</name>
+			<description lang="und">13.3 Second Nature</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5V6BxMKP2mS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">To maximize player potential, which dimension(s) should be addressed by your coaching strategies and/or techniques?</name>
+			<description lang="und">To maximize player potential, which dimension(s) should be addressed by your coaching strategies and/or techniques?</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5V6BxMKP2mS/6aybJbMUxbn" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">To maximize player potential, which dimension(s) should be addressed by your coaching strategies and/or techniques?</name>
+			<description lang="und">To maximize player potential, which dimension(s) should be addressed by your coaching strategies and/or techniques?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6dBdJVyr9zV</correctResponsePattern>
+				<correctResponsePattern>choice_5rMSbUGEKg0</correctResponsePattern>
+				<correctResponsePattern>choice_6E6mWXE4kPQ</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6dBdJVyr9zV</id>
+					<description lang="und">3rd Dimension</description>
+				</component>
+				<component>
+					<id>choice_5rMSbUGEKg0</id>
+					<description lang="und">1st Dimension</description>
+				</component>
+				<component>
+					<id>choice_6E6mWXE4kPQ</id>
+					<description lang="und">2nd Dimension</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">13.4 Understanding</name>
+			<description lang="und">13.4 Understanding</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5q1051je4gY" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“Great POWER requires great                        , for it to
+                      be a blessing and not a curse.” – Mark Hull</name>
+			<description lang="und">“Great POWER requires great                        , for it to
+                      be a blessing and not a curse.” – Mark Hull</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5q1051je4gY/6g0gh7HP4wi" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">“Great POWER requires great                        , for it to
+                      be a blessing and not a curse.” – Mark Hull</name>
+			<description lang="und">“Great POWER requires great                        , for it to
+                      be a blessing and not a curse.” – Mark Hull</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5ypAsWjvo29</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5hgcFzFVqyU</id>
+					<description lang="und">understanding</description>
+				</component>
+				<component>
+					<id>choice_5ypAsWjvo29</id>
+					<description lang="und">character</description>
+				</component>
+				<component>
+					<id>choice_6nSzRUohlsV</id>
+					<description lang="und">passion</description>
+				</component>
+				<component>
+					<id>choice_6nCy9qHfOqg</id>
+					<description lang="und">conviction</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6Q6eZDDrW28" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“You dare not be a                         to a land you have not
+                    been to.” – Mark Hull</name>
+			<description lang="und">“You dare not be a                         to a land you have not
+                    been to.” – Mark Hull</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6Q6eZDDrW28/5lN8iFqXWPL" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">“You dare not be a                         to a land you have not
+                    been to.” – Mark Hull</name>
+			<description lang="und">“You dare not be a                         to a land you have not
+                    been to.” – Mark Hull</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5XMROeKLMfd</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5XMROeKLMfd</id>
+					<description lang="und">tour guide</description>
+				</component>
+				<component>
+					<id>choice_5xXmYRn59Qp</id>
+					<description lang="und">visitor</description>
+				</component>
+				<component>
+					<id>choice_6PsWq73JQhh</id>
+					<description lang="und">explorer</description>
+				</component>
+				<component>
+					<id>choice_6Qs5p4aPiIv</id>
+					<description lang="und">chaperone</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Aligning the Sails</name>
+			<description lang="und">Aligning the Sails</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6PRj5Ka31sF_course_id/5rjxpvEenTv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

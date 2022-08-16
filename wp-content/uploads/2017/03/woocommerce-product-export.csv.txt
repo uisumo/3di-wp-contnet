@@ -1,0 +1,319 @@
+"post_title","post_name","ID","post_excerpt","post_content","post_status","menu_order","post_date","post_author","comment_status","sku","downloadable","virtual","stock","regular_price","sale_price","weight","length","width","height","tax_class","visibility","stock_status","backorders","manage_stock","tax_status","upsell_ids","crosssell_ids","featured","sale_price_dates_from","sale_price_dates_to","download_limit","download_expiry","product_url","button_text","images","downloadable_files","tax:product_type","tax:product_cat","tax:product_tag","tax:product_shipping_class"
+"3Dimensional Coaching Course for College Credit","3dimensional-coaching-course","236","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" /><br>
+Click ""Register"" if you have a pre-paid registration code.
+<br>
+[maxbutton id=""68""]","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+</ul>
+<p>To earn 3 Credit Hours for taking 3Dimensional Coaching, additional coursework is required above and beyond the amount required in the <a href=""/course-for-certification/"">course for certification</a>. This extra work utilizes Joe Ehrmann's book <a href=""http://amzn.to/2jNhNgr"" target=""_blank"">InSideOut Coaching</a>.</p>
+<p>Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.</p>
+<hr>
+You can also enhance your learning experience by taking advantage of the following resource that complements the <b>3Dimensional Coaching</b> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+ 	</ul>
+
+<hr />
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. 
+<hr />
+<h2>Screenshots of an Example Course Module</h2>
+[metaslider id=4926]
+","publish","18","2014-11-22 20:28:16","2","open","3dcourse25","no","no","","450","","","","","","","catalog","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_course_for_credit.png","","course","Course for Certification and College Credit","",""
+"3Dimensional Coaching","3dimensional-coaching-certification","434","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" /><br>
+Click ""Register"" if you have a pre-paid registration code.
+<br>
+[maxbutton id=""68""]
+","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+</ul>
+Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.
+<hr>
+You can enhance your learning experience by taking advantage of the following resource that complements the <b>3Dimensional Coaching</b> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+</ul> 	
+<hr />
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. If you need college credit for taking this course, <a href=""/course-for-credit/"">click here</a>.
+<hr />
+<h2>Screenshots of an Example Course Module</h2>
+[metaslider id=4926]
+","publish","15","2014-12-17 14:42:01","2","open","3dcoach24","no","no","","125","","","","","","","catalog","instock","no","no","taxable","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_certification.png","","course","Course for Certification","",""
+"3Dimensional Coaching+ Course","3dimensional-coaching-course-2","714","","<span style=""color: #ff0000;""><strong>Already enrolled?</strong></span> <a href=""3dimensional-coaching-course-2"">Click here</a>
+
+The 3Dimensional Coaching<strong style=""font-size: 150%;"">+</strong> (faith-based) course is designed to empower coaches to develop a 3Dimensional Coaching strategy to capture the hearts of their players and fulfill their transformational purpose in coaching. This particular version of the 3D Coaching content has been developed in partnership with the Fellowship of Christian Athletes.
+
+Participants can elect to take the course for 3 credit hours at the graduate or undergraduate level through ______________ University.  __________’s accreditation information can be found here.
+
+These credit hours can be applied toward an undergraduate or graduate degree per the discretion of the advisor of the degree program.  Please submit this <a href=""/wp-content/uploads/2014/11/3d_coaching_syllabus.pdf"" target=""_blank"">course’s syllabus</a> to the program advisor for approval, prior to paying and registering for this course.
+
+To register for the college credit, please add this course to the shopping cart and complete the checkout process. After your payment is received, you must complete and return the Outreach Enrollment Form to complete your registration. The instructions for returning this form are found in the 1st session of the 3Dimensional Coaching course.
+
+<strong>Required Course Materials</strong>: <a href=""http://www.amazon.com/dp/1439182981/?tag=googhydr-20&amp;hvadid=35052289164&amp;hvpos=1t2&amp;hvexid=&amp;hvnetw=g&amp;hvrand=17941861722896767558&amp;hvpone=&amp;hvptwo=&amp;hvqmt=b&amp;hvdev=c&amp;ref=pd_sl_9jhk4jym2q_b"" target=""_blank"">InSideOut Coaching</a> by Joe Ehrmann
+
+For more information regarding course content/requirements, please contact 3Dimensional Coaching at <a href=""mailto:info@3dinstitute.com"">info@3dinstitute.com</a>.
+
+For questions regarding college credit, email _____________________ at ___________________.
+
+[course_content course_id=""14""]","publish","17","2014-12-29 08:49:45","2","open","3dcoach23","no","no","","450","","","","","","","hidden","instock","no","no","taxable","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2014/12/3dimensional_coaching_course_4.jpg","","course","Course for Certification and College Credit","",""
+"3Dimensional Coaching+","3dimensional-coaching-plus-certification","715","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+The <b>3Dimensional Coaching</b><img src=""/wp-content/uploads/2017/02/plus_10x13.png"" /> course for certification contains the same modules, learning objectives, videos, quizzes, exercises and planning tools as the standard version. It also provides <b>additional faith-based content</b> at the end of each module provided by FCA, a ""[sg_popup id=1]Level 3 Partner[/sg_popup]"" of the 3D Institute.
+
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" /><br>
+Click ""Register"" if you have a pre-paid registration code.
+<br>
+[maxbutton id=""68""]","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+ 	<li>20 additional faith-based add-on videos (1.5 hours total)</li>
+</ul>
+Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.
+<hr>
+You can enhance your learning experience by taking advantage of these resources that complement the <b>3Dimensional Coaching</b><img src=""/wp-content/uploads/2017/02/plus_10x13.png"" /> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+ 	<li><strong>Companion Bible Study:</strong> This spiral-bound book serves as a discussion guide to help build upon the content of the online training from a faith-based perspective. This resource was produced in partnership with FCA, a ""[sg_popup id=1]Level 3 Partner[/sg_popup]"" of the 3D Institute.
+[maxbutton id=""36""]</li>
+</ul>
+<hr />
+
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. If you need college credit for taking this course, <a href=""/course-for-credit/"">click here</a>.
+
+<hr />
+<h2>Screenshots of an Example Course Module</h2>
+[metaslider id=4864]
+","publish","16","2014-12-29 08:52:03","2","open","3dcoach22","no","no","","125","","","","","","","catalog","instock","no","no","none","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_plus_certification-1.png","","course","Course for Certification","",""
+"3D Coaching Booklets - Qty 50","3d-coaching-booklets-qty-50","1951","<img src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" class=""alignnone size-full wp-image-4988"" />
+This booklet allows coaches to take notes and follow along with the slides that are presented in a 3D Coaching <a href=""/workshops-professional-development/"">introductory workshop</a>. This 8-page booklet measures 5.5"" X 8.5"" and is printed on 80# premium paper stock. The booklets are saddle stitched and printed in full color. 
+<hr>
+*This booklet is designed to be used by 3D Coaching <a href=""/certified-presenters/"">certified presenters</a>.
+<hr>","","publish","12","2015-09-22 14:57:11","2","closed","3dbokl5021","no","no","","50","","","","","","","catalog","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2015/09/presenter_booklet.png","","simple","Presenter Resources","",""
+"3D Certification Licenses (Bulk)","3d-certification-licenses-bulk-buy","2032","","The 3Dimensional Coaching certification course is designed to empower coaches to develop a 3Dimensional Coaching strategy to capture the hearts of their players and fulfill their transformational purpose in coaching.
+
+The primary objective is that each coach has a written transformational purpose statement for coaching and year-round strategies in the 2nd &amp; 3rd dimensions to accomplish that stated purpose.
+
+Upon completion of this course, coaches will be mailed a hard-copy of their 3D Coaching certificate with their personalized transformational purpose statement inscribed upon it.
+
+[course_content course_id=""15""]","publish","9","2015-10-27 15:06:09","2","closed","3dlic20","no","yes","","115","","","","","","","hidden","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2014/12/3dimensional_coaching_certificate.jpg","","simple","Course for Certification","",""
+"Business Cards - Qty 100","business-cards-qty-100","2534","","<strong>Price includes shipping</strong>
+","publish","8","2016-02-29 11:23:42","2","closed","3dcard19","no","no","","26","","","","","","","hidden","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/02/3d_businesscard_ad.jpg","","simple","Presenter Resources","",""
+"3D Presenter's School Registration Fee","3d-presenters-school","2970","","Paying for this registration fee will reserve your spot at the November 30-December 1, 2016 training in St. Joseph, MO. Space is limited to 12 attendees.
+
+<strong>Cost includes:</strong> 2 nights hotel, transportation to and from the airport, the training, training resources, and two lunches.","publish","7","2016-06-02 08:49:16","2","open","3dsklreg18","no","no","","600","","","","","","","hidden","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/06/presenters_school2.png","","simple","Presenter Resources","",""
+"Email Address Renewal","3dinstitute-email-renewal","3242","","Annual Renewal Fee for wsimmons44.staging.wpengine.com email address","publish","5","2016-07-06 12:18:47","2","closed","3demrenwl17","no","no","","60","","","","","","","hidden","instock","no","no","","","","no","","","","","","","","","simple","Presenter Resources","",""
+"Email Address Set-Up","email-address-set-up","3926","","Set-up Fee for wsimmons44.staging.wpengine.com email address","publish","4","2016-10-24 15:27:25","2","closed","3demail16","no","no","","70","","","","","","","hidden","instock","no","no","","","","no","","","","","","","","","simple","Presenter Resources","",""
+"Companion Bible Study","3d-companion-bible-study","4863","<img class=""alignnone size-full wp-image-4988"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" />
+The Companion Bible Study has been developed as a supplementary resource to go with the <strong>3Dimensional Coaching</strong><img class=""alignnone size-full wp-image-4842"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/plus.png"" alt="""" width=""19"" height=""15"" /> <a href=""/product/3dimensional-coaching-plus-certification/"">course for certification</a>. This resource includes:
+<ul>
+ 	<li>25 chapters that coincide with the 25 online modules</li>
+ 	<li>additional faith-based content that complements the 3D training principles</li>
+ 	<li>reflection/discussion questions to be used in small-group settings</li>
+</ul>
+<hr>
+*This resource was developed in collaboration with FCA, a ""[sg_popup id=1]Level 3 Partner[/sg_popup]"" of the 3D Institute.
+<hr>","","publish","3","2017-01-12 09:12:29","2","open","3dbibl15","no","no","","14.99","","","","","","","catalog","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/companion_bible_study.png","","simple","Other 3D Resources","",""
+"Companion Study Guide","companion-study-guide","4866","<img class=""alignnone size-full wp-image-4987"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" />
+This Companion Study Guide is a ""must have"" if you want to maximize the impact of the online 3D training. Whether you are taking the course for certification (standard or <img class=""alignnone size-full wp-image-4842"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/plus.png"" alt="""" width=""19"" height=""15"" /> version), or the course for college credit, this resource will enhance your learning experience by providing:
+<ul>
+ 	<li>a convenient place to take notes</li>
+ 	<li>a review of key teaching points</li>
+ 	<li>additional 3D content</li>
+ 	<li>reflection/discussion questions</li>
+</ul>
+
+<hr>
+","The Companion Study Guide will help you chronicle your journey through the 3D Coaching online training. This spiral-bound book can be used as a journal to take notes as you process through the teaching components. After you complete the course, this tool will serve as a quick reference guide to find key teaching points that were presented throughout the course. The 25 chapters of this book correspond with the 25 online modules. Along with a review of the topic at hand, each chapter provides a series of thought provoking questions designed to help coaches process and discuss the content in small group settings. In a typical scenario, coaches will watch the online video modules on their own time, then get together to discuss the content using the Companion Study Guide.","publish","2","2017-01-12 14:28:51","2","open","3dstdy14","no","no","","14.99","","","","","","","catalog","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/companion_study_guide.png","","simple","Course for Certification|Course for Certification and College Credit|Other 3D Resources","",""
+"Athletic Director's Handbook","athletic-directors-handbook","4869","<img class=""alignnone size-full wp-image-4988"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" />
+The Athletic Director's Handbook is designed to empower supervisors to guide their coaches through the 3D journey. This resource has everything sport administrators need to maximize the impact of training their coaches in 3D. It includes:
+<ul>
+ 	<li>a quick-reference guide to key online teaching points</li>
+ 	<li>discussion questions that go with each online module</li>
+ 	<li>a coaches' evaluation tool for post-season meetings</li>
+ 	<li>suggestions for hiring practices using 3D</li>
+ 	<li>dozens of interview questions to use while hiring</li>
+ 	<li>suggestions for engaging parents in the 3D process</li>
+ 	<li>additional 3D content specific to sport administrators</li>
+</ul>
+*This handbook is designed to be used by those who are <strong>overseeing the certification process</strong> of the coaches they are leading.
+
+<hr />","One coach will impact more people in one year than the average person does in a lifetime. The question is, ""Who's coaching the coaches?""
+
+The Athletic Director's Handbook will empower those in authority over coaches to help them maximize their influence and leave a legacy of transforming lives. This tool is designed to be used in conjunction with the online <a href=""/course-for-certification/"">course for certification</a> and/or <a href=""/course-for-credit/"">course for credit</a>. In a typical scenario, an administrator will require the coaches in his/her organization to be certified in 3Dimensional Coaching as a first step. This handbook will help supervisors maximize their investment over the long-haul by providing practical strategies to continually build upon the initial training.","publish","1","2017-01-13 09:37:05","2","open","3dbok13","no","no","","19.99","","","","","","","catalog","outofstock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/athletic_directors_handbook.png","","simple","Other 3D Resources","",""
+"3D Coaching Brochures - 100 Pk","3d-coaching-brochures-100-pk","4872","<img src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" class=""alignnone size-full wp-image-4988"" />
+This resource is perfect to share an overview of the 3Dimensional Coaching framework. Whether you are passing them out at a convention booth, a coaches&#039; meeting, at parent meetings or in 1-on-1 conversations, this tri-fold brochure will help explain what 3Dimensional Coaching is and how coaches can start the 3D Coaching journey.
+<hr>
+This full color tri-fold brochure comes in packs of 50 and is printed on Premium 100# Gloss Book stock from trees grown in environmentally sustainable forests.
+<hr>","","publish","0","2017-01-13 09:46:59","2","open","3dbro12","no","","","19.99","","","","","","","catalog","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_brochure.png | http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/brochure.png | http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_brochure_outside.jpg | http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_brochure_inside.jpg","","simple","Other 3D Resources","",""
+"InSideOut Coaching: How Sports Can Transform Lives","insideout-coaching-how-sports-can-transform-lives","4989","<img class=""alignnone size-full wp-image-4988"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" />
+In this inspirational yet practical book, the man <em>Parade</em> called “the most important coach in America,” subject of the national bestseller <a href=""http://amzn.to/2iLlOjv"" target=""_blank"">Season of Life</a>, Joe Ehrmann, describes his coaching philosophy and explains how sports can transform lives at every level of play, from the earliest years to professional sports.
+
+<hr />
+
+This book is a required reading for all students who are taking the 3Dimensional Coaching course for certification and<strong> college credit</strong>.
+
+<hr />","Coaches have a tremendous platform, says Joe Ehrmann, a former Syracuse University All-American and NFL star. Perhaps second only to parents, coaches can impact young people as no one else can. But most coaches fail to do the teaching, mentoring, even life-saving intervention that their platform provides. Too many are transactional coaches; they focus solely on winning and meeting their personal needs. Some coaches, however, use their platform. They teach the Xs and Os, but also teach the Ys of life. They help young people grow into responsible adults; they leave a lasting legacy. These are the transformational coaches. These coaches change lives, and they also change society by helping to develop healthy men and women.
+
+<em>InSideOut Coaching</em> explains how to become a transformational coach. Coaches first have to “go inside” and articulate their reasons for coaching. Only those who have taken the InSideOut journey can become transformational. Joe Ehrmann provides examples of coaches in his life who took this journey and taught him how to find something bigger than himself in sports.He describes his own InSideOut experience, starting with the death of his beloved brother, which helped him understand how sports could transcend the playing field. He gives coaches the information and the tools they need to become transformational.
+
+Joe Ehrmann has taken his message about the extraordinary power of sports all over the country. It has been warmly endorsed by NFL head coaches, athletic directors at major universities, high school head coaches, even business groups and community organizations. Now any parent-coach or school or community coach can read Ehrmann’s message and learn how to make sports a life-changing experience.
+","publish","0","2017-01-17 13:35:13","2","open","3dtransform11","no","no","","26.00","","","","","","","visible","instock","no","no","","","236","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/iso_coaching.png","","simple","Course for Certification and College Credit","",""
+"3D Coach: Capturing the Heart Behind the Jersey","3d-coach-capturing-the-heart-behind-the-jersey","4992","<img src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/about_this_resource.png"" alt="""" width=""317"" height=""43"" class=""alignnone size-full wp-image-4988"" />
+In <i>3D Coach</i>, Dr. Jeff Duke of the 3D Institute shares his own journey through the three dimensions of coaching and how it has impacted his life and those around him. He also shares the personal stories of coaches from all levels who have implemented the 3D concept into their own programs. This book was written in partnership with FCA and includes faith-based references and stories. FCA is a level 3 partner of the 3D Institute.
+<hr>
+This book is a supplementary reading and does <strong>NOT</strong> directly correspond with the <strong>3Dimensional Coaching</strong><img src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/plus.png"" alt="""" width=""19"" height=""15"" class=""alignnone size-full wp-image-4842"" /> Course for Certification. It is a resource unto itself.
+<hr>","With more than 60 million athletes involved in sports in America, it is estimated that one coach will impact more people in one year than the average person does in a lifetime. Today's coach could be one of the greatest authoritative figures in the life of today's adolescent. So the question isn't whether coaches leave a legacy, but rather, what will that legacy be?
+
+Current trending research shows that only 15% of coaches are intentional about coaching beyond the skills and strategies of the game (1st Dimension). A 3Dimensional Coach understands and harnesses the power of the coaching platform to coach the mind (2nd Dimension) and transform the heart (3rd Dimension). They can be the catalysts for internal transformation that guides both the coach and the athlete on a journey to finding purpose in our performance-based culture.
+
+Now that's a legacy!","publish","0","2017-01-17 14:38:14","2","open","3dcap10","no","no","","12.99","","","","","","","visible","instock","no","no","","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_coach.png","","simple","Other 3D Resources","",""
+"3Dimensional Coaching (Pre-Paid)","3dimensional-coaching-pre-paid","5288","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" />","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+</ul>
+Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.
+<hr>
+You can enhance your learning experience by taking advantage of the following resource that complements the <b>3Dimensional Coaching</b> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+</ul> 	
+<hr />
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. If you need college credit for taking this course, <a href=""/course-for-credit/"">click here</a>.
+<hr />
+<h2>Screenshots of an Example Course Module</h2>
+[metaslider id=4926]
+","publish","15","2017-03-03 18:00:46","2","closed","3dcoach25","no","no","","0","","","","","","","catalog","instock","no","no","taxable","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_certification.png","","course","","",""
+"3Dimensional Coaching+ (Pre-Paid)","3dimensional-coaching-with-pre-paid-license-code","5291","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+The <b>3Dimensional Coaching</b><img src=""/wp-content/uploads/2017/02/plus_10x13.png"" /> course for certification contains the same modules, learning objectives, videos, quizzes, exercises and planning tools as the standard version. It also provides <b>additional faith-based content</b> at the end of each module provided by FCA, a ""[sg_popup id=1]Level 3 Partner[/sg_popup]"" of the 3D Institute.
+
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" />","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+ 	<li>20 additional faith-based add-on videos (1.5 hours total)</li>
+</ul>
+Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.
+<hr>
+You can enhance your learning experience by taking advantage of these resources that complement the <b>3Dimensional Coaching</b><img src=""/wp-content/uploads/2017/02/plus_10x13.png"" /> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+ 	<li><strong>Companion Bible Study:</strong> This spiral-bound book serves as a discussion guide to help build upon the content of the online training from a faith-based perspective. This resource was produced in partnership with FCA, a ""[sg_popup id=1]Level 3 Partner[/sg_popup]"" of the 3D Institute.
+[maxbutton id=""36""]</li>
+</ul>
+<hr />
+
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. If you need college credit for taking this course, <a href=""/course-for-credit/"">click here</a>.
+
+<hr />
+<h2>Screenshots of an Example Course Module</h2>
+[metaslider id=4864]
+","publish","16","2017-03-03 21:08:56","2","closed","3dcoach26","no","no","","0","","","","","","","catalog","instock","no","no","none","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_plus_certification-1.png","","course","","",""
+"3Dimensional Coaching Course For Credit (Pre-Paid $125)","3dimensional-coaching-course-for-credit-with-pre-paid-license-code-copy","5300","<img class=""alignnone size-full wp-image-4322"" src=""/wp-content/uploads/2017/01/course_description_small.png"" alt=""Course Description"" width=""317"" height=""43"" />
+
+This self-paced online course takes coaches on a journey towards defining their transformational purpose and creating a plan to fulfill it. Along the way, coaches will discover important principles and learn practical strategies for:
+<ul>
+ 	<li>dealing with the ""entitlement"" mentality</li>
+ 	<li>intrinsically motivating athletes</li>
+ 	<li>harnessing the power of emotions</li>
+ 	<li>fostering higher levels of confidence</li>
+ 	<li>creating team cohesion</li>
+ 	<li>effectively setting goals</li>
+ 	<li>helping athletes develop character</li>
+</ul>
+<img class=""alignnone size-full wp-image-4322"" src=""http://wsimmons44.staging.wpengine.com/wp-content/uploads/2016/12/start_the_journey_small.png"" alt=""Start the Journey"" width=""432"" height=""43"" />","This online course is self-paced and will thoroughly train coaches to understand the 3D framework. By taking this course, you gain access to:
+<ul>
+ 	<li>25 teaching modules covering 2nd &amp; 3rd dimension topics</li>
+ 	<li>100+ short teaching videos (7.5 hours total)</li>
+ 	<li>Practical steps for writing your transformational purpose statement</li>
+ 	<li>Over 35 level 2 &amp; 3 strategies in lesson plan format</li>
+</ul>
+Upon completion of this course, you will be emailed a copy of your coaching plan. You will also be mailed a hard-copy of your 3Dimensional Coaching certificate that has your personal transformational purpose statement inscribed upon it.
+<hr>
+You can enhance your learning experience by taking advantage of the following resource that complements the <b>3Dimensional Coaching</b> course for certification:
+<ul>
+ 	<li><strong>Companion Study Guide:</strong> This spiral-bound book covers all 25 modules and reiterates key teaching points from the online training. This resource provides a handy place to take notes as you journey through the 3D content. It also provides thought provoking questions that are designed to be used in small group settings where the content can be processed and discussed by coaches who are going through it together.
+[maxbutton id=""37""]</li>
+</ul> 	
+<hr />
+**Check with your district, club, or governing organization to find out if this course can be counted towards CEU's or other professional development requirements. If you need college credit for taking this course, <a href=""/course-for-credit/"">click here</a>.
+<hr />
+<h3>Screenshots of an Example Course Module</h3>
+[metaslider id=4926]
+","publish","15","2017-03-03 22:22:39","2","closed","","no","no","","325","","","","","","","catalog","instock","no","no","taxable","","","no","","","","","","","http://wsimmons44.staging.wpengine.com/wp-content/uploads/2017/01/3d_certification.png","","course","","",""

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6UELuCXTeTW_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.1 - Objectives</name>
+			<description lang="und">18.1 - Objectives</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5i249mQGHRD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.2 - Unlocking the Good</name>
+			<description lang="und">18.2 - Unlocking the Good</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5o5tw5DpmwR" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">If we want to harness its power to motivate, we need to help athletes define “love” as:</name>
+			<description lang="und">If we want to harness its power to motivate, we need to help athletes define “love” as:</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5o5tw5DpmwR/6MTx45aBTJd" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">If we want to harness its power to motivate, we need to help athletes define “love” as:</name>
+			<description lang="und">If we want to harness its power to motivate, we need to help athletes define “love” as:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5vaSWf4WRxj</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_670vXn27cDb</id>
+					<description lang="und">that which gives me pleasure</description>
+				</component>
+				<component>
+					<id>choice_5vaSWf4WRxj</id>
+					<description lang="und">sacrificial giving for the sake of others</description>
+				</component>
+				<component>
+					<id>choice_5phchJqUHor</id>
+					<description lang="und">an intense feeling of deep affection</description>
+				</component>
+				<component>
+					<id>choice_5iv88g656xO</id>
+					<description lang="und">an extremely strong desire for something</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5rJej2sbB3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.3 - Perseverance</name>
+			<description lang="und">18.3 - Perseverance</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6rJxn4DYGdZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A primary function of a 3Dimensional Coach is to put kids in trying situations and shepherd them towards 
+                     ,                         , and              .</name>
+			<description lang="und">A primary function of a 3Dimensional Coach is to put kids in trying situations and shepherd them towards 
+                     ,                         , and              .</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6rJxn4DYGdZ/61laTw6Rhms" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">A primary function of a 3Dimensional Coach is to put kids in trying situations and shepherd them towards 
+                     ,                         , and              .</name>
+			<description lang="und">A primary function of a 3Dimensional Coach is to put kids in trying situations and shepherd them towards 
+                     ,                         , and              .</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_61e65Pd6x9w[.]choice_61e65Pd6x9w</correctResponsePattern>
+				<correctResponsePattern>statement_5a7XWl7RwWh[.]choice_5a7XWl7RwWh</correctResponsePattern>
+				<correctResponsePattern>statement_5bbtG7GeK2L[.]choice_5bbtG7GeK2L</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_61e65Pd6x9w</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5a7XWl7RwWh</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5bbtG7GeK2L</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_61e65Pd6x9w</id>
+					<description lang="und">hope</description>
+				</component>
+				<component>
+					<id>choice_5a7XWl7RwWh</id>
+					<description lang="und">proven character</description>
+				</component>
+				<component>
+					<id>choice_5bbtG7GeK2L</id>
+					<description lang="und">perseverance</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6jtMMouMaxg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When adversity strikes, a 3Dimensional coach should be intentional to steer athletes away from                     ,
+                        , and              .</name>
+			<description lang="und">When adversity strikes, a 3Dimensional coach should be intentional to steer athletes away from                     ,
+                        , and              .</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6jtMMouMaxg/5jRMd7hvOnR" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">When adversity strikes, a 3Dimensional coach should be intentional to steer athletes away from                     ,
+                        , and              .</name>
+			<description lang="und">When adversity strikes, a 3Dimensional coach should be intentional to steer athletes away from                     ,
+                        , and              .</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6GIfCPFj8hr[.]choice_6GIfCPFj8hr</correctResponsePattern>
+				<correctResponsePattern>statement_6Mn3uXXHncq[.]choice_6Mn3uXXHncq</correctResponsePattern>
+				<correctResponsePattern>statement_5mWhA0gxoAw[.]choice_5mWhA0gxoAw</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6GIfCPFj8hr</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6Mn3uXXHncq</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5mWhA0gxoAw</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6GIfCPFj8hr</id>
+					<description lang="und">discouragement</description>
+				</component>
+				<component>
+					<id>choice_6Mn3uXXHncq</id>
+					<description lang="und">division/dissention</description>
+				</component>
+				<component>
+					<id>choice_5mWhA0gxoAw</id>
+					<description lang="und">despair</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6Nxk3X4QSyQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.4 - Great Expectations</name>
+			<description lang="und">18.4 - Great Expectations</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6cvOLRccYge" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">To help athletes develop character through adversity, a coach should focus on doing these two things:</name>
+			<description lang="und">To help athletes develop character through adversity, a coach should focus on doing these two things:</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6cvOLRccYge/6e7vC0hJeZa" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">To help athletes develop character through adversity, a coach should focus on doing these two things:</name>
+			<description lang="und">To help athletes develop character through adversity, a coach should focus on doing these two things:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5WuNFm6KPVl[.]choice_5lzhjoXkagU</correctResponsePattern>
+				<correctResponsePattern>statement_6mcZNoLJ9ni[.]choice_5gxJDsfN1e0</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5WuNFm6KPVl</id>
+					<description lang="und">“Give them hope”</description>
+				</component>
+				<component>
+					<id>statement_6mcZNoLJ9ni</id>
+					<description lang="und">“Put Courage In”</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5lzhjoXkagU</id>
+					<description lang="und">Help them to see hope in the future beyond their present reality</description>
+				</component>
+				<component>
+					<id>choice_5gxJDsfN1e0</id>
+					<description lang="und">Speak words of verbal encouragement and teach others to do the same</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5xeHN3IUwif" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.5 - More Level 3 Strategies</name>
+			<description lang="und">18.5 - More Level 3 Strategies</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5tGjBJF4XvO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">18.6 - Love Endures</name>
+			<description lang="und">18.6 - Love Endures</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6rZhwWG0DXr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6UELuCXTeTW_course_id/6rhDD72uIyE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>
