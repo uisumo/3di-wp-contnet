@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6mT2mZSj7fg_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">11.1 Objectives</name>
+			<description lang="und">11.1 Objectives</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">11.2 Outcome </name>
+			<description lang="und">11.2 Outcome </description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/677UPRTEGZV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Goal setting refers to attaining a specific level of a proficiency on a task, usually in a specified                  .</name>
+			<description lang="und">Goal setting refers to attaining a specific level of a proficiency on a task, usually in a specified                  .</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/677UPRTEGZV/6IjTJqm2VqI" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Goal setting refers to attaining a specific level of a proficiency on a task, usually in a specified                  .</name>
+			<description lang="und">Goal setting refers to attaining a specific level of a proficiency on a task, usually in a specified                  .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5nxpsR2ytY8</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5nxpsR2ytY8</id>
+					<description lang="und">time limit</description>
+				</component>
+				<component>
+					<id>choice_61KGJNmVs7A</id>
+					<description lang="und">sequence</description>
+				</component>
+				<component>
+					<id>choice_6ZYkepGDrzF</id>
+					<description lang="und">location</description>
+				</component>
+				<component>
+					<id>choice_5s01D1eFVrO</id>
+					<description lang="und">functionality</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/67unnADXoYl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which of the following statements is an example of an OUTCOME goal?</name>
+			<description lang="und">Which of the following statements is an example of an OUTCOME goal?</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/67unnADXoYl/5aij4Nn4fio" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which of the following statements is an example of an OUTCOME goal?</name>
+			<description lang="und">Which of the following statements is an example of an OUTCOME goal?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5bh0w3MPBTO</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5qL7xDwFs3Q</id>
+					<description lang="und">My goal is to take three shots in every round of the next tournament.</description>
+				</component>
+				<component>
+					<id>choice_5bh0w3MPBTO</id>
+					<description lang="und">My goal is to win the next tournament.</description>
+				</component>
+				<component>
+					<id>choice_5zhTBJD0Kon</id>
+					<description lang="und">My goal is to have zero mental errors in the next tournament.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">11.3 Performance</name>
+			<description lang="und">11.3 Performance</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6dX4w9tOCnP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which of the following statements is an example of a PERFORMANCE goal?</name>
+			<description lang="und">Which of the following statements is an example of a PERFORMANCE goal?</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6dX4w9tOCnP/6lgrBjOZk8D" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which of the following statements is an example of a PERFORMANCE goal?</name>
+			<description lang="und">Which of the following statements is an example of a PERFORMANCE goal?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6pSXmlDJRVe</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5q3QncB7F2c</id>
+					<description lang="und">My goal is to be named to the All-Star team this season.</description>
+				</component>
+				<component>
+					<id>choice_5wFv35Irk48</id>
+					<description lang="und">My goal is to keep my elbow in on every free-throw this season.</description>
+				</component>
+				<component>
+					<id>choice_6pSXmlDJRVe</id>
+					<description lang="und">My goal is to shoot 85% from the free throw line this season.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">11.4 Process</name>
+			<description lang="und">11.4 Process</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5tPdx1Tjvls" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Which of the following statements is an example of a PROCESS goal?</name>
+			<description lang="und">Which of the following statements is an example of a PROCESS goal?</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5tPdx1Tjvls/5n8dfvomwe9" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which of the following statements is an example of a PROCESS goal?</name>
+			<description lang="und">Which of the following statements is an example of a PROCESS goal?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6lv7t0W5uhW</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6cZxzaJK2Ta</id>
+					<description lang="und">My goal is to set the team weightlifting record for the deadlift.</description>
+				</component>
+				<component>
+					<id>choice_6lzEB8lY58j</id>
+					<description lang="und">My goal is to deadlift 80% of my max weight for 4 sets of 5.</description>
+				</component>
+				<component>
+					<id>choice_6lv7t0W5uhW</id>
+					<description lang="und">My goal is to use perfect form on every deadlift repetition I attempt.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6hjFlhPRkGs" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The 3 different types of goals are:</name>
+			<description lang="und">The 3 different types of goals are:</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6hjFlhPRkGs/6SXCSHIdyjy" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The 3 different types of goals are:</name>
+			<description lang="und">The 3 different types of goals are:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6JFGEokmH3j[.]choice_5YPQLg0AeaT</correctResponsePattern>
+				<correctResponsePattern>statement_6ODd7szqUbX[.]choice_6eOW944hoTZ</correctResponsePattern>
+				<correctResponsePattern>statement_6PZtfoBRwQm[.]choice_5t8PobYmYP3</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6JFGEokmH3j</id>
+					<description lang="und">Outcome Goals:</description>
+				</component>
+				<component>
+					<id>statement_6ODd7szqUbX</id>
+					<description lang="und">Performance Goals:</description>
+				</component>
+				<component>
+					<id>statement_6PZtfoBRwQm</id>
+					<description lang="und">Process Goals:</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5YPQLg0AeaT</id>
+					<description lang="und">The desired results of a competition</description>
+				</component>
+				<component>
+					<id>choice_6eOW944hoTZ</id>
+					<description lang="und">Athletes actual performance in relation to their own standard of excellence</description>
+				</component>
+				<component>
+					<id>choice_5t8PobYmYP3</id>
+					<description lang="und">Concerned with how athletes perform particular skills or execute strategies</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">11.5 B.E.E.F.</name>
+			<description lang="und">11.5 B.E.E.F.</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5dpGdjaMmb8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6mT2mZSj7fg_course_id/6KfwnehiMs8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

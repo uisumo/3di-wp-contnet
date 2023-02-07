@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6Ym43mNVbYg_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">NAIA Rules</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/6Aai6uQ8UeG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 1</name>
+			<description lang="und">Slide 1</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/6gqYrLhnC0A" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 2</name>
+			<description lang="und">Slide 2</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/5h398U2vlnd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 3</name>
+			<description lang="und">Slide 3</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/6YCgHMaBHfP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 4</name>
+			<description lang="und">Slide 4</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/5WbkCtHKGQx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 5</name>
+			<description lang="und">Slide 5</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/6N40kXgjnEx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 6</name>
+			<description lang="und">Slide 6</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/5nV8KhXrnGw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 7</name>
+			<description lang="und">Slide 7</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/6UV3nJe4Pu3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 8</name>
+			<description lang="und">Slide 8</description>
+		</activity>
+		<activity id="http://6Ym43mNVbYg_course_id/5cP1V2oEUCW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Slide 9</name>
+			<description lang="und">Slide 9</description>
+		</activity>
+	</activities>
+</tincan>

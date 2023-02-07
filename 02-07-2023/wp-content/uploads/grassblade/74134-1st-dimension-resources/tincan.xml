@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5ygxkFv6dSD_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">1st Dimension Resources</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://5ygxkFv6dSD_course_id/6HvBz0R8o4B" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">1st Dimension Resources</name>
+			<description lang="und">1st Dimension Resources</description>
+		</activity>
+		<activity id="http://5ygxkFv6dSD_course_id/5lU2LcfzSiW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice Planning</name>
+			<description lang="und">Practice Planning</description>
+		</activity>
+		<activity id="http://5ygxkFv6dSD_course_id/6htNBfTfnOm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teaching</name>
+			<description lang="und">Teaching</description>
+		</activity>
+		<activity id="http://5ygxkFv6dSD_course_id/6qFGBuFA2jL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Assessing Athletes</name>
+			<description lang="und">Assessing Athletes</description>
+		</activity>
+	</activities>
+</tincan>

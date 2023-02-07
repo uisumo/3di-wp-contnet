@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6UByx9S0WYI_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.1 Objectives</name>
+			<description lang="und">14.1 Objectives</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5i249mQGHRD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.2 The Spice of Sport</name>
+			<description lang="und">14.2 The Spice of Sport</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5nRqkYZfV3P" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sports and games are both subsets of                   .</name>
+			<description lang="und">Sports and games are both subsets of                   .</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5nRqkYZfV3P/5womIFGSlC2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Sports and games are both subsets of                   .</name>
+			<description lang="und">Sports and games are both subsets of                   .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5rTZ4XN9zSX</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6GVHw6LRzcw</id>
+					<description lang="und">Competition</description>
+				</component>
+				<component>
+					<id>choice_5rTZ4XN9zSX</id>
+					<description lang="und">Play</description>
+				</component>
+				<component>
+					<id>choice_68e35VVkpUF</id>
+					<description lang="und">Recreation</description>
+				</component>
+				<component>
+					<id>choice_6feXoFOupyT</id>
+					<description lang="und">Rivalry</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/6HoerN0xkqk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What reasons did Mark give about why human beings are drawn toward the instinct to “play?”</name>
+			<description lang="und">What reasons did Mark give about why human beings are drawn toward the instinct to “play?”</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/6HoerN0xkqk/5rblYAuey27" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What reasons did Mark give about why human beings are drawn toward the instinct to “play?”</name>
+			<description lang="und">What reasons did Mark give about why human beings are drawn toward the instinct to “play?”</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5tPdQbCEnJM</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6iWxwbUEdmI</id>
+					<description lang="und">Play engages us in all three dimensions.</description>
+				</component>
+				<component>
+					<id>choice_6UNPFSIwG6r</id>
+					<description lang="und">Play produces a sense of joy and wonder.</description>
+				</component>
+				<component>
+					<id>choice_6Hr2xsnS3Bo</id>
+					<description lang="und">Play inspires our imagination and our effort.</description>
+				</component>
+				<component>
+					<id>choice_5tPdQbCEnJM</id>
+					<description lang="und">All of the above</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5rJej2sbB3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.3 The Readiness Principle</name>
+			<description lang="und">14.3 The Readiness Principle</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5sLvVWUCSS6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5sLvVWUCSS6/60ZbKhicFiJ" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_637IKJgEMD6[.]choice_5bYlb2JQjGZ</correctResponsePattern>
+				<correctResponsePattern>statement_6IWqK79gLxK[.]choice_6BHaKWjm5s5</correctResponsePattern>
+				<correctResponsePattern>statement_6nDwWYImpaJ[.]choice_6ogcJTrRTjL</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_637IKJgEMD6</id>
+					<description lang="und">Picture 8 - 1.png</description>
+				</component>
+				<component>
+					<id>statement_6IWqK79gLxK</id>
+					<description lang="und">Picture 9 - 2.png</description>
+				</component>
+				<component>
+					<id>statement_6nDwWYImpaJ</id>
+					<description lang="und">Picture 10 - 3.png</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5bYlb2JQjGZ</id>
+					<description lang="und">Picture 11 - 1-answer.png</description>
+				</component>
+				<component>
+					<id>choice_6BHaKWjm5s5</id>
+					<description lang="und">Picture 12 - 2-answer.png</description>
+				</component>
+				<component>
+					<id>choice_6ogcJTrRTjL</id>
+					<description lang="und">Picture 13 - 3-answer.png</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/6Nxk3X4QSyQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.4 Skill Development</name>
+			<description lang="und">14.4 Skill Development</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5y3sswbSkjI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Mark shared these two cautions about exposing kids to too much competition at too early of stages in their development (check two options):</name>
+			<description lang="und">Mark shared these two cautions about exposing kids to too much competition at too early of stages in their development (check two options):</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5y3sswbSkjI/68fpkjpO99l" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Mark shared these two cautions about exposing kids to too much competition at too early of stages in their development (check two options):</name>
+			<description lang="und">Mark shared these two cautions about exposing kids to too much competition at too early of stages in their development (check two options):</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5Xsn4O9i0TL</correctResponsePattern>
+				<correctResponsePattern>choice_6kiyvcCbXOy</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5Xsn4O9i0TL</id>
+					<description lang="und">Competition amps up the price of the mistake and slows the learning curve.</description>
+				</component>
+				<component>
+					<id>choice_6kiyvcCbXOy</id>
+					<description lang="und">Competition often imposes an emphasis on strategy at the expense of skill development</description>
+				</component>
+				<component>
+					<id>choice_6rd3OJKKhNH</id>
+					<description lang="und">Competition teaches athletes pursue selfish ambitions away from the athletic environment.</description>
+				</component>
+				<component>
+					<id>choice_5loNMr7saqk</id>
+					<description lang="und">Competition is the primary reason kids experience negative-harmful emotions.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5xeHN3IUwif" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.5 Tag, You're It!</name>
+			<description lang="und">14.5 Tag, You're It!</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5eaO8mIT9fV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">14.6 The Thief of Joy</name>
+			<description lang="und">14.6 The Thief of Joy</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5q2c75XtA5a" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6UByx9S0WYI_course_id/5eSdA534Ti4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

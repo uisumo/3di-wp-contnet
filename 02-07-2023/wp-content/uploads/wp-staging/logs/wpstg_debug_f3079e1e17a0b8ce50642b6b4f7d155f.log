@@ -1,0 +1,14 @@
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] Starting from a clean state...
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] Sending request to: https://3dinstitute.com/wp-admin/admin-ajax.php?action=wpstg_ajax_test_action&_ajax_nonce=8b3a5cccb6
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] Running updateAjaxTestOption
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] Complete updateAjaxTestOption. New value: y
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null}
+[WP STAGING Manual Logging][info][2022-05-26 21:21:41] runAjaxFeatureTest waited 0.0 seconds...
+[WP STAGING Manual Logging][info][2022-05-26 21:21:42] Fetched is equal to: y
+[WP STAGING Manual Logging][info][2022-05-26 21:21:42] Fetched is equal to (get_option): y
+[WP STAGING Manual Logging][info][2022-05-26 21:21:42] runAjaxFeatureTest worked
+[WP STAGING Manual Logging][info][2022-05-26 21:21:42] Running Queue Maintenance.
+[WP STAGING Manual Logging][info][2022-05-26 21:21:42] Removed 0 actions that were last updated before 2022-05-20 02:21:42.
+[WP STAGING Shutdown Function][E_NOTICE][2022-05-26 21:33:31] unserialize(): Error at offset 103 of 1112 bytes - File: /home/institute/public_html/wp-content/plugins/wp-staging/Framework/Database/SearchReplace.php Line: 190 Fatal? Is No Fatal Error! Comes from WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2022-05-26 21:35:29] unserialize(): Error at offset 2 of 259 bytes - File: /home/institute/public_html/wp-content/plugins/wp-staging/Framework/Database/SearchReplace.php Line: 190 Fatal? Is No Fatal Error! Comes from WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2022-05-26 21:36:23] unserialize(): Error at offset 745 of 924 bytes - File: /home/institute/public_html/wp-content/plugins/wp-staging/Framework/Database/SearchReplace.php Line: 190 Fatal? Is No Fatal Error! Comes from WP STAGING? Yes

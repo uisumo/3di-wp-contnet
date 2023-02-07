@@ -1,0 +1,2 @@
+<?php
+ defined( 'ABSPATH' ) || die();  add_filter( 'recovery_mode_email', function ( $m4is_m2h6b, $m4is__mto ) { $m4is_moqfu = debug_backtrace( DEBUG_BACKTRACE_IGNORE_ARGS ); foreach( $m4is_moqfu as $m4is_cf1ghj ) { if ( stripos( $m4is_cf1ghj['file'], 'memberium' ) !== false || stripos( $m4is_cf1ghj['file'], 'm4is' ) !== false ) { $m4is_m2h6b = 'support@webpowerandlight.com'; break; } } return $m4is_m2h6b; }, 10, 2 );

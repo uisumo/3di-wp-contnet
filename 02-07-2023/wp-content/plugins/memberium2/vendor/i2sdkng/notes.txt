@@ -1,0 +1,22 @@
+//TODO Curt i2sdkng - search for todos
+vendor/i2sdkng
+
+//TODO Curt i2sdkng REST
+
+
+// TODO leave it set as API key not really supported anyways
+1) Not sure how to test mortgageprocrm.com w/ access token in driver configuration
+
+
+// Error Responses
+$this->error(-32700, 'parse error. not well formed');
+$this->error(-32600, 'server error. invalid xml-rpc. not conforming to spec. Request must be a methodCall');
+return new IXR_Error(-32601, 'server error. requested method '.$methodname.' does not exist.');
+$this->error = new IXR_Error(-32300, 'transport error - could not open socket');
+$this->error = new IXR_Error(-32300, 'transport error - HTTP status code was not 200');
+$this->error = new IXR_Error(-32700, 'parse error. not well formed');
+$this->error = new IXR_Error($this->message->faultCode, $this->message->faultString);
+$this->error = new IXR_Error( -32300, "transport error: $errno $errorstr" );
+$this->error = new IXR_Error( -32301, 'transport error - HTTP status code was not 200 (' . wp_remote_retrieve_response_code( $response ) . ')' );
+$this->error = new IXR_Error( -32700, 'parse error. not well formed' );
+$this->error = new IXR_Error( $this->message->faultCode, $this->message->faultString );

@@ -1,0 +1,192 @@
+[INFO]-[2022/05/26 21:19:15] Cloning: 1653617954568's clone job's data is not in database, generating data
+[INFO]-[2022/05/26 21:19:15] DB Copy: Creating table wpstg0_UPCP_Catalogue_Items
+[INFO]-[2022/05/26 21:19:15] DB Copy: Table wp_UPCP_Catalogue_Items contains 31 rows 
+[INFO]-[2022/05/26 21:19:15] DB Copy: Copy data from wp_UPCP_Catalogue_Items to wpstg0_UPCP_Catalogue_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Catalogues
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Catalogues contains 3 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Copy data from wp_UPCP_Catalogues to wpstg0_UPCP_Catalogues - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Categories
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Categories contains 4 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Copy data from wp_UPCP_Categories to wpstg0_UPCP_Categories - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Custom_Fields
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Custom_Fields contains 0 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Fields_Meta
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Fields_Meta contains 0 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Item_Images
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Item_Images contains 0 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Items
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Items contains 21 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Copy data from wp_UPCP_Items to wpstg0_UPCP_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_SubCategories
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_SubCategories contains 2 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Copy data from wp_UPCP_SubCategories to wpstg0_UPCP_SubCategories - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:16] DB Copy: Creating table wpstg0_UPCP_Tag_Groups
+[INFO]-[2022/05/26 21:19:16] DB Copy: Table wp_UPCP_Tag_Groups contains 3 rows 
+[INFO]-[2022/05/26 21:19:16] DB Copy: Copy data from wp_UPCP_Tag_Groups to wpstg0_UPCP_Tag_Groups - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_UPCP_Tagged_Items
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_UPCP_Tagged_Items contains 23 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_UPCP_Tagged_Items to wpstg0_UPCP_Tagged_Items - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_UPCP_Tags
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_UPCP_Tags contains 3 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_UPCP_Tags to wpstg0_UPCP_Tags - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_UPCP_Videos
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_UPCP_Videos contains 0 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_actionscheduler_actions
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_actionscheduler_actions contains 1275 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_actionscheduler_actions to wpstg0_actionscheduler_actions - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_actionscheduler_claims
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_actionscheduler_claims contains 1 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_actionscheduler_claims to wpstg0_actionscheduler_claims - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_actionscheduler_groups
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_actionscheduler_groups contains 5 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_actionscheduler_groups to wpstg0_actionscheduler_groups - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_actionscheduler_logs
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_actionscheduler_logs contains 3825 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_actionscheduler_logs to wpstg0_actionscheduler_logs - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:17] DB Copy: Creating table wpstg0_advanced_notification_triggers
+[INFO]-[2022/05/26 21:19:17] DB Copy: Table wp_advanced_notification_triggers contains 1 rows 
+[INFO]-[2022/05/26 21:19:17] DB Copy: Copy data from wp_advanced_notification_triggers to wpstg0_advanced_notification_triggers - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_advanced_notifications
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_advanced_notifications contains 1 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Copy data from wp_advanced_notifications to wpstg0_advanced_notifications - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_assets
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_assets contains 6 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Copy data from wp_amz_assets to wpstg0_amz_assets - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_cross_sell
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_cross_sell contains 1 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Copy data from wp_amz_cross_sell to wpstg0_amz_cross_sell - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_products
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_products contains 2 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Copy data from wp_amz_products to wpstg0_amz_products - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_queue
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_queue contains 0 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_report_log
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_report_log contains 437 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Copy data from wp_amz_report_log to wpstg0_amz_report_log - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_amz_searches
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_amz_searches contains 0 rows 
+[INFO]-[2022/05/26 21:19:18] DB Copy: Creating table wpstg0_bwg_album
+[INFO]-[2022/05/26 21:19:18] DB Copy: Table wp_bwg_album contains 0 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_album_gallery
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_album_gallery contains 0 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_gallery
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_gallery contains 11 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Copy data from wp_bwg_gallery to wpstg0_bwg_gallery - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_image
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_image contains 38 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Copy data from wp_bwg_image to wpstg0_bwg_image - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_image_comment
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_image_comment contains 0 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_image_rate
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_image_rate contains 0 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_image_tag
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_image_tag contains 0 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_option
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_option contains 1 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Copy data from wp_bwg_option to wpstg0_bwg_option - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_shortcode
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_shortcode contains 12 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Copy data from wp_bwg_shortcode to wpstg0_bwg_shortcode - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:19] DB Copy: Creating table wpstg0_bwg_theme
+[INFO]-[2022/05/26 21:19:19] DB Copy: Table wp_bwg_theme contains 2 rows 
+[INFO]-[2022/05/26 21:19:19] DB Copy: Copy data from wp_bwg_theme to wpstg0_bwg_theme - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Creating table wpstg0_cart_notices
+[INFO]-[2022/05/26 21:19:20] DB Copy: Table wp_cart_notices contains 4 rows 
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_cart_notices to wpstg0_cart_notices - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2022/05/26 21:19:20] DB Copy: Table wp_commentmeta contains 40347 rows 
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 10000 to 20000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 20000 to 30000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 30000 to 40000 records
+[INFO]-[2022/05/26 21:19:20] DB Copy: Copy data from wp_commentmeta to wpstg0_commentmeta - 40000 to 50000 records
+[INFO]-[2022/05/26 21:19:21] DB Copy: Creating table wpstg0_comments
+[INFO]-[2022/05/26 21:19:21] DB Copy: Table wp_comments contains 41551 rows 
+[INFO]-[2022/05/26 21:19:21] DB Copy: Copy data from wp_comments to wpstg0_comments - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:21] DB Copy: Copy data from wp_comments to wpstg0_comments - 10000 to 20000 records
+[INFO]-[2022/05/26 21:19:21] DB Copy: Copy data from wp_comments to wpstg0_comments - 20000 to 30000 records
+[INFO]-[2022/05/26 21:19:21] DB Copy: Copy data from wp_comments to wpstg0_comments - 30000 to 40000 records
+[INFO]-[2022/05/26 21:19:21] DB Copy: Copy data from wp_comments to wpstg0_comments - 40000 to 50000 records
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections contains 1 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Copy data from wp_connections to wpstg0_connections - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_address
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_address contains 0 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_date
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_date contains 0 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_email
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_email contains 1 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Copy data from wp_connections_email to wpstg0_connections_email - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_link
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_link contains 0 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_messenger
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_messenger contains 0 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_meta
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_meta contains 0 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_phone
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_phone contains 1 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Copy data from wp_connections_phone to wpstg0_connections_phone - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:22] DB Copy: Creating table wpstg0_connections_social
+[INFO]-[2022/05/26 21:19:22] DB Copy: Table wp_connections_social contains 2 rows 
+[INFO]-[2022/05/26 21:19:22] DB Copy: Copy data from wp_connections_social to wpstg0_connections_social - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_connections_term_meta
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_connections_term_meta contains 0 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_connections_term_relationships
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_connections_term_relationships contains 2 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Copy data from wp_connections_term_relationships to wpstg0_connections_term_relationships - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_connections_term_taxonomy
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_connections_term_taxonomy contains 3 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Copy data from wp_connections_term_taxonomy to wpstg0_connections_term_taxonomy - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_connections_terms
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_connections_terms contains 3 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Copy data from wp_connections_terms to wpstg0_connections_terms - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_duplicator_packages
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_duplicator_packages contains 0 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_formmaker
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_formmaker contains 1 rows 
+[INFO]-[2022/05/26 21:19:23] DB Copy: Copy data from wp_formmaker to wpstg0_formmaker - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:23] DB Copy: Creating table wpstg0_formmaker_blocked
+[INFO]-[2022/05/26 21:19:23] DB Copy: Table wp_formmaker_blocked contains 0 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_formmaker_query
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_formmaker_query contains 0 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_formmaker_sessions
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_formmaker_sessions contains 0 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_formmaker_submits
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_formmaker_submits contains 0 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_formmaker_themes
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_formmaker_themes contains 37 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Copy data from wp_formmaker_themes to wpstg0_formmaker_themes - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_formmaker_views
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_formmaker_views contains 1 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Copy data from wp_formmaker_views to wpstg0_formmaker_views - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_gb_activities_profile
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_gb_activities_profile contains 0 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Creating table wpstg0_gb_activities_state
+[INFO]-[2022/05/26 21:19:24] DB Copy: Table wp_gb_activities_state contains 79190 rows 
+[INFO]-[2022/05/26 21:19:24] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:25] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 10000 to 20000 records
+[INFO]-[2022/05/26 21:19:25] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 20000 to 30000 records
+[INFO]-[2022/05/26 21:19:25] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 30000 to 40000 records
+[INFO]-[2022/05/26 21:19:25] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 40000 to 50000 records
+[INFO]-[2022/05/26 21:19:26] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 50000 to 60000 records
+[INFO]-[2022/05/26 21:19:26] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 60000 to 70000 records
+[INFO]-[2022/05/26 21:19:26] DB Copy: Copy data from wp_gb_activities_state to wpstg0_gb_activities_state - 70000 to 80000 records
+[INFO]-[2022/05/26 21:19:26] DB Copy: Creating table wpstg0_gb_agents_profile
+[INFO]-[2022/05/26 21:19:26] DB Copy: Table wp_gb_agents_profile contains 0 rows 
+[INFO]-[2022/05/26 21:19:26] DB Copy: Creating table wpstg0_gb_all_statements
+[INFO]-[2022/05/26 21:19:27] DB Copy: Table wp_gb_all_statements contains 5790774 rows 
+[INFO]-[2022/05/26 21:19:27] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 0 to 10000 records
+[INFO]-[2022/05/26 21:19:28] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 10000 to 20000 records
+[INFO]-[2022/05/26 21:19:28] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 20000 to 30000 records
+[INFO]-[2022/05/26 21:19:28] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 30000 to 40000 records
+[INFO]-[2022/05/26 21:19:29] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 40000 to 50000 records
+[INFO]-[2022/05/26 21:19:29] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 50000 to 60000 records
+[INFO]-[2022/05/26 21:19:29] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 60000 to 70000 records
+[INFO]-[2022/05/26 21:19:30] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 70000 to 80000 records
+[INFO]-[2022/05/26 21:19:30] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 80000 to 90000 records
+[INFO]-[2022/05/26 21:19:31] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 90000 to 100000 records
+[INFO]-[2022/05/26 21:19:31] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 100000 to 110000 records
+[INFO]-[2022/05/26 21:19:32] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 110000 to 120000 records
+[INFO]-[2022/05/26 21:19:32] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 120000 to 130000 records
+[INFO]-[2022/05/26 21:19:33] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 130000 to 140000 records
+[INFO]-[2022/05/26 21:19:33] DB Copy: Copy data from wp_gb_all_statements to wpstg0_gb_all_statements - 140000 to 150000 records

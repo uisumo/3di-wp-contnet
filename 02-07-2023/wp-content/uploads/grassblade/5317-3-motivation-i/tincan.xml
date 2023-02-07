@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5ix9HOCtA57_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3.0 - Motivation I</description>
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching+</name>
+			<description lang="und">3Dimensional Coaching+</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.1 Objectives</name>
+			<description lang="und">3.1 Objectives</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.2  Defining Motivation</name>
+			<description lang="und">3.2  Defining Motivation</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5x5fqiwZYR4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">MOTIVATION: the inclination to
+                and persist in the journey towards a desired outcome.</name>
+			<description lang="und">MOTIVATION: the inclination to
+                and persist in the journey towards a desired outcome.</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5x5fqiwZYR4/6f0iVMSNs4n" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">MOTIVATION: the inclination to
+                and persist in the journey towards a desired outcome.</name>
+			<description lang="und">MOTIVATION: the inclination to
+                and persist in the journey towards a desired outcome.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6oIO8g2cUMO</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Kf62r1ozls</id>
+					<description lang="und">attain</description>
+				</component>
+				<component>
+					<id>choice_6oIO8g2cUMO</id>
+					<description lang="und">pursue</description>
+				</component>
+				<component>
+					<id>choice_6WirbrCkBay</id>
+					<description lang="und">accomplish</description>
+				</component>
+				<component>
+					<id>choice_5sNt6PKrEJ5</id>
+					<description lang="und">persevere</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/62M1cN8kxf8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The following  bullet points are indicators of                    motivation.</name>
+			<description lang="und">The following  bullet points are indicators of                    motivation.</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/62M1cN8kxf8/5uhvd0wZpdm" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The following  bullet points are indicators of                    motivation.</name>
+			<description lang="und">The following  bullet points are indicators of                    motivation.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6UHLl9v0t2l</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Y2UPrh6WWZ</id>
+					<description lang="und">intrinsic</description>
+				</component>
+				<component>
+					<id>choice_5v5vunhKWTJ</id>
+					<description lang="und">low</description>
+				</component>
+				<component>
+					<id>choice_6S0jJaIZu62</id>
+					<description lang="und">extrinsic</description>
+				</component>
+				<component>
+					<id>choice_6UHLl9v0t2l</id>
+					<description lang="und">high</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.3 Types of Motivation</name>
+			<description lang="und">3.3 Types of Motivation</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5YWEc1hQ4ga" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When the inclination to pursue and persist is imposed by positive or negative external factors, it’s called
+motivation.</name>
+			<description lang="und">When the inclination to pursue and persist is imposed by positive or negative external factors, it’s called
+motivation.</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5YWEc1hQ4ga/6OVbTYt0bvl" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">When the inclination to pursue and persist is imposed by positive or negative external factors, it’s called
+motivation.</name>
+			<description lang="und">When the inclination to pursue and persist is imposed by positive or negative external factors, it’s called
+motivation.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6lsrZQaOwdC</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6lsrZQaOwdC</id>
+					<description lang="und">extrinsic</description>
+				</component>
+				<component>
+					<id>choice_66Qtn3vodMr</id>
+					<description lang="und">exciting</description>
+				</component>
+				<component>
+					<id>choice_64aSXygTL6J</id>
+					<description lang="und">extraneous</description>
+				</component>
+				<component>
+					<id>choice_5zYtinJIcyW</id>
+					<description lang="und">exterior</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6I6s6W3xQ5n" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When the inclination to pursue and persist is driven by an interest or enjoyment of the task itself, and exists within the individual rather than relying on external pressure, it’s called                       motivation.</name>
+			<description lang="und">When the inclination to pursue and persist is driven by an interest or enjoyment of the task itself, and exists within the individual rather than relying on external pressure, it’s called                       motivation.</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6I6s6W3xQ5n/5xVs5zbbgAI" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">When the inclination to pursue and persist is driven by an interest or enjoyment of the task itself, and exists within the individual rather than relying on external pressure, it’s called                       motivation.</name>
+			<description lang="und">When the inclination to pursue and persist is driven by an interest or enjoyment of the task itself, and exists within the individual rather than relying on external pressure, it’s called                       motivation.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6Fn0tfVNWDs</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6O5YZ4XPmWK</id>
+					<description lang="und">interpersonal</description>
+				</component>
+				<component>
+					<id>choice_6Fn0tfVNWDs</id>
+					<description lang="und">intrinsic</description>
+				</component>
+				<component>
+					<id>choice_6mDPBiBJycM</id>
+					<description lang="und">inherent</description>
+				</component>
+				<component>
+					<id>choice_6DNRQbeSJeY</id>
+					<description lang="und">introspective</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.4 - Stepping In</name>
+			<description lang="und">3.4 - Stepping In</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6ptH0uNwpjc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What was the principle Dr. Duke shared that can help to intrinsically motivate athletes?</name>
+			<description lang="und">What was the principle Dr. Duke shared that can help to intrinsically motivate athletes?</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6ptH0uNwpjc/5k5kDztONAt" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What was the principle Dr. Duke shared that can help to intrinsically motivate athletes?</name>
+			<description lang="und">What was the principle Dr. Duke shared that can help to intrinsically motivate athletes?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5rSY0GDPDDQ</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5g3lBl3Nzhf</id>
+					<description lang="und">Create an environment where athletes are empowered to “step in” to each other’s life and share issues of the heart.</description>
+				</component>
+				<component>
+					<id>choice_5rSY0GDPDDQ</id>
+					<description lang="und">Have a strategy to “step in” to your athletes’ lives, away from the athletic environment.</description>
+				</component>
+				<component>
+					<id>choice_6aXLtnEQmKw</id>
+					<description lang="und">Enact an open-door policy so athletes can “step in” to your world and share issues of the heart.</description>
+				</component>
+				<component>
+					<id>choice_5pM9ItHXEtO</id>
+					<description lang="und">Encourage parents to be intentional about “stepping in” to their athletes life, in and out of sport.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.5 Home Visits</name>
+			<description lang="und">3.5 Home Visits</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/6agtZdzDeIG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">3.6 Relational Deposits</name>
+			<description lang="und">3.6 Relational Deposits</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5loe4yOgEg3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5ix9HOCtA57_course_id/5ZeEVQvlNHb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION RESOURCES</name>
+			<description lang="und">COMPANION RESOURCES</description>
+		</activity>
+	</activities>
+</tincan>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5moXOILCHxj_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">9.0 - Team Cohesion I</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">9.0 - Team Cohesion I</name>
+			<description lang="und">9.0 - Team Cohesion I</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">9.1 Objectives</name>
+			<description lang="und">9.1 Objectives</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">9.2 "Me" Culture</name>
+			<description lang="und">9.2 "Me" Culture</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6FmM1tiA8HH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Jeff taught that 2 generations of                    have created a “me” culture where athletes often believe they are deserving of special privileges.</name>
+			<description lang="und">Jeff taught that 2 generations of                    have created a “me” culture where athletes often believe they are deserving of special privileges.</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6FmM1tiA8HH/62AQSHUQd5O" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Jeff taught that 2 generations of                    have created a “me” culture where athletes often believe they are deserving of special privileges.</name>
+			<description lang="und">Jeff taught that 2 generations of                    have created a “me” culture where athletes often believe they are deserving of special privileges.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6MyLToJec1W</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6aOehqa06E1</id>
+					<description lang="und">enrichment</description>
+				</component>
+				<component>
+					<id>choice_6SJYpNSErpg</id>
+					<description lang="und">appurtenance</description>
+				</component>
+				<component>
+					<id>choice_5zNmUEirEq8</id>
+					<description lang="und">amelioration</description>
+				</component>
+				<component>
+					<id>choice_6MyLToJec1W</id>
+					<description lang="und">entitlement</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">9.3 "Me" to "We"</name>
+			<description lang="und">9.3 "Me" to "We"</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6DuOFm69HOw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Dr. Carron defines team cohesion as a                                   that is reflected in the tendency of a group to come together in the pursuit of its goal.</name>
+			<description lang="und">Dr. Carron defines team cohesion as a                                   that is reflected in the tendency of a group to come together in the pursuit of its goal.</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6DuOFm69HOw/6f8Z7Qz9dUW" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Dr. Carron defines team cohesion as a                                   that is reflected in the tendency of a group to come together in the pursuit of its goal.</name>
+			<description lang="und">Dr. Carron defines team cohesion as a                                   that is reflected in the tendency of a group to come together in the pursuit of its goal.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6egpk0b5qWt</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6egpk0b5qWt</id>
+					<description lang="und">dynamic process </description>
+				</component>
+				<component>
+					<id>choice_6S6EcO6wEte</id>
+					<description lang="und">development goal</description>
+				</component>
+				<component>
+					<id>choice_6UZ8ZpmdHlt</id>
+					<description lang="und">modus operandi</description>
+				</component>
+				<component>
+					<id>choice_61MnaOrX9a1</id>
+					<description lang="und">character progression</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6Z7a3Zm4ttn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Assign each component of team cohesion to the appropriate definition/description.</name>
+			<description lang="und">Assign each component of team cohesion to the appropriate definition/description.</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6Z7a3Zm4ttn/6nVWxLFzGNy" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Assign each component of team cohesion to the appropriate definition/description.</name>
+			<description lang="und">Assign each component of team cohesion to the appropriate definition/description.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6LpMJ2UIxeV[.]choice_6LpMJ2UIxeV</correctResponsePattern>
+				<correctResponsePattern>statement_6ejJfS3JVyy[.]choice_6ejJfS3JVyy</correctResponsePattern>
+				<correctResponsePattern>statement_6j8SpPReQIp[.]choice_6j8SpPReQIp</correctResponsePattern>
+				<correctResponsePattern>statement_6hlm2eLFBsD[.]choice_6hlm2eLFBsD</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6LpMJ2UIxeV</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6ejJfS3JVyy</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6j8SpPReQIp</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6hlm2eLFBsD</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6LpMJ2UIxeV</id>
+					<description lang="und">Task</description>
+				</component>
+				<component>
+					<id>choice_6ejJfS3JVyy</id>
+					<description lang="und">Individual</description>
+				</component>
+				<component>
+					<id>choice_6j8SpPReQIp</id>
+					<description lang="und">Group</description>
+				</component>
+				<component>
+					<id>choice_6hlm2eLFBsD</id>
+					<description lang="und">Relational</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/69Z6ZONaMUH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">9.4 One-on-Ones</name>
+			<description lang="und">9.4 One-on-Ones</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6QmUqA2RhoW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A group of setters on a volleyball team who are working on the fundamentals of passing is an example of which aspect of creating team cohesion?</name>
+			<description lang="und">A group of setters on a volleyball team who are working on the fundamentals of passing is an example of which aspect of creating team cohesion?</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6QmUqA2RhoW/68uvKQbpbDg" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">A group of setters on a volleyball team who are working on the fundamentals of passing is an example of which aspect of creating team cohesion?</name>
+			<description lang="und">A group of setters on a volleyball team who are working on the fundamentals of passing is an example of which aspect of creating team cohesion?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5bHtt90tdcM</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5bHtt90tdcM</id>
+					<description lang="und">Individual-Task</description>
+				</component>
+				<component>
+					<id>choice_5gvBqdlRdxu</id>
+					<description lang="und">Individual-Relational</description>
+				</component>
+				<component>
+					<id>choice_6Ky8YS7eQBX</id>
+					<description lang="und">Group-Task</description>
+				</component>
+				<component>
+					<id>choice_6Vzyk9mmizq</id>
+					<description lang="und">Group-Relational</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/65lCIL5WoPK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">The quality of the individual members’ relationships within the team is referred to as                           .</name>
+			<description lang="und">The quality of the individual members’ relationships within the team is referred to as                           .</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/65lCIL5WoPK/6dzlEveeCfn" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The quality of the individual members’ relationships within the team is referred to as                           .</name>
+			<description lang="und">The quality of the individual members’ relationships within the team is referred to as                           .</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6CQ3enE0uH9</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6CQ3enE0uH9</id>
+					<description lang="und">Individual-Relational</description>
+				</component>
+				<component>
+					<id>choice_5tTwGRexxQH</id>
+					<description lang="und">Individual-Task</description>
+				</component>
+				<component>
+					<id>choice_5Zlgn3vR2iw</id>
+					<description lang="und">Group-Task</description>
+				</component>
+				<component>
+					<id>choice_6Ofr7bi9Ipr</id>
+					<description lang="und">Group-Relational</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">9.5 In the Spotlight</name>
+			<description lang="und">9.5 In the Spotlight</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5moXOILCHxj_course_id/6TtObwuRSxf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

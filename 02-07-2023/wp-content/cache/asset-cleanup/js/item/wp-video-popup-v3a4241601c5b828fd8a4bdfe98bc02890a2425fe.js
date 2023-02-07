@@ -1,0 +1,11 @@
+/*!/wp-content/plugins/responsive-youtube-vimeo-popup/assets/js/wp-video-popup.js*/
+if(window.NodeList&&!NodeList.prototype.forEach){NodeList.prototype.forEach=Array.prototype.forEach}(function(){if(typeof window.CustomEvent==="function")return!1;function CustomEvent(event,params){params=params||{bubbles:!1,cancelable:!1,detail:null};var evt=document.createEvent('CustomEvent');evt.initCustomEvent(event,params.bubbles,params.cancelable,params.detail);return evt}
+window.CustomEvent=CustomEvent})();(function($){var popup=document.querySelector('.wp-video-popup-wrapper');var speed=200;function init(){if(!popup)return;setupOpenActions();setupVideoHeight();setupCloseActions()}
+function setupOpenActions(){setupOpenTriggers('.wp-video-popup');setupOpenTriggers('.ryv-popup')}
+function setupOpenTriggers(triggerSelector){var triggers=document.querySelectorAll(triggerSelector);if(!triggers)return;triggers.forEach(function(trigger){trigger.addEventListener('click',function(e){e.preventDefault();openPopup()})})}
+function setupCloseActions(){popup.addEventListener('click',function(e){if(e.target==this||e.target.classList.contains('wp-video-popup-close'))closePopup()});document.addEventListener('keyup',function(e){if(e.key!=='Escape'&&e.key!=='Esc'&&e.keyCode!==27)return;if($(popup).is(':visible'))closePopup()})}
+function setupVideoHeight(){window.addEventListener('resize',function(){var video=document.querySelector('.wp-video-popup-video.is-resizable');if(video)$(video).height($(video).width()*0.5625)})}
+function openPopup(){var video=popup.querySelector('.wp-video-popup-video');document.body.insertBefore(popup,document.body.firstChild);$(popup).css({display:'flex'}).stop().animate({opacity:1},speed);$(video).stop().fadeIn(speed);video.src=video.dataset.wpVideoPopupUrl;window.dispatchEvent(new Event('resize'))}
+function closePopup(){var video=popup.querySelector('.wp-video-popup-video');$(popup).stop().animate({opacity:0},speed,function(){$(popup).css({display:'none'})});$(video).stop().fadeOut(speed,function(){video.src=''})}
+init()})(jQuery)
+;

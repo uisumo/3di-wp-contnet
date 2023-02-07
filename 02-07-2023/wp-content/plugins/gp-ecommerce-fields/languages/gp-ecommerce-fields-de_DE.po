@@ -1,0 +1,143 @@
+# Copyright (C) 2022 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP eCommerce Fields 1.2.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"_TWHXpcHu\n"
+"POT-Creation-Date: 2022-09-21T17:55:31+00:00\n"
+"PO-Revision-Date: 2022-10-24 14:11-0400\n"
+"Last-Translator: Florian Rinnhofer\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.2\n"
+"X-Domain: gp-ecommerce-fields\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
+
+#. Plugin Name of the plugin
+msgid "GP eCommerce Fields"
+msgstr "GP eCommerce Fields"
+
+#. Plugin URI of the plugin
+msgid "https://gravitywiz.com/documentation/gravity-forms-ecommerce-fields/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Make Gravity Forms more eCommerce-friendly with support for Tax, Discounts, "
+"and Subtotal fields."
+msgstr ""
+"Mache Gravity Forms e-Commerce-freundlicher durch Support für Steuern, "
+"Rabatte und Zwischensummen-Felder."
+
+#. Author of the plugin
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+msgid "http://gravitywiz.com/"
+msgstr "https://gravitywiz.com/"
+
+#: class-gp-ecommerce-fields.php:104 class-gp-ecommerce-fields.php:1033
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: class-gp-ecommerce-fields.php:109
+msgid "Coupon Total"
+msgstr "Gutscheinsumme"
+
+#: class-gp-ecommerce-fields.php:114
+msgid "Discounts Total"
+msgstr "Rabatte insgesamt"
+
+#: class-gp-ecommerce-fields.php:119
+msgid "Order Summary"
+msgstr "Bestellübersicht"
+
+#: class-gp-ecommerce-fields.php:185 class-gp-ecommerce-fields.php:241
+msgid "Tax Amount"
+msgstr "Steuerbetrag"
+
+#: class-gp-ecommerce-fields.php:185
+msgid ""
+"Specify the percentage amount that should be added to the form total as tax."
+msgstr ""
+"Gib den prozentuellen Wert an, welcher als Steuer zum Gesamtbetrag "
+"hinzugefügt werden soll."
+
+#: class-gp-ecommerce-fields.php:186 class-gp-ecommerce-fields.php:245
+msgid "Discount Amount"
+msgstr "Rabattsumme"
+
+#: class-gp-ecommerce-fields.php:186
+msgid "Specify the amount that should be discounted from the form total."
+msgstr "Gib den Betrag an, welcher vom Gesamtbetrag abgezogen werden soll."
+
+#: class-gp-ecommerce-fields.php:187 class-gp-ecommerce-fields.php:262
+msgid "Applicable Products"
+msgstr "Anwendbare Produkte"
+
+#: class-gp-ecommerce-fields.php:187
+msgid ""
+"Specify which Product fields should be included when calculating the value "
+"of this field."
+msgstr ""
+"Gib an, welche Produktfelder berücksichtigt werden sollen, wenn der Wert "
+"dieses Feldes berechnet wird."
+
+#. Translators: The %s is replaced with "$10" customized to the user's configured currency.
+#: class-gp-ecommerce-fields.php:253
+msgid "Supports 10&#37; or %s"
+msgstr "Unterstützt 10&#37; oder %s"
+
+#: class-gp-ecommerce-fields.php:268
+msgid "Include"
+msgstr "Einschließen"
+
+#: class-gp-ecommerce-fields.php:271
+msgid "Apply tax to"
+msgstr "Steuer anwenden auf"
+
+#: class-gp-ecommerce-fields.php:274
+msgid "Apply discount to"
+msgstr "Rabatt anwenden auf"
+
+#: class-gp-ecommerce-fields.php:277
+msgid "all products"
+msgstr "Alle Produkte"
+
+#: class-gp-ecommerce-fields.php:278
+msgid "specific products"
+msgstr "bestimmte Produkte"
+
+#: class-gp-ecommerce-fields.php:284 class-gp-ecommerce-fields.php:285
+msgid "Select Products"
+msgstr "Produkte wählen"
+
+#: class-gp-ecommerce-fields.php:1028
+msgid "Order"
+msgstr "Bestellung"
+
+#: class-gp-ecommerce-fields.php:1029
+msgid "Product"
+msgstr "Produkt"
+
+#: class-gp-ecommerce-fields.php:1030
+msgid "Qty"
+msgstr "Menge"
+
+#: class-gp-ecommerce-fields.php:1031
+msgid "Unit Price"
+msgstr "Stückpreis"
+
+#: class-gp-ecommerce-fields.php:1032
+msgid "Price"
+msgstr "Preis"
+
+#: class-gp-ecommerce-fields.php:1034
+msgid "Total"
+msgstr "Gesamt"

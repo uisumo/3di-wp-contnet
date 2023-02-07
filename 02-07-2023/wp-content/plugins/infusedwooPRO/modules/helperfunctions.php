@@ -1,0 +1,1 @@
+<?php  function iw_list_product_categories(){$categories=get_terms(array('taxonomy' =>'product_cat','orderby' =>'name','hide_empty' =>false,));return $categories;}

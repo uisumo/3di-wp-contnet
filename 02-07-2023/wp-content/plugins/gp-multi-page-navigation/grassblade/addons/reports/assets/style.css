@@ -1,0 +1,126 @@
+#grassblade_reports_output_main, #grassblade_reports {
+	background: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+#grassblade_reports select, #grassblade_reports .date_range input, #nss_report_users_search {
+	width: 100%;
+    max-width: 100%;
+    height: 35px;
+    padding-left: 10px;
+}
+#grassblade_reports #nss_report_contents {
+	max-height: 300px;
+	overflow: scroll;
+}
+#nss_report_contents > div {
+	height: 30px;
+}
+#grassblade_reports table {
+	width: 90%;
+}
+#grassblade_reports table th {
+	width: 20%;
+	text-align: left !important;
+}
+#grassblade_reports .show_on {
+    display: none;
+}
+#grassblade_reports small.show_all_courses_toggle {
+    cursor: pointer;
+    color: blue;
+}
+#grassblade_reports small.show_all_courses_toggle span.show_group_courses,
+#grassblade_reports small.show_all_courses_toggle.show_all_courses span.show_all_courses {
+    display: none;
+}
+#grassblade_reports small.show_all_courses_toggle.show_all_courses span.show_group_courses {
+    display: block;
+}
+.daterangepicker .drp-buttons .btn {
+    line-height: 20px;
+    height: 30px;
+    color: green;
+    border: 2px solid green;
+}
+.daterangepicker .drp-buttons .btn:hover {
+    color: white;
+    background: green;
+}
+#grassblade_reports_output {
+	font-size: 12px;
+}
+#grassblade_reports_output_wrapper {
+	width: 100%; 
+	overflow: scroll;
+	padding-top: 10px;
+}
+#grassblade_reports_output_filter input {
+    height: 37px;
+    line-height: 33px;
+    min-width: 126px;
+    border-color: #349858;
+    color: #349858;
+    text-align: center;
+    border-radius: 26px;
+    padding: 0 15px;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+    border: 2px solid #349858;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    float: right;
+    width: 200px;
+    margin-top: -6px;
+}
+#grassblade_reports_output_length select {
+    width: 70px;
+    margin: 0 10px;
+    padding: 0px 15px;
+    background-position: 83.8% 12px;
+} 
+#columns-list {
+	position: relative;
+	float: right;
+}
+#columns-list ul {
+	display: none;
+    float: right;
+    position: absolute;
+    background: white;
+    z-index: 100;
+    padding: 10px;
+    border: 1px solid green;
+    list-style-type: none;
+    list-style-image: none;
+    width: 450px;
+    right: 5px;
+    top: 45px;
+    max-height: 300px;
+    overflow: scroll;
+}
+#columns-list ul li {
+	margin: 0;
+    height: auto;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#columns-list ul li::before, .daterangepicker ul li:before {
+	background: none;
+}
+#buttons123 .dt-button-collection {
+	width: 300px;
+	font-size: 12px;
+}
+#buttons123 .dt-button.buttons-columnVisibility {
+	color: #aaa;
+	background: white;
+}
+#buttons123 .dt-button.buttons-columnVisibility.active {
+	color: green;
+}
+#grassblade_reports_output .wpProQuiz_update,#grassblade_reports_output #wpProQuiz_resetUserStatistic {
+    display: none;
+}

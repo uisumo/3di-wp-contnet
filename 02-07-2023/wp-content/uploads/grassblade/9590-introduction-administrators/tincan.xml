@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://JKZ5OnDlUUB5TS6PofemSm4C4UgwNO3A_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">Introduction</name>
+      <description lang="en-US">&lt;p&gt;&amp;quot;In my 27 years as a coach/athletic director, I have not witnessed anything as beneficial and powerful as 3Dimensional Coaching.&amp;quot;&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;&lt;strong&gt;Jeff Rich&lt;/strong&gt;&lt;br&gt;HS Athletic Director (retired)&lt;/p&gt;&lt;p style=&#34;margin-left: 40px;&#34;&gt;Kansas City, MO&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://JKZ5OnDlUUB5TS6PofemSm4C4UgwNO3A_rise/Oogq6A8O5vtBEj8ezA4Ae3vCKjbP0Mbb" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">What is 3Dimensional Coaching?/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://JKZ5OnDlUUB5TS6PofemSm4C4UgwNO3A_rise/wR_xemxFkBA8tkTAEKunjRDLEAn01XvL" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Building a Legacy/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://JKZ5OnDlUUB5TS6PofemSm4C4UgwNO3A_rise/dOcqhhYfw3BBIlKvE4VaeoD05PvF1DoC" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">A Foundation of Purpose/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://JKZ5OnDlUUB5TS6PofemSm4C4UgwNO3A_rise/TFXVxRPcX_I4-2d22DWwR2LPksc-uWqE" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">The 3D Framework/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+        </activities>
+</tincan>

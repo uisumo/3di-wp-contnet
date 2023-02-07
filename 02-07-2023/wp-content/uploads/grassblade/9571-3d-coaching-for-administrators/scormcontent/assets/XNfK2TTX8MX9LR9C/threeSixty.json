@@ -1,0 +1,63 @@
+{
+  "version": "3.9.13510.0",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6j5uoXrSZ4O",
+      "title": "Slide 1",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5pZeD3QM7St",
+      "title": "Slide 2",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5l6cOhdWMAm",
+      "title": "Slide 3",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5Y8BK9wiBHl",
+      "title": "Slide 4",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6BKCctSzK4b",
+      "title": "Slide 5",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6gHFXsmnTen",
+      "title": "Slide 6",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6NwrtkhzIwc",
+      "title": "Slide 7",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "6CY6MbSziiN",
+      "title": "Slide 8",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "5dPRfhJxxmz",
+      "title": "Slide 9",
+      "scene_index": "1.9"
+    }
+  ],
+  "player": {
+    "width": 1020,
+    "height": 680
+  },
+  "stage": {
+    "width": 1000,
+    "height": 562
+  }
+}

@@ -1,0 +1,488 @@
+(function ($){
+window.gwCopyObj=function (args){
+var self=this;
+for (prop in args){
+if(args.hasOwnProperty(prop)){
+self[prop]=args[prop];
+}}
+self.init=function (){
+gform.addFilter('gpcc_copied_value', function(value, $targetElem, field){
+if($('#input_{0}_{1}'.format(self.formId, field.source)).hasClass('ginput_total')){
+var numberFormat=gf_get_field_number_format(field.source, self.formId);
+if(! numberFormat){
+numberFormat=gf_get_field_number_format(field.target, self.formId);
+}
+var decimalSeparator=gformGetDecimalSeparator(numberFormat);
+value=gformCleanNumber(value, '', '', decimalSeparator);
+}
+return value;
+});
+var $formWrapper=$('#gform_wrapper_{0}'.format(self.formId));
+$formWrapper.off('click.gpcopycat');
+$formWrapper.on('click.gpcopycat',
+'.gwcopy input[type="checkbox"]',
+function (){
+if($(this).is(':checked')){
+self.copyValues(this);
+}else{
+self.clearValues(this);
+}}
+);
+$formWrapper.off('change.gpcopycat');
+$formWrapper.on('change.gpcopycat',
+'.gwcopy input:not(:checkbox), .gwcopy textarea, .gwcopy select',
+function (){
+self.copyValues(this);
+}
+);
+$formWrapper.find('.gwcopy').find('input, textarea, select, button').each(function (){
+if(! $(this).is(':checkbox, :radio')&&! $(this).parents('.gfield_chainedselect').length){
+self.copyValues(this, self.overwriteOnInit);
+}else if($(this).is(':checked')){
+self.copyValues(this, self.overwriteOnInit);
+}
+if($(this).is('button')){
+if(! $(this)[0].id.includes('_select_all')){
+return;
+}
+var selectText=$(this).attr('data-label-select');
+var deselectText=$(this).attr('data-label-deselect');
+$(this)[0].onclick=null;
+$(this).on('click', function(){
+var buttonText=$(this).text();
+$(this).siblings().each(function(i, value){
+if(buttonText==selectText){
+if(! $(value).find('input').prop('checked')){
+$(value).find('input').click();
+}}else{
+if($(value).find('input').prop('checked')){
+$(value).find('input').click();
+}}
+});
+if(buttonText==selectText){
+$(this).text(deselectText);
+}else{
+$(this).text(selectText);
+}});
+}}
+);
+gform.addAction('gform_list_post_item_delete',
+function ($container){
+if($container.parents('.gwcopy').length > 0){
+self.clearValues($container);
+self.copyValues($container);
+}}
+);
+var triggerIds=[];
+gform.addAction('gform_input_change', function(){
+triggerIds=[];
+}, 15);
+gform.addAction('gform_post_conditional_logic_field_action', function(formId, action, targetId, defaultValues, isInit){
+if(action==='hide'){
+return;
+}
+var fieldId=gf_get_input_id_by_html_id(targetId);
+var fieldSettings=self.getFieldSettings(fieldId);
+if(! fieldSettings){
+return;
+}
+for(var i=0; i < fieldSettings.length; i++){
+if($.inArray(fieldSettings[i].trigger, triggerIds)!==-1){
+continue;
+}
+triggerIds.push(fieldSettings[i].trigger);
+var $trigger=$('#field_{0}_{1}'.format(formId, fieldSettings[i].trigger)).find('input, textarea, select');
+var shouldOverwrite = ! isInit;
+if($trigger.is(':checkbox')){
+if($trigger.filter(':checked').length){
+self.copyValues($trigger[0], shouldOverwrite);
+}else{
+}}else{
+self.copyValues($trigger[0], shouldOverwrite);
+}}
+});
+$formWrapper.data('GPCopyCat', self);
+};
+self.getFieldSettings=function(fieldId){
+if(typeof self.fields[ fieldId ]!=='undefined'){
+return self.fields[ fieldId ];
+}else if(self.getSourceFieldIdByTarget(fieldId, true)!==false){
+return self.getSourceFieldIdByTarget(fieldId, true);
+}else if(self.getSourceField(fieldId, true)!==false){
+return self.getSourceField(fieldId, true);
+}
+return [];
+};
+self.copyValues=function (elem, isOverwrite, forceEmptyCopy){
+var fieldId=gf_get_input_id_by_html_id($(elem).parents('.gfield').attr('id')),
+fields=self.getFieldSettings(fieldId);
+isOverwrite=typeof isOverwrite!=='undefined' ? isOverwrite:self.overwrite;
+forceEmptyCopy=typeof forceEmptyCopy!=='undefined' ? forceEmptyCopy:isOverwrite;
+for (var i=0, max=fields.length; i < max; i++){
+var field=fields[i],
+sourceFieldId=field['source'],
+targetFieldId=field['target'],
+sourceGroup=self.getFieldGroup(field, 'source'),
+targetGroup=self.getFieldGroup(field, 'target'),
+isListToList=self.isListField(sourceGroup)&&self.isListField(targetGroup),
+sourceValues=self.getGroupValues(sourceGroup,
+'source',
+{
+sort: ! isListToList&&self.isListField(targetGroup) ? self.getGroupValues(targetGroup, 'target', {
+isListToList: isListToList,
+sourceInputId: targetFieldId
+}):false,
+isListToList: isListToList,
+sourceInputId: sourceFieldId,
+targetInputId: targetFieldId
+}
+);
+var customCopy=window.gform.applyFilters('gpcc_custom_copy', false, elem.id, sourceGroup, targetGroup, field.source);
+if(customCopy){
+continue;
+}
+if(sourceGroup.parents('.gfield_chainedselect').length){
+sourceGroup.each(function (index, el){
+if(elem.id===el.id){
+var target=targetGroup.get(index);
+target.value=elem.value;
+$(target).trigger('change');
+}});
+continue;
+}
+if(self.isListField(targetGroup)){
+var targetRowCount=targetGroup.parents('.ginput_list').find('.gfield_list_group').length,
+sourceRowCount=self.isListField(sourceGroup) ? sourceGroup.parents('.ginput_list').find('.gfield_list_group').length:sourceGroup.length,
+rowsRequired=Math.floor((sourceRowCount - targetRowCount)),
+maxRows=self.getMaxRowCount(targetGroup);
+if(rowsRequired < 0&&targetRowCount > 1){
+targetGroup.each(function (){
+var _sourceValues=getObjectValues(sourceValues);
+if($.inArray($(this).val(), _sourceValues)===-1&&$(this).parents('.gfield_list').find('.gfield_list_group').length > 1){
+gformDeleteListItem($(this), maxRows);
+}}
+);
+}else if(rowsRequired > 0){
+for (var j=0; j < rowsRequired; j++){
+if(maxRows > 0&&targetRowCount + j + 1 > maxRows){
+break;
+}
+gformAddListItem(targetGroup[targetGroup.length - 1], self.getMaxRowCount(targetGroup));
+}}
+targetGroup=self.getFieldGroup(field, 'target');
+}
+targetValues=[];
+if(! isInputSpecific(targetFieldId)&&targetGroup.is(':checkbox')&&isOverwrite){
+targetGroup.prop('checked', false);
+}
+targetGroup.each(function (i){
+var $targetElem=$(this),
+isCheckable=$targetElem.is(':checkbox, :radio'),
+index=isListToList ? self.getListInputIndex($targetElem):i,
+hasSourceValue=isCheckable||sourceValues[index]||($.isArray(sourceValues) &&sourceValues.join(' ')),
+hasValue=false,
+value=null;
+targetValues[i]=$targetElem.val();
+if(isCheckable){
+hasValue=targetGroup.is(':checked');
+}else{
+hasValue=$targetElem.val();
+}
+if(! isOverwrite&&hasValue){
+return true;
+}
+if(! hasSourceValue&&! forceEmptyCopy){
+return true;
+}
+if(self.isListField(targetGroup)){
+if(isInputSpecific(targetFieldId)){
+value=sourceValues[i];
+}else{
+value=sourceValues[index];
+}
+value=gform.applyFilters('gppc_copied_value', value, $targetElem, field);
+value=gform.applyFilters('gpcc_copied_value', value, $targetElem, field);
+$targetElem.val(value);
+}else if(isCheckable){
+if($.inArray($targetElem.val(), gform.applyFilters('gpcc_copied_value', sourceValues, $targetElem, field))!=-1){
+$targetElem.prop('checked', true);
+$targetElem.trigger('change');
+if($targetElem.parents('.gfield_price').length){
+gformCalculateTotalPrice(self.formId);
+}}
+}else if(targetGroup.length > 1){
+value=gform.applyFilters('gppc_copied_value', sourceValues[index], $targetElem, field);
+value=gform.applyFilters('gpcc_copied_value', value, $targetElem, field);
+$targetElem.val(value);
+}else{
+sourceValues=sourceValues.filter(function (item, pos){
+return item!='';
+}
+);
+value=gform.applyFilters('gppc_copied_value', self.cleanValueByInputType(sourceValues.join(' '), $targetElem.attr('type')), $targetElem, field, sourceValues);
+value=gform.applyFilters('gpcc_copied_value', value, $targetElem, field, sourceValues);
+if($targetElem.parents('.gfield_price:not(.gfield_quantity)').length > 0&&$targetElem.is('select, input[type="radio"], input[type="checkbox"]')&&value.indexOf('|')===-1){
+$targetElem.val($targetElem.find('option[value^="' + value + '|"]').attr('value'));
+}else{
+if($targetElem.is('select')&&$targetElem.find('option[value="' + value + '"]').length===0){
+value=$targetElem.find('option:first').val();
+}
+$targetElem.val(value);
+if(window.tinyMCE){
+var tiny=tinyMCE.get($targetElem.attr('id'));
+if(tiny){
+tiny.setContent(value);
+}}
+}}
+if(value){
+$targetElem.addClass('gpcc-populated-input').parents('.gfield').addClass('gpcc-populated');
+}else{
+$targetElem.removeClass('gpcc-populated-input').parents('.gfield').removeClass('gpcc-populated');
+}}
+);
+if(targetGroup.is(':checkbox, :radio')){
+if(! isOverwrite){
+targetGroup.filter(':checked');
+}
+targetGroup.keypress();
+}else{
+targetGroup.each(function(i){
+if(targetValues[ i ]!=$(this).val()){
+$(this)
+.change()
+.trigger('chosen:updated');
+}});
+}
+targetGroup.trigger('copy.gpcopycat');
+}};
+self.clearValues=function (elem){
+var fieldId=$(elem).parents('.gfield').attr('id').replace('field_' + self.formId + '_', '');
+var fields=self.getFieldSettings(fieldId);
+for (var i=0; i < fields.length; i++){
+var field=fields[i],
+sourceValues=[],
+targetGroup=self.getFieldGroup(field, 'target'),
+sourceGroup=self.getFieldGroup(field, 'source'),
+isListtoList=self.isListField(targetGroup)&&self.isListField(sourceGroup);
+var customClear=window.gform.applyFilters('gpcc_custom_clear', false, elem.id, sourceGroup, targetGroup, field.source);
+if(customClear){
+continue;
+}
+if(isListtoList){
+continue;
+}
+if(parseInt(field.source)==fieldId&&$(elem).is(':checkbox')){
+if(self.overwrite){
+targetGroup.prop('checked', false);
+}
+self.copyValues(elem, true, true);
+continue;
+}
+sourceGroup.each(function (i){
+sourceValues[i]=$(this).val();
+}
+);
+targetGroup.each(function (i){
+var $targetElem=$(this),
+fieldValue=$targetElem.val(),
+isCheckable=$targetElem.is(':checkbox, :radio'),
+isCheckbox=$targetElem.is(':checkbox');
+var sourceValue=sourceValues[i];
+if(targetGroup.length==1){
+sourceValues=sourceValues.filter(function (item, pos){
+return item!='';
+}
+);
+sourceValue=sourceValues.join(' ');
+}
+sourceValue=self.cleanValueByInputType(sourceValue);
+sourceValue=gform.applyFilters('gppc_copied_value', sourceValue, $targetElem, field);
+sourceValue=gform.applyFilters('gpcc_copied_value', sourceValue, $targetElem, field);
+if(isCheckbox&&$targetElem.is(':checked')){
+$targetElem.prop('checked', $.inArray(fieldValue, sourceValues)!==-1).change();
+}else if(isCheckable&&$targetElem.is(':checked')){
+$targetElem.prop('checked', false).change();
+}else if(fieldValue!==''&&fieldValue==sourceValue){
+$targetElem.val('').change();
+}
+$targetElem.removeClass('gpcc-populated-input').parents('.gfield').removeClass('gpcc-populated');
+}
+)
+if(self.isListField(targetGroup)){
+var maxRows=self.getMaxRowCount(targetGroup);
+targetGroup.parents('.ginput_list').find('.gfield_list_group:not(:first)').each(function (){
+if($(this).find('.gfield_list_cell input[value!=""]').length===0){
+gformDeleteListItem($(this).find('input').eq(0), maxRows);
+}}
+);
+}}
+};
+self.cleanValueByInputType=function (value, inputType){
+if(inputType=='number'){
+value=gformToNumber(value);
+}
+return value;
+};
+self.getFieldGroup=function (field, groupType){
+var rawFieldId=field[groupType],
+fieldId=parseInt(rawFieldId),
+formId=field[groupType + 'FormId'],
+$field=$('#field_' + formId + '_' + fieldId),
+group=$field.find('input[name^="input"]:not(:button), select[name^="input"], textarea[name^="input"]'),
+isListField=self.isListField(group);
+if(isListField){
+group=group.filter('[name="input_{0}[]"]'.format(fieldId));
+}
+if(isInputSpecific(rawFieldId)&&! isListField){
+var inputId=rawFieldId.split('.')[1],
+filteredGroup=group.filter('[id^="input_' + formId + '_' + fieldId + '_' + inputId + '"], input[name="input_' + rawFieldId + '"]');
+if(filteredGroup.length <=0){
+group=group.filter('#input_' + formId + '_' + rawFieldId);
+}else{
+group=filteredGroup;
+}}else if(isInputSpecific(rawFieldId)&&isListField){
+group=group.filter(function (){
+var currentListInputIndex=self.getListInputIndex($(this)),
+targetListInputIndex=self.getListInputIndex(rawFieldId, currentListInputIndex);
+return currentListInputIndex==targetListInputIndex;
+}
+);
+}
+if(groupType=='source'&&group.length > 1&&$(group[0]).closest('.ginput_container_password').length){
+group=group.filter('#input_' + formId + '_' + rawFieldId);
+}
+if(groupType=='source'&&group.is('input:radio, input:checkbox')){
+group=group.filter(':checked');
+}
+return gform.applyFilters('gpcc_field_group', group, field, groupType, $field);
+};
+self.getGroupValues=function (group, type, args){
+if(typeof args=='undefined'){
+args={};}
+args=parseArgs(
+args,
+{
+sort: false,
+isListToList: false,
+sourceInputId: false,
+targetInputId: false
+}
+);
+var values=[];
+group.each(function (i){
+var index=i;
+if(args.isListToList&&! isInputSpecific(args.targetInputId)){
+index=self.getListInputIndex($(this));
+}
+values[index]=$(this).val();
+}
+);
+if(args.sort!==false){
+var sort=args.sort.filter(function (item, pos){
+return args.sort.indexOf(item)==pos&&item!='';
+}
+);
+var sorted=[];
+for (var i=0; i < sort.length; i++){
+var index=values.indexOf(sort[i]);
+if(index!==-1){
+sorted.push(values[index]);
+values.splice(index, 1);
+}}
+values=sorted.concat(values);
+}
+return values;
+};
+self.isListField=function (group){
+if(group.data('isListField')!==undefined){
+return group.data('isListField');
+}
+var isListField=group.parents('.ginput_list').length > 0;
+group.data('isListField', isListField);
+return isListField;
+};
+self.getSourceFieldIdByTarget=function(targetFieldId, returnSettings){
+for(var i in self.fields){
+if(! self.fields.hasOwnProperty(i)){
+continue;
+}
+var fieldSettings=self.fields[ i ];
+for(var j=0; j < fieldSettings.length; j++){
+var setting=fieldSettings[ j ];
+if(parseInt(setting.target)===parseInt(targetFieldId)){
+return returnSettings ? fieldSettings:setting.source;
+}}
+}
+return false;
+}
+self.getSourceField=function(sourceFieldId, returnSettings){
+for(var i in self.fields){
+if(! self.fields.hasOwnProperty(i)){
+continue;
+}
+var fieldSettings=self.fields[ i ];
+for(var j=0; j < fieldSettings.length; j++){
+var setting=fieldSettings[ j ];
+if(parseInt(setting.source)===parseInt(sourceFieldId)){
+return returnSettings ? fieldSettings:setting.source;
+}}
+}
+return false;
+}
+self.getListInputIndex=function ($input, currentInputIndex, returnObject){
+if(typeof currentInputIndex=='undefined'){
+returnObject=false;
+}else if(typeof currentInputIndex=='boolean'){
+returnObject=currentInputIndex;
+currentInputIndex=false;
+}else if(typeof returnObject=='undefined'){
+returnObject=false;
+}
+if(typeof $input=='object'){
+var fieldId=$input.attr('name').match(/(\d+)/)[0],
+$group=$input.parents('.gfield_list_group'),
+$inputs=$group.find('[name="input_{0}[]"]'.format(fieldId)),
+$groups=$input.parents('.gfield_list_container').find('.gfield_list_group'),
+column=$inputs.index($input) + 1,
+row=$groups.index($group) + 1;
+}else{
+var inputId=$input,
+bits=inputId.split('.'),
+byts=currentInputIndex ? currentInputIndex.split('.'):[1, 1],
+column=bits[1],
+row=bits[2] ? bits[2]:byts[1];
+}
+var inputIndex=column + '.' + row;
+return returnObject ? {index:inputIndex, column:column, row:row}:inputIndex;
+};
+self.getMaxRowCount=function (targetGroup){
+var classes=targetGroup.parents('.gfield').attr('class').split(' ');
+for (var i=0; i < classes.length; i++){
+if(classes[i].indexOf('gp-field-maxrows')!==-1){
+return parseInt(classes[i].split('-')[3]);
+}}
+return 0;
+};
+function isInputSpecific(inputId){
+return parseInt(inputId)!=inputId;
+}
+function parseArgs(args, defaults){
+for (key in defaults){
+if(defaults.hasOwnProperty(key)&&typeof args[key]=='undefined'){
+args[key]=defaults[key];
+}}
+return args;
+}
+function getObjectValues(obj){
+if(! (obj instanceof Object)){
+return obj;
+}
+var values=[];
+for (var prop in obj){
+if(obj.hasOwnProperty(prop)){
+values.push(obj[prop]);
+}}
+return values;
+}
+self.init();
+};})(jQuery);

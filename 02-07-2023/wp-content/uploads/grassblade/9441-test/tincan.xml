@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise" type="http://adlnet.gov/expapi/activities/course">
+      <name lang="en-US">Employee Health and Wellness (Sample Course)</name>
+      <description lang="en-US">&lt;p&gt;We’re committed to creating a work environment that promotes employee health and wellness. This course is the first step in raising awareness and rollout of our new workplace health program, which includes promoting activities or policies that encourage and support healthy behaviors in the workplace.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Developing a thoughtful workplace health program has the potential to transform our organization. We hope it increases employee wellness, work satisfaction, and productivity. In this course, we’ll introduce some wellness concepts to kick off our wellness journey. Let’s get started!&lt;/p&gt;</description>
+    <launch lang="en-US">scormdriver/indexAPI.html</launch>
+    </activity>
+      <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/aAFqhP7DcBORd8k2Umyim4fw0Mb9Ey4O" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">5 Weeks to a Healthier You/timeline</name>
+      <description lang="en-US">&lt;p&gt;Impro&lt;/p&gt;</description>
+    </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/RGHldVuKZd7Y7dPqsJhV1UE__lQ75vt_" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Creating Healthy Meals/map</name>
+      <description lang="en-US">Click on the markers to learn the health benefits of each ingredient. You&#39;ll also learn tips for incorporating these foods into your daily diet.</description>
+    </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/96bQ0PDYKqQD6XmGAwqbQpu8PtGVFf9q" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Gauging Your Wellness/process</name>
+      <description lang="en-US">&lt;p&gt;Many of us don’t pause to reflect on our habits until it’s too late—by then we’re sick, crabby, and overworked. But making a daily note of personal wellness factors like sleep quality, self esteem, and stress levels can help us spot helpful patterns and develop behaviors that make us happier and healthier. For example, does eating certain foods make you feel sluggish? Does drinking caffeine after a certain point in the day keep you up at night? Recording these observations in a journal or a note in your phone is a quick and easy way to get them down so you can reflect on them later.&lt;/p&gt;</description>
+    </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/sdttMcIcoO6T-96Qf-Qpl4w5UH76YAXw" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Stretching for Success/video</name>
+      <description lang="en-US">&lt;p&gt;It can be tempting to end your workout after finishing the last mile or lifting the last rep. But adding some stretches to your exercise routine can improve your flexibility and decrease your risk of injury. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Here’s a video demonstrating a basic stretching routine that you can incorporate into your workout today!&lt;/p&gt;</description>
+    </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/tzfwRs8a2Pf6u4e-1t1cqZA381OpA_w4" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Managing Stress/blocks</name>
+      <description lang="en-US"></description>
+    </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/7EBtqc6XoC5xEdMI3Xrq5lmBCfC0yqM2" type="http://adlnet.gov/expapi/activities/module">
+      <name lang="en-US">Wellness Quiz/quiz</name>
+      <description lang="en-US">&lt;p&gt;Now that you’ve explored some aspects of physical, mental, and emotional wellness, it’s time to take a short quiz testing your Wellness IQ. Let’s see what you’ve learned so far!&lt;/p&gt;</description>
+    </activity>
+              <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/7EBtqc6XoC5xEdMI3Xrq5lmBCfC0yqM2/1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">Myth or Fact - Skipping meals helps you lose weight.</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_1_1</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_1_1</id>
+            <description lang="en-US">Myth</description>
+          </component>
+                  <component>
+            <id>choice_1_2</id>
+            <description lang="en-US">Fact</description>
+          </component>
+                </choices>
+      </activity>
+          <activity id="http://Q-1ZdZg6r_HlZteCQEZ7knJsYqa9dCB3_rise/7EBtqc6XoC5xEdMI3Xrq5lmBCfC0yqM2/2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+        <name lang="en-US">How many times per week should you exercise?</name>
+        <description lang="en-US"></description>
+        <interactionType>choice</interactionType>
+        <correctResponsePatterns>
+        <correctResponsePattern>choice_2_3</correctResponsePattern>
+        </correctResponsePatterns>
+        <choices>
+                  <component>
+            <id>choice_2_1</id>
+            <description lang="en-US">1-2 times per week</description>
+          </component>
+                  <component>
+            <id>choice_2_2</id>
+            <description lang="en-US">3-4 times per week</description>
+          </component>
+                  <component>
+            <id>choice_2_3</id>
+            <description lang="en-US">4-5 times per week</description>
+          </component>
+                  <component>
+            <id>choice_2_4</id>
+            <description lang="en-US">Every day</description>
+          </component>
+                </choices>
+      </activity>
+            </activities>
+</tincan>

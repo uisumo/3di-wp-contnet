@@ -1,0 +1,20 @@
+[27-Apr-2022 23:16:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php:5
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php(401): grassblade_cmi5->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php on line 5
+[15-Jun-2022 02:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php:5
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php(401): grassblade_cmi5->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php on line 5
+[04-Aug-2022 11:30:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php:5
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php(401): grassblade_cmi5->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php on line 5
+[20-Sep-2022 21:42:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php:5
+Stack trace:
+#0 /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php(401): grassblade_cmi5->__construct()
+#1 {main}
+  thrown in /home/institute/public_html/wp-content/plugins/grassblade/addons/cmi5/functions.php on line 5

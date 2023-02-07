@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6g43TEOxG7j_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">20.0 - Wisdom</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6iuxQyNKXOr" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">20.0 - Wisdom</name>
+			<description lang="und">20.0 - Wisdom</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/5WyPvD5YOOj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">20.1 - Objectives</name>
+			<description lang="und">20.1 - Objectives</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6QPR1VUS1HS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">20.2 - Foresight</name>
+			<description lang="und">20.2 - Foresight</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6cqJqYt8YvO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Wisdom is the ability to see the
+                      of present action.</name>
+			<description lang="und">Wisdom is the ability to see the
+                      of present action.</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6cqJqYt8YvO/626FFneBt4n" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Wisdom is the ability to see the
+                      of present action.</name>
+			<description lang="und">Wisdom is the ability to see the
+                      of present action.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6Q2KECLc3Dq</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5vsJVIuB4kr</id>
+					<description lang="und">immediate impact</description>
+				</component>
+				<component>
+					<id>choice_6Q2KECLc3Dq</id>
+					<description lang="und">end result</description>
+				</component>
+				<component>
+					<id>choice_6kmNtOj45Pu</id>
+					<description lang="und">short-term success</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6OH3aJxnP3W" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">20.3 - Visionary Restraint</name>
+			<description lang="und">20.3 - Visionary Restraint</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/617qWD7AMOZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Core Values</name>
+			<description lang="und">Core Values</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6UG1VCStHk8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">20.4 - Core Values</name>
+			<description lang="und">20.4 - Core Values</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6EYYD3EoADx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6ZwhacZ9OeW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/5ctE8QX12LN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://6g43TEOxG7j_course_id/6OIYyHBrhF6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

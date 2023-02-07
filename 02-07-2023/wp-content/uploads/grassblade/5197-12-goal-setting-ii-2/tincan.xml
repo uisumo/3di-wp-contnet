@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5uFS49iCve5_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">12.1 Objectives</name>
+			<description lang="und">12.1 Objectives</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">12.2 Goals vs. Purpose</name>
+			<description lang="und">12.2 Goals vs. Purpose</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5tK57jonWwg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5tK57jonWwg/6p186c9PmDy" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6XQ1CTLLVeG[.]choice_6XQ1CTLLVeG</correctResponsePattern>
+				<correctResponsePattern>statement_5VEB5IkBWyW[.]choice_5VEB5IkBWyW</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6XQ1CTLLVeG</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_5VEB5IkBWyW</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6XQ1CTLLVeG</id>
+					<description lang="und">A goal</description>
+				</component>
+				<component>
+					<id>choice_5VEB5IkBWyW</id>
+					<description lang="und">Your purpose</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/631OOXYDKpy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/631OOXYDKpy/5jYQd7qUJzX" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6bOfXYUxNak[.]choice_6bOfXYUxNak</correctResponsePattern>
+				<correctResponsePattern>statement_6XDcyVwwvbS[.]choice_6XDcyVwwvbS</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6bOfXYUxNak</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_6XDcyVwwvbS</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6bOfXYUxNak</id>
+					<description lang="und">A goal</description>
+				</component>
+				<component>
+					<id>choice_6XDcyVwwvbS</id>
+					<description lang="und">Your purpose</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6ZRrExaZtoN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6ZRrExaZtoN/5zedTPFzQCb" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Goals vs. Purpose:</name>
+			<description lang="und">Goals vs. Purpose:</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6qzh9lukyvZ[.]choice_6qzh9lukyvZ</correctResponsePattern>
+				<correctResponsePattern>statement_67ubrE44TqN[.]choice_67ubrE44TqN</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6qzh9lukyvZ</id>
+					<description lang="und" />
+				</component>
+				<component>
+					<id>statement_67ubrE44TqN</id>
+					<description lang="und" />
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6qzh9lukyvZ</id>
+					<description lang="und">A goal</description>
+				</component>
+				<component>
+					<id>choice_67ubrE44TqN</id>
+					<description lang="und">Your purpose</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6Gjdu61gDJE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">12.3 Mindsight</name>
+			<description lang="und">12.3 Mindsight</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/62m0w8j5z25" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Why do you coach?</name>
+			<description lang="und">Why do you coach?</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/62m0w8j5z25/66ypCdL9Y2i" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Why do you coach?</name>
+			<description lang="und">Why do you coach?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5sQfd2o1LcT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Why do you coach the way that you coach?</name>
+			<description lang="und">Why do you coach the way that you coach?</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5sQfd2o1LcT/6cMgBiv3rKJ" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Why do you coach the way that you coach?</name>
+			<description lang="und">Why do you coach the way that you coach?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5h6UNvU8jvE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">How does it feel to be coached by you?</name>
+			<description lang="und">How does it feel to be coached by you?</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5h6UNvU8jvE/6L6v0qMY7rq" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">How does it feel to be coached by you?</name>
+			<description lang="und">How does it feel to be coached by you?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6MfRkOflL4r" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What is your definition of success?</name>
+			<description lang="und">What is your definition of success?</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6MfRkOflL4r/5xMRsma4IIY" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">What is your definition of success?</name>
+			<description lang="und">What is your definition of success?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/6aSyK5ufB3g" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">12.4 One Word</name>
+			<description lang="und">12.4 One Word</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5pO6NidTEs9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Exit Slide</name>
+			<description lang="und">Exit Slide</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5byru2Nk0AV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">REFERENCES</name>
+			<description lang="und">REFERENCES</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5uFS49iCve5_course_id/5nQAaT9sFUQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

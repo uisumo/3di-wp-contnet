@@ -1,0 +1,3 @@
+<?php
+ class_exists('m4is_emz57o') || die(); if ( ! defined('PROFILE_BUILDER_VERSION') ) { return; } add_action('wppb_password_reset', 'm4is_tj5z7', 10, 2 ); 
+function m4is_tj5z7( $m4is_q4c_xa, $m4is_p1ug ) { $m4is_q4c_xa = abs( intval( $m4is_q4c_xa ) ); $m4is_aicfp = m4is_zbyh::m4is_fhxr6( $m4is_q4c_xa ); $m4is_enmq = memberium_app()->m4is_mmdrl( 'settings', 'password_field' ); if ($m4is_aicfp < 1 || empty($m4is_p1ug) || empty($m4is_enmq) ) { return; } memberium_app()->m4is_g1svi($m4is_enmq, $m4is_p1ug, $m4is_aicfp); } add_filter('memberium/modules/active/names', function($m4is_its6y) { return array_merge($m4is_its6y, ['Profile Builder for Memberium']); });

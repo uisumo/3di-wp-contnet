@@ -1,0 +1,14 @@
+/*!/wp-content/plugins/uncanny-toolkit-pro/src/assets/legacy/frontend/js/uo-timer.js*/
+jQuery.noConflict();(function($){$(function(){if('true'===uoTimer.enableDebugMode){console.log(uoTimer)}
+var pageTimer=!1;var entryContent=$('.entry-content');var previousTimer=!1;var isUoBeatFree=!1;$('body').append('<div id="btn-dialogBox" class="ultp-course-timer-modal"></div>');var startTimer=function(){if(pageTimer){clearInterval(pageTimer)}
+pageTimer=setInterval(uoHeartBeat,uoTimer.uoHeartBeatInterval*1000);entryContent.show()};var stopTimer=function(){clearInterval(pageTimer);entryContent.hide()};var uoHeartBeat=function(){if('true'===uoTimer.enableDebugMode){console.log('sending...')}
+if(isUoBeatFree==!0){return}
+isUoBeatFree=!0;$.ajax({url:buildApiRoute(),cache:!1,beforeSend:function(xhr){if('true'===uoTimer.enableDebugMode){console.log(xhr)}
+xhr.setRequestHeader('X-WP-Nonce',uoTimer.nonce)},success:apiTimerSuccess,error:apiErrorError})};var buildApiRoute=function(){if('true'===uoTimer.enablePerformanceTimer){return uoTimer.performanceApiUrl+'?course_id='+uoTimer.courseID+'&post_id='+uoTimer.postID}
+return uoTimer.apiUrl+uoTimer.courseID+'/'+uoTimer.postID+'/'};var apiTimerSuccess=function(response){if('true'===uoTimer.enableDebugMode){console.log(response)}
+isUoBeatFree=!1;if(!response.success){response=$.parseJSON(response)}
+if(!response.success){if('true'===uoTimer.enableDebugMode){console.log('no course ID error')}}
+if(typeof response.time!=='undefined'){if(previousTimer&&(Number(response.time)-Number(previousTimer))!=uoTimer.uoHeartBeatInterval){uoTimer.uoHeartBeatInterval=response.time-previousTimer;startTimer()}
+previousTimer=response.time}};var apiErrorError=function(statusCode,errorThrown){if('true'===uoTimer.enableDebugMode){console.log(statusCode)}
+isUoBeatFree=!1;if(statusCode.status==0){}};var addTimerEvents=function(){$(document).on("idle.idleTimer",function(event,elem,obj){stopTimer();check_if_active();if('true'===uoTimer.enableDebugMode){console.log('timer has stop')}});$(document).on("active.idleTimer",function(event,elem,obj,triggerevent){startTimer();if('true'===uoTimer.enableDebugMode){console.log('has started')}})};var check_if_active=function(){$(document).idleTimer("pause");var timeOutMessage=uoTimer.timedOutMessage;timeOutMessage=timeOutMessage.replace(new RegExp("\\\\","g"),"");var cancelValue=uoTimer.inactiveButtonText;cancelValue=cancelValue.replace(new RegExp("\\\\","g"),"");var confirmValue=uoTimer.activeButtonText;confirmValue=confirmValue.replace(new RegExp("\\\\","g"),"");$('#btn-dialogBox').dialogBox({hasClose:!0,hasBtn:!0,zIndex:2147483647,confirmValue:confirmValue,confirm:function(){$(document).idleTimer("resume")},cancelValue:cancelValue,cancel:function(){window.location.href=uoTimer.redirect},title:'',content:timeOutMessage})};startTimer();$(document).idleTimer(Number(uoTimer.idleTimeOut)*1000);addTimerEvents()})})(jQuery)
+;

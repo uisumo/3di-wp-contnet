@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5eeCpI6ElHu_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6HyXgqrh1xK" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">3Dimensional Coaching</name>
+			<description lang="und">3Dimensional Coaching</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5zjjypgfMlK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">19.1 Objectives</name>
+			<description lang="und">19.1 Objectives</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6B3MYoUiKDZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">19.2 - The Funeral Topics</name>
+			<description lang="und">19.2 - The Funeral Topics</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6BoEvdX7Q7s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">“The Funeral Topics” are the two primary subjects that are most often talked about at funerals: relationships and</name>
+			<description lang="und">“The Funeral Topics” are the two primary subjects that are most often talked about at funerals: relationships and</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6BoEvdX7Q7s/5uEVqLH3mlT" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">“The Funeral Topics” are the two primary subjects that are most often talked about at funerals: relationships and</name>
+			<description lang="und">“The Funeral Topics” are the two primary subjects that are most often talked about at funerals: relationships and</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6ONbcE5hzQx</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5VG1nEEHAtb</id>
+					<description lang="und">wealth accumulation.</description>
+				</component>
+				<component>
+					<id>choice_6eQmpJbfIyK</id>
+					<description lang="und">our won/loss record.</description>
+				</component>
+				<component>
+					<id>choice_67Ny02CuMbi</id>
+					<description lang="und">goals successfully attained.</description>
+				</component>
+				<component>
+					<id>choice_6ONbcE5hzQx</id>
+					<description lang="und">a transcendent cause.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5Xdw6eHwBKZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">19.3 - The Force of Love</name>
+			<description lang="und">19.3 - The Force of Love</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6OWFEXd3hgC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">19.4 - Forecast Your Legacy</name>
+			<description lang="und">19.4 - Forecast Your Legacy</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6fWiH7hXkZB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">If you could write three sentences that were to be read at your funeral, what would they be? </name>
+			<description lang="und">If you could write three sentences that were to be read at your funeral, what would they be? </description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6fWiH7hXkZB/6bUO3I2Wr8T" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">If you could write three sentences that were to be read at your funeral, what would they be? </name>
+			<description lang="und">If you could write three sentences that were to be read at your funeral, what would they be? </description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6Oq1RmnYZwu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">In three sentences or less, what are the types of things that you hope your family and friends will say about you at your funeral?</name>
+			<description lang="und">In three sentences or less, what are the types of things that you hope your family and friends will say about you at your funeral?</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/6Oq1RmnYZwu/6ctIHT1bBSu" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">In three sentences or less, what are the types of things that you hope your family and friends will say about you at your funeral?</name>
+			<description lang="und">In three sentences or less, what are the types of things that you hope your family and friends will say about you at your funeral?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5bqFi4RFH10" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">In three sentences or less, what are the types of things that you hope your former players will say about you at your funeral?</name>
+			<description lang="und">In three sentences or less, what are the types of things that you hope your former players will say about you at your funeral?</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5bqFi4RFH10/6hEpp8bUr0J" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">In three sentences or less, what are the types of things that you hope your former players will say about you at your funeral?</name>
+			<description lang="und">In three sentences or less, what are the types of things that you hope your former players will say about you at your funeral?</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5nnSyv28G8M" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5xTxd76NGo7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">RECOMMENDED READING</name>
+			<description lang="und">RECOMMENDED READING</description>
+		</activity>
+		<activity id="http://5eeCpI6ElHu_course_id/5rF4IPoGDJ3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">COMPANION STUDY GUIDE</name>
+			<description lang="und">COMPANION STUDY GUIDE</description>
+		</activity>
+	</activities>
+</tincan>

@@ -1,0 +1,24 @@
+<?php
+/**
+ * Copyright (c) 2012-2022 David J Bullock
+ * Web Power and Light, LLC
+ * https://webpowerandlight.com
+ * support@webpowerandlight.com
+ *
+ */
+
+ class_exists('m4is_emz57o') || die(); final 
+class m4is_q6lca { private static $m4is_ophd6z = 'memberium2/sessions'; private static $m4is_t05a = false; private static $m4is_yp0ve; private static $m4is_u13x = ''; private static $m4is_sfxdru = 14400; private static $m4is_f8k6w = false; private 
+function __construct() {} 
+function __destruct() { return true; }  static 
+function m4is_gopgz() { self::$m4is_yp0ve = self::m4is_n07r1(); self::$m4is_sfxdru = (int) max( ini_get( 'session.gc_maxlifetime' ), 14400 ); self::$m4is_t05a = function_exists( 'gzuncompress' ) && function_exists( 'gzcompress' ); self::$m4is_u13x = $GLOBALS['wpdb']->prefix . 'memberium_sessions'; if (! headers_sent() ) { session_set_save_handler( [__CLASS__, 'm4is_sk0b'], [__CLASS__, 'm4is_dcur0'], [__CLASS__, 'm4is_wsk2'], [__CLASS__, 'm4is_wzyfw0'], [__CLASS__, 'm4is_de82w'], [__CLASS__, 'm4is_d1zs6e'] ); }  }  static 
+function m4is_n07r1() : bool { return isset( self::$m4is_yp0ve ) ? self::$m4is_yp0ve : self::$m4is_yp0ve = (bool) wp_using_ext_object_cache(); }  static 
+function m4is_fixvh7() : int { if (is_null(self::$m4is_sfxdru) ) { self::$m4is_sfxdru = (int) max(ini_get('session.gc_maxlifetime'), 14400); } return self::$m4is_sfxdru; }  static 
+function m4is_c3wtz(int $m4is_sfxdru) : bool { self::$m4is_sfxdru = $m4is_sfxdru; return true; }  static 
+function m4is_otlz() : string { if (empty(self::$m4is_u13x) ) { self::$m4is_u13x = $GLOBALS['wpdb']->prefix . 'memberium_sessions'; } return (string) self::$m4is_u13x; }  static 
+function m4is_sk0b(string $m4is_v347i2, string $m4is_qjqibd) : bool { return true; } static 
+function m4is_dcur0() : bool { return true; } static 
+function m4is_de82w(string $m4is_ap3_) : bool { $m4is_u13x = self::m4is_otlz(); $m4is_ioxk = $GLOBALS['wpdb']->prepare("DELETE FROM `{$m4is_u13x}` WHERE `session_key` = %s", $m4is_ap3_); $m4is_n_bp6 = $GLOBALS['wpdb']->query($m4is_ioxk); wp_cache_delete($m4is_ap3_, self::$m4is_ophd6z); return true; } static 
+function m4is_d1zs6e(int $m4is_llsi7q = 0) : bool { $m4is_u13x = self::m4is_otlz(); $m4is_il8u4 = time(); $m4is_jpzyit = $GLOBALS['wpdb']->query("DELETE FROM `{$m4is_u13x}` WHERE `expiration` < {$m4is_il8u4} OR `value` = '';"); return true; } static 
+function m4is_wsk2(string $m4is_ap3_) : string { if (self::m4is_n07r1() ) { $m4is_in0ti = false; $m4is_j0n7 = wp_cache_get($m4is_ap3_, self::$m4is_ophd6z, false, $m4is_in0ti); if ($m4is_in0ti) { wp_cache_set($m4is_ap3_, $m4is_j0n7, self::$m4is_ophd6z, self::$m4is_sfxdru); return $m4is_j0n7; } } $m4is_u13x = self::m4is_otlz(); $m4is_ioxk = "SELECT `value`, `expiration` FROM `{$m4is_u13x}` WHERE `session_key` = %s"; $m4is_ioxk = $GLOBALS['wpdb']->prepare($m4is_ioxk, $m4is_ap3_); $m4is_j0n7 = $GLOBALS['wpdb']->get_results($m4is_ioxk, ARRAY_A); $m4is_j0n7 = isset($m4is_j0n7[0]) ? $m4is_j0n7[0] : []; if (empty($m4is_j0n7['value']) ) { return ''; } $m4is__83edv = $m4is_j0n7['expiration'] - time(); $m4is_lfn_ = 0.5 * self::m4is_fixvh7(); if ($m4is__83edv < $m4is_lfn_) { $m4is_ioxk = "UPDATE `{$m4is_u13x}` SET `expiration` = %d WHERE `session_key` = %s "; $m4is_ioxk = $GLOBALS['wpdb']->prepare($m4is_ioxk, time() + self::m4is_fixvh7(), $m4is_ap3_); $GLOBALS['wpdb']->query($m4is_ioxk); } if (self::$m4is_t05a && substr($m4is_j0n7['value'], 0, 2) == 'eN') { $m4is_j0n7 = gzuncompress(base64_decode($m4is_j0n7['value']) ); } session_decode($m4is_j0n7); return $m4is_j0n7; } static 
+function m4is_wzyfw0(string $m4is_ap3_, string $m4is_j0n7) : bool { if ( self::$m4is_yp0ve ) { if ( empty( $m4is_j0n7 ) ) { wp_cache_delete( $m4is_ap3_, self::$m4is_ophd6z ); } wp_cache_set( $m4is_ap3_, $m4is_j0n7, self::$m4is_ophd6z, self::$m4is_sfxdru ); } if ( empty( $m4is_j0n7 ) ) { return true; } $m4is_qkws = empty( $GLOBALS['user_login']) ? '' : strtolower( $GLOBALS['user_login'] ); $m4is_eb02at = empty( $GLOBALS['user_email']) ? '' : strtolower( $GLOBALS['user_email'] );  if (self::$m4is_f8k6w) { if (! isset($_SESSION['admin']) || $_SESSION['admin'] === 0) { $m4is_ioxk = "DELETE FROM `" . self::$m4is_u13x . "` WHERE `email_key` = %s AND `session_key` <> %s"; $m4is_ioxk = $GLOBALS['wpdb']->prepare($m4is_ioxk, $m4is_eb02at, $m4is_ap3_); $m4is_jpzyit = $GLOBALS['wpdb']->query($m4is_ioxk); } }  if (self::$m4is_t05a) { $m4is_j0n7 = base64_encode(gzcompress($m4is_j0n7, 9) ); } $m4is_ioxk = "REPLACE INTO `". self::$m4is_u13x . "` (session_key, email_key, expiration, value) VALUES (%s, %s, %d, %s)"; $m4is_ioxk = $GLOBALS['wpdb']->prepare($m4is_ioxk, $m4is_ap3_, $m4is_eb02at, time() + self::$m4is_sfxdru, $m4is_j0n7); $m4is_jpzyit = $GLOBALS['wpdb']->query($m4is_ioxk); $row_id = $GLOBALS['wpdb']->insert_id; return true; } }

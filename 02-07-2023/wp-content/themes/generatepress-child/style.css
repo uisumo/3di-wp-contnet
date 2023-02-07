@@ -1,0 +1,164 @@
+/* 
+Theme Name:		 GeneratePress - Child
+Theme URI:		 https://www.conquerorstech.net/
+Description:	 GeneratePress - Child is a child theme of GeneratePress.
+Author:			 Adi
+Author URI:		 https://www.conquerorstech.net/
+Template:		 generatepress
+Version:		 1.0.0
+Text Domain:	 generatepress-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+
+/*============== 20-09-2022 ==================*/
+
+/*.custom-css.wp-container-1.wp-block-column {
+    border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+/*.custom-css span.qubely-pricing-price {
+	font-size: 70px !important;
+    line-height: 70px !important;
+    color: #4b4b4b;
+}
+.custom-css span.qubely-pricing-currency {
+	font-size: 34px;
+	color: #4b4b4b;
+}
+.custom-css .qubely-pricing-wrapper {
+    text-align: center;
+}
+.custom-css .qubely-pricing-title {
+	color: #1e73be;
+	    font-size: 20px;
+font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}*/
+/*.custom-css .qubely-product-duration {
+	font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0076bd;
+    text-align: center;
+    font-size: 21px;
+}*/
+/*.qubely-block-btn-anchor.is-medium {
+    padding: 8px 15px;
+    font-size: 16px;
+    	background-color: #0076bd;
+	box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 20%);
+	color:#fff;
+	margin: auto;
+    display: table;
+    margin-top: 20px;
+}*/
+
+
+
+/*.qubely-block-pricing-content-new{
+border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+
+
+/*.custom-css .wp-container-3.wp-block-column {
+	border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+/*.custom-css .wp-container-5.wp-block-column {
+	border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+
+/*.custom-css .wp-container-6.wp-block-column {
+	border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+/*.custom-css .wp-container-7.wp-block-column {
+	border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+}*/
+/*.custom-css .wp-container-10.wp-block-column {
+	border-width: 6px;
+    border-color: #0076bd;
+    border-style: double;
+    border-radius: 10px;
+    padding: 30px;
+}*/
+
+/*.custom-css .wp-container-12.wp-block-columns {
+	border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding: 30px;
+    border-radius: 10px;
+    width: 33.333%;
+}*/
+/*.custom-css li.product.type-product{
+border-width: 6px !important;
+    border-color: #0076bd !important;
+    border-style: solid !important;
+    padding:20px 15px;
+    border-radius: 10px;
+}*/
+/*.custom-css h2.woocommerce-loop-product__title {
+    text-align: center;
+}*/
+/*.custom-css span.woocommerce-Price-amount.amount {
+    text-align: center;
+    display: block;
+    font-size: 27px;
+    color: #000;
+}*/
+/*.custom-css a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    
+    text-align: center;
+    margin: auto;
+    display: table;
+}*/
+/*.custom-css .woocommerce ul.products li.product .button {
+    margin-top: 0em;
+    margin-block: 20px;
+    background-color: #0076bd;
+    box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 20%);
+    color: #fff;
+}*/
+/*.custom-css .woocommerce .products ul, .woocommerce ul.products {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    height: 100%;
+    display: -webkit-box;
+    flex-wrap: wrap;
+}*/
+
+.gform_legacy_markup_wrapper .gfield_time_ampm_shim {
+    display: block;
+    font-size: 13px;
+    margin: -24px 0 1px 1px !important;
+}

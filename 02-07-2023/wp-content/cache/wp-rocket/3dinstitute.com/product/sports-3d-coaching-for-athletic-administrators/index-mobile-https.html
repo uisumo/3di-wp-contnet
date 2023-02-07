@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> <script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+<meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<title>Sports: 3D Coaching for Athletic Administrators &#8211; 3D Institute</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1"><link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link href='https://fonts.googleapis.com' crossorigin rel='preconnect' />
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link data-minify="1" rel='stylesheet' id='dashicons-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1675653565' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.menu-item i._mi,.menu-item img._mi{display:inline-block;vertical-align:middle}.menu-item i._mi{width:auto;height:auto;margin-top:-.265em;font-size:1.2em;line-height:1}.menu-item i._before,.rtl .menu-item i._after{margin-right:.25em}.menu-item i._after,.rtl .menu-item i._before{margin-left:.25em}.menu-item img._before,.rtl .menu-item img._after{margin-right:.5em}.menu-item img._after,.rtl .menu-item img._before{margin-left:.5em}.menu-item ._svg{width:1em}.rtl .menu-item i._before{margin-right:0}.rtl .menu-item i._after{margin-left:0}.visuallyhidden{overflow:hidden;clip:rect(0 0 0 0);position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0}.menu-item i.elusive{margin-top:-.3em}.dashicons-admin-site:before{content:"\f319"!important}.dashicons-welcome-view-site:before{content:"\f115"!important}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://3dinstitute.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+<link data-minify="1" rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=1675653565' media='all' />
+<link data-minify="1" rel='stylesheet' id='wc-blocks-style-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=1675653565' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.uo-learndash-codes-content{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:15px;padding:10px 15px;border:1px solid #d8d8d8;background:#fff;font-size:18px;color:#737373}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.uo-ult-groups-content{background:#fff;border:1px solid #d8d8d8;color:#737373;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:15px;font-size:18px;padding:10px 15px}
+
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.uo-ult-toolkit-content{background:#fff;border:1px solid #d8d8d8;color:#737373;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:15px;font-size:18px;padding:10px 15px}
+
+</style>
+<style   data-wpacu-inline-css-file='1'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--contrast: var(--contrast);--wp--preset--color--contrast-2: var(--contrast-2);--wp--preset--color--contrast-3: var(--contrast-3);--wp--preset--color--base: var(--base);--wp--preset--color--base-2: var(--base-2);--wp--preset--color--base-3: var(--base-3);--wp--preset--color--accent: var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='cpsh-shortcodes-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=1675653565' media='all' />
+<link data-minify="1" rel='stylesheet' id='learndash-notes-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/learndash-notes/css/note.css?ver=1675653565' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.wp-video-popup-wrapper{display:none;position:fixed;top:0;left:0;width:100%;height:100%;align-items:center;justify-content:center;background:rgba(0,0,0,0.88);z-index:8888888}.wp-video-popup-video{display:none;z-index:8888889}.wp-video-popup-video.is-landscape{width:90%;height:auto;max-width:1200px;max-height:90%}.wp-video-popup-video.is-hosted.is-portrait{width:auto;height:90%;max-width:90%}.wp-video-popup-close{background-image:url(/wp-content/plugins/responsive-youtube-vimeo-popup/assets/css/../img/wp-video-popup-close.png);background-size:15px auto;background-repeat:no-repeat;background-position:center center;position:absolute;right:0;top:0;height:60px;text-align:center;width:60px;cursor:pointer;z-index:9999999;-moz-transition:opacity 0.25s;-o-transition:opacity 0.25s;-webkit-transition:opacity 0.25s;transition:opacity 0.25s}.wp-video-popup-close:hover{opacity:0.7}.wp-video-popup{cursor:pointer}
+
+</style>
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//3dinstitute.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.4.1.2' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.jq-dropdown{display:none;position:absolute;z-index:1039}.jq-dropdown .jq-dropdown-menu,.jq-dropdown .jq-dropdown-panel{background:#fff;border:1px solid #ddd;border-radius:4px;box-shadow:0 5px 10px rgba(0,0,0,.2);list-style:none;margin:0;max-width:360px;min-width:160px;overflow:visible;padding:4px 0}.jq-dropdown .jq-dropdown-panel{padding:10px}.jq-dropdown.jq-dropdown-tip{margin-top:8px}.jq-dropdown.jq-dropdown-tip:before{border-bottom:7px solid #ddd;border-left:7px solid transparent;border-right:7px solid transparent;content:"";display:inline-block;left:9px;position:absolute;top:-6px}.jq-dropdown.jq-dropdown-tip:after{border-bottom:6px solid #fff;border-left:6px solid transparent;border-right:6px solid transparent;content:"";display:inline-block;left:10px;position:absolute;top:-5px}.jq-dropdown.jq-dropdown-tip.jq-dropdown-anchor-right:before{left:auto;right:9px}.jq-dropdown.jq-dropdown-tip.jq-dropdown-anchor-right:after{left:auto;right:10px}.jq-dropdown.jq-dropdown-scroll .jq-dropdown-menu,.jq-dropdown.jq-dropdown-scroll .jq-dropdown-panel{max-height:180px;overflow:auto}.jq-dropdown .jq-dropdown-menu li{line-height:18px;list-style:none;margin:0;padding:0}.jq-dropdown .jq-dropdown-menu label,.jq-dropdown .jq-dropdown-menu li>a{color:inherit;display:block;line-height:18px;margin:0;padding:3px 15px;text-decoration:none;white-space:nowrap}.jq-dropdown .jq-dropdown-menu label:hover,.jq-dropdown .jq-dropdown-menu li>a:hover{background-color:#f2f2f2;color:inherit;cursor:pointer}.jq-dropdown .jq-dropdown-menu .jq-dropdown-divider{border-top:1px solid #e5e5e5;font-size:1px;margin:5px 0;padding:0}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+body.learndash-cpt.learndash-embed-responsive .ld-video{height:0;overflow:hidden;padding-bottom:56.25%;position:relative}body.learndash-cpt.learndash-embed-responsive .ld-video div.wp-video,body.learndash-cpt.learndash-embed-responsive .ld-video embed,body.learndash-cpt.learndash-embed-responsive .ld-video iframe,body.learndash-cpt.learndash-embed-responsive .ld-video object,body.learndash-cpt.learndash-embed-responsive .ld-video video{height:100%;left:0;top:0;width:100%!important}body.learndash-cpt.learndash-embed-responsive .ld-video iframe{position:absolute}body.learndash-cpt.learndash-embed-responsive .ld-video[data-video-provider=vooplayer] iframe{position:unset}body.learndash-cpt.learndash-embed-responsive .ld-video[data-video-provider=vooplayer] .spotlightr-id iframe{position:absolute}body.learndash-cpt.learndash-embed-responsive .mejs-container.mejs-video,body.learndash-cpt.learndash-embed-responsive .mejs-overlay.mejs-video.load,body.learndash-cpt.learndash-embed-responsive .wp-video,body.learndash-cpt.learndash-embed-responsive video.wp-video-shortcode{height:100%!important;width:100%!important}body.learndash-cpt.learndash-embed-responsive .mejs-container.mejs-video{padding-top:56.25%}body.learndash-cpt.learndash-embed-responsive .wp-video,body.learndash-cpt.learndash-embed-responsive video.wp-video-shortcode{max-width:100%!important}body.learndash-cpt.learndash-embed-responsive video.wp-video-shortcode{position:relative}body.learndash-cpt.learndash-embed-responsive .mejs-container.mejs-video .mejs-mediaelement{bottom:0;left:0;position:absolute;right:0;top:0}body.learndash-cpt.learndash-embed-responsive .mejs-container.mejs-video .mejs-overlay-play{bottom:0;height:auto!important;left:0;right:0;top:0;width:auto!important}
+</style>
+<link rel='stylesheet' id='uncannyowl-learndash-toolkit-free-css' href='https://3dinstitute.com/wp-content/plugins/uncanny-learndash-toolkit/src/assets/frontend/dist/bundle.min.css?ver=3.6.4.1' media='all' />
+<link data-minify="1" rel='stylesheet' id='ultp-frontend-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/uncanny-toolkit-pro/src/assets/dist/frontend/bundle.min.css?ver=1675653565' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.wpmenucart-icon-shopping-cart-0:before{font-family:WPMenuCart;speak:none;font-style:normal;font-weight:400;display:inline;width:auto;height:auto;line-height:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0;margin-right:.25em}.wpmenucart-icon-shopping-cart-0:before{content:"\f07a"}
+</style>
+<style id='wpmenucart-icons-inline-css'>
+@font-face{font-family:WPMenuCart;src:url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.eot);src:url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.eot?#iefix) format('embedded-opentype'),url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.woff2) format('woff2'),url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.woff) format('woff'),url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.ttf) format('truetype'),url(https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.svg#WPMenuCart) format('svg');font-weight:400;font-style:normal;font-display:swap}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.empty-wpmenucart,.hidden-wpmenucart{display:none!important}.cartcontents+.amount:before{content:'-';margin:0 .25em}.wpmenucart-display-right{float:right!important}.wpmenucart-display-left{float:left!important}.wpmenucart-icon-shopping-cart{background-image:none;vertical-align:inherit}.wpmenucart-thumbnail img{width:32px;height:auto;margin-right:8px;box-shadow:0 1px 2px 0 rgba(0,0,0,.3);-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,.3);-moz-box-shadow:0 1px 2px 0 rgba(0,0,0,.3)}.wpmenucart-submenu-item a{overflow:hidden;white-space:nowrap!important}.wpmenucart-order-item-info,.wpmenucart-thumbnail{display:inline-block;vertical-align:middle}.wpmenucart-product-name,.wpmenucart-product-quantity-price{display:block}.wpmenucart .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.wpmenucart .clearfix{display:inline-block}* html .wpmenucart .clearfix{height:1%}.wpmenucart .clearfix{display:block}li.wpmenucartli a.wpmenucart-contents span{display:inline-block!important}
+</style>
+<link rel='stylesheet' id='photoswipe-css' href='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=7.3.0' media='all' />
+<link rel='stylesheet' id='photoswipe-default-skin-css' href='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=7.3.0' media='all' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-layout-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=1675653565' media='all' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-smallscreen-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=1675653565' media='only screen and (max-width: 768px)' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-general-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=1675653565' media='all' />
+<style id='woocommerce-general-inline-css'>
+.woocommerce .page-header-image-single {display: none;}.woocommerce .entry-content,.woocommerce .product .entry-summary {margin-top: 0;}.related.products {clear: both;}.checkout-subscribe-prompt.clear {visibility: visible;height: initial;width: initial;}@media (max-width:768px) {.woocommerce .woocommerce-ordering,.woocommerce-page .woocommerce-ordering {float: none;}.woocommerce .woocommerce-ordering select {max-width: 100%;}.woocommerce ul.products li.product,.woocommerce-page ul.products li.product,.woocommerce-page[class*=columns-] ul.products li.product,.woocommerce[class*=columns-] ul.products li.product {width: 100%;float: none;}}
+</style>
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='generate-widget-areas-css' href='https://3dinstitute.com/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css?ver=3.2.4' media='all' />
+<link rel='stylesheet' id='generate-style-css' href='https://3dinstitute.com/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.2.4' media='all' />
+<style id='generate-style-inline-css'>
+.is-right-sidebar{width:25%;}.is-left-sidebar{width:20%;}.site-content .content-area{width:100%;}@media (max-width: 768px){.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav > ul,.has-inline-mobile-toggle #site-navigation .inside-navigation > *:not(.navigation-search):not(.main-nav){display:none;}.nav-align-right .inside-navigation,.nav-align-center .inside-navigation{justify-content:space-between;}.has-inline-mobile-toggle .mobile-menu-control-wrapper{display:flex;flex-wrap:wrap;}.has-inline-mobile-toggle .inside-header{flex-direction:row;text-align:left;flex-wrap:wrap;}.has-inline-mobile-toggle .header-widget,.has-inline-mobile-toggle #site-navigation{flex-basis:100%;}.nav-float-left .has-inline-mobile-toggle #site-navigation{order:10;}}
+.dynamic-author-image-rounded{border-radius:100%;}.dynamic-featured-image, .dynamic-author-image{vertical-align:middle;}.one-container.blog .dynamic-content-template:not(:last-child), .one-container.archive .dynamic-content-template:not(:last-child){padding-bottom:0px;}.dynamic-entry-excerpt > p:last-child{margin-bottom:0px;}
+.page-hero{padding-top:20px;}.inside-page-hero > *:last-child{margin-bottom:0px;}.page-hero time.updated{display:none;}
+</style>
+<link rel='stylesheet' id='generate-google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=3.2.4' media='all' />
+<link data-minify="1" rel='stylesheet' id='learndash-front-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=1675653565' media='all' />
+<style id='learndash-front-inline-css'>
+		.learndash-wrapper .ld-item-list .ld-item-list-item.ld-is-next,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+			border-color: #1e73be;
+		}
+
+		/*
+		.learndash-wrapper a:not(.ld-button):not(#quiz_continue_link):not(.ld-focus-menu-link):not(.btn-blue):not(#quiz_continue_link):not(.ld-js-register-account):not(#ld-focus-mode-course-heading):not(#btn-join):not(.ld-item-name):not(.ld-table-list-item-preview):not(.ld-lesson-item-preview-heading),
+		 */
+
+		.learndash-wrapper .ld-breadcrumbs a,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-reverse,
+		.learndash-wrapper .ld-icon-certificate,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+		#wpProQuiz_user_content a,
+		.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+		.learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+		.learndash-wrapper .ld-focus-comments__heading a,
+		.learndash-wrapper .ld-focus-comments .comment-respond a,
+		.learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			color: #1e73be !important;
+		}
+
+		.learndash-wrapper .ld-focus-comment.bypostauthor>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper {
+			background-color:rgba(30, 115, 190, 0.03) !important;
+		}
+
+
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+			background: #1e73be !important;
+		}
+
+
+
+		.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-status-incomplete,
+		.learndash-wrapper .ld-focus-comment.bypostauthor:not(.ptype-sfwd-assignment) >.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper>.ld-comment-avatar img {
+			border-color: #1e73be !important;
+		}
+
+
+
+		.learndash-wrapper .ld-loading::before {
+			border-top:3px solid #1e73be !important;
+		}
+
+		.learndash-wrapper .ld-button:hover:not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+		#learndash-tooltips .ld-tooltip:after,
+		#learndash-tooltips .ld-tooltip,
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .btn-join,
+		.learndash-wrapper #btn-join,
+		.learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+		.learndash-wrapper .ld-expand-button,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit'],
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue,
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		#wpProQuiz_user_content table.wp-list-table thead th,
+		#wpProQuiz_overlay_close,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon {
+			background-color: #1e73be !important;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items:before {
+			border-bottom-color: #1e73be !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:hover {
+			background: transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-alternate,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			background-color:transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		.learndash-wrapper .ld-button.ld-button-reverse:hover,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon.ld-icon-certificate,
+		.learndash-wrapper .ld-alert-warning .ld-button:not(.learndash-link-previous-incomplete),
+		.learndash-wrapper .ld-primary-background.ld-status {
+			color:white !important;
+		}
+
+		.learndash-wrapper .ld-status.ld-status-unlocked {
+			background-color: rgba(30,115,190,0.2) !important;
+			color: #1e73be !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_addToplist {
+			background-color: rgba(30,115,190,0.1) !important;
+			border: 1px solid #1e73be !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTable th {
+			background: #1e73be !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTrOdd {
+			background-color: rgba(30,115,190,0.1) !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewDiv li.wpProQuiz_reviewQuestionTarget {
+			background-color: #1e73be !important;
+		}
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+			background-color: #1e73be !important;
+		}
+		
+		.learndash-wrapper #quiz_continue_link,
+		.learndash-wrapper .ld-secondary-background,
+		.learndash-wrapper .learndash_mark_complete_button,
+		.learndash-wrapper #learndash_mark_complete_button,
+		.learndash-wrapper .ld-status-complete,
+		.learndash-wrapper .ld-alert-success .ld-button,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .course_progress .sending_progress_bar {
+			background: #5bb85d !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:hover, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:hover {
+			background-color: #5bb85d !important;
+			opacity: 0.75;
+		}
+
+		.learndash-wrapper .ld-secondary-color-hover:hover,
+		.learndash-wrapper .ld-secondary-color,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+			color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-secondary-in-progress-icon {
+			border-left-color: #5bb85d !important;
+			border-top-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-alert-success {
+			border-color: #5bb85d;
+			background-color: transparent !important;
+			color: #5bb85d;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionSolved,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionSolved {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Answer {
+			background-color: #5bb85d !important;
+		}
+
+		
+		.learndash-wrapper .ld-alert-warning {
+			background-color:transparent;
+		}
+
+		.learndash-wrapper .ld-status-waiting,
+		.learndash-wrapper .ld-alert-warning .ld-alert-icon {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-color-hover:hover,
+		.learndash-wrapper .ld-tertiary-color,
+		.learndash-wrapper .ld-alert-warning {
+			color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-background {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-alert-warning {
+			border-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-background,
+		.learndash-wrapper .ld-alert-warning .ld-alert-icon {
+			color:white !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionReview,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionReview {
+			background-color: #5bb85d !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Review {
+			background-color: #5bb85d !important;
+		}
+
+		
+</style>
+<link data-minify="1" rel='stylesheet' id='dflip-icons-style-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/themify-icons.min.css?ver=1675653565' media='all' />
+<link rel='stylesheet' id='dflip-style-css' href='https://3dinstitute.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=1.7.33' media='all' />
+<link data-minify="1" rel='stylesheet' id='popup-maker-site-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/uploads/pum/pum-site-styles.css?ver=1675653565' media='all' />
+<link rel='stylesheet' id='generatepress-dynamic-css' href='https://3dinstitute.com/wp-content/uploads/generatepress/style.min.css?ver=1670392469' media='all' />
+<link data-minify="1" rel='stylesheet' id='gravityview_default_style-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/gravityview/templates/css/gv-default-styles.css?ver=1675655079' media='all' />
+<style   data-wpacu-inline-css-file='1'>
+.gv-list-view-content{*zoom:1}.gv-list-view-content:before,.gv-list-view-content:after{content:" ";display:table}.gv-list-view-content:after{clear:both}@media screen and (max-width: 600px){.gv-grid-col-1-3{width:100%;float:none}}@media screen and (max-width: 600px){.gv-grid-col-2-3{width:100%;float:none}}.gv-list-view{border:1px solid #ddd;margin-bottom:1em}.gv-list-multiple-container{border:none;margin-bottom:0}.gv-list-view-title{border-bottom:1px solid #ddd;padding:.5em 1em}.gv-no-results .gv-list-view-title{border-bottom:none}.gv-list-view-title h3{margin:0 0 .5em 0;padding:0}.gv-list-view-title p{margin:0;padding:0}.gv-list-view-subtitle h4{margin:0}.gv-list-view-content{padding:.75em 1em}.gv-list-view-content h4{clear:none}.gv-list-view-content p{margin:0 0 1em 0;padding:0}.gv-list-view-content .gv-list-view-content-image{padding:0 0 1em 0;padding-right:1em;max-width:50%}.gv-list-view-content .gv-list-view-content-image .gv-field-file-uploads li,.gv-list-view-content .gv-list-view-content-image .gv-field-file-uploads{list-style:none;margin:0;padding:0}.gv-list-single-container .gv-list-view-content-image{float:left}.gv-list-single-container .gv-list-view-content-image img{max-height:400px;max-width:100%}.gv-list-view-footer{border-top:1px solid #ddd;background-color:#eee;padding:1em}
+
+</style>
+<link rel='stylesheet' id='generate-blog-images-css' href='https://3dinstitute.com/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?ver=2.2.2' media='all' />
+<link data-minify="1" rel='stylesheet' id='tmmp-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/team-members-pro/inc/css/tmm_style.css?ver=1675653565' media='all' />
+<link rel='stylesheet' id='generate-secondary-nav-css' href='https://3dinstitute.com/wp-content/plugins/gp-premium/secondary-nav/functions/css/main.min.css?ver=2.2.2' media='all' />
+<style id='generate-secondary-nav-inline-css'>
+.secondary-navigation{background-color:#222222;}.secondary-navigation .main-nav ul li a,.secondary-navigation .menu-toggle,.secondary-menu-bar-items .menu-bar-item > a{color:#ffffff;padding-left:37px;padding-right:37px;line-height:6px;}.secondary-navigation .secondary-menu-bar-items{color:#ffffff;}button.secondary-menu-toggle:hover,button.secondary-menu-toggle:focus{color:#ffffff;}.widget-area .secondary-navigation{margin-bottom:20px;}.secondary-navigation ul ul{background-color:#303030;top:auto;}.secondary-navigation .main-nav ul ul li a{color:#ffffff;padding-left:37px;padding-right:37px;padding-top:22px;padding-bottom:22px;}.secondary-navigation .menu-item-has-children ul .dropdown-menu-toggle{padding-top:22px;padding-bottom:22px;margin-top:-22px;}.secondary-navigation .menu-item-has-children .dropdown-menu-toggle{padding-right:37px;}.secondary-navigation .menu-item-has-children ul .dropdown-menu-toggle{padding-top:22px;padding-bottom:22px;margin-top:-22px;}.secondary-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .secondary-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .secondary-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .secondary-menu-bar-items .menu-bar-item:hover > a{color:#ffffff;background-color:#222222;}.secondary-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.secondary-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a,.secondary-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#ffffff;background-color:#474747;}.secondary-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#1e73be;}.secondary-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#4f4f4f;}.secondary-navigation.toggled .dropdown-menu-toggle:before{display:none;}@media (max-width: 768px) {.secondary-menu-bar-items .menu-bar-item:hover > a{background: none;color: #ffffff;}}
+.secondary-navigation .main-nav ul li a, .secondary-navigation .menu-toggle, .secondary-navigation .menu-bar-items{font-family:Montserrat, sans-serif;text-transform:uppercase;font-size:10px;}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.secondary-navigation.toggled ul ul{transition:0s;visibility:hidden;float:none}.secondary-navigation.toggled ul ul.toggled-on{visibility:visible}.secondary-navigation.toggled .main-nav ul ul{position:relative;top:0;left:0;width:100%;box-shadow:none;border-bottom:1px solid rgba(0,0,0,.05)}.secondary-navigation.toggled .main-nav ul ul li:last-child>ul{border-bottom:0}.secondary-navigation.toggled .main-nav ul ul.toggled-on{position:relative;top:0;left:auto!important;right:auto!important;width:100%;pointer-events:auto;height:auto;opacity:1;display:block}.secondary-navigation.toggled .main-nav>ul{display:block}.secondary-navigation.toggled .main-nav .sf-menu>li{float:none;clear:both;display:block!important;text-align:left!important}.secondary-navigation.toggled .main-nav .sf-menu>li.hide-on-mobile{display:none!important}.secondary-navigation.toggled .dropdown-menu-toggle:before{content:"\f107"!important}.secondary-navigation.toggled .sfHover>a .dropdown-menu-toggle:before{content:"\f106"!important}.secondary-navigation.toggled .menu-item-has-children .dropdown-menu-toggle{float:right}.dropdown-hover .secondary-navigation.toggled ul li.sfHover>ul,.dropdown-hover .secondary-navigation.toggled ul li:hover>ul{transition-delay:0s}.rtl .secondary-navigation.toggled .main-nav .sf-menu>li{text-align:right!important}@media (max-width:768px){.secondary-navigation .menu-toggle{display:block}.secondary-navigation ul,.secondary-navigation:not(.toggled) .main-nav>ul{display:none}.secondary-navigation.toggled .main-nav{flex-basis:100%;order:3}.secondary-nav-aligned-left .secondary-navigation.has-top-bar .menu-toggle{text-align:left}.secondary-nav-aligned-left .secondary-navigation .top-bar{order:2}.secondary-nav-aligned-right .secondary-navigation.has-top-bar .menu-toggle{text-align:right}.secondary-navigation.has-top-bar .top-bar .inside-top-bar .widget{margin:0 20px}.secondary-nav-aligned-center .secondary-navigation .top-bar{flex-basis:100%}.secondary-nav-float-right .secondary-navigation{margin-left:0;width:100%;margin-top:1.5em}.secondary-nav-float-right .header-widget{margin-left:auto}.secondary-nav-float-left .multi-navigation-wrapper,.secondary-nav-float-left .secondary-navigation{margin-left:0;width:100%;margin-top:1.5em}.secondary-nav-float-left:not(.nav-float-right) .header-widget{margin-left:auto;margin-right:auto;order:unset}.secondary-nav-float-left .site-branding,.secondary-nav-float-left .site-logo{order:unset}.secondary-navigation.has-menu-bar-items .inside-navigation,.secondary-navigation.has-top-bar .inside-navigation{justify-content:space-between}}
+</style>
+<link rel='stylesheet' id='generate-offside-css' href='https://3dinstitute.com/wp-content/plugins/gp-premium/menu-plus/functions/css/offside.min.css?ver=2.2.2' media='all' />
+<style id='generate-offside-inline-css'>
+.slideout-navigation, .slideout-navigation a{color:#ffffff;}.slideout-navigation button.slideout-exit{color:#ffffff;padding-left:16px;padding-right:16px;}.slide-opened nav.toggled .menu-toggle:before{display:none;}@media (max-width: 768px){.menu-bar-item.slideout-toggle{display:none;}}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.main-navigation .navigation-logo{float:left;display:block;margin-left:-10px;transition:height .3s ease;opacity:1}.main-navigation .navigation-logo img{position:relative;vertical-align:middle;padding:10px;display:block;box-sizing:border-box;transition:height .3s ease}.nav-float-left .main-navigation .navigation-logo{float:right}.nav-float-left .main-navigation .navigation-logo{margin-left:0;margin-right:-10px}.regular-menu-logo .navigation-stick .navigation-logo,.sticky-menu-logo .main-navigation .navigation-logo{display:none!important}.sticky-menu-logo .navigation-stick:not(#sticky-placeholder) .navigation-logo{display:block!important}.main-navigation .inside-navigation:not(.grid-container) .navigation-logo,.main-navigation.grid-container .navigation-logo{margin-left:0}.gen-sidebar-nav .main-navigation .navigation-logo{float:none;padding:0;margin:30px 0!important;text-align:center}.gen-sidebar-nav .main-navigation .navigation-logo img{height:auto;max-width:100%;vertical-align:bottom;padding:0;margin:0 auto}body[class*=nav-float-].menu-logo-enabled:not(.sticky-menu-logo) .main-navigation .main-nav,body[class*=nav-float-].menu-logo-enabled:not(.sticky-menu-logo) .main-navigation .navigation-logo{display:inline-block;vertical-align:middle}body[class*=nav-float-].menu-logo-enabled:not(.sticky-menu-logo) .main-navigation:not(.navigation-stick) .navigation-logo{margin:0}.using-floats .main-navigation:not(.slideout-navigation) .inside-navigation:after,.using-floats .main-navigation:not(.slideout-navigation) .inside-navigation:before{content:".";display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
+</style>
+<style id='generate-menu-logo-inline-css'>
+@media (max-width: 768px){.sticky-menu-logo .navigation-stick:not(.mobile-header-navigation) .menu-toggle,.menu-logo .main-navigation:not(.mobile-header-navigation) .menu-toggle{display:inline-block;clear:none;width:auto;float:right;}.sticky-menu-logo .navigation-stick:not(.mobile-header-navigation) .mobile-bar-items,.menu-logo .main-navigation:not(.mobile-header-navigation) .mobile-bar-items{position:relative;float:right;}.regular-menu-logo .main-navigation:not(.navigation-stick):not(.mobile-header-navigation) .menu-toggle{display:inline-block;clear:none;width:auto;float:right;}.regular-menu-logo .main-navigation:not(.navigation-stick):not(.mobile-header-navigation) .mobile-bar-items{position:relative;float:right;}body[class*="nav-float-"].menu-logo-enabled:not(.sticky-menu-logo) .main-navigation .main-nav{display:block;}.sticky-menu-logo.nav-float-left .navigation-stick:not(.mobile-header-navigation) .menu-toggle,.menu-logo.nav-float-left .main-navigation:not(.mobile-header-navigation) .menu-toggle,.regular-menu-logo.nav-float-left .main-navigation:not(.navigation-stick):not(.mobile-header-navigation) .menu-toggle{float:left;}}
+</style>
+<style   data-wpacu-inline-css-file='1'>
+.navigation-branding,.site-logo.mobile-header-logo{display:flex;align-items:center;order:0;margin-right:10px}.navigation-branding img,.site-logo.mobile-header-logo img{position:relative;padding:10px 0;display:block;transition:height .3s ease}.navigation-branding>div+.main-title{margin-left:10px}.navigation-branding .main-title{transition:line-height .3s ease}.navigation-branding .main-title a{font-family:inherit;font-size:inherit;font-weight:inherit;text-transform:unset}.main-navigation.mobile-header-navigation{display:none;float:none;margin-bottom:0}.mobile-header-navigation.is_stuck{box-shadow:0 2px 2px -2px rgba(0,0,0,.2)}.main-navigation .menu-toggle{flex-grow:1;width:auto}.main-navigation.has-branding .menu-toggle,.main-navigation.has-sticky-branding.navigation-stick .menu-toggle{flex-grow:0;padding-right:20px;order:2}.main-navigation:not(.slideout-navigation) .mobile-bar-items+.menu-toggle{text-align:left}.main-navigation.has-sticky-branding:not(.has-branding):not(.navigation-stick) .navigation-branding{display:none}.nav-align-right .navigation-branding{margin-right:auto}.main-navigation.has-branding:not([class*=nav-align-]):not(.mobile-header-navigation) .inside-navigation,.main-navigation.has-sticky-branding.navigation-stick:not([class*=nav-align-]):not(.mobile-header-navigation) .inside-navigation{justify-content:flex-start}.main-navigation.has-branding:not([class*=nav-align-]):not(.mobile-header-navigation) .menu-bar-items,.main-navigation.has-sticky-branding.navigation-stick:not([class*=nav-align-]):not(.mobile-header-navigation) .menu-bar-items{margin-left:auto}.nav-float-right .main-navigation.has-branding:not(.mobile-header-navigation) .menu-bar-items,.nav-float-right .main-navigation.has-sticky-branding.navigation-stick:not(.mobile-header-navigation) .menu-bar-items{margin-left:0}.mobile-header-navigation.has-menu-bar-items .mobile-header-logo{margin-right:auto}.rtl .navigation-branding>div+.main-title{margin-right:10px}.rtl .main-navigation.nav-align-right:not(.mobile-header-navigation) .navigation-branding{order:-10}.rtl .nav-align-right .navigation-branding{margin-right:10px}.rtl .navigation-branding,.rtl .site-logo.mobile-header-logo{margin-left:auto;margin-right:0}.rtl .nav-align-center .navigation-branding,.rtl .nav-align-center .site-logo.mobile-header-logo,.rtl .nav-align-right .navigation-branding,.rtl .nav-align-right .site-logo.mobile-header-logo{margin-left:10px}.rtl .nav-align-right .menu-bar-items{margin-right:auto}.rtl .mobile-header-navigation.has-menu-bar-items .site-logo{margin-left:auto}
+</style>
+<style id='generate-navigation-branding-inline-css'>
+@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}}.main-navigation.has-branding.grid-container .navigation-branding, .main-navigation.has-branding:not(.grid-container) .inside-navigation:not(.grid-container) .navigation-branding{margin-left:10px;}.navigation-branding img, .site-logo.mobile-header-logo img{height:55px;width:auto;}.navigation-branding .main-title{line-height:55px;}@media (max-width: 1110px){#site-navigation .navigation-branding, #sticky-navigation .navigation-branding{margin-left:10px;}}@media (max-width: 768px){.main-navigation.has-branding.nav-align-center .menu-bar-items, .main-navigation.has-sticky-branding.navigation-stick.nav-align-center .menu-bar-items{margin-left:auto;}.navigation-branding{margin-right:auto;margin-left:10px;}.navigation-branding .main-title, .mobile-header-navigation .site-logo{margin-left:10px;}}
+</style>
+<link rel='stylesheet' id='wp-add-custom-css-css' href='https://3dinstitute.com?display_custom_css=css&#038;ver=6.1.1' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://3dinstitute.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<!--n2css-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="https://api.w.org/" href="https://3dinstitute.com/wp-json/" /><link rel="alternate" type="application/json" href="https://3dinstitute.com/wp-json/wp/v2/product/92765" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://3dinstitute.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://3dinstitute.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<meta name="generator" content="WooCommerce 7.3.0" />
+<link rel="canonical" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/" />
+<link rel='shortlink' href='https://3dinstitute.com/?p=92765' />
+<link rel="alternate" type="application/json+oembed" href="https://3dinstitute.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F3dinstitute.com%2Fproduct%2Fsports-3d-coaching-for-athletic-administrators%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://3dinstitute.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F3dinstitute.com%2Fproduct%2Fsports-3d-coaching-for-athletic-administrators%2F&#038;format=xml" />
+<style type='text/css'>
+					body #learndash_lessons #lesson_heading, 
+					body #learndash_profile .learndash_profile_heading, 
+					body #learndash_quizzes #quiz_heading, 
+					body #learndash_lesson_topics_list div > strong {
+					background-color: #eeeeee!important;
+					}
+					</style><style type='text/css'>
+					body #learndash_lessons #lesson_heading, 
+					body #learndash_profile .learndash_profile_heading, 
+					body #learndash_quizzes #quiz_heading, 
+					body #learndash_lesson_topics_list div > strong {
+					color: #1e73be!important;
+					}
+					</style><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://3dinstitute.com/wp-content/uploads/2022/11/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://3dinstitute.com/wp-content/uploads/2022/11/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://3dinstitute.com/wp-content/uploads/2022/11/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://3dinstitute.com/wp-content/uploads/2022/11/cropped-favicon-270x270.png" />
+<!-- WooCommerce Colors -->
+<style type="text/css">
+p.demo_store{background-color:#fbcd08;color:#040300;}.woocommerce small.note{color:#777;}.woocommerce .woocommerce-breadcrumb{color:#777;}.woocommerce .woocommerce-breadcrumb a{color:#777;}.woocommerce div.product span.price,.woocommerce div.product p.price{color:#018cd1;}.woocommerce div.product .stock{color:#018cd1;}.woocommerce span.onsale{background-color:#018cd1;color:#fff;}.woocommerce ul.products li.product .price{color:#018cd1;}.woocommerce ul.products li.product .price .from{color:rgba(80, 113, 130, 0.5);}.woocommerce nav.woocommerce-pagination ul{border:1px solid #d5d5d5;}.woocommerce nav.woocommerce-pagination ul li{border-right:1px solid #d5d5d5;}.woocommerce nav.woocommerce-pagination ul li span.current,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li a:focus{background:#eee;color:#888;}.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce #respond input#submit{color:#555;background-color:#eee;}.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover{background-color:#ddd;color:#555;}.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt{background-color:#fbcd08;color:#040300;}.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover{background-color:#eabc00;color:#040300;}.woocommerce a.button.alt.disabled,.woocommerce button.button.alt.disabled,.woocommerce input.button.alt.disabled,.woocommerce #respond input#submit.alt.disabled,.woocommerce a.button.alt:disabled,.woocommerce button.button.alt:disabled,.woocommerce input.button.alt:disabled,.woocommerce #respond input#submit.alt:disabled,.woocommerce a.button.alt:disabled[disabled],.woocommerce button.button.alt:disabled[disabled],.woocommerce input.button.alt:disabled[disabled],.woocommerce #respond input#submit.alt:disabled[disabled],.woocommerce a.button.alt.disabled:hover,.woocommerce button.button.alt.disabled:hover,.woocommerce input.button.alt.disabled:hover,.woocommerce #respond input#submit.alt.disabled:hover,.woocommerce a.button.alt:disabled:hover,.woocommerce button.button.alt:disabled:hover,.woocommerce input.button.alt:disabled:hover,.woocommerce #respond input#submit.alt:disabled:hover,.woocommerce a.button.alt:disabled[disabled]:hover,.woocommerce button.button.alt:disabled[disabled]:hover,.woocommerce input.button.alt:disabled[disabled]:hover,.woocommerce #respond input#submit.alt:disabled[disabled]:hover{background-color:#fbcd08;color:#040300;}.woocommerce a.button:disabled:hover,.woocommerce button.button:disabled:hover,.woocommerce input.button:disabled:hover,.woocommerce #respond input#submit:disabled:hover,.woocommerce a.button.disabled:hover,.woocommerce button.button.disabled:hover,.woocommerce input.button.disabled:hover,.woocommerce #respond input#submit.disabled:hover,.woocommerce a.button:disabled[disabled]:hover,.woocommerce button.button:disabled[disabled]:hover,.woocommerce input.button:disabled[disabled]:hover,.woocommerce #respond input#submit:disabled[disabled]:hover{background-color:#eee;}.woocommerce #reviews h2 small{color:#777;}.woocommerce #reviews h2 small a{color:#777;}.woocommerce #reviews #comments ol.commentlist li .meta{color:#777;}.woocommerce #reviews #comments ol.commentlist li img.avatar{background:#eee;border:1px solid #e6e6e6;}.woocommerce #reviews #comments ol.commentlist li .comment-text{border:1px solid #e6e6e6;}.woocommerce #reviews #comments ol.commentlist #respond{border:1px solid #e6e6e6;}.woocommerce .star-rating:before{color:#d5d5d5;}.woocommerce.widget_shopping_cart .total,.woocommerce .widget_shopping_cart .total{border-top:3px double #eee;}.woocommerce form.login,.woocommerce form.checkout_coupon,.woocommerce form.register{border:1px solid #d5d5d5;}.woocommerce .order_details li{border-right:1px dashed #d5d5d5;}.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#fbcd08;}.woocommerce .widget_price_filter .ui-slider .ui-slider-range{background-color:#fbcd08;}.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content{background-color:#b78900;}.woocommerce-cart table.cart td.actions .coupon .input-text{border:1px solid #d5d5d5;}.woocommerce-cart .cart-collaterals .cart_totals p small{color:#777;}.woocommerce-cart .cart-collaterals .cart_totals table small{color:#777;}.woocommerce-cart .cart-collaterals .cart_totals .discount td{color:#018cd1;}.woocommerce-cart .cart-collaterals .cart_totals tr td,.woocommerce-cart .cart-collaterals .cart_totals tr th{border-top:1px solid #eee;}.woocommerce-checkout .checkout .create-account small{color:#777;}.woocommerce-checkout #payment{background:#eee;}.woocommerce-checkout #payment ul.payment_methods{border-bottom:1px solid #d5d5d5;}.woocommerce-checkout #payment div.payment_box{background-color:#e1e1e1;color:#555;}.woocommerce-checkout #payment div.payment_box input.input-text,.woocommerce-checkout #payment div.payment_box textarea{border-color:#c8c8c8;border-top-color:#bbb;}.woocommerce-checkout #payment div.payment_box ::-webkit-input-placeholder{color:#bbb;}.woocommerce-checkout #payment div.payment_box :-moz-placeholder{color:#bbb;}.woocommerce-checkout #payment div.payment_box :-ms-input-placeholder{color:#bbb;}.woocommerce-checkout #payment div.payment_box span.help{color:#777;}.woocommerce-checkout #payment div.payment_box:after{content:"";display:block;border:8px solid #e1e1e1;border-right-color:transparent;border-left-color:transparent;border-top-color:transparent;position:absolute;top:-3px;left:0;margin:-1em 0 0 2em;}
+</style>
+<!--/WooCommerce Colors-->
+<meta name=generator content='Memberium v2.206 for WordPress' /><link title="Membership site system for WordPress and Keap" type="text/html" rel="help" hreflang="en" href="https://Memberium.com" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="product-template-default single single-product postid-92765 wp-custom-logo wp-embed-responsive theme-generatepress post-image-aligned-center secondary-nav-below-header secondary-nav-aligned-right slideout-enabled slideout-mobile sticky-menu-no-transition sticky-enabled sticky-menu-logo menu-logo-enabled mobile-sticky-menu mobile-header mobile-header-sticky qubely qubely-frontend woocommerce woocommerce-page woocommerce-no-js no-sidebar nav-float-right one-container header-aligned-left dropdown-hover featured-image-active" itemtype="https://schema.org/Blog" itemscope>
+<script src='https://3dinstitute.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script src='https://3dinstitute.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+<script id='zxcvbn-async-js-extra'>
+var _zxcvbnSettings = {"src":"https:\/\/3dinstitute.com\/wp-includes\/js\/zxcvbn.min.js"};
+</script>
+<script src='https://3dinstitute.com/wp-includes/js/zxcvbn-async.min.js?ver=1.0' id='zxcvbn-async-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script id='qubely_local_script-js-extra'>
+var qubely_urls = {"plugin":"https:\/\/3dinstitute.com\/wp-content\/plugins\/qubely\/","ajax":"https:\/\/3dinstitute.com\/wp-admin\/admin-ajax.php","nonce":"b224fd0131","actual_url":"3dinstitute.com"};
+</script>
+<script id='qubely_container_width-js-extra'>
+var qubely_container_width = {"sm":"540","md":"720","lg":"960","xl":"1140"};
+</script>
+<script id='say-what-js-js-extra'>
+var say_what_data = {"replacements":{"uncanny-learndash-codes|Enter License Code|":"Enter Pre-Paid Registration Code"}};
+</script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/say-what/assets/build/frontend.js?ver=1675653565' id='say-what-js-js' defer></script>
+<script id='uncannyowl-learndash-toolkit-free-js-extra'>
+var UncannyToolkit = {"ajax":{"url":"https:\/\/3dinstitute.com\/wp-admin\/admin-ajax.php","nonce":"ae61f1bf8d"},"integrity":{"shouldPreventConcurrentLogin":false},"i18n":{"dismiss":"Dismiss","preventConcurrentLogin":"Your account has exceeded maximum concurrent login number.","error":{"generic":"Something went wrong. Please, try again"}},"modals":[]};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/uncanny-learndash-toolkit/src/assets/frontend/dist/bundle.min.js?ver=3.6.4.1' id='uncannyowl-learndash-toolkit-free-js' defer></script>
+<script id='ultp-frontend-js-extra'>
+var UncannyToolkitPro = {"restURL":"https:\/\/3dinstitute.com\/wp-json\/uo_toolkit\/v1\/","nonce":"e384157db8"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/uncanny-toolkit-pro/src/assets/dist/frontend/bundle.min.js?ver=3.10' id='ultp-frontend-js' defer></script>
+<script id='wpmenucart-ajax-assist-js-extra'>
+var wpmenucart_ajax_assist = {"shop_plugin":"woocommerce","always_display":""};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce-menu-bar-cart/assets/js/wpmenucart-ajax-assist.min.js?ver=2.13.0' id='wpmenucart-ajax-assist-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/team-members-pro/inc/js/tmm.min.js?ver=6.1.1' id='tmmp-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var ajaxurl = "https://3dinstitute.com/wp-admin/admin-ajax.php"</script>
+<script data-cfasync="false"> var dFlipLocation = "https://3dinstitute.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/"; var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"true","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","enableAnnotation":"false","enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"dearflip-"};</script>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a><!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=UA-61969836-1"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61969836-1');
+</script>
+		<header class="site-header has-inline-mobile-toggle" id="masthead" aria-label="Site"  itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container">
+				<div class="site-logo">
+					<a href="https://3dinstitute.com/" rel="home">
+						<img  class="header-image is-logo-image" alt="3D Institute" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2080'%3E%3C/svg%3E" width="215" height="80" data-lazy-src="https://3dinstitute.com/wp-content/uploads/2021/12/site_identity_logo.png" /><noscript><img  class="header-image is-logo-image" alt="3D Institute" src="https://3dinstitute.com/wp-content/uploads/2021/12/site_identity_logo.png" width="215" height="80" /></noscript>
+					</a>
+				</div>	<nav class="main-navigation mobile-menu-control-wrapper" id="mobile-menu-control-wrapper" aria-label="Mobile Toggle">
+				<button data-nav="site-navigation" class="menu-toggle" aria-controls="generate-slideout-menu" aria-expanded="false">
+			<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>		</button>
+	</nav>
+			<nav class="main-navigation sub-menu-right" id="site-navigation" aria-label="Primary"  itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container">
+				<div class="site-logo sticky-logo navigation-logo">
+					<a href="https://3dinstitute.com/" title="3D Institute" rel="home">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="3D Institute" class="is-logo-image" data-lazy-src="https://3dinstitute.com/wp-content/uploads/2021/12/navigation_logo.png" /><noscript><img src="https://3dinstitute.com/wp-content/uploads/2021/12/navigation_logo.png" alt="3D Institute" class="is-logo-image" /></noscript>
+					</a>
+				</div>				<button class="menu-toggle" aria-controls="generate-slideout-menu" aria-expanded="false">
+					<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-main-menu" class=" menu sf-menu"><li id="menu-item-29985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29985"><a href="https://3dinstitute.com/">Home</a></li>
+<li id="menu-item-480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://3dinstitute.com/about-the-3d-institute/">About the 3D Institute</a></li>
+	<li id="menu-item-19283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19283"><a href="https://3dinstitute.com/staff/">3DI Staff</a></li>
+	<li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://3dinstitute.com/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-10225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10225"><a href="https://3dinstitute.com/blog/">Blog</a></li>
+<li id="menu-item-4725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4725"><a href="#">Workshops<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-4726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4726"><a href="https://3dinstitute.com/workshop-request-form/">Request a Workshop</a></li>
+</ul>
+</li>
+<li id="menu-item-4958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4958"><a href="/online-store/">Online Store<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-92620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92620"><a href="https://3dinstitute.com/online-store/">Shop</a></li>
+	<li id="menu-item-4962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4962"><a href="https://3dinstitute.com/cart/">Cart</a></li>
+</ul>
+</li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="https://3dinstitute.com/my-account/">My Account<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-5370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5370"><a href="https://3dinstitute.com/support/">Support</a></li>
+	<li id="menu-item-7780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7780"><a href="/my-account/">Log In</a></li>
+</ul>
+</li>
+<li class="menu-item wpmenucartli wpmenucart-display-standard menu-item" id="wpmenucartli"><a class="wpmenucart-contents empty-wpmenucart" style="display:none">&nbsp;</a></li></ul></div>			</div>
+		</nav>
+					</div>
+		</header>
+				<nav id="mobile-header" itemtype="https://schema.org/SiteNavigationElement" itemscope class="main-navigation mobile-header-navigation">
+			<div class="inside-navigation grid-container grid-parent">
+									<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+						<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>					</button>
+					<div id="mobile-menu" class="main-nav"><ul id="menu-main-menu-1" class=" menu sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29985"><a href="https://3dinstitute.com/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://3dinstitute.com/about-the-3d-institute/">About the 3D Institute</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19283"><a href="https://3dinstitute.com/staff/">3DI Staff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://3dinstitute.com/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10225"><a href="https://3dinstitute.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4725"><a href="#">Workshops<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4726"><a href="https://3dinstitute.com/workshop-request-form/">Request a Workshop</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4958"><a href="/online-store/">Online Store<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92620"><a href="https://3dinstitute.com/online-store/">Shop</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4962"><a href="https://3dinstitute.com/cart/">Cart</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="https://3dinstitute.com/my-account/">My Account<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5370"><a href="https://3dinstitute.com/support/">Support</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7780"><a href="/my-account/">Log In</a></li>
+</ul>
+</li>
+<li class="menu-item wpmenucartli wpmenucart-display-standard menu-item" id="wpmenucartli"><a class="wpmenucart-contents empty-wpmenucart" style="display:none">&nbsp;</a></li></ul></div>			</div><!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+		<div class="page-hero">
+					<div class="inside-page-hero grid-container grid-parent">
+						<br/>
+					</div>
+				</div>
+	<div class="site grid-container container hfeed" id="page">
+				<div class="site-content" id="content">
+			
+			<div class="content-area" id="primary">
+			<main class="site-main" id="main">
+								<article class="post-92765 product type-product status-publish has-post-thumbnail product_cat-uncategorized first instock virtual sold-individually purchasable product-type-simple" id="post-92765" itemtype="https://schema.org/CreativeWork" itemscope>
+					<div class="inside-article">
+												<div class="entry-content" itemprop="text">
+		
+					
+			<div class="woocommerce-notices-wrapper"></div><div id="product-92765" class="product type-product post-92765 status-publish instock product_cat-uncategorized has-post-thumbnail virtual sold-individually purchasable product-type-simple">
+
+	<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+	<figure class="woocommerce-product-gallery__wrapper">
+		<img width="450" height="450" src="https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1.jpg" class="wp-post-image" alt="" decoding="async" title="3d_ads_product_image" data-caption="" data-src="https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1.jpg" data-large_image="https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1.jpg" data-large_image_width="450" data-large_image_height="450" srcset="https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1.jpg 450w, https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1-300x300.jpg 300w, https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1-150x150.jpg 150w, https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1-250x250.jpg 250w, https://3dinstitute.com/wp-content/uploads/2022/07/3d_ads_product_image-1-100x100.jpg 100w" sizes="(max-width: 450px) 100vw, 450px" />	</figure>
+</div>
+
+	<div class="summary entry-summary">
+		<h1 class="product_title entry-title">Sports: 3D Coaching for Athletic Administrators</h1><p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span></p>
+<div class="woocommerce-product-details__short-description">
+	<p>This course is <strong>OUR GIFT</strong> to Athletic Directors and other people who are responsible for leading coaches within an athletic organization. In this course, 3DI CEO Wes Simmons explains how the 3D Coaching framework empowers administrators to create a transformational culture that breeds not only success on the athletic field, but significance beyond the scoreboard.</p>
+<p>To enroll in this <strong>free</strong> course, click &#8220;Add to Cart&#8221; and create your account through the shopping cart.</p>
+</div>
+
+	
+	<form class="cart" action="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/" method="post" enctype='multipart/form-data'>
+		
+		<div class="quantity">
+		<label class="screen-reader-text" for="quantity_63e1821798892">Sports: 3D Coaching for Athletic Administrators quantity</label>
+	<input
+		type="text"
+		 readonly='readonly'		id="quantity_63e1821798892"
+		class="input-text qty text"
+		name="quantity"
+		value="1"
+		title="Qty"
+		size="4"
+		min="1"
+		max="1"
+			/>
+	</div>
+
+		<button type="submit" name="add-to-cart" value="92765" class="single_add_to_cart_button button alt wp-element-button">Add to cart</button>
+
+			</form>
+
+	
+<div class="ppc-button-wrapper"><div id="ppc-button-ppcp-gateway"></div></div>	</div>
+
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs" role="tablist">
+							<li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
+					<a href="#tab-description">
+						Reviews					</a>
+				</li>
+					</ul>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+				
+	<h2>Customer Reviews</h2>
+
+<div id="gv-view-94203-1">		<div class="gv-grid gv-widgets-header">
+								<div class="gv-grid-col-1-1 gv-left">
+						<div class="gv-widget-custom-content "><table bgcolor="#0076bd" cellpadding="10" width="100%">
+<tr>
+<td><center><strong><font color="#ffffff">Average Customer Rating:</font>&nbsp;&nbsp;<font color="#dcb529">4.89 / 5 Stars</font></strong></center></td>
+</tr>
+</table><br/></div><div class="gv-widget-pagination "><p>Displaying 1 - 25 of 28</p></div><div class="gv-widget-page-links"><ul class='page-numbers'>
+	<li><span aria-current="page" class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">2</a></li>
+	<li><a class="next page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">&raquo;</a></li>
+</ul>
+</div>					</div>
+												<div class="gv-grid-col-1-2 gv-left">
+											</div>
+									<div class="gv-grid-col-1-2 gv-right">
+											</div>
+									</div>
+
+		<div class="gv-list-container gv-list-multiple-container gv-container gv-container-94203">
+	        <div id="gv_list_111806" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> December 28, 2022</font><br/>
+<p><font style="font-size:18px"><em>10</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Nikolay Cholakov</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_111729" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> December 21, 2022</font><br/>
+<p><font style="font-size:18px"><em>I am excited to continue to learn more about 3D Coaching.  This introduction really hit home with me</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Catham Beer</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_111302" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> December 6, 2022</font><br/>
+<p><font style="font-size:18px"><em>Excellent course! I&#039;m a first-year middle school athletic director and I really learned a lot about helping out coaches be the best they can be.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Timothy Sullivan</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_111273" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> December 6, 2022</font><br/>
+<p><font style="font-size:18px"><em>Great insight into transformational leadership</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Eric Taylor</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_111068" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> December 3, 2022</font><br/>
+<p><font style="font-size:18px"><em>This Is the Best, i loved</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Carlos Rojas</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_110786" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> November 29, 2022</font><br/>
+<p><font style="font-size:18px"><em>Very powerful content on how the mindset of todays players has changed and how important it is to understand the different dimensions of impacting the person as a whole to get the desired outcomes.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Jason Olerich</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_110517" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> November 25, 2022</font><br/>
+<p><font style="font-size:18px"><em>Superb!</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Rui Mourato</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_108037" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> October 24, 2022</font><br/>
+<p><font style="font-size:18px"><em>Very excited about this program for my teams and coaches!</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Matt Windle</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_107002" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> September 29, 2022</font><br/>
+<p><font style="font-size:18px"><em>Ready to get started with our coaches!</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Jason Spooner</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_106364" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> September 15, 2022</font><br/>
+<p><font style="font-size:18px"><em>ESTE CURSO, NOS FAZ ABRIR A MENTE E TERMOS UMA VISÃO BEM AMPLA DO QUE SER UM TREINADOR 3D.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Paulo Goncalves</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_105694" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> August 30, 2022</font><br/>
+<p><font style="font-size:18px"><em>It is motivating, empathetic and far reaching. I am finding it most comforting and increasing my confidence to lead.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Jacqueline Clark</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_105345" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> August 22, 2022</font><br/>
+<p><font style="font-size:18px"><em>I believe that I have spent my life as a 3 D coach.  It was great to see all these great coaches put on paper what it really means to be a coach. Remember at the end of our lives God isn&#039;t going to be impressed by our Hall of Fames or our won/loss record, He will only be concerned about how we positively influenced the young people we had the opporunity to coach.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Rodney Shafer</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_104714" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> August 8, 2022</font><br/>
+<p><font style="font-size:18px"><em>Eye-opening!</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Frans Crous</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_104557" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> August 5, 2022</font><br/>
+<p><font style="font-size:18px"><em>Very comprehensive and insightful, fits perfectly with our goal for enhancing our school culture.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Chad Stoskopf</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_104195" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 30, 2022</font><br/>
+<p><font style="font-size:18px"><em>This is a good material. It made me rethink my strategy. I&#039;ll be sharing it to my district</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Rhenald Lagrimas</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103930" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 25, 2022</font><br/>
+<p><font style="font-size:18px"><em>This is a great resource in helping administrators outline a vision for their staff/department and really build a true system that can be sustainable long-term in helping change the lives of the coaches who work for you and the athletes we work to motivate and inspire. My favorite piece of this program was Creating an Operating System.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Henry Brun</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103868" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 25, 2022</font><br/>
+<p><font style="font-size:18px"><em>Helps you look at different ways of connecting with your athletes and help them grow and develop</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Brent Wienand</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103823" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 24, 2022</font><br/>
+<p><font style="font-size:18px"><em>Good</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>MARVEEN Toppo</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103789" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 24, 2022</font><br/>
+<p><font style="font-size:18px"><em>Every aspect of this course is thoroughly explained really well.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Joshua Kujur</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103652" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 22, 2022</font><br/>
+<p><font style="font-size:18px"><em>Its one of the best learning program. I have learnt do many things from it.i am so proud to be a part of this family.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Naijan Job Kerketta</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103513" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 18, 2022</font><br/>
+<p><font style="font-size:18px"><em>This course has laid the groundwork for me to start working with my coaches on building a positive culture and helping us all within our athletic department to better serve our student-athletes.  As a second-year AD in this district with several new coaches, I think that the 3D Institute can be a powerful tool for us for the future.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Travis McAtee</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103499" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 18, 2022</font><br/>
+<p><font style="font-size:18px"><em>Excellent!!</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Taka NISHIZAWA</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103465" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 17, 2022</font><br/>
+<p><font style="font-size:18px"><em>This page does not allow me to register my phone number as it is written in my country, so here I am sending it to you: Mob: +31 681362398<br />
+It is good, short, interesting with clear instructions for the next step for those who are interested</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Miljenko Bojcic</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103278" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 11, 2022</font><br/>
+<p><font style="font-size:18px"><em>Great data and insights to develop today`s generation athlete.</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Andries van Wyk</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+	        <div id="gv_list_103268" class="gv-list-view">
+
+		
+			<div class="gv-list-view-title">
+				<div class="gv-list-view-subtitle"><h4 id="gv-field-174-custom" class="gv-field-174-custom"><strong>Rating:</strong> <font color="#fbcd08">★ ★ ★ ★ ★</font><br/>
+<font style="font-size:18px"><strong>Date:</strong> July 11, 2022</font><br/>
+<p><font style="font-size:18px"><em>Excellent and Good</em></font></p><br/>
+            <blockquote style="margin: 0px 0px 0px 40px; font-size:18px"><strong>Alexander Daniel A</strong>
+</blockquote>
+<br/></h4></div>			</div>
+		
+		</div>
+
+		</div>
+		<div class="gv-grid gv-widgets-footer">
+								<div class="gv-grid-col-1-1 gv-left">
+											</div>
+												<div class="gv-grid-col-1-2 gv-left">
+						<div class="gv-widget-pagination "><p>Displaying 1 - 25 of 28</p></div><div class="gv-widget-page-links"><ul class='page-numbers'>
+	<li><span aria-current="page" class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">2</a></li>
+	<li><a class="next page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">&raquo;</a></li>
+</ul>
+</div>					</div>
+									<div class="gv-grid-col-1-2 gv-right">
+						<div class="gv-widget-page-links"><ul class='page-numbers'>
+	<li><span aria-current="page" class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">2</a></li>
+	<li><a class="next page-numbers" href="https://3dinstitute.com/product/sports-3d-coaching-for-athletic-administrators/?pagenum=2">&raquo;</a></li>
+</ul>
+</div>					</div>
+									</div>
+
+		<input type="hidden" class="gravityview-view-id" value="94203">        <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			if ( window.gvDTglobals ) {
+				for ( var index in gvDTglobals ) {
+					gvDTglobals[ index ].footerCallback = function () {
+						var api = this.api();
+						var $footer = jQuery( api.table().footer() );
+						var mathFooter = api.ajax.json()[ 'gvMathFooter' ];
+
+						if ( !mathFooter ) {
+							return;
+						}
+
+						if ( $footer.find( '.gv-math-footer-calculation' ).length ) {
+							$footer.find( '.gv-math-footer-calculation' ).replaceWith( mathFooter );
+						} else {
+							$footer.append( mathFooter );
+						}
+
+						jQuery( api.table().footer() ).html( $footer.html() );
+					}
+				}
+			}
+        </script>
+		</div>
+			</div>
+		
+			</div>
+
+</div>
+
+
+		
+							</div>
+											</div>
+				</article>
+							</main>
+		</div>
+		
+	
+
+	</div>
+</div>
+
+
+<div class="site-footer footer-bar-active footer-bar-align-right">
+				<div id="footer-widgets" class="site footer-widgets">
+				<div class="footer-widgets-container grid-container">
+					<div class="inside-footer-widgets">
+							<div class="footer-widget-1">
+		<aside id="nav_menu-5" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">About 3DI</h2><div class="menu-about-us-container"><ul id="menu-about-us" class="menu"><li id="menu-item-4192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4192"><a href="https://3dinstitute.com/about-the-3d-institute/">About the 3D Institute</a></li>
+<li id="menu-item-4658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4658"><a href="https://3dinstitute.com/certified-presenters/">Certified Presenters</a></li>
+<li id="menu-item-4189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4189"><a href="https://3dinstitute.com/what-is-3d-coaching/">What is 3D Coaching?</a></li>
+<li id="menu-item-12720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12720"><a href="https://www.3dinstitute.com/blog">3D Coaching Blog</a></li>
+<li id="menu-item-4188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4188"><a href="https://3dinstitute.com/calendar/">Calendar</a></li>
+<li id="menu-item-4191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4191"><a href="https://3dinstitute.com/contact-us/">Contact Us</a></li>
+</ul></div></aside>	</div>
+		<div class="footer-widget-2">
+		<aside id="nav_menu-4" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">Start the 3D Journey!</h2><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-93011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93011"><a href="https://3dinstitute.com/online-store/">Get Started</a></li>
+</ul></div></aside>	</div>
+		<div class="footer-widget-3">
+		<aside id="nav_menu-7" class="widget inner-padding widget_nav_menu"><h2 class="widget-title">Connect:</h2><div class="menu-social-container"><ul id="menu-social" class="menu"><li id="menu-item-32122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32122"><a href="https://www.facebook.com/3DimensionalCoaching/"><i class="_mi _before dashicons dashicons-facebook" aria-hidden="true"></i><span>Like Us on Facebook</span></a></li>
+<li id="menu-item-32121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32121"><a href="https://twitter.com/3dcoaches"><i class="_mi _before dashicons dashicons-twitter" aria-hidden="true"></i><span>Follow Us on Twitter</span></a></li>
+</ul></div></aside>	</div>
+		<div class="footer-widget-4">
+		<aside id="text-7" class="widget inner-padding widget_text"><h2 class="widget-title">Newsletter:</h2>			<div class="textwidget"><script type="rocketlazyloadscript" data-rocket-type="text/javascript">var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});</script>
+                <div class='gf_browser_safari gf_browser_iphone gform_wrapper gravity-theme' id='gform_wrapper_29' ><form method='post' enctype='multipart/form-data'  id='gform_29'  action='/product/sports-3d-coaching-for-athletic-administrators/' > 
+ <input type='hidden' class='gforms-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' />
+                        <div class='gform_body gform-body'><div id='gform_fields_29' class='gform_fields top_label form_sublabel_below description_below'><div id="field_29_1"  class="gfield field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_29_1"><label class='gfield_label' for='input_29_1' >Your Best Email Address</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_29_1' type='text' value='' class='large'     aria-invalid="false"  />
+                        </div></div><div id="field_29_2"  class="gfield field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_29_2"><label class='gfield_label screen-reader-text' for='input_29_2' ></label><div id='input_29_2' class='ginput_container ginput_recaptcha' data-sitekey='6LdjTd4ZAAAAANjgETD2l27QGgOLWRRLdD83c6lS'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div></div><div id="field_29_3"  class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_29_3"><label class='gfield_label' for='input_29_3' >Phone</label><div class='ginput_container'><input name='input_3' id='input_29_3' type='text' value='' /></div><div class='gfield_description' id='gfield_description_29_3'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_29' class='gform_button button' value='Subscribe'  onclick='if(window["gf_submitting_29"]){return false;}  window["gf_submitting_29"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_29"]){return false;} window["gf_submitting_29"]=true;  jQuery("#gform_29").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_29' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='29' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_29' value='WyJbXSIsImFmODM2MzJlNDAyZDM2YWMzMjA2ZThiNTBkMTM4Njk1Il0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_29' id='gform_target_page_number_29' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_29' id='gform_source_page_number_29' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="183"/><script type="rocketlazyloadscript">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div></div>
+		</aside><aside id="block-3" class="widget inner-padding widget_block">
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+</aside>	</div>
+						</div>
+				</div>
+			</div>
+					<footer class="site-info" aria-label="Site"  itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container">
+						<div class="footer-bar">
+			<aside id="custom_html-4" class="widget_text widget inner-padding widget_custom_html"><h2 class="widget-title">Privacy Policy</h2><div class="textwidget custom-html-widget"><center><a href="https://www.3dinstitute.com/privacy-policy/">Privacy Policy</a></center></div></aside>		</div>
+						<div class="copyright-bar">
+					Copyright &copy; 2023 · 3D Institute				</div>
+			</div>
+		</footer>
+		</div>
+
+<a title="Scroll back to top" aria-label="Scroll back to top" rel="nofollow" href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+					<span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z" fill-rule="nonzero" /></svg></span>
+				</a>		<nav id="generate-slideout-menu" class="main-navigation slideout-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope style="display: none;" aria-hidden="true">
+			<div class="inside-navigation grid-container grid-parent">
+				<div class="main-nav"><ul id="menu-main-menu-2" class=" slideout-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29985"><a href="https://3dinstitute.com/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://3dinstitute.com/about-the-3d-institute/">About the 3D Institute</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19283"><a href="https://3dinstitute.com/staff/">3DI Staff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://3dinstitute.com/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10225"><a href="https://3dinstitute.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4725"><a href="#">Workshops<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4726"><a href="https://3dinstitute.com/workshop-request-form/">Request a Workshop</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4958"><a href="/online-store/">Online Store<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92620"><a href="https://3dinstitute.com/online-store/">Shop</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4962"><a href="https://3dinstitute.com/cart/">Cart</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-151"><a href="https://3dinstitute.com/my-account/">My Account<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5370"><a href="https://3dinstitute.com/support/">Support</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7780"><a href="/my-account/">Log In</a></li>
+</ul>
+</li>
+<li class="menu-item wpmenucartli wpmenucart-display-standard menu-item" id="wpmenucartli"><a class="wpmenucart-contents empty-wpmenucart" style="display:none">&nbsp;</a></li></ul></div>			</div><!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+
+					<div class="slideout-overlay">
+									<button class="slideout-exit has-svg-icon">
+						<span class="gp-icon pro-close">
+				<svg viewBox="0 0 512 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+					<path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+				</svg>
+			</span>						<span class="screen-reader-text">Close</span>
+					</button>
+							</div>
+			<script src='https://3dinstitute.com/wp-content/plugins/responsive-video-embeds/js/rve.min.js?ver=1.2.4' id='responsive-video-js-js' defer></script>
+        <script type="rocketlazyloadscript">
+            jQuery(document).ready(function () {
+                jQuery('p#user_switching_switch_on').css('position', 'relative');
+            })
+        </script>
+		                <script type="rocketlazyloadscript">
+                    jQuery(document).ready(function () {
+                        jQuery('p#user_switching_switch_on').css('float', 'right').css('padding-right', '10px');
+                    })
+                </script>
+				<script type="rocketlazyloadscript">
+
+			var wppl_precheck_remember_me = function() {
+
+				// check remember me by default
+				var forms = document.querySelectorAll('form'); 						
+				if (forms) {
+
+					var rememberMeNames = ['rememberme', 'remember', 'rcp_user_remember'];
+					var rememberArray = [];
+
+					// loop through each remember me name and see if there's a field that matches
+					for( z = 0; z < rememberMeNames.length; z++ ) {
+						var input = document.getElementsByName( rememberMeNames[z] );
+						if( input.length ) {
+							rememberArray.push(input);
+						}
+					}
+					
+					// if there are remember me inputs
+					if( rememberArray.length ) { 	
+					
+						// 'check' the inputs so they're active		
+							for (i = 0; i < rememberArray.length; i++) {
+								for (x = 0; x < rememberArray[i].length; x++) {
+								  rememberArray[i][x].checked = true;
+								}
+							}
+					
+					}
+
+					
+					// test for Ultimate Member Plugin forms
+						
+						// find the UM checkboxes
+						var UmCheckboxIcon = document.querySelectorAll('.um-icon-android-checkbox-outline-blank');
+						var UmCheckboxLabel = document.querySelectorAll('.um-field-checkbox');
+						
+						if( UmCheckboxIcon.length && UmCheckboxLabel.length ) {
+							
+							// loop through UM checkboxes
+							for (i = 0; i < UmCheckboxLabel.length; i++) {
+								
+								// find the UM input element
+								var UMCheckboxElement = UmCheckboxLabel[i].children;
+								var UMCheckboxElementName = UMCheckboxElement[0].getAttribute('name');
+								
+								// check if UM input element is remember me box
+								if( UMCheckboxElementName === 'remember' || UMCheckboxElementName === 'rememberme' ) {
+									
+									// activate the UM checkbox if it is a remember me box
+									UmCheckboxLabel[i].classList.add('active');
+									
+									// swap out UM classes to show the active state
+									UmCheckboxIcon[i].classList.add('um-icon-android-checkbox-outline');
+									UmCheckboxIcon[i].classList.remove('um-icon-android-checkbox-outline-blank');
+									
+								} // endif
+							
+							} // end for
+
+						} // endif UM
+						
+						
+						
+					// test for AR Member
+						
+						var ArmRememberMeCheckboxContainer = document.querySelectorAll('.arm_form_input_container_rememberme');
+						
+						if( ArmRememberMeCheckboxContainer.length ) {
+							
+							for (i = 0; i < ArmRememberMeCheckboxContainer.length; i++) {
+								
+								var ArmRememberMeCheckbox = ArmRememberMeCheckboxContainer[i].querySelectorAll('md-checkbox');
+								
+								if( ArmRememberMeCheckbox.length ) {
+									// loop through AR Member checkboxes
+									for (x = 0; x < ArmRememberMeCheckbox.length; x++) {
+										if( ArmRememberMeCheckbox[x].classList.contains('ng-empty') ) {
+											ArmRememberMeCheckbox[x].click();
+										}
+									}
+								}
+								
+							}
+							
+						} // end if AR Member
+							
+							
+			
+				} // endif forms
+
+			}
+
+			document.addEventListener('DOMContentLoaded', function(event) {
+				wppl_precheck_remember_me();
+			});
+
+			</script><div id="pum-108553" class="pum pum-overlay pum-theme-3626 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:108553,&quot;slug&quot;:&quot;what-is-3d&quot;,&quot;theme_id&quot;:3626,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;.popup&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" 
+								   	aria-labelledby="pum_popup_title_108553">
+
+	<div id="popmake-108553" class="pum-container popmake theme-3626 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+							<div id="pum_popup_title_108553" class="pum-title popmake-title">
+				What is 3D?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="rve" data-content-width="1100"><iframe loading="lazy" title="3D Coaching Overview" src="about:blank" width="1100" height="619" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://player.vimeo.com/video/312340894?h=7bd3a5c1e4&#038;dnt=1&#038;app_id=122963"></iframe><noscript><iframe title="3D Coaching Overview" src="https://player.vimeo.com/video/312340894?h=7bd3a5c1e4&amp;dnt=1&amp;app_id=122963" width="1100" height="619" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></noscript></div>
+<p><!-- Responsive Video Embeds plugin by www.kevinleary.net --></p>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<div id="pum-106041" class="pum pum-overlay pum-theme-3627 pum-theme-lightbox popmake-overlay click_open" data-popmake="{&quot;id&quot;:106041,&quot;slug&quot;:&quot;course-popup&quot;,&quot;theme_id&quot;:3627,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-106041&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.popup&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" 
+								   >
+
+	<div id="popmake-106041" class="pum-container popmake theme-3627 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>Before Submitting a request, Please try the following steps on your regular browser:</p>
+<p>1. Logout of the site<br />
+2. Clear your cache (Temporary Internet files)<br />
+3. Log back in</p>
+<p>If that doesn&#8217;t fix it, please try to open a different browser to see if it loads correctly there. For Example, if you are using Chrome, Please try to open a Safari, Firefox or Edge window.</p>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			×			</button>
+		
+	</div>
+
+</div>
+<script type="rocketlazyloadscript" id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/3dinstitute.com\/product\/sports-3d-coaching-for-athletic-administrators\/#product","name":"Sports: 3D Coaching for Athletic Administrators","url":"https:\/\/3dinstitute.com\/product\/sports-3d-coaching-for-athletic-administrators\/","description":"This course is OUR GIFT to Athletic Directors and other people who are responsible for leading coaches within an athletic organization. In this course, 3DI CEO Wes Simmons explains how the 3D Coaching framework empowers administrators to create a transformational culture that breeds not only success on the athletic field, but significance beyond the scoreboard.\r\n\r\nTo enroll in this free course, click \"Add to Cart\" and create your account through the shopping cart.","image":"https:\/\/3dinstitute.com\/wp-content\/uploads\/2022\/07\/3d_ads_product_image-1.jpg","sku":"3dsportsadmin","offers":[{"@type":"Offer","price":"0.00","priceValidUntil":"2024-12-31","priceSpecification":{"price":"0.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/3dinstitute.com\/product\/sports-3d-coaching-for-athletic-administrators\/","seller":{"@type":"Organization","name":"3D Institute","url":"https:\/\/3dinstitute.com"}}]}</script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+jQuery( function() {
+if ( window.Cookies ) {
+Cookies.set( "gp_easy_passthrough_session", "c69ab394a1793dc9af9092d0e70fb241||1675725087||1675724727", {"expires": new Date( new Date().getTime() + 1800000 ),"path": "/","domain": "","SameSite": "Lax","secure": false} );
+}
+} );
+</script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link data-minify="1" rel='stylesheet' id='fontawesome-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/ld-visual-customizer/legacy/assets/css/fontawesome5/all.css?ver=1675653565' media='all' />
+<link rel='stylesheet' id='fontawesome-shim-css' href='https://3dinstitute.com/wp-content/plugins/ld-visual-customizer/legacy//assets/css/fontawesome5/v4-shims.min.css?ver=2.1.12' media='all' />
+<link data-minify="1" rel='stylesheet' id='gform_basic-css' href='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=1675653565' media='all' />
+
+<style   data-wpacu-inline-css-file='1'>
+.gf_browser_ie.gform_wrapper.gravity-theme form{overflow:hidden;padding:1px 1px 8px}.gf_browser_ie.gform_wrapper.gravity-theme .gform-body{margin:0 -32px -32px 0}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields{display:flex;flex-wrap:wrap;overflow:hidden}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield{background-clip:padding-box;border:0 solid transparent;border-width:0 32px 32px 0;width:100%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-full{width:100%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-eleven-twelfths{width:91.666%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-five-sixths{width:83.333%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-three-quarter{width:75%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield.gfield--width-two-thirds{width:66.666%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-seven-twelfths{width:58.333%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-half{width:50%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-five-twelfths{width:41.666%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-third{width:33.333%}.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield.gfield--width-quarter{width:25%}@media (max-width:840px){.gf_browser_ie.gform_wrapper.gravity-theme .gform_fields .gfield{width:100%}}.gf_browser_ie.gform_wrapper.gravity-theme .ginput_container_address .ginput_left,.gf_browser_ie.gform_wrapper.gravity-theme .ginput_container_address .ginput_right{flex:0 50%;flex-basis:auto;width:50%}
+</style>
+<link rel='stylesheet' id='gform_theme-css' href='https://3dinstitute.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.6.9' media='all' />
+<script src='https://3dinstitute.com/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?ver=2.2.2' id='generate-sticky-js' defer></script>
+<script id='generate-offside-js-extra'>
+var offSide = {"side":"left"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/gp-premium/menu-plus/functions/js/offside.min.js?ver=2.2.2' id='generate-offside-js' defer></script>
+<script id='generate-smooth-scroll-js-extra'>
+var smooth = {"elements":[".smooth-scroll","li.smooth-scroll a"],"duration":"800"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js?ver=2.2.2' id='generate-smooth-scroll-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script type="rocketlazyloadscript"   id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id='password-strength-meter-js-extra'>
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+</script>
+<script type="rocketlazyloadscript" src='https://3dinstitute.com/wp-admin/js/password-strength-meter.min.js?ver=6.1.1' id='password-strength-meter-js' defer></script>
+<script id='wc-password-strength-meter-js-extra'>
+var wc_password_strength_meter_params = {"min_password_strength":"3","stop_checkout":"","i18n_password_error":"Please enter a stronger password.","i18n_password_hint":"Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )."};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=7.3.0' id='wc-password-strength-meter-js' defer></script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/password-strength-for-woocommerce/js/password-strength-wc.js?ver=1675653565' id='hm_wcps-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/qubely/assets/js/common-script.min.js?ver=1.8.4' id='qubely-block-common-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/qubely/assets/js/interaction.min.js?ver=1.8.4' id='qubely-interaction-js' defer></script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/responsive-youtube-vimeo-popup/assets/js/wp-video-popup.js?ver=1675653565' id='wp-video-popup-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.3.0' id='jquery-blockui-js' defer></script>
+<script id='wc-add-to-cart-js-extra'>
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/3dinstitute.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.3.0' id='wc-add-to-cart-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.7.3.0' id='flexslider-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.7.3.0' id='photoswipe-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.7.3.0' id='photoswipe-ui-default-js' defer></script>
+<script id='wc-single-product-js-extra'>
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=7.3.0' id='wc-single-product-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.3.0' id='js-cookie-js' defer></script>
+<script id='woocommerce-js-extra'>
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.3.0' id='woocommerce-js' defer></script>
+<script id='wc-cart-fragments-js-extra'>
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_932c84d4272faccae65b85c0fdbb88f0","fragment_name":"wc_fragments_932c84d4272faccae65b85c0fdbb88f0","request_timeout":"5000"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.3.0' id='wc-cart-fragments-js' defer></script>
+<script id='ppcp-smart-button-js-extra'>
+var PayPalCommerceGateway = {"script_attributes":{"data-partner-attribution-id":"Woo_PPCP"},"data_client_id":{"set_attribute":false,"endpoint":"\/?wc-ajax=ppc-data-client-id","nonce":"d8e6f0ff8f","user":0,"has_subscriptions":false},"redirect":"https:\/\/3dinstitute.com\/checkout\/","context":"product","ajax":{"change_cart":{"endpoint":"\/?wc-ajax=ppc-change-cart","nonce":"cacb69f2b9"},"create_order":{"endpoint":"\/?wc-ajax=ppc-create-order","nonce":"8b4ca4a5bb"},"approve_order":{"endpoint":"\/?wc-ajax=ppc-approve-order","nonce":"44fa58ce53"},"vault_paypal":{"endpoint":"\/?wc-ajax=ppc-vault-paypal","nonce":"1731bfacf2"}},"enforce_vault":"","can_save_vault_token":"","is_free_trial_cart":"","vaulted_paypal_email":"","bn_codes":{"checkout":"Woo_PPCP","cart":"Woo_PPCP","mini-cart":"Woo_PPCP","product":"Woo_PPCP"},"payer":null,"button":{"wrapper":"#ppc-button-ppcp-gateway","mini_cart_wrapper":"#ppc-button-minicart","cancel_wrapper":"#ppcp-cancel","url":"https:\/\/www.paypal.com\/sdk\/js?client-id=AV18RXpmKI6OyzaA6TfWiEL-Y4k2ybwoVRJjsVHkD7C-zretw6GEgVsiWxbgKcQVrra21JNH_30phmqF&currency=USD&integration-date=2022-04-13&components=buttons,funding-eligibility,messages&vault=false&commit=false&intent=capture&disable-funding=card&enable-funding=venmo,paylater","mini_cart_style":{"layout":"vertical","color":"gold","shape":"rect","label":"paypal","tagline":false,"height":35},"style":{"layout":"horizontal","color":"gold","shape":"rect","label":"paypal","tagline":"false"}},"separate_buttons":{"card":{"id":"ppcp-card-button-gateway","wrapper":"#ppc-button-ppcp-card-button-gateway","style":{"shape":"rect"}}},"hosted_fields":{"wrapper":"#ppcp-hosted-fields","labels":{"credit_card_number":"","cvv":"","mm_yy":"MM\/YY","fields_not_valid":"Unfortunately, your credit card details are not valid.","card_not_supported":"Unfortunately, we do not support your credit card.","cardholder_name_required":"Cardholder's first and last name are required, please fill the checkout form required fields."},"valid_cards":["mastercard","visa","amex","discover","american-express","master-card"],"contingency":"SCA_WHEN_REQUIRED"},"messages":[],"labels":{"error":{"generic":"Something went wrong. Please try again or choose another payment source.","required":{"generic":"Required form fields are not filled.","field":"%s is a required field.","elements":{"terms":"Please read and accept the terms and conditions to proceed with your order."}}},"billing_field":"Billing %s","shipping_field":"Shipping %s"},"order_id":"0","single_product_buttons_enabled":"1","mini_cart_buttons_enabled":"1","basic_checkout_validation_enabled":""};
+</script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/assets/js/button.js?ver=1675653565' id='ppcp-smart-button-js' defer></script>
+<script type="rocketlazyloadscript" id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id='rocket-preload-links-js-extra'>
+var RocketPreloadLinksConfig = {"excludeUris":"\/enroll\/|\/my-account\/|\/my-courses\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/checkout\/|\/cart\/|\/my-account\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/3dinstitute.com","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<!--[if lte IE 11]>
+<script data-wpacu-script-handle='generate-classlist' src='https://3dinstitute.com/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+<script id='generate-menu-js-extra'>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script src='https://3dinstitute.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.2.4' id='generate-menu-js' defer></script>
+<script id='generate-back-to-top-js-extra'>
+var generatepressBackToTop = {"smooth":"1"};
+</script>
+<script src='https://3dinstitute.com/wp-content/themes/generatepress/assets/js/back-to-top.min.js?ver=3.2.4' id='generate-back-to-top-js' defer></script>
+<script id='learndash-front-js-extra'>
+var ldVars = {"postID":"92765","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https:\/\/3dinstitute.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=1675653565' id='learndash-front-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=1.7.33' id='dflip-script-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js' defer></script>
+<script id='popup-maker-site-js-extra'>
+var pum_vars = {"version":"1.17.1","pm_dir_url":"https:\/\/3dinstitute.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/3dinstitute.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/3dinstitute.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"3626","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"analytics_route":"analytics","analytics_api":"https:\/\/3dinstitute.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/3dinstitute.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-108553":{"triggers":[{"type":"click_open","settings":{"extra_selectors":".popup"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"3626","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":108553,"slug":"what-is-3d"},"pum-106041":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".popup"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-106041","key":"","session":null,"path":true,"time":""}}],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"3627","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":106041,"slug":"course-popup"}};
+</script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/uploads/pum/pum-site-scripts.js?ver=1675653565' id='popup-maker-site-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/gravityview/assets/lib/jquery.cookie/jquery.cookie.min.js?ver=2.16.6' id='gravityview-jquery-cookie-js' defer></script>
+<script id='gravityview-fe-view-js-extra'>
+var gvGlobals = {"cookiepath":"\/","clear":"Clear","reset":"Reset"};
+</script>
+<script src='https://3dinstitute.com/wp-content/plugins/gravityview/assets/js/fe-views.min.js?ver=2.16.6' id='gravityview-fe-view-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/dist/a11y.min.js?ver=ecce20f002eda4c19664' id='wp-a11y-js' defer></script>
+<script   defer='defer' src='https://3dinstitute.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.6.9' id='gform_json-js'></script>
+<script id='gform_gravityforms-js-extra'>
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/3dinstitute.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/3dinstitute.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/3dinstitute.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+</script>
+<script   defer='defer' src='https://3dinstitute.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.6.9' id='gform_gravityforms-js'></script>
+<script type="rocketlazyloadscript"   defer='defer' src='https://www.google.com/recaptcha/api.js?hl=en&#038;ver=6.1.1#038;render=explicit' id='gform_recaptcha-js'></script>
+<script src='https://3dinstitute.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2' id='jquery-ui-mouse-js' defer></script>
+<script src='https://3dinstitute.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.2' id='jquery-ui-sortable-js' defer></script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=1675653565' id='jquery-touch-punch-js' defer></script>
+<script src='https://3dinstitute.com/wp-content/plugins/gravityformssurvey/js/gsurvey.min.js?ver=3.8' id='gsurvey_js-js' defer></script>
+<script data-minify="1" src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/gp-easy-passthrough/js/vendor/js.cookie.js?ver=1675653565' id='gpep_vendor_cookie-js' defer></script>
+<script data-minify="1"   defer src='https://3dinstitute.com/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1675653565' id='akismet-frontend-js'></script>
+<script type="rocketlazyloadscript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 29) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script type="rocketlazyloadscript">
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [29, 1]) } );
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://3dinstitute.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1675723288 -->
